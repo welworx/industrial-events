@@ -2,6 +2,36 @@
   {
     "name": "All Conferences",
     "path": "all.ics",
-    "items": 0
+    "items": 9
+  },
+  {
+    "name": "Conference Series: copper",
+    "path": "series/copper.ics",
+    "items": 9
+  },
+  {
+    "name": "Conference Category: copper",
+    "path": "category/copper.ics",
+    "items": 9
+  },
+  {
+    "name": "Conference Category: extractive-metallurgy",
+    "path": "category/extractive-metallurgy.ics",
+    "items": 9
+  },
+  {
+    "name": "Conference Category: metallurgy",
+    "path": "category/metallurgy.ics",
+    "items": 9
+  },
+  {
+    "name": "Conference Country: US",
+    "path": "country/us.ics",
+    "items": 9
+  },
+  {
+    "name": "Conference Domain: metallurgy",
+    "path": "domain/metallurgy.ics",
+    "items": 9
   }
 ]

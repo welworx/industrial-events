@@ -4,8 +4,9 @@ File-based conference tracking with generated iCalendar feeds.
 
 ## Included Conferences
 
-No conference series are included yet. Calendar feeds are currently empty until
-conference records are added under `conferences/<domain>/<series>.yaml`.
+- International Copper Conference:
+  `conferences/metallurgy/copper.yaml`
+  - Recorded event: Copper 2025, November 16-20, 2025, Phoenix, Arizona, USA.
 
 Tracked discovery sources:
 

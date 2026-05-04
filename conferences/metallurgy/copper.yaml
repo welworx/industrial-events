@@ -1,0 +1,118 @@
+series: International Copper Conference
+slug: copper
+categories:
+  - metallurgy
+  - copper
+  - extractive-metallurgy
+topics:
+  - mining
+  - mineral-processing
+  - pyrometallurgy
+  - hydrometallurgy
+  - electrometallurgy
+  - process-control
+  - recycling
+  - environmental-control
+  - acid-plants
+
+sources:
+  - type: event-site
+    scope: series
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+    note: Official Copper 2025 site; the Copper series uses event-specific sites.
+  - type: overview
+    scope: series
+    url: https://metsoc.org/events-posts/extraction-2025/
+    note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
+
+events:
+  - name: 12th International Copper Conference (Copper 2025)
+    start: "2025-11-16"
+    end: "2025-11-20"
+    timezone: America/Phoenix
+    city: Phoenix
+    country: US
+    venue: Sheraton Grand at Wild Horse Pass
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: event-site
+        scope: event
+        url: https://metsoc.org/events-posts/extraction-2025/
+    deadlines:
+      - type: abstract
+        name: Abstract extended submission deadline
+        date: "2024-11-13"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: first-draft-manuscript
+        name: First draft manuscript submission deadline
+        date: "2025-02-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: final-manuscript
+        name: Final manuscript submission deadline
+        date: "2025-04-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: poster-submission
+        name: Poster submission deadline
+        date: "2025-06-01"
+        url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
+        status: confirmed
+        sources:
+          - type: cfp
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
+      - type: author-registration
+        name: Author registration extended deadline
+        date: "2025-06-15"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: discount-registration
+        name: Discount registration deadline
+        date: "2025-10-07"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: housing
+        name: Housing deadline
+        date: "2025-10-14"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: free-proceedings-access
+        name: Free proceedings access ends
+        date: "2025-12-31"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+
