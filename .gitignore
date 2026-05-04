@@ -1,0 +1,12 @@
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+.ruff_cache/
+.tmp-tests/
+tests/.generated-calendars/**/*.ics
+tests/.generated-calendars/index.json
+.venv/
+dist/
+build/

@@ -1,0 +1,164 @@
+# Conference Calendars
+
+File-based conference tracking with generated iCalendar feeds.
+
+## Included Conferences
+
+No conference series are included yet. Calendar feeds are currently empty until
+conference records are added under `conferences/<domain>/<series>.yaml`.
+
+Tracked discovery sources:
+
+- Pyrometallurgical Conferences:
+  `sources/metallurgy/pyrometallurgical-conferences.yaml`
+
+Discovery sources help maintainers find and verify conferences. They do not
+generate calendar events by themselves.
+
+## Calendar Consumption
+
+After GitHub Pages is enabled for GitHub Actions, consumers can subscribe to:
+
+```text
+https://<org-or-user>.github.io/<repo>/calendars/all.ics
+https://<org-or-user>.github.io/<repo>/calendars/category/<category>.ics
+https://<org-or-user>.github.io/<repo>/calendars/country/<country>.ics
+https://<org-or-user>.github.io/<repo>/calendars/series/<series>.ics
+```
+
+For direct raw GitHub consumption, use the matching files under
+`public/calendars/`.
+
+### Disclaimer
+
+This project makes existing public conference information easier to access. It
+does not guarantee that updates, deadline extensions, cancellations, or other
+changes are captured. Information can be incomplete, outdated, or wrong. Always
+verify important dates and details against the official conference source.
+
+The maintainer is not responsible for missing updates, incorrect information,
+missed deadlines, travel costs, registration decisions, or any other consequence
+of using these files or calendar feeds.
+
+Generated calendar feeds include this disclaimer in their calendar metadata and
+event descriptions.
+
+## Contributing
+
+All changes should go through pull requests into `main`. Do not push directly to
+`main`; use focused branches such as `conference/<series-slug>` or
+`source/<source-slug>`.
+
+See `CONTRIBUTING.md` for branch naming, PR scope, and maintainer branch
+protection guidance.
+
+### Layout
+
+- `conferences/<domain>/<series>.yaml` is the source of truth.
+- `sources/<domain>/<source>.yaml` tracks useful discovery and overview pages.
+- `public/calendars/all.ics` contains every conference event and deadline.
+- `public/calendars/series/<series>.ics` contains one conference series.
+- `public/calendars/category/<category>.ics` contains every series tagged with that category.
+- `public/calendars/country/<country>.ics` contains events and deadlines for one event country.
+- `public/calendars/domain/<domain>.ics` contains everything under one source domain folder.
+
+Use `templates/conference-series.yaml` as the starting point for a new series.
+Use `templates/source-page.yaml` for overview pages that list multiple
+conferences.
+
+### Add Or Update A Conference
+
+1. Copy `templates/conference-series.yaml` to `conferences/<domain>/<series-slug>.yaml`.
+2. Fill in the series metadata and one or more events.
+3. Add deadlines under each event's `deadlines` list.
+4. Run:
+
+```powershell
+uv run python scripts/build_calendars.py
+```
+
+The generated `.ics` files are written to `public/calendars/`.
+
+### Schema
+
+Required top-level fields:
+
+- `series`: human-readable series name.
+- `slug`: stable lowercase identifier, for example `example-systems`.
+- `categories`: lowercase interest tags used to generate category calendars.
+
+Required event fields:
+
+- `name`: event edition name.
+- `start`: first event day, `YYYY-MM-DD`.
+- `end`: last event day, `YYYY-MM-DD`.
+- `country`: ISO-style country code used to generate country calendars.
+
+Required deadline fields:
+
+- `type`: lowercase deadline kind, for example `papers`, `posters`, `registration`.
+- `date`: currently applicable deadline day, `YYYY-MM-DD`.
+
+Optional fields are shown in `templates/conference-series.yaml`.
+
+Deadline extensions should keep history instead of overwriting context. Update
+the deadline's top-level `date` and `url` to the current applicable value, then
+add deadline-level `history` entries for the original and changed dates. History
+entries can include:
+
+- `date`: the deadline value that was published.
+- `announced`: when that deadline value was announced, if known.
+- `url`: the page that published that value or extension.
+- `note`: short context such as `original deadline` or `extended deadline`.
+
+### Source Model
+
+Conference websites are not uniform, so the data model separates event data from
+provenance:
+
+- Use top-level `website` when a conference series has a stable home, such as a
+  site that keeps pages for multiple years.
+- Use per-event `url` when each edition has its own site or the official site
+  changes from year to year.
+- Use `sources`, event-level `sources`, or deadline-level `sources` lists to
+  record where a fact came from. Source URLs are included in calendar
+  descriptions.
+- Use deadline-level `history` lists to record deadline changes and extension
+  announcement URLs. Future scanning agents can use those URLs as hints, but the
+  generator itself only uses the top-level deadline `date`.
+- Use `sources/<domain>/...` YAML files for overview pages that list many related
+  conferences. These files are discovery inputs for maintainers, not generated
+  calendar events by themselves.
+
+Recommended source `type` values are:
+
+- `series-home`: stable series or society page.
+- `event-site`: site for one edition.
+- `cfp`: call for papers or submission page.
+- `overview`: multi-conference listing.
+
+### Local Checks
+
+Run the generator and tests:
+
+```powershell
+uv run python scripts/build_calendars.py
+uv run ruff check
+uv run ruff format --check
+uv run python -B -m unittest discover -s tests
+```
+
+Install pre-commit if you want the generator to run before each commit:
+
+```powershell
+pre-commit install
+```
+
+## License
+
+A license file is recommended before publishing this as a public repository or
+accepting contributions. Without a license, default copyright rules apply and
+reuse rights are unclear beyond GitHub's platform permissions.
+
+No license has been selected yet. Choose the intended license first, then add it
+as a root-level `LICENSE` file and summarize it here.
