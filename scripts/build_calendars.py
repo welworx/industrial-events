@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE_DIR = ROOT / "conferences"
 DEFAULT_OUTPUT_DIR = ROOT / "public" / "calendars"
 PRODID = "-//Conference Calendars//EN"
-DTSTAMP = "19700101T000000Z"
+DTSTAMP = "20260504T000000Z"
 DISCLAIMER = (
     "This calendar makes existing public conference information easier to access. "
     "It may be incomplete, outdated, or wrong. Always verify important dates and details "
@@ -381,6 +381,9 @@ def render_calendar(name: str, items: Iterable[CalendarItem]) -> str:
         f"PRODID:{PRODID}",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
+        "X-WR-TIMEZONE:UTC",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
+        "X-PUBLISHED-TTL:PT6H",
         f"X-WR-CALNAME:{escape_text(name)}",
         f"X-WR-CALDESC:{escape_text(DISCLAIMER)}",
     ]
@@ -393,18 +396,22 @@ def render_calendar(name: str, items: Iterable[CalendarItem]) -> str:
 
 
 def render_event(item: CalendarItem) -> list[str]:
-    tags = [
+    tags = unique_values(
         tag for tag in ("conference", item.kind, item.series_slug, item.country, *item.categories, *item.topics) if tag
-    ]
+    )
     lines = [
         "BEGIN:VEVENT",
         f"UID:{escape_text(item.uid)}",
         f"DTSTAMP:{DTSTAMP}",
+        f"CREATED:{DTSTAMP}",
+        f"LAST-MODIFIED:{DTSTAMP}",
+        "SEQUENCE:0",
+        "CLASS:PUBLIC",
         f"DTSTART;VALUE=DATE:{format_date(item.start)}",
         f"DTEND;VALUE=DATE:{format_date(item.end_exclusive)}",
         f"SUMMARY:{escape_text(item.summary)}",
         f"STATUS:{item.status}",
-        "TRANSP:TRANSPARENT",
+        "TRANSP:OPAQUE",
         f"CATEGORIES:{','.join(escape_text(tag) for tag in tags)}",
         f"X-CONFERENCE-SERIES:{escape_text(item.series)}",
         f"X-CONFERENCE-SERIES-SLUG:{escape_text(item.series_slug)}",

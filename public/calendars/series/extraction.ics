@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
 X-WR-CALNAME:Conference Series: extraction
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
@@ -12,16 +15,20 @@ X-WR-CALDESC:This calendar makes existing public conference information eas
  sequence of using this feed.
 BEGIN:VEVENT
 UID:extraction-2025-11-16-abstract-2024-11-13@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20241113
 DTEND;VALUE=DATE:20241114
 SUMMARY:Extraction Meeting & Exhibition: Abstract extended submission deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-abstract,extraction,us,metallurgy,extractive
- -metallurgy,mining,metallurgy,materials-processing,sustainability,recyclin
- g,process-control
+ -metallurgy,mining,materials-processing,sustainability,recycling,process-c
+ ontrol
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -56,16 +63,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-first-draft-manuscript-2025-02-01@conference-cale
  ndars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 SUMMARY:Extraction Meeting & Exhibition: First draft manuscript submission 
  deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-first-draft-manuscript,extraction,us,metallu
- rgy,extractive-metallurgy,mining,metallurgy,materials-processing,sustainab
- ility,recycling,process-control
+ rgy,extractive-metallurgy,mining,materials-processing,sustainability,recyc
+ ling,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -99,16 +110,20 @@ DESCRIPTION:Series: Extraction Meeting & Exhibition\nEvent: Extraction 2025
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-final-manuscript-2025-04-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:Extraction Meeting & Exhibition: Final manuscript submission deadli
  ne
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,extraction,us,metallurgy,ex
- tractive-metallurgy,mining,metallurgy,materials-processing,sustainability,
- recycling,process-control
+ tractive-metallurgy,mining,materials-processing,sustainability,recycling,p
+ rocess-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -143,16 +158,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-author-registration-2025-06-15@conference-calenda
  rs
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:Extraction Meeting & Exhibition: Author registration extended deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,extraction,us,metallurgy
- ,extractive-metallurgy,mining,metallurgy,materials-processing,sustainabili
- ty,recycling,process-control
+ ,extractive-metallurgy,mining,materials-processing,sustainability,recyclin
+ g,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -186,15 +205,18 @@ DESCRIPTION:Series: Extraction Meeting & Exhibition\nEvent: Extraction 2025
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:Extraction 2025 Meeting & Exhibition
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,extraction,us,metallurgy,extractive-metall
- urgy,mining,metallurgy,materials-processing,sustainability,recycling,proce
- ss-control
+TRANSP:OPAQUE
+CATEGORIES:conference,extraction,us,metallurgy,extractive-metallurgy,mining
+ ,materials-processing,sustainability,recycling,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy

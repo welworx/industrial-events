@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
 X-WR-CALNAME:Conference Country: US
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
@@ -12,17 +15,20 @@ X-WR-CALDESC:This calendar makes existing public conference information eas
  sequence of using this feed.
 BEGIN:VEVENT
 UID:copper-2025-11-16-abstract-2024-11-13@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20241113
 DTEND;VALUE=DATE:20241114
 SUMMARY:International Copper Conference: Abstract extended submission deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-abstract,copper,us,metallurgy,copper,extract
- ive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,el
- ectrometallurgy,process-control,recycling,environmental-control,acid-plant
- s
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-abstract,copper,us,metallurgy,extractive-met
+ allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
+ tallurgy,process-control,recycling,environmental-control,acid-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -59,16 +65,20 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-abstract-2024-11-13@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20241113
 DTEND;VALUE=DATE:20241114
 SUMMARY:Extraction Meeting & Exhibition: Abstract extended submission deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-abstract,extraction,us,metallurgy,extractive
- -metallurgy,mining,metallurgy,materials-processing,sustainability,recyclin
- g,process-control
+ -metallurgy,mining,materials-processing,sustainability,recycling,process-c
+ ontrol
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -102,13 +112,17 @@ DESCRIPTION:Series: Extraction Meeting & Exhibition\nEvent: Extraction 2025
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-abstract-2024-11-13@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20241113
 DTEND;VALUE=DATE:20241114
 SUMMARY:International Symposium on Nickel and Cobalt: Abstract extended sub
  mission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-abstract,ni-co,us,metallurgy,nickel,cobalt,e
  xtractive-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,rec
  ycling,battery-materials
@@ -147,17 +161,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-first-draft-manuscript-2025-02-01@conference-calendar
  s
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 SUMMARY:International Copper Conference: First draft manuscript submission 
  deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-first-draft-manuscript,copper,us,metallurgy,
- copper,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydr
- ometallurgy,electrometallurgy,process-control,recycling,environmental-cont
- rol,acid-plants
+ extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometall
+ urgy,electrometallurgy,process-control,recycling,environmental-control,aci
+ d-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -196,16 +214,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-first-draft-manuscript-2025-02-01@conference-cale
  ndars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 SUMMARY:Extraction Meeting & Exhibition: First draft manuscript submission 
  deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-first-draft-manuscript,extraction,us,metallu
- rgy,extractive-metallurgy,mining,metallurgy,materials-processing,sustainab
- ility,recycling,process-control
+ rgy,extractive-metallurgy,mining,materials-processing,sustainability,recyc
+ ling,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -239,13 +261,17 @@ DESCRIPTION:Series: Extraction Meeting & Exhibition\nEvent: Extraction 2025
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-first-draft-manuscript-2025-02-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 SUMMARY:International Symposium on Nickel and Cobalt: First draft manuscrip
  t submission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-first-draft-manuscript,ni-co,us,metallurgy,n
  ickel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyro
  metallurgy,recycling,battery-materials
@@ -283,17 +309,21 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-final-manuscript-2025-04-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:International Copper Conference: Final manuscript submission deadli
  ne
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-final-manuscript,copper,us,metallurgy,copper
- ,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometal
- lurgy,electrometallurgy,process-control,recycling,environmental-control,ac
- id-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-final-manuscript,copper,us,metallurgy,extrac
+ tive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,e
+ lectrometallurgy,process-control,recycling,environmental-control,acid-plan
+ ts
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -331,16 +361,20 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-final-manuscript-2025-04-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:Extraction Meeting & Exhibition: Final manuscript submission deadli
  ne
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,extraction,us,metallurgy,ex
- tractive-metallurgy,mining,metallurgy,materials-processing,sustainability,
- recycling,process-control
+ tractive-metallurgy,mining,materials-processing,sustainability,recycling,p
+ rocess-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -375,13 +409,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-final-manuscript-2025-04-01@confere
  nce-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:Cross-Cutting Symposia at Extraction: Final manuscript submission d
  eadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,extraction-cross-cutting,us
  ,metallurgy,extractive-metallurgy,sustainability,recycling,circular-econom
  y,decarbonization,responsible-mining,geometallurgy,economics
@@ -417,13 +455,17 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-final-manuscript-2025-04-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:International Symposium on Nickel and Cobalt: Final manuscript subm
  ission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,ni-co,us,metallurgy,nickel,
  cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyrometall
  urgy,recycling,battery-materials
@@ -461,16 +503,20 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-poster-submission-2025-06-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250601
 DTEND;VALUE=DATE:20250602
 SUMMARY:International Copper Conference: Poster submission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-poster-submission,copper,us,metallurgy,coppe
- r,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometa
- llurgy,electrometallurgy,process-control,recycling,environmental-control,a
- cid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-poster-submission,copper,us,metallurgy,extra
+ ctive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,
+ electrometallurgy,process-control,recycling,environmental-control,acid-pla
+ nts
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -509,12 +555,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-poster-submission-2025-06-01@confer
  ence-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250601
 DTEND;VALUE=DATE:20250602
 SUMMARY:Cross-Cutting Symposia at Extraction: Poster submission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-poster-submission,extraction-cross-cutting,u
  s,metallurgy,extractive-metallurgy,sustainability,recycling,circular-econo
  my,decarbonization,responsible-mining,geometallurgy,economics
@@ -550,17 +600,21 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-author-registration-2025-06-15@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:International Copper Conference: Author registration extended deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-author-registration,copper,us,metallurgy,cop
- per,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrome
- tallurgy,electrometallurgy,process-control,recycling,environmental-control
- ,acid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-author-registration,copper,us,metallurgy,ext
+ ractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallurg
+ y,electrometallurgy,process-control,recycling,environmental-control,acid-p
+ lants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -599,16 +653,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-author-registration-2025-06-15@conference-calenda
  rs
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:Extraction Meeting & Exhibition: Author registration extended deadl
  ine
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,extraction,us,metallurgy
- ,extractive-metallurgy,mining,metallurgy,materials-processing,sustainabili
- ty,recycling,process-control
+ ,extractive-metallurgy,mining,materials-processing,sustainability,recyclin
+ g,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -643,13 +701,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-author-registration-2025-06-15@conf
  erence-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:Cross-Cutting Symposia at Extraction: Author registration extended 
  deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,extraction-cross-cutting
  ,us,metallurgy,extractive-metallurgy,sustainability,recycling,circular-eco
  nomy,decarbonization,responsible-mining,geometallurgy,economics
@@ -685,13 +747,17 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-author-registration-2025-06-15@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:International Symposium on Nickel and Cobalt: Author registration e
  xtended deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,ni-co,us,metallurgy,nick
  el,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyromet
  allurgy,recycling,battery-materials
@@ -729,16 +795,20 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-discount-registration-2025-10-07@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 SUMMARY:International Copper Conference: Discount registration deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-discount-registration,copper,us,metallurgy,c
- opper,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydro
- metallurgy,electrometallurgy,process-control,recycling,environmental-contr
- ol,acid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-discount-registration,copper,us,metallurgy,e
+ xtractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallu
+ rgy,electrometallurgy,process-control,recycling,environmental-control,acid
+ -plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -775,13 +845,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-discount-registration-2025-10-07@co
  nference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 SUMMARY:Cross-Cutting Symposia at Extraction: Discount registration deadlin
  e
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-discount-registration,extraction-cross-cutti
  ng,us,metallurgy,extractive-metallurgy,sustainability,recycling,circular-e
  conomy,decarbonization,responsible-mining,geometallurgy,economics
@@ -817,13 +891,17 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-discount-registration-2025-10-07@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 SUMMARY:International Symposium on Nickel and Cobalt: Discount registration
   deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-discount-registration,ni-co,us,metallurgy,ni
  ckel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyrom
  etallurgy,recycling,battery-materials
@@ -860,15 +938,19 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-housing-2025-10-14@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
 SUMMARY:International Copper Conference: Housing deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,deadline-housing,copper,us,metallurgy,copper,extracti
- ve-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,ele
- ctrometallurgy,process-control,recycling,environmental-control,acid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,deadline-housing,copper,us,metallurgy,extractive-meta
+ llurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electromet
+ allurgy,process-control,recycling,environmental-control,acid-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -905,12 +987,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-housing-2025-10-14@conference-calen
  dars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
 SUMMARY:Cross-Cutting Symposia at Extraction: Housing deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-housing,extraction-cross-cutting,us,metallur
  gy,extractive-metallurgy,sustainability,recycling,circular-economy,decarbo
  nization,responsible-mining,geometallurgy,economics
@@ -946,12 +1032,16 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-housing-2025-10-14@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
 SUMMARY:International Symposium on Nickel and Cobalt: Housing deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-housing,ni-co,us,metallurgy,nickel,cobalt,ex
  tractive-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,recy
  cling,battery-materials
@@ -988,15 +1078,19 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:12th International Copper Conference (Copper 2025)
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,us,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,copper,us,metallurgy,extractive-metallurgy,mining,min
+ eral-processing,pyrometallurgy,hydrometallurgy,electrometallurgy,process-c
+ ontrol,recycling,environmental-control,acid-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -1036,15 +1130,18 @@ DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:Extraction 2025 Meeting & Exhibition
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,extraction,us,metallurgy,extractive-metall
- urgy,mining,metallurgy,materials-processing,sustainability,recycling,proce
- ss-control
+TRANSP:OPAQUE
+CATEGORIES:conference,extraction,us,metallurgy,extractive-metallurgy,mining
+ ,materials-processing,sustainability,recycling,process-control
 X-CONFERENCE-SERIES:Extraction Meeting & Exhibition
 X-CONFERENCE-SERIES-SLUG:extraction
 X-CONFERENCE-DOMAIN:metallurgy
@@ -1080,15 +1177,19 @@ DESCRIPTION:Series: Extraction Meeting & Exhibition\nKind: conference\nCate
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:Cross-Cutting Symposia at Extraction 2025
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,extraction-cross-cutting,us,metallurgy,ext
- ractive-metallurgy,sustainability,recycling,circular-economy,decarbonizati
- on,responsible-mining,geometallurgy,economics
+TRANSP:OPAQUE
+CATEGORIES:conference,extraction-cross-cutting,us,metallurgy,extractive-met
+ allurgy,sustainability,recycling,circular-economy,decarbonization,responsi
+ ble-mining,geometallurgy,economics
 X-CONFERENCE-SERIES:Cross-Cutting Symposia at Extraction
 X-CONFERENCE-SERIES-SLUG:extraction-cross-cutting
 X-CONFERENCE-DOMAIN:metallurgy
@@ -1124,15 +1225,19 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nKind: conference\
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:6th International Symposium on Nickel and Cobalt (Ni-Co 2025)
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,ni-co,us,metallurgy,nickel,cobalt,extracti
- ve-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,recycling,
- battery-materials
+TRANSP:OPAQUE
+CATEGORIES:conference,ni-co,us,metallurgy,nickel,cobalt,extractive-metallur
+ gy,mineral-processing,hydrometallurgy,pyrometallurgy,recycling,battery-mat
+ erials
 X-CONFERENCE-SERIES:International Symposium on Nickel and Cobalt
 X-CONFERENCE-SERIES-SLUG:ni-co
 X-CONFERENCE-DOMAIN:metallurgy
@@ -1170,16 +1275,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-free-proceedings-access-2025-12-31@conference-calenda
  rs
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251231
 DTEND;VALUE=DATE:20260101
 SUMMARY:International Copper Conference: Free proceedings access ends
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-free-proceedings-access,copper,us,metallurgy
- ,copper,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hyd
- rometallurgy,electrometallurgy,process-control,recycling,environmental-con
- trol,acid-plants
+ ,extractive-metallurgy,mining,mineral-processing,pyrometallurgy,hydrometal
+ lurgy,electrometallurgy,process-control,recycling,environmental-control,ac
+ id-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
@@ -1216,13 +1325,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-free-proceedings-access-2025-12-31@conference-calendar
  s
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251231
 DTEND;VALUE=DATE:20260101
 SUMMARY:International Symposium on Nickel and Cobalt: Free proceedings acce
  ss ends
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-free-proceedings-access,ni-co,us,metallurgy,
  nickel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyr
  ometallurgy,recycling,battery-materials

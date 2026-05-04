@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
 X-WR-CALNAME:Conference Category: sustainability
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
@@ -13,13 +16,17 @@ X-WR-CALDESC:This calendar makes existing public conference information eas
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-final-manuscript-2025-04-01@confere
  nce-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:Cross-Cutting Symposia at Extraction: Final manuscript submission d
  eadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,extraction-cross-cutting,us
  ,metallurgy,extractive-metallurgy,sustainability,recycling,circular-econom
  y,decarbonization,responsible-mining,geometallurgy,economics
@@ -56,12 +63,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-poster-submission-2025-06-01@confer
  ence-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250601
 DTEND;VALUE=DATE:20250602
 SUMMARY:Cross-Cutting Symposia at Extraction: Poster submission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-poster-submission,extraction-cross-cutting,u
  s,metallurgy,extractive-metallurgy,sustainability,recycling,circular-econo
  my,decarbonization,responsible-mining,geometallurgy,economics
@@ -98,13 +109,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-author-registration-2025-06-15@conf
  erence-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:Cross-Cutting Symposia at Extraction: Author registration extended 
  deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,extraction-cross-cutting
  ,us,metallurgy,extractive-metallurgy,sustainability,recycling,circular-eco
  nomy,decarbonization,responsible-mining,geometallurgy,economics
@@ -141,13 +156,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-discount-registration-2025-10-07@co
  nference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 SUMMARY:Cross-Cutting Symposia at Extraction: Discount registration deadlin
  e
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-discount-registration,extraction-cross-cutti
  ng,us,metallurgy,extractive-metallurgy,sustainability,recycling,circular-e
  conomy,decarbonization,responsible-mining,geometallurgy,economics
@@ -184,12 +203,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-housing-2025-10-14@conference-calen
  dars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
 SUMMARY:Cross-Cutting Symposia at Extraction: Housing deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-housing,extraction-cross-cutting,us,metallur
  gy,extractive-metallurgy,sustainability,recycling,circular-economy,decarbo
  nization,responsible-mining,geometallurgy,economics
@@ -225,15 +248,19 @@ DESCRIPTION:Series: Cross-Cutting Symposia at Extraction\nEvent: Cross-Cutt
 END:VEVENT
 BEGIN:VEVENT
 UID:extraction-cross-cutting-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:Cross-Cutting Symposia at Extraction 2025
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,extraction-cross-cutting,us,metallurgy,ext
- ractive-metallurgy,sustainability,recycling,circular-economy,decarbonizati
- on,responsible-mining,geometallurgy,economics
+TRANSP:OPAQUE
+CATEGORIES:conference,extraction-cross-cutting,us,metallurgy,extractive-met
+ allurgy,sustainability,recycling,circular-economy,decarbonization,responsi
+ ble-mining,geometallurgy,economics
 X-CONFERENCE-SERIES:Cross-Cutting Symposia at Extraction
 X-CONFERENCE-SERIES-SLUG:extraction-cross-cutting
 X-CONFERENCE-DOMAIN:metallurgy

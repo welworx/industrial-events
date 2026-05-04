@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
 X-WR-CALNAME:Conference Country: CA
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
@@ -12,15 +15,19 @@ X-WR-CALDESC:This calendar makes existing public conference information eas
  sequence of using this feed.
 BEGIN:VEVENT
 UID:copper-2019-08-18-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20190818
 DTEND;VALUE=DATE:20190822
 SUMMARY:10th International Copper Conference (Copper 2019)
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,ca,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
+TRANSP:OPAQUE
+CATEGORIES:conference,copper,ca,metallurgy,extractive-metallurgy,mining,min
+ eral-processing,pyrometallurgy,hydrometallurgy,electrometallurgy,process-c
+ ontrol,recycling,environmental-control,acid-plants
 X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
