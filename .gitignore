@@ -9,6 +9,7 @@ __pycache__/
 .env.*
 !.env.example
 tests/.generated-calendars/**/*.ics
+tests/.generated-site/
 tests/.generated-calendars/index.json
 .venv/
 dist/

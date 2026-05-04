@@ -131,6 +131,7 @@ def build_calendars(source_dir: Path, output_dir: Path) -> list[Feed]:
         feed.path.write_text(render_calendar(feed.name, feed.items), encoding="utf-8", newline="\n")
 
     write_index(output_dir, feeds)
+    write_site_index(output_dir, feeds)
     return feeds
 
 
@@ -439,6 +440,58 @@ def write_index(output_dir: Path, feeds: list[Feed]) -> None:
     (output_dir / "index.json").write_text(json.dumps(index, indent=2) + "\n", encoding="utf-8")
 
 
+def write_site_index(output_dir: Path, feeds: list[Feed]) -> None:
+    site_root = output_dir.parent
+    links = "\n".join(
+        f'        <li><a href="{escape_html(feed.path.relative_to(site_root).as_posix())}">'
+        f"{escape_html(feed.name)}</a> ({len(feed.items)} items)</li>"
+        for feed in feeds
+    )
+    page = f"""<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conference Calendars</title>
+    <style>
+      body {{
+        color: #1f2933;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+        margin: 0 auto;
+        max-width: 920px;
+        padding: 32px 20px;
+      }}
+      a {{ color: #0b5cad; }}
+      code {{
+        background: #f3f5f7;
+        border-radius: 4px;
+        padding: 2px 5px;
+      }}
+      li {{ margin: 6px 0; }}
+      .notice {{
+        border-left: 4px solid #d97706;
+        background: #fff7ed;
+        padding: 12px 16px;
+      }}
+    </style>
+  </head>
+  <body>
+    <h1>Conference Calendars</h1>
+    <p>Subscribe to generated iCalendar feeds for tracked conference events and deadlines.</p>
+    <p>Primary feed: <a href="calendars/all.ics"><code>calendars/all.ics</code></a></p>
+    <h2>Feeds</h2>
+    <ul>
+{links}
+    </ul>
+    <h2>Disclaimer</h2>
+    <p class="notice">{escape_html(DISCLAIMER)}</p>
+  </body>
+</html>
+"""
+    (site_root / "index.html").write_text(page, encoding="utf-8", newline="\n")
+
+
 def clean_stale_feeds(output_dir: Path, expected_paths: set[Path]) -> None:
     if not output_dir.exists():
         return
@@ -655,6 +708,10 @@ def escape_text(value: str) -> str:
     return (
         value.replace("\\", "\\\\").replace("\r\n", "\\n").replace("\n", "\\n").replace(";", "\\;").replace(",", "\\,")
     )
+
+
+def escape_html(value: str) -> str:
+    return value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
 def fold_line(line: str) -> str:

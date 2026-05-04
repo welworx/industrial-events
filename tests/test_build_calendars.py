@@ -10,12 +10,13 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_calendars  # noqa: E402
 
 FIXTURES = ROOT / "tests" / "fixtures"
-TEST_OUTPUT = ROOT / "tests" / ".generated-calendars"
+TEST_SITE_ROOT = ROOT / "tests" / ".generated-site"
+TEST_OUTPUT = TEST_SITE_ROOT / "calendars"
 
 
 def clean_test_output() -> None:
-    for path in TEST_OUTPUT.rglob("*"):
-        if path.is_file() and (path.name == "index.json" or path.suffix == ".ics"):
+    for path in TEST_SITE_ROOT.rglob("*"):
+        if path.is_file() and (path.name in {"index.html", "index.json"} or path.suffix == ".ics"):
             try:
                 path.unlink()
             except PermissionError:
@@ -50,8 +51,12 @@ class BuildCalendarTests(unittest.TestCase):
         self.assertTrue((output / "country" / "pt.ics").exists())
         self.assertTrue((output / "domain" / "software.ics").exists())
         self.assertTrue((output / "group" / "demo-events-2027.ics").exists())
+        self.assertTrue((output.parent / "index.html").exists())
         all_calendar = (output / "all.ics").read_text(encoding="utf-8")
+        site_index = (output.parent / "index.html").read_text(encoding="utf-8")
         unfolded_calendar = unfold_calendar(all_calendar)
+        self.assertIn('href="calendars/all.ics"', site_index)
+        self.assertIn("All Conferences", site_index)
         self.assertIn("SUMMARY:Demo Conference 2027", all_calendar)
         self.assertIn("DTSTART;VALUE=DATE:20270310", all_calendar)
         self.assertIn("DTEND;VALUE=DATE:20270313", all_calendar)
