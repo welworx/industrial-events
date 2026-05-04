@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Conference Calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conference Country: ZA
+X-WR-CALDESC:This calendar makes existing public conference information eas
+ ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
+ mportant dates and details against the official conference source. The mai
+ ntainer is not responsible for missing updates\, incorrect information\, m
+ issed deadlines\, travel costs\, registration decisions\, or any other con
+ sequence of using this feed.
+BEGIN:VEVENT
+UID:copper-2028-09-03-event@conference-calendars
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280908
+SUMMARY:13th International Copper Conference (Copper 2028)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:conference,conference,copper,za,metallurgy,copper,extractive-met
+ allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
+ tallurgy,process-control,recycling,environmental-control,acid-plants
+X-CONFERENCE-SERIES:International Copper Conference
+X-CONFERENCE-SERIES-SLUG:copper
+X-CONFERENCE-DOMAIN:metallurgy
+X-CONFERENCE-COUNTRY:ZA
+LOCATION:Cape Town\, ZA
+URL:https://www.pyrometallurgy.co.za/Conferences/
+DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
+ gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
+ ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
+ ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
+ https://www.pyrometallurgy.co.za/Conferences/\nDisclaimer: This calendar m
+ akes existing public conference information easier to access. It may be in
+ complete\, outdated\, or wrong. Always verify important dates and details 
+ against the official conference source. The maintainer is not responsible 
+ for missing updates\, incorrect information\, missed deadlines\, travel co
+ sts\, registration decisions\, or any other consequence of using this feed
+ .\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction202
+ 5/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-202
+ 5/\, https://copper2022.cl/\, https://com.metsoc.org/past-com-events/\, ht
+ tps://www.mmij.or.jp/events/1907.html\, https://www.pyrometallurgy.co.za/C
+ onferences/\, https://www.saimm.co.za
+END:VEVENT
+END:VCALENDAR

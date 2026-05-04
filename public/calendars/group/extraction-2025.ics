@@ -3,129 +3,13 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:All Conferences
+X-WR-CALNAME:Co-located Group: extraction-2025
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
  mportant dates and details against the official conference source. The mai
  ntainer is not responsible for missing updates\, incorrect information\, m
  issed deadlines\, travel costs\, registration decisions\, or any other con
  sequence of using this feed.
-BEGIN:VEVENT
-UID:copper-2016-11-13-event@conference-calendars
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20161113
-DTEND;VALUE=DATE:20161117
-SUMMARY:9th International Copper Conference (Copper 2016)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,jp,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
-X-CONFERENCE-SERIES:International Copper Conference
-X-CONFERENCE-SERIES-SLUG:copper
-X-CONFERENCE-DOMAIN:metallurgy
-X-CONFERENCE-COUNTRY:JP
-LOCATION:Kobe International Conference Center\, 6-9-1 Minatojima-nakamachi\
- , Chuo-ku\, Kobe\, Hyogo 650-0046\, Japan\, Kobe\, JP
-GEO:34.6662222;135.2130000
-URL:https://www.mmij.or.jp/events/1907.html
-DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
- gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
- ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
- ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
- https://www.mmij.or.jp/events/1907.html\nAddress: 6-9-1 Minatojima-nakamac
- hi\, Chuo-ku\, Kobe\, Hyogo 650-0046\, Japan\nCoordinates: 34.6662222\, 13
- 5.2130000\nDisclaimer: This calendar makes existing public conference info
- rmation easier to access. It may be incomplete\, outdated\, or wrong. Alwa
- ys verify important dates and details against the official conference sour
- ce. The maintainer is not responsible for missing updates\, incorrect info
- rmation\, missed deadlines\, travel costs\, registration decisions\, or an
- y other consequence of using this feed.\nSources: https://www.extractionme
- eting.org/Extraction2025/Extraction2025/Copper2025/default.aspx\, https://
- metsoc.org/events-posts/extraction-2025/\, https://copper2022.cl/\, https:
- //com.metsoc.org/past-com-events/\, https://www.mmij.or.jp/events/1907.htm
- l\, https://www.pyrometallurgy.co.za/Conferences/\, https://www.mmij.or.jp
- /mmij-news/2016-01-04-235\, https://kobe-cc.jp/en/\, https://commons.wikim
- edia.org/wiki/Category:Kobe_International_Conference_Center
-END:VEVENT
-BEGIN:VEVENT
-UID:copper-2019-08-18-event@conference-calendars
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20190818
-DTEND;VALUE=DATE:20190822
-SUMMARY:10th International Copper Conference (Copper 2019)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,ca,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
-X-CONFERENCE-SERIES:International Copper Conference
-X-CONFERENCE-SERIES-SLUG:copper
-X-CONFERENCE-DOMAIN:metallurgy
-X-CONFERENCE-COUNTRY:CA
-LOCATION:Vancouver Convention Centre\, 1055 Canada Place\, Vancouver\, BC V
- 6C 0C3\, Canada\, Vancouver\, CA
-GEO:49.2888506;-123.1160655
-URL:https://com.metsoc.org/past-com-events/
-DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
- gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
- ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
- ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
- https://com.metsoc.org/past-com-events/\nAddress: 1055 Canada Place\, Vanc
- ouver\, BC V6C 0C3\, Canada\nCoordinates: 49.2888506\, -123.1160655\nDiscl
- aimer: This calendar makes existing public conference information easier t
- o access. It may be incomplete\, outdated\, or wrong. Always verify import
- ant dates and details against the official conference source. The maintain
- er is not responsible for missing updates\, incorrect information\, missed
-  deadlines\, travel costs\, registration decisions\, or any other conseque
- nce of using this feed.\nSources: https://www.extractionmeeting.org/Extrac
- tion2025/Extraction2025/Copper2025/default.aspx\, https://metsoc.org/event
- s-posts/extraction-2025/\, https://copper2022.cl/\, https://com.metsoc.org
- /past-com-events/\, https://www.mmij.or.jp/events/1907.html\, https://www.
- pyrometallurgy.co.za/Conferences/\, https://www.showsbee.com/fairs/42972-C
- opper-International-Conference-2019.html\, https://www.vancouverconvention
- centre.com/facility/location\, https://nominatim.openstreetmap.org/search?
- format=jsonv2&limit=1&q=Vancouver%20Convention%20Centre
-END:VEVENT
-BEGIN:VEVENT
-UID:copper-2022-11-13-event@conference-calendars
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20221113
-DTEND;VALUE=DATE:20221118
-SUMMARY:11th International Copper Conference (COPPER-COBRE 2022)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,cl,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
-X-CONFERENCE-SERIES:International Copper Conference
-X-CONFERENCE-SERIES-SLUG:copper
-X-CONFERENCE-DOMAIN:metallurgy
-X-CONFERENCE-COUNTRY:CL
-LOCATION:Espacio Riesco\, Avenida El Salto 5000\, Huechuraba\, Metropolitan
-  Region\, Chile\, Santiago\, CL
-GEO:-33.3838610;-70.6255940
-URL:https://copper2022.cl/
-DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
- gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
- ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
- ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
- https://copper2022.cl/\nAddress: Avenida El Salto 5000\, Huechuraba\, Metr
- opolitan Region\, Chile\nCoordinates: -33.3838610\, -70.6255940\nDisclaime
- r: This calendar makes existing public conference information easier to ac
- cess. It may be incomplete\, outdated\, or wrong. Always verify important 
- dates and details against the official conference source. The maintainer i
- s not responsible for missing updates\, incorrect information\, missed dea
- dlines\, travel costs\, registration decisions\, or any other consequence 
- of using this feed.\nSources: https://www.extractionmeeting.org/Extraction
- 2025/Extraction2025/Copper2025/default.aspx\, https://metsoc.org/events-po
- sts/extraction-2025/\, https://copper2022.cl/\, https://com.metsoc.org/pas
- t-com-events/\, https://www.mmij.or.jp/events/1907.html\, https://www.pyro
- metallurgy.co.za/Conferences/\, https://copper2022.cl/2021/02/05/organizer
- s-committees/\, https://copper2022.cl/2022/10/24/copper-2022-will-be-held-
- at-espacio-riesco/\, https://www.espacioriesco.cl/contacto/\, https://www.
- feriasinfo.es/Espacio%2BRiesco-ZS5035.html
-END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-abstract-2024-11-13@conference-calendars
 DTSTAMP:19700101T000000Z
@@ -1372,38 +1256,5 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
  atim.openstreetmap.org/search?format=jsonv2&street=5594%20West%20Wild%20Ho
  rse%20Pass%20Boulevard&city=Chandler&state=Arizona&country=United%20States
  &postalcode=85226
-END:VEVENT
-BEGIN:VEVENT
-UID:copper-2028-09-03-event@conference-calendars
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20280903
-DTEND;VALUE=DATE:20280908
-SUMMARY:13th International Copper Conference (Copper 2028)
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,copper,za,metallurgy,copper,extractive-met
- allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
- tallurgy,process-control,recycling,environmental-control,acid-plants
-X-CONFERENCE-SERIES:International Copper Conference
-X-CONFERENCE-SERIES-SLUG:copper
-X-CONFERENCE-DOMAIN:metallurgy
-X-CONFERENCE-COUNTRY:ZA
-LOCATION:Cape Town\, ZA
-URL:https://www.pyrometallurgy.co.za/Conferences/
-DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
- gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
- ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
- ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
- https://www.pyrometallurgy.co.za/Conferences/\nDisclaimer: This calendar m
- akes existing public conference information easier to access. It may be in
- complete\, outdated\, or wrong. Always verify important dates and details 
- against the official conference source. The maintainer is not responsible 
- for missing updates\, incorrect information\, missed deadlines\, travel co
- sts\, registration decisions\, or any other consequence of using this feed
- .\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction202
- 5/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-202
- 5/\, https://copper2022.cl/\, https://com.metsoc.org/past-com-events/\, ht
- tps://www.mmij.or.jp/events/1907.html\, https://www.pyrometallurgy.co.za/C
- onferences/\, https://www.saimm.co.za
 END:VEVENT
 END:VCALENDAR

@@ -4,8 +4,22 @@ File-based conference tracking with generated iCalendar feeds.
 
 ## Included Conferences
 
-No conference series are included yet. Calendar feeds are currently empty until
-conference records are added under `conferences/<domain>/<series>.yaml`.
+- International Copper Conference:
+  `conferences/metallurgy/copper.yaml`
+  - Recorded events: Copper 2016, Copper 2019, COPPER-COBRE 2022, and Copper 2025.
+  - Upcoming event: Copper 2028, September 3-7, 2028, Cape Town, South Africa. Venue and GPS coordinates are not listed yet.
+- Extraction Meeting & Exhibition:
+  `conferences/metallurgy/extraction.yaml`
+  - Recorded event: Extraction 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+- International Symposium on Nickel and Cobalt:
+  `conferences/metallurgy/ni-co.yaml`
+  - Recorded event: Ni-Co 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+- Cross-Cutting Symposia at Extraction:
+  `conferences/metallurgy/extraction-cross-cutting.yaml`
+  - Recorded event: Cross-Cutting Symposia at Extraction 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+
+The 2025 Extraction, Copper, Ni-Co, and Cross-Cutting records are linked through
+the `extraction-2025` co-located event group.
 
 Tracked discovery sources:
 
@@ -17,17 +31,54 @@ generate calendar events by themselves.
 
 ## Calendar Consumption
 
-After GitHub Pages is enabled for GitHub Actions, consumers can subscribe to:
+Use these URLs directly in a calendar client. Subscribe to the URL instead of
+importing the file if you want later updates.
 
-```text
-https://<org-or-user>.github.io/<repo>/calendars/all.ics
-https://<org-or-user>.github.io/<repo>/calendars/category/<category>.ics
-https://<org-or-user>.github.io/<repo>/calendars/country/<country>.ics
-https://<org-or-user>.github.io/<repo>/calendars/series/<series>.ics
-```
+Main page:
 
-For direct raw GitHub consumption, use the matching files under
-`public/calendars/`.
+- https://welworx.github.io/conferences/
+
+All tracked conferences:
+
+- https://welworx.github.io/conferences/calendars/all.ics
+
+Series feeds:
+
+- https://welworx.github.io/conferences/calendars/series/copper.ics
+- https://welworx.github.io/conferences/calendars/series/extraction.ics
+- https://welworx.github.io/conferences/calendars/series/extraction-cross-cutting.ics
+- https://welworx.github.io/conferences/calendars/series/ni-co.ics
+
+Interest/category feeds:
+
+- https://welworx.github.io/conferences/calendars/category/cobalt.ics
+- https://welworx.github.io/conferences/calendars/category/copper.ics
+- https://welworx.github.io/conferences/calendars/category/extractive-metallurgy.ics
+- https://welworx.github.io/conferences/calendars/category/metallurgy.ics
+- https://welworx.github.io/conferences/calendars/category/nickel.ics
+- https://welworx.github.io/conferences/calendars/category/sustainability.ics
+
+Country feeds:
+
+- https://welworx.github.io/conferences/calendars/country/ca.ics
+- https://welworx.github.io/conferences/calendars/country/cl.ics
+- https://welworx.github.io/conferences/calendars/country/jp.ics
+- https://welworx.github.io/conferences/calendars/country/us.ics
+- https://welworx.github.io/conferences/calendars/country/za.ics
+
+Other feeds:
+
+- https://welworx.github.io/conferences/calendars/domain/metallurgy.ics
+- https://welworx.github.io/conferences/calendars/group/extraction-2025.ics
+
+Machine-readable feed index:
+
+- https://welworx.github.io/conferences/calendars/index.json
+
+Some clients accept `webcal://` URLs. If needed, replace `https://` with
+`webcal://` in the feed URL.
+
+The matching source files are stored under `public/calendars/`.
 
 ### Disclaimer
 
@@ -61,6 +112,7 @@ protection guidance.
 - `public/calendars/category/<category>.ics` contains every series tagged with that category.
 - `public/calendars/country/<country>.ics` contains events and deadlines for one event country.
 - `public/calendars/domain/<domain>.ics` contains everything under one source domain folder.
+- `public/calendars/group/<group>.ics` contains co-located events and their deadlines.
 
 Use `templates/conference-series.yaml` as the starting point for a new series.
 Use `templates/source-page.yaml` for overview pages that list multiple
@@ -92,7 +144,22 @@ Required event fields:
 - `name`: event edition name.
 - `start`: first event day, `YYYY-MM-DD`.
 - `end`: last event day, `YYYY-MM-DD`.
-- `country`: ISO-style country code used to generate country calendars.
+
+Optional event fields include `country`, `city`, `venue`, `address`, `latitude`,
+`longitude`, `url`, `status`, `sources`, `deadlines`, and `co_located_with`.
+Coordinates must be decimal degrees and `latitude` and `longitude` must be
+provided together.
+
+Upcoming events with known dates should stay in the calendar even when the
+location is incomplete. Leave `country`, `city`, `venue`, `address`, `latitude`,
+and `longitude` empty when the location is unclear. If only the country is
+clear, set `country` only; do not add GPS coordinates unless the exact venue or
+address is known.
+
+If a future edition has been announced but no usable date exists yet, keep it in
+`events` with `status: estimated` or `status: tentative` and omit `start` and
+`end`. The generator validates its sources but skips it until a calendarable date
+is known.
 
 Required deadline fields:
 
@@ -126,6 +193,10 @@ provenance:
 - Use deadline-level `history` lists to record deadline changes and extension
   announcement URLs. Future scanning agents can use those URLs as hints, but the
   generator itself only uses the top-level deadline `date`.
+- Use event-level `co_located_with` when several conference series share one
+  venue/date block, such as Extraction 2025, Copper 2025, Ni-Co 2025, and
+  Cross-Cutting Symposia. This generates `group/<group>.ics` without merging the
+  individual series feeds.
 - Use `sources/<domain>/...` YAML files for overview pages that list many related
   conferences. These files are discovery inputs for maintainers, not generated
   calendar events by themselves.
@@ -135,7 +206,9 @@ Recommended source `type` values are:
 - `series-home`: stable series or society page.
 - `event-site`: site for one edition.
 - `cfp`: call for papers or submission page.
+- `geocode`: page or API URL used for latitude and longitude.
 - `overview`: multi-conference listing.
+- `venue`: venue page used for address or location details.
 
 ### Local Checks
 

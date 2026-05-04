@@ -5,7 +5,11 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .tmp-tests/
+.env
+.env.*
+!.env.example
 tests/.generated-calendars/**/*.ics
+tests/.generated-site/
 tests/.generated-calendars/index.json
 .venv/
 dist/

@@ -1,0 +1,246 @@
+series: International Copper Conference
+slug: copper
+categories:
+  - metallurgy
+  - copper
+  - extractive-metallurgy
+topics:
+  - mining
+  - mineral-processing
+  - pyrometallurgy
+  - hydrometallurgy
+  - electrometallurgy
+  - process-control
+  - recycling
+  - environmental-control
+  - acid-plants
+
+sources:
+  - type: event-site
+    scope: series
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+    note: Official Copper 2025 site; the Copper series uses event-specific sites.
+  - type: overview
+    scope: series
+    url: https://metsoc.org/events-posts/extraction-2025/
+    note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
+  - type: event-site
+    scope: series
+    url: https://copper2022.cl/
+    note: Official COPPER-COBRE 2022 site.
+  - type: event-site
+    scope: series
+    url: https://com.metsoc.org/past-com-events/
+    note: MetSoc past COM events page with COM 2019 Hosting Copper.
+  - type: event-site
+    scope: series
+    url: https://www.mmij.or.jp/events/1907.html
+    note: MMIJ page for Copper 2016.
+  - type: overview
+    scope: series
+    url: https://www.pyrometallurgy.co.za/Conferences/
+    note: Pyrometallurgical Conferences overview listing Copper 2028 with date and city.
+
+events:
+  - name: 9th International Copper Conference (Copper 2016)
+    start: "2016-11-13"
+    end: "2016-11-16"
+    timezone: Asia/Tokyo
+    city: Kobe
+    country: JP
+    venue: Kobe International Conference Center
+    address: 6-9-1 Minatojima-nakamachi, Chuo-ku, Kobe, Hyogo 650-0046, Japan
+    latitude: 34.6662222
+    longitude: 135.2130000
+    url: https://www.mmij.or.jp/events/1907.html
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.mmij.or.jp/events/1907.html
+      - type: event-site
+        scope: event
+        url: https://www.mmij.or.jp/mmij-news/2016-01-04-235
+      - type: venue
+        scope: event
+        url: https://kobe-cc.jp/en/
+      - type: geocode
+        scope: event
+        url: https://commons.wikimedia.org/wiki/Category:Kobe_International_Conference_Center
+  - name: 10th International Copper Conference (Copper 2019)
+    start: "2019-08-18"
+    end: "2019-08-21"
+    timezone: America/Vancouver
+    city: Vancouver
+    country: CA
+    venue: Vancouver Convention Centre
+    address: 1055 Canada Place, Vancouver, BC V6C 0C3, Canada
+    latitude: 49.2888506
+    longitude: -123.1160655
+    url: https://com.metsoc.org/past-com-events/
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://com.metsoc.org/past-com-events/
+      - type: event-listing
+        scope: event
+        url: https://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html
+      - type: venue
+        scope: event
+        url: https://www.vancouverconventioncentre.com/facility/location
+      - type: geocode
+        scope: event
+        url: https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=Vancouver%20Convention%20Centre
+  - name: 11th International Copper Conference (COPPER-COBRE 2022)
+    start: "2022-11-13"
+    end: "2022-11-17"
+    timezone: America/Santiago
+    city: Santiago
+    country: CL
+    venue: Espacio Riesco
+    address: Avenida El Salto 5000, Huechuraba, Metropolitan Region, Chile
+    latitude: -33.3838610
+    longitude: -70.6255940
+    url: https://copper2022.cl/
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/2021/02/05/organizers-committees/
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/2022/10/24/copper-2022-will-be-held-at-espacio-riesco/
+      - type: venue
+        scope: event
+        url: https://www.espacioriesco.cl/contacto/
+      - type: geocode
+        scope: event
+        url: https://www.feriasinfo.es/Espacio%2BRiesco-ZS5035.html
+  - name: 12th International Copper Conference (Copper 2025)
+    start: "2025-11-16"
+    end: "2025-11-20"
+    timezone: America/Phoenix
+    city: Phoenix
+    country: US
+    venue: Sheraton Grand at Wild Horse Pass
+    address: 5594 W Wild Horse Pass Blvd, Phoenix, Arizona, USA, 85226
+    latitude: 33.2665969
+    longitude: -111.9917321
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+    status: confirmed
+    co_located_with:
+      group: extraction-2025
+      name: Extraction 2025 + Copper 2025 + Ni-Co 2025
+      url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+      series:
+        - extraction
+        - copper
+        - ni-co
+        - extraction-cross-cutting
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: event-site
+        scope: event
+        url: https://metsoc.org/events-posts/extraction-2025/
+      - type: venue
+        scope: event
+        url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/
+      - type: geocode
+        scope: event
+        url: https://nominatim.openstreetmap.org/search?format=jsonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=Arizona&country=United%20States&postalcode=85226
+    deadlines:
+      - type: abstract
+        name: Abstract extended submission deadline
+        date: "2024-11-13"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: first-draft-manuscript
+        name: First draft manuscript submission deadline
+        date: "2025-02-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: final-manuscript
+        name: Final manuscript submission deadline
+        date: "2025-04-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: poster-submission
+        name: Poster submission deadline
+        date: "2025-06-01"
+        url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
+        status: confirmed
+        sources:
+          - type: cfp
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
+      - type: author-registration
+        name: Author registration extended deadline
+        date: "2025-06-15"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+        status: confirmed
+        sources:
+          - type: author-instructions
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+      - type: discount-registration
+        name: Discount registration deadline
+        date: "2025-10-07"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: housing
+        name: Housing deadline
+        date: "2025-10-14"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+      - type: free-proceedings-access
+        name: Free proceedings access ends
+        date: "2025-12-31"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+  - name: 13th International Copper Conference (Copper 2028)
+    start: "2028-09-03"
+    end: "2028-09-07"
+    timezone: Africa/Johannesburg
+    city: Cape Town
+    country: ZA
+    url: https://www.pyrometallurgy.co.za/Conferences/
+    status: tentative
+    sources:
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        note: Lists Copper 2028 for 3-7 September 2028 in Cape Town, South Africa; venue not listed.
+      - type: event-site
+        scope: event
+        url: https://www.saimm.co.za
+        note: Linked organizer site from the Pyrometallurgical Conferences listing.

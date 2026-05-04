@@ -18,7 +18,17 @@ events:
     city: Lisbon
     country: PT
     venue: Demo Center
+    address: Rua Demo 1, Lisbon, Portugal
+    latitude: 38.722252
+    longitude: -9.139337
     url: https://example.org/demo-2027
+    co_located_with:
+      group: demo-events-2027
+      name: Demo Events 2027
+      url: https://example.org/demo-events-2027
+      series:
+        - demo-conf
+        - demo-workshops
     sources:
       - type: event-site
         scope: event
@@ -40,4 +50,19 @@ events:
           - type: cfp
             scope: deadline
             url: https://e.test/cfp
-
+  - name: Demo Conference 2028
+    url: https://example.org/demo-2028
+    status: estimated
+    sources:
+      - type: event-listing
+        scope: event
+        url: https://e.test/demo-2028
+  - name: Demo Conference 2029
+    start: "2029-04-05"
+    end: "2029-04-07"
+    url: https://example.org/demo-2029
+    status: tentative
+    sources:
+      - type: event-listing
+        scope: event
+        url: https://e.test/demo-2029
