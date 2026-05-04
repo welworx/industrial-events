@@ -109,12 +109,17 @@ Required event fields:
 - `name`: event edition name.
 - `start`: first event day, `YYYY-MM-DD`.
 - `end`: last event day, `YYYY-MM-DD`.
-- `country`: ISO-style country code used to generate country calendars.
 
-Optional event fields include `city`, `venue`, `address`, `latitude`,
+Optional event fields include `country`, `city`, `venue`, `address`, `latitude`,
 `longitude`, `url`, `status`, `sources`, `deadlines`, and `co_located_with`.
 Coordinates must be decimal degrees and `latitude` and `longitude` must be
 provided together.
+
+Upcoming events with known dates should stay in the calendar even when the
+location is incomplete. Leave `country`, `city`, `venue`, `address`, `latitude`,
+and `longitude` empty when the location is unclear. If only the country is
+clear, set `country` only; do not add GPS coordinates unless the exact venue or
+address is known.
 
 If a future edition has been announced but no usable date exists yet, keep it in
 `events` with `status: estimated` or `status: tentative` and omit `start` and

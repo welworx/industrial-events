@@ -26,6 +26,13 @@ def unfold_calendar(value: str) -> str:
     return value.replace("\r\n ", "").replace("\n ", "")
 
 
+def event_block(calendar: str, uid: str) -> str:
+    for block in calendar.split("BEGIN:VEVENT"):
+        if uid in block:
+            return block
+    raise AssertionError(f"event with uid {uid!r} not found")
+
+
 class BuildCalendarTests(unittest.TestCase):
     def tearDown(self) -> None:
         clean_test_output()
@@ -52,6 +59,12 @@ class BuildCalendarTests(unittest.TestCase):
         self.assertIn("X-CONFERENCE-COLOCATED-GROUP:demo-events-2027", all_calendar)
         self.assertIn("X-CONFERENCE-COLOCATED-SERIES:demo-conf,demo-workshops", all_calendar)
         self.assertNotIn("Demo Conference 2028", all_calendar)
+        self.assertIn("SUMMARY:Demo Conference 2029", all_calendar)
+        self.assertIn("UID:demo-conf-2029-04-05-event@conference-calendars", all_calendar)
+        unknown_location_event = event_block(all_calendar, "UID:demo-conf-2029-04-05-event@conference-calendars")
+        self.assertNotIn("LOCATION:", unknown_location_event)
+        self.assertNotIn("GEO:", unknown_location_event)
+        self.assertNotIn("X-CONFERENCE-COUNTRY:", unknown_location_event)
         self.assertIn("SUMMARY:Demo Conference: Paper submission deadline", all_calendar)
         self.assertIn("DTSTART;VALUE=DATE:20261115", all_calendar)
         self.assertIn("UID:demo-conf-2027-03-10-papers-2026-11-15@conference-calendars", all_calendar)

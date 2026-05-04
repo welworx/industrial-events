@@ -204,7 +204,7 @@ def items_for_event(
     if end < start:
         raise CalendarBuildError(f"{path}: event {event_index} end must be on or after start")
 
-    country = require_str(path, event, "country", f"event {event_index}").lower()
+    country = optional_str(event, "country").lower()
     city = optional_str(event, "city")
     venue = optional_str(event, "venue")
     address = optional_str(event, "address")
@@ -343,7 +343,8 @@ def build_feeds(items: Iterable[CalendarItem], output_dir: Path) -> list[Feed]:
 
     for item in items_tuple:
         by_series.setdefault(item.series_slug, []).append(item)
-        by_country.setdefault(item.country, []).append(item)
+        if item.country:
+            by_country.setdefault(item.country, []).append(item)
         by_domain.setdefault(item.domain, []).append(item)
         if item.co_location_group:
             by_group.setdefault(item.co_location_group, []).append(item)
@@ -391,7 +392,9 @@ def render_calendar(name: str, items: Iterable[CalendarItem]) -> str:
 
 
 def render_event(item: CalendarItem) -> list[str]:
-    tags = ["conference", item.kind, item.series_slug, item.country, *item.categories, *item.topics]
+    tags = [
+        tag for tag in ("conference", item.kind, item.series_slug, item.country, *item.categories, *item.topics) if tag
+    ]
     lines = [
         "BEGIN:VEVENT",
         f"UID:{escape_text(item.uid)}",
@@ -405,8 +408,9 @@ def render_event(item: CalendarItem) -> list[str]:
         f"X-CONFERENCE-SERIES:{escape_text(item.series)}",
         f"X-CONFERENCE-SERIES-SLUG:{escape_text(item.series_slug)}",
         f"X-CONFERENCE-DOMAIN:{escape_text(item.domain)}",
-        f"X-CONFERENCE-COUNTRY:{escape_text(item.country.upper())}",
     ]
+    if item.country:
+        lines.append(f"X-CONFERENCE-COUNTRY:{escape_text(item.country.upper())}")
     if item.location:
         lines.append(f"LOCATION:{escape_text(item.location)}")
     if item.latitude is not None and item.longitude is not None:
