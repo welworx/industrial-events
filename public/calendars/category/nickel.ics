@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Conference Calendars//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
 X-WR-CALNAME:Conference Category: nickel
 X-WR-CALDESC:This calendar makes existing public conference information eas
  ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
@@ -12,13 +15,17 @@ X-WR-CALDESC:This calendar makes existing public conference information eas
  sequence of using this feed.
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-abstract-2024-11-13@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20241113
 DTEND;VALUE=DATE:20241114
 SUMMARY:International Symposium on Nickel and Cobalt: Abstract extended sub
  mission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-abstract,ni-co,us,metallurgy,nickel,cobalt,e
  xtractive-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,rec
  ycling,battery-materials
@@ -56,13 +63,17 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-first-draft-manuscript-2025-02-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 SUMMARY:International Symposium on Nickel and Cobalt: First draft manuscrip
  t submission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-first-draft-manuscript,ni-co,us,metallurgy,n
  ickel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyro
  metallurgy,recycling,battery-materials
@@ -100,13 +111,17 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-final-manuscript-2025-04-01@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
 SUMMARY:International Symposium on Nickel and Cobalt: Final manuscript subm
  ission deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-final-manuscript,ni-co,us,metallurgy,nickel,
  cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyrometall
  urgy,recycling,battery-materials
@@ -144,13 +159,17 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-author-registration-2025-06-15@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 SUMMARY:International Symposium on Nickel and Cobalt: Author registration e
  xtended deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-author-registration,ni-co,us,metallurgy,nick
  el,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyromet
  allurgy,recycling,battery-materials
@@ -188,13 +207,17 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-discount-registration-2025-10-07@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 SUMMARY:International Symposium on Nickel and Cobalt: Discount registration
   deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-discount-registration,ni-co,us,metallurgy,ni
  ckel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyrom
  etallurgy,recycling,battery-materials
@@ -231,12 +254,16 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-housing-2025-10-14@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
 SUMMARY:International Symposium on Nickel and Cobalt: Housing deadline
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-housing,ni-co,us,metallurgy,nickel,cobalt,ex
  tractive-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,recy
  cling,battery-materials
@@ -273,15 +300,19 @@ DESCRIPTION:Series: International Symposium on Nickel and Cobalt\nEvent: 6t
 END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-event@conference-calendars
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251121
 SUMMARY:6th International Symposium on Nickel and Cobalt (Ni-Co 2025)
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:conference,conference,ni-co,us,metallurgy,nickel,cobalt,extracti
- ve-metallurgy,mineral-processing,hydrometallurgy,pyrometallurgy,recycling,
- battery-materials
+TRANSP:OPAQUE
+CATEGORIES:conference,ni-co,us,metallurgy,nickel,cobalt,extractive-metallur
+ gy,mineral-processing,hydrometallurgy,pyrometallurgy,recycling,battery-mat
+ erials
 X-CONFERENCE-SERIES:International Symposium on Nickel and Cobalt
 X-CONFERENCE-SERIES-SLUG:ni-co
 X-CONFERENCE-DOMAIN:metallurgy
@@ -319,13 +350,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ni-co-2025-11-16-free-proceedings-access-2025-12-31@conference-calendar
  s
-DTSTAMP:19700101T000000Z
+DTSTAMP:20260504T000000Z
+CREATED:20260504T000000Z
+LAST-MODIFIED:20260504T000000Z
+SEQUENCE:0
+CLASS:PUBLIC
 DTSTART;VALUE=DATE:20251231
 DTEND;VALUE=DATE:20260101
 SUMMARY:International Symposium on Nickel and Cobalt: Free proceedings acce
  ss ends
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 CATEGORIES:conference,deadline-free-proceedings-access,ni-co,us,metallurgy,
  nickel,cobalt,extractive-metallurgy,mineral-processing,hydrometallurgy,pyr
  ometallurgy,recycling,battery-materials
