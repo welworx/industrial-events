@@ -24,8 +24,102 @@ sources:
     scope: series
     url: https://metsoc.org/events-posts/extraction-2025/
     note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
+  - type: event-site
+    scope: series
+    url: https://copper2022.cl/
+    note: Official COPPER-COBRE 2022 site.
+  - type: event-site
+    scope: series
+    url: https://com.metsoc.org/past-com-events/
+    note: MetSoc past COM events page with COM 2019 Hosting Copper.
+  - type: event-site
+    scope: series
+    url: https://www.mmij.or.jp/events/1907.html
+    note: MMIJ page for Copper 2016.
+  - type: event-listing
+    scope: series
+    url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
+    note: Lists Copper 2028 as the next edition with date and venue TBD.
 
 events:
+  - name: 9th International Copper Conference (Copper 2016)
+    start: "2016-11-13"
+    end: "2016-11-16"
+    timezone: Asia/Tokyo
+    city: Kobe
+    country: JP
+    venue: Kobe International Conference Center
+    address: 6-9-1 Minatojima-nakamachi, Chuo-ku, Kobe, Hyogo 650-0046, Japan
+    latitude: 34.6662222
+    longitude: 135.2130000
+    url: https://www.mmij.or.jp/events/1907.html
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.mmij.or.jp/events/1907.html
+      - type: event-site
+        scope: event
+        url: https://www.mmij.or.jp/mmij-news/2016-01-04-235
+      - type: venue
+        scope: event
+        url: https://kobe-cc.jp/en/
+      - type: geocode
+        scope: event
+        url: https://commons.wikimedia.org/wiki/Category:Kobe_International_Conference_Center
+  - name: 10th International Copper Conference (Copper 2019)
+    start: "2019-08-18"
+    end: "2019-08-21"
+    timezone: America/Vancouver
+    city: Vancouver
+    country: CA
+    venue: Vancouver Convention Centre
+    address: 1055 Canada Place, Vancouver, BC V6C 0C3, Canada
+    latitude: 49.2888506
+    longitude: -123.1160655
+    url: https://com.metsoc.org/past-com-events/
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://com.metsoc.org/past-com-events/
+      - type: event-listing
+        scope: event
+        url: https://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html
+      - type: venue
+        scope: event
+        url: https://www.vancouverconventioncentre.com/facility/location
+      - type: geocode
+        scope: event
+        url: https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=Vancouver%20Convention%20Centre
+  - name: 11th International Copper Conference (COPPER-COBRE 2022)
+    start: "2022-11-13"
+    end: "2022-11-17"
+    timezone: America/Santiago
+    city: Santiago
+    country: CL
+    venue: Espacio Riesco
+    address: Avenida El Salto 5000, Huechuraba, Metropolitan Region, Chile
+    latitude: -33.3838610
+    longitude: -70.6255940
+    url: https://copper2022.cl/
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/2021/02/05/organizers-committees/
+      - type: event-site
+        scope: event
+        url: https://copper2022.cl/2022/10/24/copper-2022-will-be-held-at-espacio-riesco/
+      - type: venue
+        scope: event
+        url: https://www.espacioriesco.cl/contacto/
+      - type: geocode
+        scope: event
+        url: https://www.feriasinfo.es/Espacio%2BRiesco-ZS5035.html
   - name: 12th International Copper Conference (Copper 2025)
     start: "2025-11-16"
     end: "2025-11-20"
@@ -133,3 +227,11 @@ events:
           - type: event-site
             scope: deadline
             url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+  - name: 13th International Copper Conference (Copper 2028)
+    url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
+    status: estimated
+    sources:
+      - type: event-listing
+        scope: event
+        url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
+        note: Public listing identifies Copper 2028 as the next edition; date and venue are still TBD.

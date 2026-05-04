@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Conference Calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conference Country: CA
+X-WR-CALDESC:This calendar makes existing public conference information eas
+ ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
+ mportant dates and details against the official conference source. The mai
+ ntainer is not responsible for missing updates\, incorrect information\, m
+ issed deadlines\, travel costs\, registration decisions\, or any other con
+ sequence of using this feed.
+BEGIN:VEVENT
+UID:copper-2019-08-18-event@conference-calendars
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20190818
+DTEND;VALUE=DATE:20190822
+SUMMARY:10th International Copper Conference (Copper 2019)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:conference,conference,copper,ca,metallurgy,copper,extractive-met
+ allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
+ tallurgy,process-control,recycling,environmental-control,acid-plants
+X-CONFERENCE-SERIES:International Copper Conference
+X-CONFERENCE-SERIES-SLUG:copper
+X-CONFERENCE-DOMAIN:metallurgy
+X-CONFERENCE-COUNTRY:CA
+LOCATION:Vancouver Convention Centre\, 1055 Canada Place\, Vancouver\, BC V
+ 6C 0C3\, Canada\, Vancouver\, CA
+GEO:49.2888506;-123.1160655
+URL:https://com.metsoc.org/past-com-events/
+DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
+ gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
+ ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
+ ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
+ https://com.metsoc.org/past-com-events/\nAddress: 1055 Canada Place\, Vanc
+ ouver\, BC V6C 0C3\, Canada\nCoordinates: 49.2888506\, -123.1160655\nDiscl
+ aimer: This calendar makes existing public conference information easier t
+ o access. It may be incomplete\, outdated\, or wrong. Always verify import
+ ant dates and details against the official conference source. The maintain
+ er is not responsible for missing updates\, incorrect information\, missed
+  deadlines\, travel costs\, registration decisions\, or any other conseque
+ nce of using this feed.\nSources: https://www.extractionmeeting.org/Extrac
+ tion2025/Extraction2025/Copper2025/default.aspx\, https://metsoc.org/event
+ s-posts/extraction-2025/\, https://copper2022.cl/\, https://com.metsoc.org
+ /past-com-events/\, https://www.mmij.or.jp/events/1907.html\, https://www.
+ showsbee.com/fairs/93473-Copper-International-Conference-2028.html\, https
+ ://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html\
+ , https://www.vancouverconventioncentre.com/facility/location\, https://no
+ minatim.openstreetmap.org/search?format=jsonv2&limit=1&q=Vancouver%20Conve
+ ntion%20Centre
+END:VEVENT
+END:VCALENDAR

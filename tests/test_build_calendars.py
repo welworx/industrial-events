@@ -51,6 +51,7 @@ class BuildCalendarTests(unittest.TestCase):
         self.assertIn("GEO:38.7222520;-9.1393370", all_calendar)
         self.assertIn("X-CONFERENCE-COLOCATED-GROUP:demo-events-2027", all_calendar)
         self.assertIn("X-CONFERENCE-COLOCATED-SERIES:demo-conf,demo-workshops", all_calendar)
+        self.assertNotIn("Demo Conference 2028", all_calendar)
         self.assertIn("SUMMARY:Demo Conference: Paper submission deadline", all_calendar)
         self.assertIn("DTSTART;VALUE=DATE:20261115", all_calendar)
         self.assertIn("UID:demo-conf-2027-03-10-papers-2026-11-15@conference-calendars", all_calendar)

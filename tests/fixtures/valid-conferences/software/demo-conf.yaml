@@ -50,3 +50,10 @@ events:
           - type: cfp
             scope: deadline
             url: https://e.test/cfp
+  - name: Demo Conference 2028
+    url: https://example.org/demo-2028
+    status: estimated
+    sources:
+      - type: event-listing
+        scope: event
+        url: https://e.test/demo-2028

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Conference Calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conference Country: CL
+X-WR-CALDESC:This calendar makes existing public conference information eas
+ ier to access. It may be incomplete\, outdated\, or wrong. Always verify i
+ mportant dates and details against the official conference source. The mai
+ ntainer is not responsible for missing updates\, incorrect information\, m
+ issed deadlines\, travel costs\, registration decisions\, or any other con
+ sequence of using this feed.
+BEGIN:VEVENT
+UID:copper-2022-11-13-event@conference-calendars
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20221113
+DTEND;VALUE=DATE:20221118
+SUMMARY:11th International Copper Conference (COPPER-COBRE 2022)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:conference,conference,copper,cl,metallurgy,copper,extractive-met
+ allurgy,mining,mineral-processing,pyrometallurgy,hydrometallurgy,electrome
+ tallurgy,process-control,recycling,environmental-control,acid-plants
+X-CONFERENCE-SERIES:International Copper Conference
+X-CONFERENCE-SERIES-SLUG:copper
+X-CONFERENCE-DOMAIN:metallurgy
+X-CONFERENCE-COUNTRY:CL
+LOCATION:Espacio Riesco\, Avenida El Salto 5000\, Huechuraba\, Metropolitan
+  Region\, Chile\, Santiago\, CL
+GEO:-33.3838610;-70.6255940
+URL:https://copper2022.cl/
+DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
+ gories: metallurgy\, copper\, extractive-metallurgy\nTopics: mining\, mine
+ ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
+ ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
+ https://copper2022.cl/\nAddress: Avenida El Salto 5000\, Huechuraba\, Metr
+ opolitan Region\, Chile\nCoordinates: -33.3838610\, -70.6255940\nDisclaime
+ r: This calendar makes existing public conference information easier to ac
+ cess. It may be incomplete\, outdated\, or wrong. Always verify important 
+ dates and details against the official conference source. The maintainer i
+ s not responsible for missing updates\, incorrect information\, missed dea
+ dlines\, travel costs\, registration decisions\, or any other consequence 
+ of using this feed.\nSources: https://www.extractionmeeting.org/Extraction
+ 2025/Extraction2025/Copper2025/default.aspx\, https://metsoc.org/events-po
+ sts/extraction-2025/\, https://copper2022.cl/\, https://com.metsoc.org/pas
+ t-com-events/\, https://www.mmij.or.jp/events/1907.html\, https://www.show
+ sbee.com/fairs/93473-Copper-International-Conference-2028.html\, https://c
+ opper2022.cl/2021/02/05/organizers-committees/\, https://copper2022.cl/202
+ 2/10/24/copper-2022-will-be-held-at-espacio-riesco/\, https://www.espacior
+ iesco.cl/contacto/\, https://www.feriasinfo.es/Espacio%2BRiesco-ZS5035.htm
+ l
+END:VEVENT
+END:VCALENDAR

@@ -189,8 +189,18 @@ def items_for_event(
     event: dict,
 ) -> list[CalendarItem]:
     event_name = require_str(path, event, "name", f"event {event_index}")
-    start = require_date(path, event, "start", f"event {event_index}")
-    end = require_date(path, event, "end", f"event {event_index}")
+    start = optional_date(path, event, "start", f"event {event_index}")
+    end = optional_date(path, event, "end", f"event {event_index}")
+    if start is None and end is None:
+        status = optional_str(event, "status")
+        if status not in {"estimated", "tentative"}:
+            raise CalendarBuildError(
+                f"{path}: event {event_index} start and end are required unless status is estimated or tentative"
+            )
+        source_urls(path, event, f"event {event_index}")
+        return []
+    if start is None or end is None:
+        raise CalendarBuildError(f"{path}: event {event_index} start and end must be provided together")
     if end < start:
         raise CalendarBuildError(f"{path}: event {event_index} end must be on or after start")
 
