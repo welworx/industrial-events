@@ -36,10 +36,10 @@ sources:
     scope: series
     url: https://www.mmij.or.jp/events/1907.html
     note: MMIJ page for Copper 2016.
-  - type: event-listing
+  - type: overview
     scope: series
-    url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
-    note: Lists Copper 2028 as the next edition with date and venue TBD.
+    url: https://www.pyrometallurgy.co.za/Conferences/
+    note: Pyrometallurgical Conferences overview listing Copper 2028 with date and city.
 
 events:
   - name: 9th International Copper Conference (Copper 2016)
@@ -228,10 +228,19 @@ events:
             scope: deadline
             url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
   - name: 13th International Copper Conference (Copper 2028)
-    url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
-    status: estimated
+    start: "2028-09-03"
+    end: "2028-09-07"
+    timezone: Africa/Johannesburg
+    city: Cape Town
+    country: ZA
+    url: https://www.pyrometallurgy.co.za/Conferences/
+    status: tentative
     sources:
-      - type: event-listing
+      - type: overview
         scope: event
-        url: https://www.showsbee.com/fairs/93473-Copper-International-Conference-2028.html
-        note: Public listing identifies Copper 2028 as the next edition; date and venue are still TBD.
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        note: Lists Copper 2028 for 3-7 September 2028 in Cape Town, South Africa; venue not listed.
+      - type: event-site
+        scope: event
+        url: https://www.saimm.co.za
+        note: Linked organizer site from the Pyrometallurgical Conferences listing.

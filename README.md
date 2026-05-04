@@ -7,7 +7,7 @@ File-based conference tracking with generated iCalendar feeds.
 - International Copper Conference:
   `conferences/metallurgy/copper.yaml`
   - Recorded events: Copper 2016, Copper 2019, COPPER-COBRE 2022, and Copper 2025.
-  - Tracked upcoming edition: Copper 2028. Public sources currently list date and venue as TBD, so it is not emitted to `.ics` feeds yet.
+  - Upcoming event: Copper 2028, September 3-7, 2028, Cape Town, South Africa. Venue and GPS coordinates are not listed yet.
 - Extraction Meeting & Exhibition:
   `conferences/metallurgy/extraction.yaml`
   - Recorded event: Extraction 2025, November 16-20, 2025, Phoenix, Arizona, USA.
