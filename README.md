@@ -31,19 +31,54 @@ generate calendar events by themselves.
 
 ## Calendar Consumption
 
-After GitHub Pages is enabled for GitHub Actions, consumers can subscribe to:
+Use these URLs directly in a calendar client. Subscribe to the URL instead of
+importing the file if you want later updates.
 
-```text
-https://<org-or-user>.github.io/<repo>/calendars/all.ics
-https://<org-or-user>.github.io/<repo>/calendars/category/<category>.ics
-https://<org-or-user>.github.io/<repo>/calendars/country/<country>.ics
-https://<org-or-user>.github.io/<repo>/calendars/domain/<domain>.ics
-https://<org-or-user>.github.io/<repo>/calendars/group/<group>.ics
-https://<org-or-user>.github.io/<repo>/calendars/series/<series>.ics
-```
+Main page:
 
-For direct raw GitHub consumption, use the matching files under
-`public/calendars/`.
+- https://welworx.github.io/conferences/
+
+All tracked conferences:
+
+- https://welworx.github.io/conferences/calendars/all.ics
+
+Series feeds:
+
+- https://welworx.github.io/conferences/calendars/series/copper.ics
+- https://welworx.github.io/conferences/calendars/series/extraction.ics
+- https://welworx.github.io/conferences/calendars/series/extraction-cross-cutting.ics
+- https://welworx.github.io/conferences/calendars/series/ni-co.ics
+
+Interest/category feeds:
+
+- https://welworx.github.io/conferences/calendars/category/cobalt.ics
+- https://welworx.github.io/conferences/calendars/category/copper.ics
+- https://welworx.github.io/conferences/calendars/category/extractive-metallurgy.ics
+- https://welworx.github.io/conferences/calendars/category/metallurgy.ics
+- https://welworx.github.io/conferences/calendars/category/nickel.ics
+- https://welworx.github.io/conferences/calendars/category/sustainability.ics
+
+Country feeds:
+
+- https://welworx.github.io/conferences/calendars/country/ca.ics
+- https://welworx.github.io/conferences/calendars/country/cl.ics
+- https://welworx.github.io/conferences/calendars/country/jp.ics
+- https://welworx.github.io/conferences/calendars/country/us.ics
+- https://welworx.github.io/conferences/calendars/country/za.ics
+
+Other feeds:
+
+- https://welworx.github.io/conferences/calendars/domain/metallurgy.ics
+- https://welworx.github.io/conferences/calendars/group/extraction-2025.ics
+
+Machine-readable feed index:
+
+- https://welworx.github.io/conferences/calendars/index.json
+
+Some clients accept `webcal://` URLs. If needed, replace `https://` with
+`webcal://` in the feed URL.
+
+The matching source files are stored under `public/calendars/`.
 
 ### Disclaimer
 
