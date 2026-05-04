@@ -1,0 +1,21 @@
+[project]
+name = "conference-calendars"
+version = "0.1.0"
+description = "File-based conference tracking with generated iCalendar feeds."
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.5",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+

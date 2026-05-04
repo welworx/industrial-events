@@ -1,0 +1,23 @@
+repos:
+  - repo: local
+    hooks:
+      - id: build-calendars
+        name: Build generated calendar feeds
+        entry: uv run python scripts/build_calendars.py
+        language: system
+        pass_filenames: false
+      - id: ruff-check
+        name: Ruff check
+        entry: uv run ruff check
+        language: system
+        pass_filenames: false
+      - id: ruff-format
+        name: Ruff format check
+        entry: uv run ruff format --check
+        language: system
+        pass_filenames: false
+      - id: unit-tests
+        name: Run unit tests
+        entry: uv run python -B -m unittest discover -s tests
+        language: system
+        pass_filenames: false

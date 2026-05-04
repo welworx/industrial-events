@@ -1,0 +1,43 @@
+series: Demo Conference
+slug: demo-conf
+categories:
+  - software
+  - testing
+topics:
+  - quality
+
+sources:
+  - type: series-home
+    scope: series
+    url: https://e.test/s
+
+events:
+  - name: Demo Conference 2027
+    start: "2027-03-10"
+    end: "2027-03-12"
+    city: Lisbon
+    country: PT
+    venue: Demo Center
+    url: https://example.org/demo-2027
+    sources:
+      - type: event-site
+        scope: event
+        url: https://e.test/e
+    deadlines:
+      - type: papers
+        name: Paper submission deadline
+        date: "2026-11-15"
+        history:
+          - date: "2026-11-01"
+            announced: "2026-08-01"
+            url: https://e.test/original-cfp
+            note: Original deadline.
+          - date: "2026-11-15"
+            announced: "2026-10-20"
+            url: https://e.test/extension
+            note: Extended deadline.
+        sources:
+          - type: cfp
+            scope: deadline
+            url: https://e.test/cfp
+

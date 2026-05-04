@@ -1,0 +1,58 @@
+# Copy this file to conferences/<domain>/<series-slug>.yaml.
+# Keep slugs and categories lowercase, with words separated by hyphens.
+
+series: Example Systems Conference
+slug: example-systems
+website: https://example.org
+categories:
+  - systems
+  - software
+topics:
+  - distributed-systems
+  - storage
+
+sources:
+  - type: series-home
+    scope: series
+    url: https://example.org
+    note: Stable series site with links to multiple editions.
+
+events:
+  - name: Example Systems Conference 2027
+    start: "2027-06-14"
+    end: "2027-06-17"
+    timezone: Europe/Berlin
+    city: Berlin
+    country: DE
+    venue: Example Convention Center
+    url: https://example.org/2027
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://example.org/2027
+    deadlines:
+      - type: papers
+        name: Paper submission deadline
+        date: "2026-12-04"
+        url: https://example.org/2027/cfp-extension
+        status: confirmed
+        history:
+          - date: "2026-11-20"
+            announced: "2026-08-01"
+            url: https://example.org/2027/cfp
+            note: Original deadline.
+          - date: "2026-12-04"
+            announced: "2026-11-18"
+            url: https://example.org/2027/cfp-extension
+            note: Extended deadline.
+        sources:
+          - type: cfp
+            scope: deadline
+            url: https://example.org/2027/cfp-extension
+      - type: registration
+        name: Early registration deadline
+        date: "2027-04-28"
+        url: https://example.org/2027/register
+        status: tentative
+

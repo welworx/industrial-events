@@ -1,0 +1,16 @@
+# Copy this file to sources/<domain>/<source-slug>.yaml.
+# Source pages are for maintainer discovery. They do not generate calendar events.
+
+name: Example Conference Overview
+slug: example-conference-overview
+url: https://example.org/conferences
+type: overview
+categories:
+  - systems
+  - software
+topics:
+  - distributed-systems
+  - storage
+last_checked: "2026-05-04"
+note: Lists several related conferences. Verify dates and deadlines against official event pages before updating calendars.
+
