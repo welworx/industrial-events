@@ -1,0 +1,100 @@
+series: Cross-Cutting Symposia at Extraction
+slug: extraction-cross-cutting
+website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+categories:
+  - metallurgy
+  - extractive-metallurgy
+  - sustainability
+topics:
+  - recycling
+  - circular-economy
+  - decarbonization
+  - responsible-mining
+  - geometallurgy
+  - economics
+
+sources:
+  - type: event-site
+    scope: series
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+    note: Official Cross-Cutting Symposia at Extraction 2025 site.
+
+events:
+  - name: Cross-Cutting Symposia at Extraction 2025
+    start: "2025-11-16"
+    end: "2025-11-20"
+    timezone: America/Phoenix
+    city: Phoenix
+    country: US
+    venue: Sheraton Grand at Wild Horse Pass
+    address: 5594 W Wild Horse Pass Blvd, Phoenix, Arizona, USA, 85226
+    latitude: 33.2665969
+    longitude: -111.9917321
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+    status: confirmed
+    co_located_with:
+      group: extraction-2025
+      name: Extraction 2025 + Copper 2025 + Ni-Co 2025
+      url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+      series:
+        - extraction
+        - copper
+        - ni-co
+        - extraction-cross-cutting
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+      - type: venue
+        scope: event
+        url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/
+      - type: geocode
+        scope: event
+        url: https://nominatim.openstreetmap.org/search?format=jsonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=Arizona&country=United%20States&postalcode=85226
+    deadlines:
+      - type: final-manuscript
+        name: Final manuscript submission deadline
+        date: "2025-04-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+      - type: poster-submission
+        name: Poster submission deadline
+        date: "2025-06-01"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+      - type: author-registration
+        name: Author registration extended deadline
+        date: "2025-06-15"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+      - type: discount-registration
+        name: Discount registration deadline
+        date: "2025-10-07"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+      - type: housing
+        name: Housing deadline
+        date: "2025-10-14"
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+

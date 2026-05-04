@@ -1,32 +1,29 @@
-series: International Copper Conference
-slug: copper
+series: Extraction Meeting & Exhibition
+slug: extraction
+website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
 categories:
   - metallurgy
-  - copper
   - extractive-metallurgy
 topics:
   - mining
-  - mineral-processing
-  - pyrometallurgy
-  - hydrometallurgy
-  - electrometallurgy
-  - process-control
+  - metallurgy
+  - materials-processing
+  - sustainability
   - recycling
-  - environmental-control
-  - acid-plants
+  - process-control
 
 sources:
   - type: event-site
     scope: series
-    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-    note: Official Copper 2025 site; the Copper series uses event-specific sites.
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+    note: Official Extraction 2025 site.
   - type: overview
     scope: series
     url: https://metsoc.org/events-posts/extraction-2025/
     note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
 
 events:
-  - name: 12th International Copper Conference (Copper 2025)
+  - name: Extraction 2025 Meeting & Exhibition
     start: "2025-11-16"
     end: "2025-11-20"
     timezone: America/Phoenix
@@ -36,7 +33,7 @@ events:
     address: 5594 W Wild Horse Pass Blvd, Phoenix, Arizona, USA, 85226
     latitude: 33.2665969
     longitude: -111.9917321
-    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
     status: confirmed
     co_located_with:
       group: extraction-2025
@@ -50,10 +47,7 @@ events:
     sources:
       - type: event-site
         scope: event
-        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-      - type: event-site
-        scope: event
-        url: https://metsoc.org/events-posts/extraction-2025/
+        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
       - type: venue
         scope: event
         url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/
@@ -88,15 +82,6 @@ events:
           - type: author-instructions
             scope: deadline
             url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
-      - type: poster-submission
-        name: Poster submission deadline
-        date: "2025-06-01"
-        url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
-        status: confirmed
-        sources:
-          - type: cfp
-            scope: deadline
-            url: https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Posters.aspx
       - type: author-registration
         name: Author registration extended deadline
         date: "2025-06-15"
@@ -106,30 +91,4 @@ events:
           - type: author-instructions
             scope: deadline
             url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
-      - type: discount-registration
-        name: Discount registration deadline
-        date: "2025-10-07"
-        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-        status: confirmed
-        sources:
-          - type: event-site
-            scope: deadline
-            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-      - type: housing
-        name: Housing deadline
-        date: "2025-10-14"
-        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-        status: confirmed
-        sources:
-          - type: event-site
-            scope: deadline
-            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-      - type: free-proceedings-access
-        name: Free proceedings access ends
-        date: "2025-12-31"
-        url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
-        status: confirmed
-        sources:
-          - type: event-site
-            scope: deadline
-            url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+

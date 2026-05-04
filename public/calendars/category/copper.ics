@@ -27,6 +27,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Technic
  alProgram/CFA.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -35,15 +38,22 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  essing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, process-co
  ntrol\, recycling\, environmental-control\, acid-plants\nWebsite: https://
  www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/C
- FA.aspx\nDisclaimer: This calendar makes existing public conference inform
- ation easier to access. It may be incomplete\, outdated\, or wrong. Always
-  verify important dates and details against the official conference source
- . The maintainer is not responsible for missing updates\, incorrect inform
- ation\, missed deadlines\, travel costs\, registration decisions\, or any 
- other consequence of using this feed.\nSources: https://www.extractionmeet
- ing.org/Extraction2025/Extraction2025/Copper2025/default.aspx\, https://me
- tsoc.org/events-posts/extraction-2025/\, https://www.extractionmeeting.org
- /Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+ FA.aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni-Co 2025 (ext
+ raction-2025)\nCo-located series: extraction\, copper\, ni-co\, extraction
+ -cross-cutting\nCo-located URL: https://www.extractionmeeting.org/Extracti
+ on2025/Extraction2025/default.aspx\nDisclaimer: This calendar makes existi
+ ng public conference information easier to access. It may be incomplete\, 
+ outdated\, or wrong. Always verify important dates and details against the
+  official conference source. The maintainer is not responsible for missing
+  updates\, incorrect information\, missed deadlines\, travel costs\, regis
+ tration decisions\, or any other consequence of using this feed.\nSources:
+  https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper202
+ 5/default.aspx\, https://metsoc.org/events-posts/extraction-2025/\, https:
+ //www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/ov
+ erview/\, https://nominatim.openstreetmap.org/search?format=jsonv2&street=
+ 5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=Arizona&
+ country=United%20States&postalcode=85226\, https://www.extractionmeeting.o
+ rg/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-first-draft-manuscript-2025-02-01@conference-calendar
@@ -63,6 +73,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Technic
  alProgram/CFA.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -71,15 +84,22 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  , mineral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurg
  y\, process-control\, recycling\, environmental-control\, acid-plants\nWeb
  site: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Tech
- nicalProgram/CFA.aspx\nDisclaimer: This calendar makes existing public con
- ference information easier to access. It may be incomplete\, outdated\, or
-  wrong. Always verify important dates and details against the official con
- ference source. The maintainer is not responsible for missing updates\, in
- correct information\, missed deadlines\, travel costs\, registration decis
- ions\, or any other consequence of using this feed.\nSources: https://www.
- extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.asp
- x\, https://metsoc.org/events-posts/extraction-2025/\, https://www.extract
- ionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+ nicalProgram/CFA.aspx\nCo-located group: Extraction 2025 + Copper 2025 + N
+ i-Co 2025 (extraction-2025)\nCo-located series: extraction\, copper\, ni-c
+ o\, extraction-cross-cutting\nCo-located URL: https://www.extractionmeetin
+ g.org/Extraction2025/Extraction2025/default.aspx\nDisclaimer: This calenda
+ r makes existing public conference information easier to access. It may be
+  incomplete\, outdated\, or wrong. Always verify important dates and detai
+ ls against the official conference source. The maintainer is not responsib
+ le for missing updates\, incorrect information\, missed deadlines\, travel
+  costs\, registration decisions\, or any other consequence of using this f
+ eed.\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction
+ 2025/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-
+ 2025/\, https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild
+ -horse-pass/overview/\, https://nominatim.openstreetmap.org/search?format=
+ jsonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&
+ state=Arizona&country=United%20States&postalcode=85226\, https://www.extra
+ ctionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-final-manuscript-2025-04-01@conference-calendars
@@ -98,6 +118,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Technic
  alProgram/CFA.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -106,15 +129,22 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
  ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
  https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalP
- rogram/CFA.aspx\nDisclaimer: This calendar makes existing public conferenc
- e information easier to access. It may be incomplete\, outdated\, or wrong
- . Always verify important dates and details against the official conferenc
- e source. The maintainer is not responsible for missing updates\, incorrec
- t information\, missed deadlines\, travel costs\, registration decisions\,
-  or any other consequence of using this feed.\nSources: https://www.extrac
- tionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx\, ht
- tps://metsoc.org/events-posts/extraction-2025/\, https://www.extractionmee
- ting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+ rogram/CFA.aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni-Co 2
+ 025 (extraction-2025)\nCo-located series: extraction\, copper\, ni-co\, ex
+ traction-cross-cutting\nCo-located URL: https://www.extractionmeeting.org/
+ Extraction2025/Extraction2025/default.aspx\nDisclaimer: This calendar make
+ s existing public conference information easier to access. It may be incom
+ plete\, outdated\, or wrong. Always verify important dates and details aga
+ inst the official conference source. The maintainer is not responsible for
+  missing updates\, incorrect information\, missed deadlines\, travel costs
+ \, registration decisions\, or any other consequence of using this feed.\n
+ Sources: https://www.extractionmeeting.org/Extraction2025/Extraction2025/C
+ opper2025/default.aspx\, https://metsoc.org/events-posts/extraction-2025/\
+ , https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse
+ -pass/overview/\, https://nominatim.openstreetmap.org/search?format=jsonv2
+ &street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=
+ Arizona&country=United%20States&postalcode=85226\, https://www.extractionm
+ eeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-poster-submission-2025-06-01@conference-calendars
@@ -132,6 +162,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalPr
  ogram/Call-for-Posters.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -140,16 +173,23 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  eral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, p
  rocess-control\, recycling\, environmental-control\, acid-plants\nWebsite:
   https://www.extractionmeeting.org/Extraction/Extraction2025/TechnicalProg
- ram/Call-for-Posters.aspx\nDisclaimer: This calendar makes existing public
-  conference information easier to access. It may be incomplete\, outdated\
- , or wrong. Always verify important dates and details against the official
-  conference source. The maintainer is not responsible for missing updates\
- , incorrect information\, missed deadlines\, travel costs\, registration d
- ecisions\, or any other consequence of using this feed.\nSources: https://
- www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default
- .aspx\, https://metsoc.org/events-posts/extraction-2025/\, https://www.ext
- ractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-Pos
- ters.aspx
+ ram/Call-for-Posters.aspx\nCo-located group: Extraction 2025 + Copper 2025
+  + Ni-Co 2025 (extraction-2025)\nCo-located series: extraction\, copper\, 
+ ni-co\, extraction-cross-cutting\nCo-located URL: https://www.extractionme
+ eting.org/Extraction2025/Extraction2025/default.aspx\nDisclaimer: This cal
+ endar makes existing public conference information easier to access. It ma
+ y be incomplete\, outdated\, or wrong. Always verify important dates and d
+ etails against the official conference source. The maintainer is not respo
+ nsible for missing updates\, incorrect information\, missed deadlines\, tr
+ avel costs\, registration decisions\, or any other consequence of using th
+ is feed.\nSources: https://www.extractionmeeting.org/Extraction2025/Extrac
+ tion2025/Copper2025/default.aspx\, https://metsoc.org/events-posts/extract
+ ion-2025/\, https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-
+ wild-horse-pass/overview/\, https://nominatim.openstreetmap.org/search?for
+ mat=jsonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chand
+ ler&state=Arizona&country=United%20States&postalcode=85226\, https://www.e
+ xtractionmeeting.org/Extraction/Extraction2025/TechnicalProgram/Call-for-P
+ osters.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-author-registration-2025-06-15@conference-calendars
@@ -168,6 +208,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Technic
  alProgram/CFA.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -176,15 +219,22 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  ineral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\,
   process-control\, recycling\, environmental-control\, acid-plants\nWebsit
  e: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Technic
- alProgram/CFA.aspx\nDisclaimer: This calendar makes existing public confer
- ence information easier to access. It may be incomplete\, outdated\, or wr
- ong. Always verify important dates and details against the official confer
- ence source. The maintainer is not responsible for missing updates\, incor
- rect information\, missed deadlines\, travel costs\, registration decision
- s\, or any other consequence of using this feed.\nSources: https://www.ext
- ractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx\,
-  https://metsoc.org/events-posts/extraction-2025/\, https://www.extraction
- meeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+ alProgram/CFA.aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni-C
+ o 2025 (extraction-2025)\nCo-located series: extraction\, copper\, ni-co\,
+  extraction-cross-cutting\nCo-located URL: https://www.extractionmeeting.o
+ rg/Extraction2025/Extraction2025/default.aspx\nDisclaimer: This calendar m
+ akes existing public conference information easier to access. It may be in
+ complete\, outdated\, or wrong. Always verify important dates and details 
+ against the official conference source. The maintainer is not responsible 
+ for missing updates\, incorrect information\, missed deadlines\, travel co
+ sts\, registration decisions\, or any other consequence of using this feed
+ .\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction202
+ 5/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-202
+ 5/\, https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-ho
+ rse-pass/overview/\, https://nominatim.openstreetmap.org/search?format=jso
+ nv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&sta
+ te=Arizona&country=United%20States&postalcode=85226\, https://www.extracti
+ onmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-discount-registration-2025-10-07@conference-calendars
@@ -202,6 +252,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2
  025/default.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -210,14 +263,21 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
   mineral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy
  \, process-control\, recycling\, environmental-control\, acid-plants\nWebs
  ite: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Coppe
- r2025/default.aspx\nDisclaimer: This calendar makes existing public confer
- ence information easier to access. It may be incomplete\, outdated\, or wr
- ong. Always verify important dates and details against the official confer
- ence source. The maintainer is not responsible for missing updates\, incor
- rect information\, missed deadlines\, travel costs\, registration decision
- s\, or any other consequence of using this feed.\nSources: https://www.ext
- ractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx\,
-  https://metsoc.org/events-posts/extraction-2025/
+ r2025/default.aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni-C
+ o 2025 (extraction-2025)\nCo-located series: extraction\, copper\, ni-co\,
+  extraction-cross-cutting\nCo-located URL: https://www.extractionmeeting.o
+ rg/Extraction2025/Extraction2025/default.aspx\nDisclaimer: This calendar m
+ akes existing public conference information easier to access. It may be in
+ complete\, outdated\, or wrong. Always verify important dates and details 
+ against the official conference source. The maintainer is not responsible 
+ for missing updates\, incorrect information\, missed deadlines\, travel co
+ sts\, registration decisions\, or any other consequence of using this feed
+ .\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction202
+ 5/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-202
+ 5/\, https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-ho
+ rse-pass/overview/\, https://nominatim.openstreetmap.org/search?format=jso
+ nv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&sta
+ te=Arizona&country=United%20States&postalcode=85226
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-housing-2025-10-14@conference-calendars
@@ -234,6 +294,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2
  025/default.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -242,14 +305,21 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  ssing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, process-con
  trol\, recycling\, environmental-control\, acid-plants\nWebsite: https://w
  ww.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.
- aspx\nDisclaimer: This calendar makes existing public conference informati
- on easier to access. It may be incomplete\, outdated\, or wrong. Always ve
- rify important dates and details against the official conference source. T
- he maintainer is not responsible for missing updates\, incorrect informati
- on\, missed deadlines\, travel costs\, registration decisions\, or any oth
- er consequence of using this feed.\nSources: https://www.extractionmeeting
- .org/Extraction2025/Extraction2025/Copper2025/default.aspx\, https://metso
- c.org/events-posts/extraction-2025/
+ aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni-Co 2025 (extrac
+ tion-2025)\nCo-located series: extraction\, copper\, ni-co\, extraction-cr
+ oss-cutting\nCo-located URL: https://www.extractionmeeting.org/Extraction2
+ 025/Extraction2025/default.aspx\nDisclaimer: This calendar makes existing 
+ public conference information easier to access. It may be incomplete\, out
+ dated\, or wrong. Always verify important dates and details against the of
+ ficial conference source. The maintainer is not responsible for missing up
+ dates\, incorrect information\, missed deadlines\, travel costs\, registra
+ tion decisions\, or any other consequence of using this feed.\nSources: ht
+ tps://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/d
+ efault.aspx\, https://metsoc.org/events-posts/extraction-2025/\, https://w
+ ww.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overv
+ iew/\, https://nominatim.openstreetmap.org/search?format=jsonv2&street=559
+ 4%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=Arizona&cou
+ ntry=United%20States&postalcode=85226
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-event@conference-calendars
@@ -266,7 +336,12 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
-LOCATION:Sheraton Grand at Wild Horse Pass\, Phoenix\, US
+LOCATION:Sheraton Grand at Wild Horse Pass\, 5594 W Wild Horse Pass Blvd\, 
+ Phoenix\, Arizona\, USA\, 85226\, Phoenix\, US
+GEO:33.2665969;-111.9917321
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2
  025/default.aspx
 DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
@@ -274,14 +349,23 @@ DESCRIPTION:Series: International Copper Conference\nKind: conference\nCate
  ral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallurgy\, pr
  ocess-control\, recycling\, environmental-control\, acid-plants\nWebsite: 
  https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025
- /default.aspx\nDisclaimer: This calendar makes existing public conference 
- information easier to access. It may be incomplete\, outdated\, or wrong. 
- Always verify important dates and details against the official conference 
- source. The maintainer is not responsible for missing updates\, incorrect 
- information\, missed deadlines\, travel costs\, registration decisions\, o
- r any other consequence of using this feed.\nSources: https://www.extracti
- onmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx\, http
- s://metsoc.org/events-posts/extraction-2025/
+ /default.aspx\nAddress: 5594 W Wild Horse Pass Blvd\, Phoenix\, Arizona\, 
+ USA\, 85226\nCoordinates: 33.2665969\, -111.9917321\nCo-located group: Ext
+ raction 2025 + Copper 2025 + Ni-Co 2025 (extraction-2025)\nCo-located seri
+ es: extraction\, copper\, ni-co\, extraction-cross-cutting\nCo-located URL
+ : https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.
+ aspx\nDisclaimer: This calendar makes existing public conference informati
+ on easier to access. It may be incomplete\, outdated\, or wrong. Always ve
+ rify important dates and details against the official conference source. T
+ he maintainer is not responsible for missing updates\, incorrect informati
+ on\, missed deadlines\, travel costs\, registration decisions\, or any oth
+ er consequence of using this feed.\nSources: https://www.extractionmeeting
+ .org/Extraction2025/Extraction2025/Copper2025/default.aspx\, https://metso
+ c.org/events-posts/extraction-2025/\, https://www.marriott.com/en-us/hotel
+ s/phxwp-sheraton-grand-at-wild-horse-pass/overview/\, https://nominatim.op
+ enstreetmap.org/search?format=jsonv2&street=5594%20West%20Wild%20Horse%20P
+ ass%20Boulevard&city=Chandler&state=Arizona&country=United%20States&postal
+ code=85226
 END:VEVENT
 BEGIN:VEVENT
 UID:copper-2025-11-16-free-proceedings-access-2025-12-31@conference-calenda
@@ -300,6 +384,9 @@ X-CONFERENCE-SERIES:International Copper Conference
 X-CONFERENCE-SERIES-SLUG:copper
 X-CONFERENCE-DOMAIN:metallurgy
 X-CONFERENCE-COUNTRY:US
+X-CONFERENCE-COLOCATED-GROUP:extraction-2025
+X-CONFERENCE-COLOCATED-SERIES:extraction,copper,ni-co,extraction-cross-cutt
+ ing
 URL:https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2
  025/default.aspx
 DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
@@ -308,13 +395,20 @@ DESCRIPTION:Series: International Copper Conference\nEvent: 12th Internatio
  \, mineral-processing\, pyrometallurgy\, hydrometallurgy\, electrometallur
  gy\, process-control\, recycling\, environmental-control\, acid-plants\nWe
  bsite: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Cop
- per2025/default.aspx\nDisclaimer: This calendar makes existing public conf
- erence information easier to access. It may be incomplete\, outdated\, or 
- wrong. Always verify important dates and details against the official conf
- erence source. The maintainer is not responsible for missing updates\, inc
- orrect information\, missed deadlines\, travel costs\, registration decisi
- ons\, or any other consequence of using this feed.\nSources: https://www.e
- xtractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
- \, https://metsoc.org/events-posts/extraction-2025/
+ per2025/default.aspx\nCo-located group: Extraction 2025 + Copper 2025 + Ni
+ -Co 2025 (extraction-2025)\nCo-located series: extraction\, copper\, ni-co
+ \, extraction-cross-cutting\nCo-located URL: https://www.extractionmeeting
+ .org/Extraction2025/Extraction2025/default.aspx\nDisclaimer: This calendar
+  makes existing public conference information easier to access. It may be 
+ incomplete\, outdated\, or wrong. Always verify important dates and detail
+ s against the official conference source. The maintainer is not responsibl
+ e for missing updates\, incorrect information\, missed deadlines\, travel 
+ costs\, registration decisions\, or any other consequence of using this fe
+ ed.\nSources: https://www.extractionmeeting.org/Extraction2025/Extraction2
+ 025/Copper2025/default.aspx\, https://metsoc.org/events-posts/extraction-2
+ 025/\, https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-
+ horse-pass/overview/\, https://nominatim.openstreetmap.org/search?format=j
+ sonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&s
+ tate=Arizona&country=United%20States&postalcode=85226
 END:VEVENT
 END:VCALENDAR

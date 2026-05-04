@@ -33,13 +33,18 @@ EVENT_KEYS = {
     "city",
     "country",
     "venue",
+    "address",
+    "latitude",
+    "longitude",
     "url",
     "status",
+    "co_located_with",
     "sources",
     "deadlines",
 }
 DEADLINE_KEYS = {"type", "name", "date", "url", "status", "sources", "history"}
 DEADLINE_HISTORY_KEYS = {"date", "announced", "url", "note"}
+CO_LOCATED_KEYS = {"group", "name", "url", "series"}
 SOURCE_KEYS = {"type", "url", "scope", "note", "last_checked", "last_updated"}
 STATUS_MAP = {
     "confirmed": "CONFIRMED",
@@ -70,6 +75,10 @@ class CalendarItem:
     location: str = ""
     url: str = ""
     description: str = ""
+    latitude: float | None = None
+    longitude: float | None = None
+    co_location_group: str = ""
+    co_location_series: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -77,6 +86,22 @@ class Feed:
     path: Path
     name: str
     items: tuple[CalendarItem, ...]
+
+
+@dataclass(frozen=True)
+class CoLocation:
+    group: str = ""
+    name: str = ""
+    url: str = ""
+    series: tuple[str, ...] = ()
+
+    @property
+    def description(self) -> str:
+        if not self.group:
+            return ""
+        if self.name:
+            return f"{self.name} ({self.group})"
+        return self.group
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -172,7 +197,14 @@ def items_for_event(
     country = require_str(path, event, "country", f"event {event_index}").lower()
     city = optional_str(event, "city")
     venue = optional_str(event, "venue")
-    location = ", ".join(part for part in (venue, city, country.upper()) if part)
+    address = optional_str(event, "address")
+    latitude = optional_coordinate(path, event, "latitude", f"event {event_index}", minimum=-90, maximum=90)
+    longitude = optional_coordinate(path, event, "longitude", f"event {event_index}", minimum=-180, maximum=180)
+    if (latitude is None) != (longitude is None):
+        raise CalendarBuildError(f"{path}: event {event_index} latitude and longitude must be provided together")
+    co_location = optional_co_location(path, event, f"event {event_index}")
+    coordinates = format_coordinates(latitude, longitude)
+    location = ", ".join(part for part in (venue, address, city, country.upper()) if part)
     url = optional_str(event, "url") or website
     status = normalize_status(path, optional_str(event, "status") or "confirmed", f"event {event_index}")
     event_sources = unique_values((*series_sources, *source_urls(path, event, f"event {event_index}")))
@@ -183,6 +215,11 @@ def items_for_event(
             ("Categories", ", ".join(categories)),
             ("Topics", ", ".join(topics)),
             ("Website", url),
+            ("Address", address),
+            ("Coordinates", coordinates),
+            ("Co-located group", co_location.description),
+            ("Co-located series", ", ".join(co_location.series)),
+            ("Co-located URL", co_location.url),
             ("Disclaimer", DISCLAIMER),
             ("Sources", ", ".join(event_sources)),
         ]
@@ -204,6 +241,10 @@ def items_for_event(
         location=location,
         url=url,
         description=description,
+        latitude=latitude,
+        longitude=longitude,
+        co_location_group=co_location.group,
+        co_location_series=co_location.series,
     )
 
     items = [event_item]
@@ -248,6 +289,9 @@ def items_for_event(
                 ("Topics", ", ".join(topics)),
                 ("Website", deadline_url),
                 ("Deadline history", history_summary),
+                ("Co-located group", co_location.description),
+                ("Co-located series", ", ".join(co_location.series)),
+                ("Co-located URL", co_location.url),
                 ("Disclaimer", DISCLAIMER),
                 ("Sources", ", ".join(deadline_sources)),
             ]
@@ -269,6 +313,8 @@ def items_for_event(
                 location="",
                 url=deadline_url,
                 description=deadline_description,
+                co_location_group=co_location.group,
+                co_location_series=co_location.series,
             )
         )
 
@@ -283,11 +329,14 @@ def build_feeds(items: Iterable[CalendarItem], output_dir: Path) -> list[Feed]:
     by_category: dict[str, list[CalendarItem]] = {}
     by_country: dict[str, list[CalendarItem]] = {}
     by_domain: dict[str, list[CalendarItem]] = {}
+    by_group: dict[str, list[CalendarItem]] = {}
 
     for item in items_tuple:
         by_series.setdefault(item.series_slug, []).append(item)
         by_country.setdefault(item.country, []).append(item)
         by_domain.setdefault(item.domain, []).append(item)
+        if item.co_location_group:
+            by_group.setdefault(item.co_location_group, []).append(item)
         for category in item.categories:
             by_category.setdefault(category, []).append(item)
 
@@ -307,6 +356,8 @@ def build_feeds(items: Iterable[CalendarItem], output_dir: Path) -> list[Feed]:
         )
     for domain, feed_items in sorted(by_domain.items()):
         feeds.append(Feed(output_dir / "domain" / f"{domain}.ics", f"Conference Domain: {domain}", tuple(feed_items)))
+    for group, feed_items in sorted(by_group.items()):
+        feeds.append(Feed(output_dir / "group" / f"{group}.ics", f"Co-located Group: {group}", tuple(feed_items)))
 
     return feeds
 
@@ -348,6 +399,12 @@ def render_event(item: CalendarItem) -> list[str]:
     ]
     if item.location:
         lines.append(f"LOCATION:{escape_text(item.location)}")
+    if item.latitude is not None and item.longitude is not None:
+        lines.append(f"GEO:{item.latitude:.7f};{item.longitude:.7f}")
+    if item.co_location_group:
+        lines.append(f"X-CONFERENCE-COLOCATED-GROUP:{escape_text(item.co_location_group)}")
+    if item.co_location_series:
+        lines.append(f"X-CONFERENCE-COLOCATED-SERIES:{','.join(escape_text(slug) for slug in item.co_location_series)}")
     if item.url:
         lines.append(f"URL:{escape_text(item.url)}")
     if item.description:
@@ -461,6 +518,21 @@ def source_urls(path: Path, data: dict, label: str) -> tuple[str, ...]:
     return tuple(urls)
 
 
+def optional_co_location(path: Path, data: dict, label: str) -> CoLocation:
+    value = data.get("co_located_with")
+    if value is None:
+        return CoLocation()
+    if not isinstance(value, dict):
+        raise CalendarBuildError(f"{path}: {label} field 'co_located_with' must be a YAML object")
+    validate_unknown_keys(path, value, CO_LOCATED_KEYS, f"{label} co_located_with")
+
+    group = require_slug(path, value, "group", f"{label} co_located_with")
+    name = optional_str(value, "name")
+    url = optional_str(value, "url")
+    series = optional_slug_list(path, value, "series")
+    return CoLocation(group=group, name=name, url=url, series=series)
+
+
 def deadline_history(path: Path, deadline: dict, label: str) -> tuple[str, tuple[str, ...]]:
     value = deadline.get("history", [])
     if not isinstance(value, list):
@@ -520,6 +592,34 @@ def optional_date(path: Path, data: dict, key: str, label: str) -> date | None:
     if key not in data:
         return None
     return require_date(path, data, key, label)
+
+
+def optional_coordinate(
+    path: Path,
+    data: dict,
+    key: str,
+    label: str,
+    *,
+    minimum: float,
+    maximum: float,
+) -> float | None:
+    if key not in data:
+        return None
+    value = data[key]
+    if not isinstance(value, int | float):
+        raise CalendarBuildError(f"{path}: {label} field {key!r} must be a number")
+    coordinate = float(value)
+    if not minimum <= coordinate <= maximum:
+        raise CalendarBuildError(f"{path}: {label} field {key!r} must be between {minimum} and {maximum}")
+    return coordinate
+
+
+def format_coordinates(latitude: float | None, longitude: float | None) -> str:
+    if latitude is None and longitude is None:
+        return ""
+    if latitude is None or longitude is None:
+        return "incomplete"
+    return f"{latitude:.7f}, {longitude:.7f}"
 
 
 def normalize_status(path: Path, status: str, label: str) -> str:

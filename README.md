@@ -7,6 +7,18 @@ File-based conference tracking with generated iCalendar feeds.
 - International Copper Conference:
   `conferences/metallurgy/copper.yaml`
   - Recorded event: Copper 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+- Extraction Meeting & Exhibition:
+  `conferences/metallurgy/extraction.yaml`
+  - Recorded event: Extraction 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+- International Symposium on Nickel and Cobalt:
+  `conferences/metallurgy/ni-co.yaml`
+  - Recorded event: Ni-Co 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+- Cross-Cutting Symposia at Extraction:
+  `conferences/metallurgy/extraction-cross-cutting.yaml`
+  - Recorded event: Cross-Cutting Symposia at Extraction 2025, November 16-20, 2025, Phoenix, Arizona, USA.
+
+The 2025 Extraction, Copper, Ni-Co, and Cross-Cutting records are linked through
+the `extraction-2025` co-located event group.
 
 Tracked discovery sources:
 
@@ -24,6 +36,8 @@ After GitHub Pages is enabled for GitHub Actions, consumers can subscribe to:
 https://<org-or-user>.github.io/<repo>/calendars/all.ics
 https://<org-or-user>.github.io/<repo>/calendars/category/<category>.ics
 https://<org-or-user>.github.io/<repo>/calendars/country/<country>.ics
+https://<org-or-user>.github.io/<repo>/calendars/domain/<domain>.ics
+https://<org-or-user>.github.io/<repo>/calendars/group/<group>.ics
 https://<org-or-user>.github.io/<repo>/calendars/series/<series>.ics
 ```
 
@@ -62,6 +76,7 @@ protection guidance.
 - `public/calendars/category/<category>.ics` contains every series tagged with that category.
 - `public/calendars/country/<country>.ics` contains events and deadlines for one event country.
 - `public/calendars/domain/<domain>.ics` contains everything under one source domain folder.
+- `public/calendars/group/<group>.ics` contains co-located events and their deadlines.
 
 Use `templates/conference-series.yaml` as the starting point for a new series.
 Use `templates/source-page.yaml` for overview pages that list multiple
@@ -95,6 +110,11 @@ Required event fields:
 - `end`: last event day, `YYYY-MM-DD`.
 - `country`: ISO-style country code used to generate country calendars.
 
+Optional event fields include `city`, `venue`, `address`, `latitude`,
+`longitude`, `url`, `status`, `sources`, `deadlines`, and `co_located_with`.
+Coordinates must be decimal degrees and `latitude` and `longitude` must be
+provided together.
+
 Required deadline fields:
 
 - `type`: lowercase deadline kind, for example `papers`, `posters`, `registration`.
@@ -127,6 +147,10 @@ provenance:
 - Use deadline-level `history` lists to record deadline changes and extension
   announcement URLs. Future scanning agents can use those URLs as hints, but the
   generator itself only uses the top-level deadline `date`.
+- Use event-level `co_located_with` when several conference series share one
+  venue/date block, such as Extraction 2025, Copper 2025, Ni-Co 2025, and
+  Cross-Cutting Symposia. This generates `group/<group>.ics` without merging the
+  individual series feeds.
 - Use `sources/<domain>/...` YAML files for overview pages that list many related
   conferences. These files are discovery inputs for maintainers, not generated
   calendar events by themselves.
@@ -136,7 +160,9 @@ Recommended source `type` values are:
 - `series-home`: stable series or society page.
 - `event-site`: site for one edition.
 - `cfp`: call for papers or submission page.
+- `geocode`: page or API URL used for latitude and longitude.
 - `overview`: multi-conference listing.
+- `venue`: venue page used for address or location details.
 
 ### Local Checks
 

@@ -2,12 +2,32 @@
   {
     "name": "All Conferences",
     "path": "all.ics",
-    "items": 9
+    "items": 28
   },
   {
     "name": "Conference Series: copper",
     "path": "series/copper.ics",
     "items": 9
+  },
+  {
+    "name": "Conference Series: extraction",
+    "path": "series/extraction.ics",
+    "items": 5
+  },
+  {
+    "name": "Conference Series: extraction-cross-cutting",
+    "path": "series/extraction-cross-cutting.ics",
+    "items": 6
+  },
+  {
+    "name": "Conference Series: ni-co",
+    "path": "series/ni-co.ics",
+    "items": 8
+  },
+  {
+    "name": "Conference Category: cobalt",
+    "path": "category/cobalt.ics",
+    "items": 8
   },
   {
     "name": "Conference Category: copper",
@@ -17,21 +37,36 @@
   {
     "name": "Conference Category: extractive-metallurgy",
     "path": "category/extractive-metallurgy.ics",
-    "items": 9
+    "items": 28
   },
   {
     "name": "Conference Category: metallurgy",
     "path": "category/metallurgy.ics",
-    "items": 9
+    "items": 28
+  },
+  {
+    "name": "Conference Category: nickel",
+    "path": "category/nickel.ics",
+    "items": 8
+  },
+  {
+    "name": "Conference Category: sustainability",
+    "path": "category/sustainability.ics",
+    "items": 6
   },
   {
     "name": "Conference Country: US",
     "path": "country/us.ics",
-    "items": 9
+    "items": 28
   },
   {
     "name": "Conference Domain: metallurgy",
     "path": "domain/metallurgy.ics",
-    "items": 9
+    "items": 28
+  },
+  {
+    "name": "Co-located Group: extraction-2025",
+    "path": "group/extraction-2025.ics",
+    "items": 28
   }
 ]
