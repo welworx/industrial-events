@@ -953,6 +953,11 @@ def render_conference_html(
         "      th, td { border: 1px solid #d7dde4; padding: 8px 10px; text-align: left; vertical-align: top; }",
         "      th { background: #f3f5f7; }",
         "      .notice { border-left: 4px solid #d97706; background: #fff7ed; padding: 12px 16px; }",
+        "      .status-badge { border: 1px solid; border-radius: 6px; display: inline-block; font-size: 0.78rem; "
+        "font-weight: 700; line-height: 1; margin: 0 6px 4px 0; padding: 4px 7px; }",
+        "      .status-open { background: #dcfce7; border-color: #86efac; color: #166534; }",
+        "      .status-closed { background: #f3f4f6; border-color: #d1d5db; color: #4b5563; }",
+        "      .status-tbd { background: #fef3c7; border-color: #fcd34d; color: #92400e; }",
         "    </style>",
         "  </head>",
         "  <body>",
@@ -1338,12 +1343,20 @@ def submission_status_html_cell(
 ) -> str:
     open_deadlines = tuple(deadline for deadline in deadlines if deadline.start >= reference_date)
     if open_deadlines:
-        return "Open: " + "<br>".join(
-            html_link(submission_deadline_label(deadline, conferences), deadline.url) for deadline in open_deadlines
+        return (
+            status_badge("Open", "open")
+            + "<br>"
+            + "<br>".join(
+                html_link(submission_deadline_label(deadline, conferences), deadline.url) for deadline in open_deadlines
+            )
         )
     if deadlines or event_start < reference_date:
-        return "Closed"
-    return "TBD"
+        return status_badge("Closed", "closed")
+    return status_badge("TBD", "tbd")
+
+
+def status_badge(label: str, status: str) -> str:
+    return f'<span class="status-badge status-{escape_html(status)}">{escape_html(label)}</span>'
 
 
 def submission_deadline_label(deadline: CalendarItem, conferences: tuple[CalendarItem, ...]) -> str:

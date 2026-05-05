@@ -106,6 +106,12 @@ class BuildCalendarTests(unittest.TestCase):
             '<a href="https://example.org/demo-2027">Demo Conference 2027</a>',
             conference_html,
         )
+        self.assertIn('<span class="status-badge status-open">Open</span>', conference_html)
+        self.assertIn('<span class="status-badge status-tbd">TBD</span>', conference_html)
+        self.assertIn(
+            '<span class="status-badge status-closed">Closed</span>',
+            build_calendars.submission_status_html_cell((), (), Date(2025, 1, 1), Date(2026, 1, 1)),
+        )
         self.assertIn("# Conferences", conference_markdown)
         self.assertIn("## Submission Opportunities", conference_markdown)
         self.assertIn("## Upcoming Events", conference_markdown)
