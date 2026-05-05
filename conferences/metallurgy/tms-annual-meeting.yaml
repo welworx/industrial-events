@@ -1,0 +1,135 @@
+series: TMS Annual Meeting & Exhibition
+slug: tms-annual-meeting
+website: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+categories:
+  - metallurgy
+  - materials
+  - pyrometallurgy
+topics:
+  - materials-science
+  - minerals
+  - metals
+  - pyrometallurgy
+
+sources:
+  - type: series-home
+    scope: series
+    url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+    last_checked: "2026-05-05"
+    note: Official TMS Annual Meeting page with upcoming and past annual meetings.
+  - type: overview
+    scope: series
+    url: https://www.pyrometallurgy.co.za/Conferences/
+    last_checked: "2026-05-05"
+    last_updated: "2026-02-24"
+    note: Pyrometallurgical conference listing; TMS rows list event-specific technical scopes.
+
+events:
+  - name: TMS 2026 Annual Meeting & Exhibition (Off Gas Cleaning and Control)
+    start: "2026-03-15"
+    end: "2026-03-19"
+    timezone: America/Los_Angeles
+    city: San Diego
+    country: US
+    venue: San Diego Convention Center and Hilton San Diego Bayfront
+    url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
+        last_checked: "2026-05-05"
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
+        note: "Pyrometallurgical listing scope: Off Gas Cleaning and Control."
+  - name: TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)
+    start: "2027-03-14"
+    end: "2027-03-18"
+    timezone: America/New_York
+    city: Orlando
+    country: US
+    venue: Orlando World Center Marriott
+    url: https://www.tms.org/TMS2027
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.tms.org/TMS2027
+        last_checked: "2026-05-05"
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
+        note: "Pyrometallurgical listing scope: Sulfide Smelting (TMS)."
+    deadlines:
+      - type: symposium-proposal
+        name: Symposium proposals due
+        date: "2026-01-31"
+        url: https://www.tms.org/TMS2027
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.tms.org/TMS2027
+            last_checked: "2026-05-05"
+  - name: TMS 2028 Annual Meeting & Exhibition (REWAS)
+    start: "2028-03-12"
+    end: "2028-03-16"
+    timezone: America/Los_Angeles
+    city: Las Vegas
+    country: US
+    venue: MGM Grand Las Vegas Hotel & Casino
+    url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+    status: confirmed
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+        last_checked: "2026-05-05"
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
+        note: "Pyrometallurgical listing scope: REWAS (TMS)."
+    deadlines:
+      - type: symposium-proposal
+        name: Symposium proposals due
+        date: "2027-01-31"
+        url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+        status: confirmed
+        sources:
+          - type: event-site
+            scope: deadline
+            url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+            last_checked: "2026-05-05"
+  - name: TMS 2029 Annual Meeting & Exhibition (NiCo scope)
+    start: "2029-03-18"
+    end: "2029-03-22"
+    timezone: America/New_York
+    city: Orlando
+    country: US
+    venue: Orlando World Center Marriott
+    url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+    status: tentative
+    sources:
+      - type: event-site
+        scope: event
+        url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+        last_checked: "2026-05-05"
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
+        note: "Pyrometallurgical listing scope: NiCo (TMS); same row also notes PbZn (MetSoc)."
+  - name: TMS 2030 Annual Meeting & Exhibition (Sulfide Smelting)
+    url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+    country: US
+    status: tentative
+    sources:
+      - type: overview
+        scope: event
+        url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
+        note: Lists Sulfide Smelting (TMS) in 2030, USA, without usable meeting dates.

@@ -2,7 +2,7 @@
   {
     "name": "All Conferences",
     "path": "all.ics",
-    "items": 32
+    "items": 38
   },
   {
     "name": "Conference Series: copper",
@@ -25,6 +25,11 @@
     "items": 8
   },
   {
+    "name": "Conference Series: tms-annual-meeting",
+    "path": "series/tms-annual-meeting.ics",
+    "items": 6
+  },
+  {
     "name": "Conference Category: cobalt",
     "path": "category/cobalt.ics",
     "items": 8
@@ -40,14 +45,24 @@
     "items": 32
   },
   {
+    "name": "Conference Category: materials",
+    "path": "category/materials.ics",
+    "items": 6
+  },
+  {
     "name": "Conference Category: metallurgy",
     "path": "category/metallurgy.ics",
-    "items": 32
+    "items": 38
   },
   {
     "name": "Conference Category: nickel",
     "path": "category/nickel.ics",
     "items": 8
+  },
+  {
+    "name": "Conference Category: pyrometallurgy",
+    "path": "category/pyrometallurgy.ics",
+    "items": 6
   },
   {
     "name": "Conference Category: sustainability",
@@ -72,7 +87,7 @@
   {
     "name": "Conference Country: US",
     "path": "country/us.ics",
-    "items": 28
+    "items": 34
   },
   {
     "name": "Conference Country: ZA",
@@ -82,7 +97,7 @@
   {
     "name": "Conference Domain: metallurgy",
     "path": "domain/metallurgy.ics",
-    "items": 32
+    "items": 38
   },
   {
     "name": "Co-located Group: extraction-2025",

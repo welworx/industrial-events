@@ -10,6 +10,7 @@ sources:
   - type: series-home
     scope: series
     url: https://e.test/s
+    last_checked: "2026-08-01"
 
 events:
   - name: Demo Conference 2027
@@ -33,6 +34,7 @@ events:
       - type: event-site
         scope: event
         url: https://e.test/e
+        last_checked: "2026-08-15"
     deadlines:
       - type: papers
         name: Paper submission deadline
@@ -50,6 +52,7 @@ events:
           - type: cfp
             scope: deadline
             url: https://e.test/cfp
+            last_checked: "2026-10-20"
   - name: Demo Conference 2028
     url: https://example.org/demo-2028
     status: estimated
