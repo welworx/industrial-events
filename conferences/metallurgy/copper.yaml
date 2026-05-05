@@ -58,6 +58,7 @@ events:
       - type: event-site
         scope: event
         url: https://www.mmij.or.jp/events/1907.html
+        last_checked: "2026-05-05"
       - type: event-site
         scope: event
         url: https://www.mmij.or.jp/mmij-news/2016-01-04-235
@@ -83,6 +84,7 @@ events:
       - type: event-site
         scope: event
         url: https://com.metsoc.org/past-com-events/
+        last_checked: "2026-05-05"
       - type: event-listing
         scope: event
         url: https://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html
@@ -108,6 +110,7 @@ events:
       - type: event-site
         scope: event
         url: https://copper2022.cl/
+        last_checked: "2026-05-05"
       - type: event-site
         scope: event
         url: https://copper2022.cl/2021/02/05/organizers-committees/
@@ -145,6 +148,7 @@ events:
       - type: event-site
         scope: event
         url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+        last_checked: "2026-05-05"
       - type: event-site
         scope: event
         url: https://metsoc.org/events-posts/extraction-2025/
@@ -239,6 +243,7 @@ events:
       - type: overview
         scope: event
         url: https://www.pyrometallurgy.co.za/Conferences/
+        last_checked: "2026-05-05"
         note: Lists Copper 2028 for 3-7 September 2028 in Cape Town, South Africa; venue not listed.
       - type: event-site
         scope: event

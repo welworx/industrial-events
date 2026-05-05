@@ -15,6 +15,7 @@ sources:
   - type: series-home
     scope: series
     url: https://example.org
+    last_checked: "2026-05-05"
     note: Stable series site with links to multiple editions.
 
 events:
@@ -41,6 +42,7 @@ events:
       - type: event-site
         scope: event
         url: https://example.org/2027
+        last_checked: "2026-05-05"
       - type: geocode
         scope: event
         url: https://example.org/geocode/example-convention-center
@@ -63,6 +65,7 @@ events:
           - type: cfp
             scope: deadline
             url: https://example.org/2027/cfp-extension
+            last_checked: "2026-05-05"
       - type: registration
         name: Early registration deadline
         date: "2027-04-28"
