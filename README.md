@@ -4,8 +4,9 @@
 [![GitHub Pages](https://img.shields.io/badge/site-GitHub%20Pages-blue)](https://welworx.github.io/conferences/)
 [![RSS](https://img.shields.io/badge/feed-RSS-orange)](https://welworx.github.io/conferences/events.xml)
 [![iCalendar](https://img.shields.io/badge/calendar-iCalendar-green)](https://welworx.github.io/conferences/calendars/all.ics)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-File-based conference tracking with generated iCalendar feeds.
+Curated conference dataset with structured metadata, generated iCalendar feeds, and RSS updates.
 
 ## Current Submission Opportunities
 
@@ -145,19 +146,13 @@ Some clients accept `webcal://` URLs. If needed, replace `https://` with
 
 The matching generated files are stored under `public/`.
 
-### Disclaimer
+## Disclaimer
 
-This project makes existing public conference information easier to access. It
-does not guarantee that updates, deadline extensions, cancellations, or other
-changes are captured. Information can be incomplete, outdated, or wrong. Always
-verify important dates and details against the official conference source.
+This project aggregates publicly available conference information to improve accessibility. It does not guarantee completeness, accuracy, or timeliness. Information may be incomplete, outdated, or incorrect. Always verify important details with official conference sources.
 
-The maintainer is not responsible for missing updates, incorrect information,
-missed deadlines, travel costs, registration decisions, or any other consequence
-of using these files or calendar feeds.
+The maintainer is not responsible for any consequences resulting from the use of this data, including missed deadlines, incorrect information, or related costs.
 
-Generated calendar feeds include this disclaimer in their calendar metadata and
-event descriptions.
+Generated calendar feeds include this disclaimer in their metadata and event descriptions.
 
 ## Contributing
 
@@ -303,9 +298,8 @@ docs are stale after a YAML change.
 
 ## License
 
-A license file is recommended before publishing this as a public repository or
-accepting contributions. Without a license, default copyright rules apply and
-reuse rights are unclear beyond GitHub's platform permissions.
+This repository is licensed under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license.
 
-No license has been selected yet. Choose the intended license first, then add it
-as a root-level `LICENSE` file and summarize it here.
+You are free to share and adapt the content, including for commercial purposes, as long as appropriate credit is given.
+
+See the LICENSE file for the full text: https://creativecommons.org/licenses/by/4.0/legalcode
