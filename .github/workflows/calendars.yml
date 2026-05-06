@@ -28,6 +28,10 @@ jobs:
         run: |
           git diff --exit-code -- README.md public/conferences.md public/conferences
           untracked="$(git ls-files --others --exclude-standard -- README.md public/conferences.md public/conferences)"
+          if [ -f public/conferences.md ]; then
+            echo "Legacy generated doc still exists: public/conferences.md"
+            exit 1
+          fi
           if [ -n "$untracked" ]; then
             echo "Untracked generated docs:"
             echo "$untracked"

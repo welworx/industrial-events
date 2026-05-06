@@ -21,7 +21,7 @@ TEST_UPDATED_AT = datetime(2026, 5, 4, tzinfo=UTC)
 def clean_test_output() -> None:
     for path in TEST_SITE_ROOT.rglob("*"):
         if path.is_file() and (
-            path.name in {"events.xml", "index.html", "index.json"} or path.suffix in {".ics", ".md"}
+            path.name in {"events.xml", "index.html", "index.json"} or path.suffix in {".ics", ".html", ".md"}
         ):
             try:
                 path.unlink()
@@ -68,8 +68,11 @@ class BuildCalendarTests(unittest.TestCase):
         self.assertTrue((output / "country" / "pt.ics").exists())
         self.assertTrue((output / "domain" / "software.ics").exists())
         self.assertTrue((output / "group" / "demo-events-2027.ics").exists())
-        self.assertTrue((output.parent / "conferences.md").exists())
+        self.assertFalse((output.parent / "conferences.md").exists())
+        self.assertTrue((output.parent / "conferences" / "all.md").exists())
+        self.assertTrue((output.parent / "conferences" / "all.html").exists())
         self.assertTrue((output.parent / "conferences" / "series" / "demo-conf.md").exists())
+        self.assertTrue((output.parent / "conferences" / "series" / "demo-conf.html").exists())
         self.assertTrue((output.parent / "conferences" / "category" / "software.md").exists())
         self.assertTrue((output.parent / "conferences" / "domain" / "software.md").exists())
         self.assertTrue((output.parent / "conferences" / "group" / "demo-events-2027.md").exists())
@@ -77,21 +80,38 @@ class BuildCalendarTests(unittest.TestCase):
         self.assertTrue((output.parent / "events.xml").exists())
         self.assertTrue((output.parent / "index.html").exists())
         all_calendar = (output / "all.ics").read_text(encoding="utf-8")
-        conference_markdown = (output.parent / "conferences.md").read_text(encoding="utf-8")
+        conference_markdown = (output.parent / "conferences" / "all.md").read_text(encoding="utf-8")
+        conference_html = (output.parent / "conferences" / "all.html").read_text(encoding="utf-8")
         series_markdown = (output.parent / "conferences" / "series" / "demo-conf.md").read_text(encoding="utf-8")
         group_markdown = (output.parent / "conferences" / "group" / "demo-events-2027.md").read_text(encoding="utf-8")
         rss_feed = (output.parent / "events.xml").read_text(encoding="utf-8")
         site_index = (output.parent / "index.html").read_text(encoding="utf-8")
         unfolded_calendar = unfold_calendar(all_calendar)
         self.assertIn('href="calendars/all.ics"', site_index)
-        self.assertIn('href="conferences.md"', site_index)
-        self.assertIn('href="conferences/series/demo-conf.md"', site_index)
-        self.assertIn('href="conferences/category/software.md"', site_index)
-        self.assertIn('href="conferences/domain/software.md"', site_index)
-        self.assertIn('href="conferences/group/demo-events-2027.md"', site_index)
+        self.assertIn('href="https://github.com/welworx/conferences"', site_index)
+        self.assertIn('href="conferences/all.html"', site_index)
+        self.assertNotIn('href="conferences/all.md"', site_index)
+        self.assertNotIn('href="conferences.md"', site_index)
+        self.assertIn('href="conferences/series/demo-conf.html"', site_index)
+        self.assertIn('href="conferences/category/software.html"', site_index)
+        self.assertIn('href="conferences/domain/software.html"', site_index)
+        self.assertIn('href="conferences/group/demo-events-2027.html"', site_index)
         self.assertNotIn('href="conferences/country/pt.md"', site_index)
         self.assertIn('href="events.xml"', site_index)
         self.assertIn("All Conferences", site_index)
+        self.assertIn("<!doctype html>", conference_html)
+        self.assertIn('<h2 id="submission-opportunities">Submission Opportunities</h2>', conference_html)
+        self.assertIn("<table>", conference_html)
+        self.assertIn(
+            '<a href="https://example.org/demo-2027">Demo Conference 2027</a>',
+            conference_html,
+        )
+        self.assertIn('<span class="status-badge status-open">Open</span>', conference_html)
+        self.assertIn('<span class="status-badge status-tbd">TBD</span>', conference_html)
+        self.assertIn(
+            '<span class="status-badge status-closed">Closed</span>',
+            build_calendars.submission_status_html_cell((), (), Date(2025, 1, 1), Date(2026, 1, 1)),
+        )
         self.assertIn("# Conferences", conference_markdown)
         self.assertIn("## Submission Opportunities", conference_markdown)
         self.assertIn("## Upcoming Events", conference_markdown)
@@ -154,6 +174,10 @@ class BuildCalendarTests(unittest.TestCase):
         )
         self.assertIn("## Current Submission Opportunities", readme_opportunities)
         self.assertIn("generated:submission-opportunities:start", readme_opportunities)
+        self.assertIn(
+            "https://welworx.github.io/conferences/conferences/all.html#submission-opportunities",
+            readme_opportunities,
+        )
         self.assertIn(
             "| [Paper submission: 2026-11-15](<https://example.org/demo-2027>) | "
             "[Demo Conference 2027](<https://example.org/demo-2027>) | "
