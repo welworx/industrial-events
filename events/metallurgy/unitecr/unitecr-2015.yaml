@@ -1,0 +1,19 @@
+name: UNITECR 2015, Unified International Technical Conference on Refractories
+event_types:
+- conference
+start: '2015-09-15'
+end: '2015-09-18'
+timezone: Europe/Vienna
+city: Vienna
+country: AT
+url: http://www.unitecr2015.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.unitecr2015.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
