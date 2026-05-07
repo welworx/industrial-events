@@ -1,0 +1,21 @@
+series: European Metallurgical Conference
+slug: emc
+website: https://gdmb.de/en/
+description: Recurring European Metallurgical Conference series.
+recurrence: recurring
+categories:
+- metallurgy
+topics:
+- non-ferrous-metallurgy
+- process-metallurgy
+- recycling
+sources:
+- type: series-home
+  scope: series
+  url: https://gdmb.de/en/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists EMC editions including 2019, 2021, and 2025.

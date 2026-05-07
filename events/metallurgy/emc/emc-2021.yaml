@@ -1,0 +1,19 @@
+name: EMC2021, 11th European Metallurgical Conference
+event_types:
+- conference
+start: '2021-06-27'
+end: '2021-06-30'
+timezone: Europe/Vienna
+city: Salzburg
+country: AT
+url: http://www.emc.gdmb.de
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.emc.gdmb.de
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
