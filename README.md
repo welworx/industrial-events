@@ -171,6 +171,11 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
+- **[METEC](<https://welworx.github.io/industrial-events/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
+  Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
+  ![frequency: 4 years](https://img.shields.io/badge/frequency-4%20years-blue)
+  **Next:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>)
+
 - **[MetPlant](<https://welworx.github.io/industrial-events/events/series/metplant.html>)** [↗](<https://www.ausimm.com>)
   Recurring AusIMM metallurgical plant design and operating strategies conference.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
@@ -247,40 +252,27 @@ No one-time events are tracked separately right now.
 
 - **[APCOM](<https://welworx.github.io/industrial-events/events/series/apcom.html>)** [↗](<https://apcom2021.com>)
   Recurring conference on applications of computers and operations research in the minerals industries.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[Cross-Cutting Symposia at Extraction](<https://welworx.github.io/industrial-events/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[European Academic Symposium on EAF Steelmaking](<https://welworx.github.io/industrial-events/events/series/eases.html>)** [↗](<https://www.eases.rwth-aachen.de/>)
   Recurring European academic symposium on electric arc furnace steelmaking.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[European Mineral Processing and Recycling Congress](<https://welworx.github.io/industrial-events/events/series/emprc.html>)** [↗](<https://www.emprc.gdmb.de>)
   Recurring European congress on mineral processing and recycling.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[Extraction Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx>)
   TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[Global Slag Conference](<https://welworx.github.io/industrial-events/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
   Recurring global conference on slag production, use, and markets.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 - **[International Symposium on Nickel and Cobalt](<https://welworx.github.io/industrial-events/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
   International symposium focused on nickel and cobalt processing, metallurgy, recycling, and battery-material topics.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
-
-- **[METEC](<https://welworx.github.io/industrial-events/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
-  Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
-  **Event:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>)
 
 - **[World Foundry Congress](<https://welworx.github.io/industrial-events/events/series/world-foundry-congress.html>)** [↗](<https://www.thewfo.com>)
   Recurring World Foundry Organization congress for foundry and casting technology.
-  ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
 <!-- generated:single-event-records:end -->
 

@@ -1,0 +1,28 @@
+name: METEC 2023, 11th International Metallurgical Trade Fair with Congresses
+event_types:
+- trade-fair
+- exhibition
+start: '2023-06-12'
+end: '2023-06-16'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.metec-tradefair.com/en/Program/Overview
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2023
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec
+sources:
+- type: event-site
+  scope: event
+  url: https://www.gifa.com/en/Media_News/Press/Press_Material/Press_releases/The_date_for_the_Bright_World_of_Metals_2023_has_been_set
+  last_checked: '2026-05-07'
+  note: Messe Dusseldorf announcement lists GIFA, METEC, THERMPROCESS, and NEWCAST in Dusseldorf from 12-16 June 2023.
+- type: event-site
+  scope: event
+  url: https://www.thermprocess-online.com/en/Media_News/Press/Press_Material/Press_releases/Facts_and_Figures_at_a_Glance
+  last_checked: '2026-05-07'
+  note: Official facts page identifies METEC 2023 as the 11th International Metallurgical Trade Fair with Congresses.

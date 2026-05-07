@@ -630,9 +630,11 @@ def render_readme_one_time_events(
                 [
                     f"- **{series_link}**{official_series_link(series)}",
                     f"  {series.description}",
-                    f"  {series_badges(series, series_items, series_undated, today)}",
                 ]
             )
+            badges = useful_single_event_badges(series, series_items, series_undated, today)
+            if badges:
+                lines.append(f"  {badges}")
             next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
             if next_event:
                 lines.append(f"  **Event:** {next_event}")
@@ -677,9 +679,11 @@ def render_readme_single_event_records(
                 [
                     f"- **{series_link}**{official_series_link(series)}",
                     f"  {series.description}",
-                    f"  {series_badges(series, series_items, series_undated, today)}",
                 ]
             )
+            badges = useful_single_event_badges(series, series_items, series_undated, today)
+            if badges:
+                lines.append(f"  {badges}")
             next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
             if next_event:
                 lines.append(f"  **Event:** {next_event}")
@@ -784,6 +788,18 @@ def series_badges(
     items_tuple = tuple(item for item in items if item.kind == "event")
     badges = [recurrence_badge(series.recurrence, (*items_tuple, *undated_events))]
     return " ".join(badges)
+
+
+def useful_single_event_badges(
+    series: SeriesMetadata,
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    reference_date: date,
+) -> str:
+    badges = series_badges(series, items, undated_events, reference_date)
+    if badges == shield_badge("recurrence", "recurring", "blue"):
+        return ""
+    return badges
 
 
 def recurrence_badge(recurrence: str, items: Iterable[CalendarItem | UndatedEvent] = ()) -> str:

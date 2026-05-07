@@ -563,7 +563,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("**Event:**", one_time_section)
         self.assertIn("Singleton Conf", single_section)
         self.assertNotIn("Cadence Conf", single_section)
-        self.assertIn("![recurrence: recurring]", single_section)
+        self.assertNotIn("![recurrence: recurring]", single_section)
         self.assertIn("**Event:**", single_section)
 
     def test_rejects_unknown_fields(self) -> None:
