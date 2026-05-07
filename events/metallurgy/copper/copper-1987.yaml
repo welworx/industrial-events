@@ -1,0 +1,21 @@
+name: 1st International Copper Conference (Copper 87)
+event_types:
+- conference
+start: '1987-11-30'
+end: '1987-12-03'
+timezone: America/Santiago
+city: Vina del Mar
+country: CL
+url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
+  last_checked: '2026-05-07'
+  note: Copper 99 is described as the fourth conference and lists Copper 87 as one of the three preceding conferences.
+- type: proceedings
+  scope: event
+  url: https://www.mdpi.com/2227-9717/8/11/1478
+  last_checked: '2026-05-07'
+  note: Reference list cites Copper 87 Conference in Vina del Mar, Chile, 30 November-3 December 1987.

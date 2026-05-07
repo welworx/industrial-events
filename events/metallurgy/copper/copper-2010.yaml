@@ -1,0 +1,21 @@
+name: 7th International Copper Conference (Copper 2010/Cobre 2010)
+event_types:
+- conference
+start: '2010-06-06'
+end: '2010-06-10'
+timezone: Europe/Berlin
+city: Hamburg
+country: DE
+url: https://www.scribd.com/document/40264802/Copper2010Program-1
+status: confirmed
+sources:
+- type: program
+  scope: event
+  url: https://www.scribd.com/document/40264802/Copper2010Program-1
+  last_checked: '2026-05-07'
+  note: Program identifies Copper 2010 as the 7th international copper conference in Hamburg, 6-10 June 2010.
+- type: proceedings
+  scope: event
+  url: https://badap.agh.edu.pl/publikacja/54462
+  last_checked: '2026-05-07'
+  note: Bibliographic record cites Copper 2010 proceedings for Hamburg, 6-10 June 2010.
