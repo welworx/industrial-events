@@ -1,0 +1,12 @@
+name: UNITECR 1989, 1st Unified International Technical Conference on Refractories
+event_types:
+- conference
+city: Anaheim
+country: US
+status: estimated
+sources:
+- type: event-site
+  scope: event
+  url: https://www.unitecr2019.org/what.html
+  last_checked: '2026-05-07'
+  note: Official UNITECR 2019 history lists Anaheim, USA, as the 1989 sanctioned congress; ordinal inferred from the official sequence and later 14th/15th labels.
