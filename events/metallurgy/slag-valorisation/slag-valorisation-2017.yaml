@@ -1,0 +1,19 @@
+name: 5th Slag Valorisation Symposium
+event_types:
+- conference
+start: '2017-04-03'
+end: '2017-04-05'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+url: http://slag-valorisation-symposium.eu/2017/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2023/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.tudelft.nl/en/publications/pore-structure-characterisation-of-sodium-hydroxide-activated-sla/
+  last_checked: '2026-05-07'
