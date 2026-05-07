@@ -1,0 +1,20 @@
+name: 7th International Heavy Minerals Conference 2009
+event_types:
+- conference
+start: '2009-09-20'
+end: '2009-09-23'
+timezone: Africa/Johannesburg
+city: Drakensberg
+country: ZA
+url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.scielo.org.za/scielo.php?pid=S2225-62532010001100003&script=sci_arttext
+  last_checked: '2026-05-07'
+  note: SAIMM journal article references the 7th International Heavy Minerals Conference in 2009.
