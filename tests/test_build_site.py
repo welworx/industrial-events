@@ -367,6 +367,8 @@ class BuildSiteTests(unittest.TestCase):
         )
 
         self.assertLess(section.index("Alpha Events"), section.index("Zeta Events"))
+        self.assertNotIn("**Next:**", section)
+        self.assertNotIn("next-TBD", section)
 
     def test_rejects_unknown_fields(self) -> None:
         source = FIXTURES / "invalid-unknown-field"

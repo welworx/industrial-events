@@ -94,11 +94,9 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[AISTech](<https://welworx.github.io/industrial-events/events/series/aistech.html>)** [↗](<https://www.aist.org/conference-expositions/aistech>)
   Recurring Association for Iron & Steel Technology conference and exposition.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[APCOM](<https://welworx.github.io/industrial-events/events/series/apcom.html>)** [↗](<https://apcom2021.com>)
   Recurring conference on applications of computers and operations research in the minerals industries.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[CALPHAD Conference](<https://welworx.github.io/industrial-events/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
   Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
@@ -110,39 +108,30 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Cross-Cutting Symposia at Extraction](<https://welworx.github.io/industrial-events/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[European Academic Symposium on EAF Steelmaking](<https://welworx.github.io/industrial-events/events/series/eases.html>)** [↗](<https://www.eases.rwth-aachen.de/>)
   Recurring European academic symposium on electric arc furnace steelmaking.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[European Electric Steelmaking Conference](<https://welworx.github.io/industrial-events/events/series/eec.html>)** [↗](<https://www.iom3.org>)
   Recurring European Electric Steelmaking Conference series.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[European Metallurgical Conference](<https://welworx.github.io/industrial-events/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
   Recurring European Metallurgical Conference series.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[European Mineral Processing and Recycling Congress](<https://welworx.github.io/industrial-events/events/series/emprc.html>)** [↗](<https://www.emprc.gdmb.de>)
   Recurring European congress on mineral processing and recycling.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[European Slag Conference](<https://welworx.github.io/industrial-events/events/series/euro-slag.html>)** [↗](<http://www.euroslag.org>)
   Recurring European conference on slag and slag products.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Extraction Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx>)
   TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Global Slag Conference](<https://welworx.github.io/industrial-events/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
   Recurring global conference on slag production, use, and markets.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[International Conference on CFD in the Minerals and Process Industries](<https://welworx.github.io/industrial-events/events/series/cfd-minerals.html>)** [↗](<http://www.cfd.com.au/cfdconf/>)
   Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)** [↗](<https://www.pyrometallurgy.co.za/MoltenSlags/>)
   Recurring international conference on molten slags, fluxes, and salts.
@@ -158,15 +147,12 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[International Heavy Minerals Conference](<https://welworx.github.io/industrial-events/events/series/heavy-minerals.html>)** [↗](<https://www.saimm.co.za>)
   Recurring international heavy minerals conference series.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[International Mineral Processing Congress](<https://welworx.github.io/industrial-events/events/series/impc.html>)** [↗](<https://www.impcouncil.com>)
   Recurring International Mineral Processing Congress series.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[International PGM Conference](<https://welworx.github.io/industrial-events/events/series/pgm.html>)** [↗](<https://www.saimm.co.za>)
   Recurring SAIMM international conference on platinum group metals.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[International Symposium on Lead and Zinc Processing](<https://welworx.github.io/industrial-events/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
   Recurring international symposium on lead and zinc processing.
@@ -174,11 +160,9 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[International Symposium on Nickel and Cobalt](<https://welworx.github.io/industrial-events/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
   International symposium focused on nickel and cobalt processing, metallurgy, recycling, and battery-material topics.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Liquid Metal Processing and Casting Conference](<https://welworx.github.io/industrial-events/events/series/lmpc.html>)** [↗](<https://www.tms.org>)
   Recurring Liquid Metal Processing and Casting conference series.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[METEC](<https://welworx.github.io/industrial-events/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
   Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
@@ -186,11 +170,9 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[MetPlant](<https://welworx.github.io/industrial-events/events/series/metplant.html>)** [↗](<https://www.ausimm.com>)
   Recurring AusIMM metallurgical plant design and operating strategies conference.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[MinProc](<https://welworx.github.io/industrial-events/events/series/minproc.html>)** [↗](<http://www.minproc-wcape.org.za>)
   Recurring Southern African mineral beneficiation and metallurgy conference.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[SAIMM Pyrometallurgy International Conference](<https://welworx.github.io/industrial-events/events/series/saimm-pyrometallurgy.html>)** [↗](<https://www.saimm.co.za>)
   Recurring SAIMM pyrometallurgy conference series.
@@ -198,11 +180,9 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Silicon for the Chemical and Solar Industry](<https://welworx.github.io/industrial-events/events/series/silicon.html>)** [↗](<https://www.ntnu.edu/si-conference/home>)
   Recurring conference on silicon for the chemical and solar industry.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Slag Valorisation Symposium](<https://welworx.github.io/industrial-events/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
   Recurring symposium on slag valorisation.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[SME Annual Conference & Expo](<https://welworx.github.io/industrial-events/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
   Recurring Society for Mining, Metallurgy & Exploration annual conference and expo.
@@ -210,19 +190,15 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)** [↗](<https://www.saimm.co.za>)
   Recurring SAIMM conference focused on base metals mining and metallurgy.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[SteelSim](<https://welworx.github.io/industrial-events/events/series/steelsim.html>)** [↗](<https://www.aist.org/conference-expositions/steelsim>)
   Recurring international conference on modelling and simulation of metallurgical processes in steelmaking.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Sulphur and Sulphuric Acid Conference](<https://welworx.github.io/industrial-events/events/series/sulphur-and-sulphuric-acid.html>)** [↗](<https://www.saimm.co.za>)
   Recurring SAIMM conference on sulphur and sulphuric acid.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[Sustainable Industrial Processing Summit](<https://welworx.github.io/industrial-events/events/series/sips.html>)** [↗](<https://www.flogen.org/sips/>)
   Recurring Sustainable Industrial Processing Summit and Exhibition covering materials, metals, and industrial processing.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[TMS Annual Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx>)
   TMS annual meeting and exhibition for minerals, metals, and materials science, including selected pyrometallurgy scopes.
@@ -230,11 +206,9 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Unified International Technical Conference on Refractories](<https://welworx.github.io/industrial-events/events/series/unitecr.html>)** [↗](<https://www.unitecr.org>)
   Recurring unified international technical conference on refractories.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 - **[World Foundry Congress](<https://welworx.github.io/industrial-events/events/series/world-foundry-congress.html>)** [↗](<https://www.thewfo.com>)
   Recurring World Foundry Organization congress for foundry and casting technology.
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow)
 
 <!-- generated:series-overview:end -->
 

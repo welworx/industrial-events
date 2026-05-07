@@ -559,10 +559,12 @@ def render_readme_series_overview(
             [
                 f"- **{series_link}**{official_series_link(series)}",
                 f"  {series.description}",
-                f"  **Next:** {next_series_event_cell(series_items, series_undated, today)}",
-                "",
             ]
         )
+        next_event = next_series_event_cell(series_items, series_undated, today)
+        if next_event:
+            lines.append(f"  **Next:** {next_event}")
+        lines.append("")
     lines.append(README_SERIES_END)
     return "\n".join(lines)
 
@@ -732,7 +734,7 @@ def next_series_event_cell(
     undated = sorted(undated_events, key=lambda item: item.title.lower())
     if undated:
         return f"{shield_badge('next', 'TBD', 'yellow')} {markdown_link(undated[0].title, undated[0].url)}"
-    return shield_badge("next", "TBD", "yellow")
+    return ""
 
 
 def series_page_url(slug: str, config: BuildConfig) -> str:
