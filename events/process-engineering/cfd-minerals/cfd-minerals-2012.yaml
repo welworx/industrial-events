@@ -1,0 +1,19 @@
+name: Ninth International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '2012-12-10'
+end: '2012-12-12'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+url: http://www.cfd.com.au/cfdconf/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.cfd.com.au/cfdconf/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
