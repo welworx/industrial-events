@@ -1,0 +1,17 @@
+name: 8th Global Slag Conference and Exhibition
+event_types:
+- conference
+start: '2012-11-12'
+end: '2012-11-13'
+timezone: America/Los_Angeles
+city: Las Vegas
+country: US
+venue: Bellagio
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2012
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2012
+  last_checked: '2026-05-07'
+  note: Official review identifies the 8th Global Slag Conference and Exhibition at Bellagio, Las Vegas, 12-13 November 2012.

@@ -1,0 +1,17 @@
+name: 18th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2026-04-15'
+end: '2026-04-16'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+venue: Crowne Plaza Florya Hotel
+url: https://globalslag.com/conferences/global-slag/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://globalslag.com/conferences/global-slag/
+  last_checked: '2026-05-07'
+  note: Official conference page identifies the 18th Global Slag Conference in Istanbul, 15-16 April 2026.

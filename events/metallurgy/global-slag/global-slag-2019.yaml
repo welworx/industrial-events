@@ -1,0 +1,17 @@
+name: 14th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2019-03-26'
+end: '2019-03-27'
+timezone: Europe/Berlin
+city: Aachen
+country: DE
+venue: Hotel Pullman Aachen Quellenhof
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2019
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2019
+  last_checked: '2026-05-07'
+  note: Official review identifies the 14th Global Slag Conference, Exhibition & Awards in Aachen, 26-27 March 2019.

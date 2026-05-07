@@ -1,0 +1,16 @@
+name: 3rd Global Slag Conference and Exhibition
+event_types:
+- conference
+start: '2007-11-19'
+end: '2007-11-20'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+url: https://www.globalslag.com/conferences/global-slag/review/gsc-2007-review
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/gsc-2007-review
+  last_checked: '2026-05-07'
+  note: Official review identifies the 3rd Global Slag Conference and Exhibition in Istanbul, 19-20 November 2007.

@@ -1,0 +1,16 @@
+name: 10th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2014-12-08'
+end: '2014-12-09'
+timezone: Europe/Berlin
+city: Aachen
+country: DE
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2014
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2014
+  last_checked: '2026-05-07'
+  note: Official review identifies the 10th Global Slag Conference, Exhibition & Awards in Aachen, 8-9 December 2014.

@@ -1,0 +1,16 @@
+name: 7th Global Slag Conference
+event_types:
+- conference
+start: '2011-11-17'
+end: '2011-11-18'
+timezone: Europe/Helsinki
+city: Helsinki
+country: FI
+url: https://www.globalslag.com/conferences/global-slag/review/gsc-2011-review
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/gsc-2011-review
+  last_checked: '2026-05-07'
+  note: Official review identifies the 7th Global Slag Conference and Exhibition in Helsinki, 17-18 November 2011.

@@ -1,0 +1,21 @@
+name: 2nd Global Slag Conference & Exhibition
+event_types:
+- conference
+start: '2006-11-20'
+end: '2006-11-22'
+timezone: Asia/Bangkok
+city: Bangkok
+country: TH
+url: https://www.globalslag.com/conferences/global-slag/review
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review
+  last_checked: '2026-05-07'
+  note: Official past-conference page lists the 2nd Global Slag Conference in Bangkok, Thailand, in 2006.
+- type: proceedings
+  scope: event
+  url: https://citeseerx.ist.psu.edu/document?doi=9c17981f7267e603f43eca04002a4db08aec057d&repid=rep1&type=pdf
+  last_checked: '2026-05-07'
+  note: Proceedings paper header identifies the 2nd Global Slag Conference & Exhibition in Bangkok, 20-22 November 2006.

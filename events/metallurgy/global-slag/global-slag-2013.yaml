@@ -1,0 +1,16 @@
+name: 9th Global Slag Conference and Exhibition
+event_types:
+- conference
+start: '2013-12-10'
+end: '2013-12-11'
+timezone: Asia/Dubai
+city: Dubai
+country: AE
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2013
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2013
+  last_checked: '2026-05-07'
+  note: Official review identifies the 9th Global Slag Conference and Exhibition in Dubai, 10-11 December 2013.

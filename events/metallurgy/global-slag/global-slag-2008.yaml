@@ -1,0 +1,16 @@
+name: 4th Global Slag Conference and Exhibition
+event_types:
+- conference
+start: '2008-11-10'
+end: '2008-11-11'
+timezone: Europe/Paris
+city: Strasbourg
+country: FR
+url: https://www.globalslag.com/conferences/global-slag/review/gsc-2008-review
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/gsc-2008-review
+  last_checked: '2026-05-07'
+  note: Official review identifies the 4th Global Slag Conference and Exhibition in Strasbourg, 10-11 November 2008.

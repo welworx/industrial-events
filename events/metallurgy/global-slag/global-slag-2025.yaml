@@ -1,0 +1,16 @@
+name: 17th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2025-06-25'
+end: '2025-06-26'
+timezone: Europe/Vienna
+city: Vienna
+country: AT
+url: https://globalslag.com/conferences/global-slag/review/global-slag-review-2025
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://globalslag.com/conferences/global-slag/review/global-slag-review-2025
+  last_checked: '2026-05-07'
+  note: Official review identifies the 17th Global Slag Conference, Exhibition & Awards in Vienna, 25-26 June 2025.
