@@ -1,0 +1,20 @@
+name: EMC2011, 6th European Metallurgical Conference
+event_types:
+- conference
+start: '2011-06-26'
+end: '2011-06-29'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://doaj.org/article/1a7f9773c3ae41b881ef2d7c1679a207
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://doaj.org/article/1a7f9773c3ae41b881ef2d7c1679a207
+  last_checked: '2026-05-07'
+  note: Review identifies EMC 2011 as the 6th European Metallurgical Conference in Duesseldorf, 26-29 June 2011, and lists preceding EMC locations.
+- type: proceedings
+  scope: event
+  url: https://pure.unileoben.ac.at/en/activities/european-metallurgical-conference-emc-2011-14
+  last_checked: '2026-05-07'

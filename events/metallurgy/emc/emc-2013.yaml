@@ -1,0 +1,19 @@
+name: EMC2013, 7th European Metallurgical Conference
+event_types:
+- conference
+start: '2013-06-23'
+end: '2013-06-26'
+timezone: Europe/Berlin
+city: Weimar
+country: DE
+url: https://doaj.org/article/8ac5a80b7d954607a8a407dbe6a5ca4c
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://doaj.org/article/8ac5a80b7d954607a8a407dbe6a5ca4c
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://waseda.elsevierpure.com/en/publications/technique-for-upgrading-ilmenite-ore-via-triva-lent-titanium-ion/
+  last_checked: '2026-05-07'

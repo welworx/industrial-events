@@ -1,0 +1,20 @@
+name: EMC2003, 2nd European Metallurgical Conference
+event_types:
+- conference
+start: '2003-09-16'
+end: '2003-09-19'
+timezone: Europe/Berlin
+city: Hannover
+country: DE
+url: https://www.bur.rwth-aachen.de/cms/bur/forschung/~jqey/publikationen/?page=40
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.bur.rwth-aachen.de/cms/bur/forschung/~jqey/publikationen/?page=40
+  last_checked: '2026-05-07'
+- type: event-listing
+  scope: event
+  url: https://e-docs.geo-leo.de/bitstreams/b8939dee-3a4f-47fb-8417-3022bf5ed383/download
+  last_checked: '2026-05-07'
+  note: Conference calendar lists EMC 2003 in Hannover on 16-19 September 2003.

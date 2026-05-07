@@ -1,0 +1,19 @@
+name: EMC2001, 1st European Metallurgical Conference
+event_types:
+- conference
+start: '2001-09-18'
+end: '2001-09-21'
+timezone: Europe/Berlin
+city: Friedrichshafen
+country: DE
+url: https://biblio.ugent.be/publication/144708
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://biblio.ugent.be/publication/144708
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://books.google.com/books/about/Proceedings_European_Metallurgical_Confe.html?id=NZJLwgEACAAJ
+  last_checked: '2026-05-07'
