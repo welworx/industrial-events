@@ -1,0 +1,16 @@
+name: 63rd World Foundry Congress
+event_types:
+- conference
+start: '1998-09-12'
+end: '1998-09-18'
+timezone: Europe/Budapest
+city: Budapest
+country: HU
+url: https://w.bibliotece.pl/47293/63rd%2BWorld%2BFoundry%2BCongress%2B%22Fonderie%2BSans%2BFrontieres%2BCasting%2BWithout%2BBorders%2BGiessen%2BOhne%2BGrenzen%22
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://w.bibliotece.pl/47293/63rd%2BWorld%2BFoundry%2BCongress%2B%22Fonderie%2BSans%2BFrontieres%2BCasting%2BWithout%2BBorders%2BGiessen%2BOhne%2BGrenzen%22
+  last_checked: '2026-05-07'
+  note: Library catalog record identifies the 63rd World Foundry Congress in Budapest, 12-18 September 1998.

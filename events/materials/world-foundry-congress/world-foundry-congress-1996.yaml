@@ -1,0 +1,16 @@
+name: 62nd World Foundry Congress
+event_types:
+- conference
+start: '1996-04-24'
+end: '1996-04-29'
+timezone: America/New_York
+city: Philadelphia
+country: US
+url: https://pubs.kist.re.kr/handle/201004/111420
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://pubs.kist.re.kr/handle/201004/111420
+  last_checked: '2026-05-07'
+  note: KIST research record cites the Proceedings of the 62nd World Foundry Congress in Philadelphia, 24-29 April 1996.

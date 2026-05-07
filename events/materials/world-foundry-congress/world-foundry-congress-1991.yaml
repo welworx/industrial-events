@@ -1,0 +1,16 @@
+name: 58th World Foundry Congress
+event_types:
+- conference
+start: '1991-09-15'
+end: '1991-09-19'
+timezone: Europe/Warsaw
+city: Krakow
+country: PL
+url: https://cris.vtt.fi/en/publications/criterion-functions-for-estimating-the-microstructure-and-mechani-2/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://cris.vtt.fi/en/publications/criterion-functions-for-estimating-the-microstructure-and-mechani-2/
+  last_checked: '2026-05-07'
+  note: VTT research record identifies the 58th World Foundry Congress in Krakow, Poland, 15-19 September 1991.

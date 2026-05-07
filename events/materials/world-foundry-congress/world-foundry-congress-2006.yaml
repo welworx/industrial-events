@@ -1,0 +1,21 @@
+name: 67th World Foundry Congress
+event_types:
+- conference
+start: '2006-06-05'
+end: '2006-06-07'
+timezone: Europe/London
+city: Harrogate
+country: GB
+url: https://www.foundrymag.com/issues-and-ideas/article/21924839/casting-the-future-is-wfc-2006-theme
+status: confirmed
+sources:
+- type: news
+  scope: event
+  url: https://www.foundrymag.com/issues-and-ideas/article/21924839/casting-the-future-is-wfc-2006-theme
+  last_checked: '2026-05-07'
+  note: Foundry Management & Technology identifies the 67th World Foundry Congress in Harrogate, 5-7 June 2006.
+- type: proceedings
+  scope: event
+  url: https://research.birmingham.ac.uk/en/publications/wicking-of-liquid-polystyrene-degradation-products-into-the-patte/
+  last_checked: '2026-05-07'
+  note: University of Birmingham record confirms the 67th World Foundry Congress in Harrogate, 5-7 June 2006.
