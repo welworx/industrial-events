@@ -1,0 +1,16 @@
+name: MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+country: CA
+url: https://www.pyrometallurgy.co.za/MoltenSlags/
+status: tentative
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Lists 2028 in Canada without exact dates.
