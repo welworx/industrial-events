@@ -1,0 +1,27 @@
+name: COM 2018, 57th Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2018-10-14'
+end: '2018-10-18'
+timezone: America/New_York
+city: Columbus
+country: US
+url: http://www.metsoc.org/com2018-mst18/
+status: confirmed
+co_located_with:
+  group: com-mst-2018
+  name: COM 2018 / MS&T 18
+  url: http://www.metsoc.org/com2018-mst18/
+  series:
+  - com
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2018 as the 57th Annual Conference of Metallurgists with MS&T 18 in Columbus, 14-18 October 2018.
+- type: news
+  scope: event
+  url: https://www.miningandenergy.ca/read/canadas-top-metallurgy-materials-engineers-2018-award-recipients-announced
+  last_checked: '2026-05-07'
+  note: MetSoc awards notice says recipients would be recognized at the 57th Annual Conference of Metallurgists, COM 2018 hosted at MS&T18, on 15 October 2018 in Columbus.

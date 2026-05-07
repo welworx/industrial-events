@@ -1,0 +1,16 @@
+name: COM 2006, 45th Conference of Metallurgists
+event_types:
+- conference
+start: '2006-10-01'
+end: '2006-10-04'
+timezone: America/Toronto
+city: Montreal
+country: CA
+url: http://www.metsoc.org/conferences/com2006/symposia/mag.asp
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2006 as the 45th Conference of Metallurgists in Montreal, 1-4 October 2006.
