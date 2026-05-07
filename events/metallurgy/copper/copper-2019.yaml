@@ -14,7 +14,7 @@ sources:
 - type: event-site
   scope: event
   url: https://com.metsoc.org/past-com-events/
-  last_checked: '2026-05-05'
+  last_checked: '2026-05-07'
 - type: event-listing
   scope: event
   url: https://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html

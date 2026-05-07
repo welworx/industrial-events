@@ -1,0 +1,20 @@
+name: EMC2025, 13th European Metallurgical Conference
+event_types:
+- conference
+start: '2025-06-22'
+end: '2025-06-25'
+timezone: Europe/Berlin
+city: Hamburg
+country: DE
+url: https://gdmb.de/en/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://gdmb.de/en/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Listed with Developing next-generation metallurgical processes scope.

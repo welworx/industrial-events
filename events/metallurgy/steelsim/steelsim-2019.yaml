@@ -1,0 +1,19 @@
+name: SteelSim 2019, 8th International Conference on Modeling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2019-08-13'
+end: '2019-08-15'
+timezone: America/Toronto
+city: Toronto
+country: CA
+url: https://www.aist.org/conference-expositions/steelsim
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aist.org/conference-expositions/steelsim
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

@@ -1,0 +1,19 @@
+name: Third International Base Metals Conference
+event_types:
+- conference
+start: '2005-06-26'
+end: '2005-06-29'
+timezone: Africa/Lusaka
+city: Kitwe
+country: ZM
+url: http://www.saimm.co.za/pages/eventpages/basemetals/basemetals.html
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.saimm.co.za/pages/eventpages/basemetals/basemetals.html
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

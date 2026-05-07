@@ -1,0 +1,19 @@
+name: PbZn 2023 - Lead-Zinc Conference 2023
+event_types:
+- conference
+start: '2023-10-17'
+end: '2023-10-20'
+timezone: Asia/Shanghai
+city: Changsha
+country: CN
+url: http://www.leadzinc2023.com
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.leadzinc2023.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

@@ -1,0 +1,20 @@
+name: AISTech 2005 Association for Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2005-05-09'
+end: '2005-05-12'
+timezone: America/New_York
+city: Charlotte
+country: US
+url: http://www.aist.org/convexpo/2005_aistech.htm
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.aist.org/convexpo/2005_aistech.htm
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

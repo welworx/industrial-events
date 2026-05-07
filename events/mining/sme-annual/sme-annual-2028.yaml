@@ -1,0 +1,20 @@
+name: SME Annual Conference & Expo 2028
+event_types:
+- conference
+- exhibition
+start: '2028-02-27'
+end: '2028-03-01'
+timezone: America/Phoenix
+city: Phoenix
+country: US
+url: https://www.smeannualconference.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.smeannualconference.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'

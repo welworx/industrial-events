@@ -1,0 +1,19 @@
+name: APCOM 2021, 40th Conference on Applications of Computers and Operations Research in the Minerals Industries
+event_types:
+- conference
+start: '2021-08-29'
+end: '2021-09-02'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+url: https://apcom2021.com
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://apcom2021.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

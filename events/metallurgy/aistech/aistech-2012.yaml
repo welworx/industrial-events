@@ -1,0 +1,20 @@
+name: AISTech 2012 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2012-05-07'
+end: '2012-05-10'
+timezone: America/New_York
+city: Atlanta
+country: US
+url: http://www.aist.org/12_aistech/12_aistech.htm
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.aist.org/12_aistech/12_aistech.htm
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

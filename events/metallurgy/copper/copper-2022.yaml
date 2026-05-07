@@ -14,7 +14,7 @@ sources:
 - type: event-site
   scope: event
   url: https://copper2022.cl/
-  last_checked: '2026-05-05'
+  last_checked: '2026-05-07'
 - type: event-site
   scope: event
   url: https://copper2022.cl/2021/02/05/organizers-committees/

@@ -1,0 +1,20 @@
+name: SME Annual Conference & Expo 2026
+event_types:
+- conference
+- exhibition
+start: '2026-02-22'
+end: '2026-02-25'
+timezone: America/Denver
+city: Salt Lake City
+country: US
+url: https://www.smeannualconference.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.smeannualconference.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'

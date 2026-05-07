@@ -1,0 +1,19 @@
+name: 8th European Slag Conference
+event_types:
+- conference
+start: '2015-10-21'
+end: '2015-10-23'
+timezone: Europe/Vienna
+city: Linz
+country: AT
+url: https://events.voestalpine.com/european-slag-conference/home
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.voestalpine.com/european-slag-conference/home
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

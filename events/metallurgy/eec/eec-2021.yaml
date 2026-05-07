@@ -1,0 +1,19 @@
+name: 12th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2021-09-12'
+end: '2021-09-14'
+timezone: Europe/London
+city: Sheffield
+country: GB
+url: https://www.iom3.org/iron-steel-society/event/12th-european-electric-steelmaking-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.iom3.org/iron-steel-society/event/12th-european-electric-steelmaking-conference
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

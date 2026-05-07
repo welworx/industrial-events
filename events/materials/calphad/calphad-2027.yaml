@@ -1,0 +1,16 @@
+name: CALPHAD 2027
+event_types:
+- conference
+country: BE
+url: https://calphad.org/future-conferences
+status: tentative
+sources:
+- type: event-site
+  scope: event
+  url: https://calphad.org/future-conferences
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Lists 2027 in Belgium / UK without exact dates.

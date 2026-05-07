@@ -1,0 +1,22 @@
+series: Slag Valorisation Symposium
+slug: slag-valorisation
+website: http://slag-valorisation-symposium.eu
+description: Recurring symposium on slag valorisation.
+recurrence: recurring
+categories:
+- metallurgy
+- slag
+topics:
+- slag
+- recycling
+- circular-economy
+sources:
+- type: series-home
+  scope: series
+  url: http://slag-valorisation-symposium.eu
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists Slag Valorisation editions in 2015 and 2019.

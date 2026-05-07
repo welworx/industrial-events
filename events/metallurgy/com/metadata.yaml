@@ -1,0 +1,28 @@
+series: Conference of Metallurgists
+slug: com
+website: https://com.metsoc.org
+description: Recurring Annual Conference of Metallurgists organized by MetSoc.
+recurrence: recurring
+categories:
+- metallurgy
+- extractive-metallurgy
+topics:
+- metallurgy
+- materials
+- pyrometallurgy
+- sustainability
+sources:
+- type: series-home
+  scope: series
+  url: https://com.metsoc.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Lists COM 2026.
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists multiple COM editions including 2005, 2012, 2015, 2016, 2019, 2021, 2022, and 2023.

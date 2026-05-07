@@ -1,0 +1,15 @@
+name: Infacon XIX, 19th International Ferro-Alloys Congress
+event_types:
+- conference
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: tentative
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Lists 2030 with location not yet announced.

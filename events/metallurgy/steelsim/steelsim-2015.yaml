@@ -1,0 +1,19 @@
+name: SteelSim 2015, 6th International Conference on Modelling and Simulation Processes in Steelmaking
+event_types:
+- conference
+start: '2015-09-23'
+end: '2015-09-25'
+timezone: Europe/Rome
+city: Bardolino
+country: IT
+url: http://www.aimnet.it/steelsim2015.htm
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.aimnet.it/steelsim2015.htm
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

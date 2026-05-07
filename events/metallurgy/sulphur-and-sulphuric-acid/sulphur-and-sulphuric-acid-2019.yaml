@@ -1,0 +1,19 @@
+name: 7th Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2019-03-11'
+end: '2019-03-12'
+timezone: Africa/Windhoek
+city: Swakopmund
+country: NA
+url: https://www.saimm.co.za/saimm-events/upcoming-events/7th-sulphur-and-sulphuric-acid-2019-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/7th-sulphur-and-sulphuric-acid-2019-conference
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

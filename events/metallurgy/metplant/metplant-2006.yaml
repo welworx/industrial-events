@@ -1,0 +1,19 @@
+name: MetPlant 2006, Metallurgical Plant Design and Operating Strategies
+event_types:
+- conference
+start: '2006-09-18'
+end: '2006-09-19'
+timezone: Australia/Perth
+city: Perth
+country: AU
+url: http://www.ausimm.com/metplant06/home.aspX
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.ausimm.com/metplant06/home.aspX
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

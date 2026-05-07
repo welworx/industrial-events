@@ -1,0 +1,19 @@
+name: Silicon for the Chemical and Solar Industry XVI
+event_types:
+- conference
+start: '2022-06-14'
+end: '2022-06-16'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.ntnu.edu/si-conference/home
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.ntnu.edu/si-conference/home
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
