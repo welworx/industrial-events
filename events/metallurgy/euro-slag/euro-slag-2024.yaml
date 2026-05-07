@@ -1,0 +1,19 @@
+name: 12th European Slag Conference (EUROSLAG 2024)
+event_types:
+- conference
+start: '2024-10-23'
+end: '2024-10-25'
+timezone: Europe/Madrid
+city: Bilbao
+country: ES
+url: https://www.islag.eu/events/xii-european-slag-conference-bilbao-spain/
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.islag.eu/events/xii-european-slag-conference-bilbao-spain/
+  last_checked: '2026-05-07'
+- type: event-listing
+  scope: event
+  url: https://tenova.com/newsroom/upcoming-events/euroslag-24
+  last_checked: '2026-05-07'

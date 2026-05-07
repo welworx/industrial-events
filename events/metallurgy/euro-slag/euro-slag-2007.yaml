@@ -1,0 +1,16 @@
+name: 5th European Slag Conference
+event_types:
+- conference
+start: '2007-09-19'
+end: '2007-09-21'
+timezone: Europe/Luxembourg
+city: Luxembourg
+country: LU
+url: https://www.mdpi.com/2075-163X/9/11/706
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.mdpi.com/2075-163X/9/11/706
+  last_checked: '2026-05-07'
+  note: Reference list cites the 5th European Slag Conference in Luxembourg, 19-21 September 2007.
