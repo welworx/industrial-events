@@ -1,0 +1,21 @@
+series: International Mineral Processing Congress
+slug: impc
+website: https://www.impcouncil.com
+description: Recurring International Mineral Processing Congress series.
+recurrence: recurring
+categories:
+- metallurgy
+- mineral-processing
+topics:
+- mineral-processing
+- mining
+sources:
+- type: series-home
+  scope: series
+  url: https://www.impcouncil.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists IMPC 2012 and IMPC 2016.

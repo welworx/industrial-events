@@ -1,0 +1,19 @@
+name: XXVIII International Mineral Processing Conference
+event_types:
+- conference
+start: '2016-09-11'
+end: '2016-09-15'
+timezone: America/Toronto
+city: Quebec City
+country: CA
+url: http://www.impc2016.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.impc2016.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
