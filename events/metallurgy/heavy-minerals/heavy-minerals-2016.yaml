@@ -1,0 +1,19 @@
+name: Tenth International Heavy Minerals Conference 2016
+event_types:
+- conference
+start: '2016-08-16'
+end: '2016-08-19'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.saimm.co.za
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

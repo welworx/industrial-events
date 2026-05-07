@@ -1,0 +1,21 @@
+series: International Heavy Minerals Conference
+slug: heavy-minerals
+website: https://www.saimm.co.za
+description: Recurring international heavy minerals conference series.
+recurrence: recurring
+categories:
+- metallurgy
+- mineral-processing
+topics:
+- heavy-minerals
+- mineral-processing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.saimm.co.za
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists HMC 2016 and HMC 2019.
