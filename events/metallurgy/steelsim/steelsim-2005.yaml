@@ -1,0 +1,20 @@
+name: SteelSim 2005, 1st International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2005-10-25'
+end: '2005-10-27'
+timezone: Europe/Prague
+city: Brno
+country: CZ
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 1st edition as SteelSim 2005, 25-27 October 2005 in Brno.
+- type: proceedings
+  scope: event
+  url: https://tugraz.elsevierpure.com/en/publications/optimized-rod-rolling-to-achieve-desired-mechanical-properties
+  last_checked: '2026-05-07'

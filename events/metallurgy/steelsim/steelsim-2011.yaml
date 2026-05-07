@@ -1,0 +1,16 @@
+name: SteelSim 2011, 4th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2011-06-28'
+end: '2011-06-30'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 4th edition as SteelSim 2011, 28-30 June 2011 in Dusseldorf.

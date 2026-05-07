@@ -1,0 +1,16 @@
+name: SteelSim 2017, 7th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2017-08-16'
+end: '2017-08-18'
+timezone: Asia/Shanghai
+city: Qingdao
+country: CN
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 7th edition as SteelSim 2017, 16-18 August 2017 in Qingdao.
