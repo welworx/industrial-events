@@ -1,0 +1,25 @@
+series: Extraction Meeting & Exhibition
+slug: extraction
+website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+description: TMS extraction metallurgy meeting and exhibition covering minerals, metals,
+  materials processing, and sustainability topics.
+recurrence: recurring
+categories:
+- metallurgy
+- extractive-metallurgy
+topics:
+- mining
+- metallurgy
+- materials-processing
+- sustainability
+- recycling
+- process-control
+sources:
+- type: event-site
+  scope: series
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  note: Official Extraction 2025 site.
+- type: overview
+  scope: series
+  url: https://metsoc.org/events-posts/extraction-2025/
+  note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.

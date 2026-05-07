@@ -1,0 +1,22 @@
+name: TMS 2029 Annual Meeting & Exhibition (NiCo scope)
+start: '2029-03-18'
+end: '2029-03-22'
+timezone: America/New_York
+city: Orlando
+country: US
+venue: Orlando World Center Marriott
+url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+status: tentative
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-05-05'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: 'Pyrometallurgical listing scope: NiCo (TMS); same row also notes PbZn (MetSoc).'
+event_types:
+- conference
+- exhibition

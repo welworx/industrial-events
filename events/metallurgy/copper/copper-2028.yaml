@@ -1,0 +1,21 @@
+name: 13th International Copper Conference (Copper 2028)
+start: '2028-09-03'
+end: '2028-09-07'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: https://www.pyrometallurgy.co.za/Conferences/
+status: tentative
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: Lists Copper 2028 for 3-7 September 2028 in Cape Town, South Africa; venue
+    not listed.
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za
+  note: Linked organizer site from the Pyrometallurgical Conferences listing.
+event_types:
+- conference

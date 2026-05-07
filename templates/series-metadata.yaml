@@ -1,0 +1,20 @@
+# Copy this file to events/<domain>/<series-slug>/metadata.yaml.
+# Keep slugs, categories, topics, and event types lowercase with hyphens.
+
+series: Example Systems Conference
+slug: example-systems
+website: https://example.org
+description: Recurring event series covering example systems engineering topics.
+recurrence: recurring
+categories:
+  - systems
+  - software
+topics:
+  - distributed-systems
+  - storage
+sources:
+  - type: series-home
+    scope: series
+    url: https://example.org
+    last_checked: "2026-05-07"
+    note: Stable series site with links to multiple editions.

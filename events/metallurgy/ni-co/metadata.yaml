@@ -1,0 +1,26 @@
+series: International Symposium on Nickel and Cobalt
+slug: ni-co
+website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx
+description: International symposium focused on nickel and cobalt processing, metallurgy,
+  recycling, and battery-material topics.
+recurrence: recurring
+categories:
+- metallurgy
+- nickel
+- cobalt
+- extractive-metallurgy
+topics:
+- mineral-processing
+- hydrometallurgy
+- pyrometallurgy
+- recycling
+- battery-materials
+sources:
+- type: event-site
+  scope: series
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx
+  note: Official Ni-Co 2025 site; the series uses event-specific pages.
+- type: overview
+  scope: series
+  url: https://metsoc.org/events-posts/extraction-2025/
+  note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.

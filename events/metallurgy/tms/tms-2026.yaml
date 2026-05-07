@@ -1,0 +1,22 @@
+name: TMS 2026 Annual Meeting & Exhibition (Off Gas Cleaning and Control)
+start: '2026-03-15'
+end: '2026-03-19'
+timezone: America/Los_Angeles
+city: San Diego
+country: US
+venue: San Diego Convention Center and Hilton San Diego Bayfront
+url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
+  last_checked: '2026-05-05'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: 'Pyrometallurgical listing scope: Off Gas Cleaning and Control.'
+event_types:
+- conference
+- exhibition

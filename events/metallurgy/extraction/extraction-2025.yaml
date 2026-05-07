@@ -1,0 +1,72 @@
+name: Extraction 2025 Meeting & Exhibition
+start: '2025-11-16'
+end: '2025-11-20'
+timezone: America/Phoenix
+city: Phoenix
+country: US
+venue: Sheraton Grand at Wild Horse Pass
+address: 5594 W Wild Horse Pass Blvd, Phoenix, Arizona, USA, 85226
+latitude: 33.2665969
+longitude: -111.9917321
+url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+status: confirmed
+co_located_with:
+  group: extraction-2025
+  name: Extraction 2025 + Copper 2025 + Ni-Co 2025
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  series:
+  - extraction
+  - copper
+  - ni-co
+  - cross-cutting
+sources:
+- type: event-site
+  scope: event
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  last_checked: '2026-05-05'
+- type: venue
+  scope: event
+  url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/
+- type: geocode
+  scope: event
+  url: https://nominatim.openstreetmap.org/search?format=jsonv2&street=5594%20West%20Wild%20Horse%20Pass%20Boulevard&city=Chandler&state=Arizona&country=United%20States&postalcode=85226
+deadlines:
+- type: abstract
+  name: Abstract extended submission deadline
+  date: '2024-11-13'
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+  status: confirmed
+  sources:
+  - type: author-instructions
+    scope: deadline
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+- type: first-draft-manuscript
+  name: First draft manuscript submission deadline
+  date: '2025-02-01'
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+  status: confirmed
+  sources:
+  - type: author-instructions
+    scope: deadline
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+- type: final-manuscript
+  name: Final manuscript submission deadline
+  date: '2025-04-01'
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+  status: confirmed
+  sources:
+  - type: author-instructions
+    scope: deadline
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+- type: author-registration
+  name: Author registration extended deadline
+  date: '2025-06-15'
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+  status: confirmed
+  sources:
+  - type: author-instructions
+    scope: deadline
+    url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/TechnicalProgram/CFA.aspx
+event_types:
+- conference
+- exhibition

@@ -1,0 +1,7 @@
+series: Demo Conference
+slug: demo-conf
+description: Demo event series used by unit tests.
+recurrence: recurring
+categories:
+  - software
+unexpected: typo

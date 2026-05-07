@@ -1,0 +1,18 @@
+site:
+  title: Industrial Events
+  url: https://welworx.github.io/industrial-events/
+  repository_url: https://github.com/welworx/industrial-events
+  product_id: -//Industrial Events//EN
+  uid_domain: industrial-events
+  rss_updated_env: INDUSTRIAL_EVENTS_FEED_UPDATED
+  default_feed_updated: "2026-05-04T00:00:00+00:00"
+  disclaimer: >-
+    This calendar makes existing public event information easier to access. It may be incomplete,
+    outdated, or wrong. Always verify important dates and details against the official event source.
+    The maintainer is not responsible for missing updates, incorrect information, missed deadlines,
+    travel costs, registration decisions, or any other consequence of using this feed.
+paths:
+  source_dir: events
+  output_dir: public/calendars
+  readme: README.md
+  sources_dir: sources
