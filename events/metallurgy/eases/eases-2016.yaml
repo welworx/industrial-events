@@ -1,0 +1,15 @@
+name: EASES 2016, 2nd European Academic Symposium on EAF Steelmaking
+event_types:
+- conference
+start: '2016-05-12'
+end: '2016-05-13'
+timezone: Europe/Berlin
+city: Aachen
+country: DE
+url: https://www.eases.rwth-aachen.de/previous-events/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.eases.rwth-aachen.de/previous-events/
+  last_checked: '2026-05-07'
