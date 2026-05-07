@@ -64,6 +64,10 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 
 - 12-16: [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) [![location: Las Vegas, US](https://img.shields.io/badge/location-Las%20Vegas%2C%20US-informational)](<https://www.google.com/maps/search/?api=1&query=MGM%20Grand%20Las%20Vegas%20Hotel%20%26%20Casino,%20Las%20Vegas,%20US>) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![type: exhibition](https://img.shields.io/badge/type-exhibition-teal) ![CFP: due 2027-01-31](https://img.shields.io/badge/CFP-due%202027--01--31-brightgreen) `metallurgy` `materials` `pyrometallurgy` `materials-science` `minerals` `metals`
 
+#### June
+
+- 19-22: [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>) [![location: Halifax, CA](https://img.shields.io/badge/location-Halifax%2C%20CA-informational)](<https://www.google.com/maps/search/?api=1&query=Halifax,%20CA>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `pyrometallurgy` `slags` `fluxes` `salts` `smelting`
+
 #### September
 
 - 3-7: [13th International Copper Conference (Copper 2028)](<https://www.pyrometallurgy.co.za/Conferences/>) [![location: Cape Town, ZA](https://img.shields.io/badge/location-Cape%20Town%2C%20ZA-informational)](<https://www.google.com/maps/search/?api=1&query=Cape%20Town,%20ZA>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `copper` `extractive-metallurgy` `mining` `mineral-processing` `pyrometallurgy` +6 more
@@ -149,7 +153,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 - **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)** [↗](<https://www.pyrometallurgy.co.za/MoltenSlags/>)
   Recurring international conference on molten slags, fluxes, and salts.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://www.pyrometallurgy.co.za/MoltenSlags/>)
+  **Next:** ![next: Jun 19-22, 2028](https://img.shields.io/badge/next-Jun%2019--22%2C%202028-brightgreen) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>)
 
 - **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx>)
   Recurring international conference series for copper extraction, processing, recycling, and related metallurgical operations.
