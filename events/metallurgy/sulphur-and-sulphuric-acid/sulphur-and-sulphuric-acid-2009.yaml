@@ -1,0 +1,21 @@
+name: 2nd Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2009-05-04'
+end: '2009-05-06'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.saimm.co.za/saimm-events/other-organisers/5-events/about-saimm-events
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/other-organisers/5-events/about-saimm-events
+  last_checked: '2026-05-07'
+  note: SAIMM archive lists the Sulphur and Sulphuric Acid 2009 Conference on 4-6 May 2009 at Sun City; ordinal inferred from later 2013-2025 numbered continuity.
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/Journal/v109n09p521.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM annual report says the 2009 Sulphur and Sulphuric Acid Conference was held at Sun City and had grown since the previous occasion.

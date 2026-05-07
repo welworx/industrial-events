@@ -1,0 +1,22 @@
+name: 6th Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2017-05-09'
+end: '2017-05-12'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+venue: Southern Sun Cape Sun
+url: https://www.saimm.co.za/saimm-events/upcoming-events/sulphuric-acid-2017
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/sulphuric-acid-2017
+  last_checked: '2026-05-07'
+  note: SAIMM page gives 9 May workshop, 10-11 May conference, and 12 May technical visit.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Pyrometallurgy archive lists the conference portion as 10-11 May 2017.
