@@ -1,0 +1,19 @@
+name: 3rd International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '2003-12-10'
+end: '2003-12-12'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+url: https://www.flair.monash.edu.au/publications/pdfs/cfd03b.pdf
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.flair.monash.edu.au/publications/pdfs/cfd03b.pdf
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://people.csiro.au/W/P/peter-witt.aspx
+  last_checked: '2026-05-07'

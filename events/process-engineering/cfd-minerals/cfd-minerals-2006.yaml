@@ -1,0 +1,19 @@
+name: 5th International Conference on CFD in the Process Industries
+event_types:
+- conference
+start: '2006-12-13'
+end: '2006-12-15'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+url: https://www.cfd.com.au/cfd_conf06/index.html
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://research.monash.edu/en/publications/the-flow-past-particles-driven-by-a-pressure-gradient-in-small-tu/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.flair.monash.edu.au/conferences/
+  last_checked: '2026-05-07'

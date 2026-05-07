@@ -1,0 +1,19 @@
+name: 6th International Conference on Computational Fluid Dynamics in the Oil and Gas, Metallurgical and Process Industries
+event_types:
+- conference
+start: '2008-06-10'
+end: '2008-06-12'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.flair.monash.edu.au/conferences/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.flair.monash.edu.au/conferences/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.cfd-online.com/Events/list.php?event_application_areas=0&event_country_id=0&event_fields=0&event_softwares=0&event_type_id=1&page_no=6&passed=..&sortorder=event_organizer
+  last_checked: '2026-05-07'

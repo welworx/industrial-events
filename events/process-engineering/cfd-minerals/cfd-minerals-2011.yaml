@@ -1,0 +1,20 @@
+name: 8th International Conference on CFD in the Oil and Gas, Metallurgical and Process Industries
+event_types:
+- conference
+start: '2011-06-21'
+end: '2011-06-23'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.cfd-online.com/Events/list.php?event_application_areas=0&event_country_id=0&event_fields=0&event_softwares=0&event_type_id=1&page_no=4&passed=..&sortorder=event_start_date
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.cfd-online.com/Events/list.php?event_application_areas=0&event_country_id=0&event_fields=0&event_softwares=0&event_type_id=1&page_no=4&passed=..&sortorder=event_start_date
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.polito.it/node/7520?p=021064
+  last_checked: '2026-05-07'
+  note: Politecnico di Torino proceedings record gives 21-23 June 2011 in Trondheim.
