@@ -1,0 +1,20 @@
+name: Third International Platinum Conference
+event_types:
+- conference
+start: '2008-10-05'
+end: '2008-10-09'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.saimm.co.za/Conferences/Pt2008/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/Pt2008/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.platinum.org.za/Pt2010/
+  last_checked: '2026-05-07'
+  note: Platinum 2010 overview lists the first four SAIMM International Platinum Conference dates.
