@@ -1,0 +1,33 @@
+name: TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)
+start: '2027-03-14'
+end: '2027-03-18'
+timezone: America/New_York
+city: Orlando
+country: US
+venue: Orlando World Center Marriott
+url: https://www.tms.org/TMS2027
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/TMS2027
+  last_checked: '2026-05-05'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: 'Pyrometallurgical listing scope: Sulfide Smelting (TMS).'
+deadlines:
+- type: symposium-proposal
+  name: Symposium proposals due
+  date: '2026-01-31'
+  url: https://www.tms.org/TMS2027
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.tms.org/TMS2027
+    last_checked: '2026-05-05'
+event_types:
+- conference
+- exhibition

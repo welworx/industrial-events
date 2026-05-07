@@ -1,0 +1,31 @@
+name: 11th International Copper Conference (COPPER-COBRE 2022)
+start: '2022-11-13'
+end: '2022-11-17'
+timezone: America/Santiago
+city: Santiago
+country: CL
+venue: Espacio Riesco
+address: Avenida El Salto 5000, Huechuraba, Metropolitan Region, Chile
+latitude: -33.383861
+longitude: -70.625594
+url: https://copper2022.cl/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://copper2022.cl/
+  last_checked: '2026-05-05'
+- type: event-site
+  scope: event
+  url: https://copper2022.cl/2021/02/05/organizers-committees/
+- type: event-site
+  scope: event
+  url: https://copper2022.cl/2022/10/24/copper-2022-will-be-held-at-espacio-riesco/
+- type: venue
+  scope: event
+  url: https://www.espacioriesco.cl/contacto/
+- type: geocode
+  scope: event
+  url: https://www.feriasinfo.es/Espacio%2BRiesco-ZS5035.html
+event_types:
+- conference

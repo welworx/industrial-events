@@ -1,0 +1,13 @@
+name: TMS 2030 Annual Meeting & Exhibition (Sulfide Smelting)
+url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+country: US
+status: tentative
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: Lists Sulfide Smelting (TMS) in 2030, USA, without usable meeting dates.
+event_types:
+- conference
+- exhibition

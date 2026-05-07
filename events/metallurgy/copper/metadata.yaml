@@ -1,0 +1,44 @@
+series: International Copper Conference
+slug: copper
+description: Recurring international conference series for copper extraction, processing,
+  recycling, and related metallurgical operations.
+recurrence: recurring
+categories:
+- metallurgy
+- copper
+- extractive-metallurgy
+topics:
+- mining
+- mineral-processing
+- pyrometallurgy
+- hydrometallurgy
+- electrometallurgy
+- process-control
+- recycling
+- environmental-control
+- acid-plants
+sources:
+- type: event-site
+  scope: series
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx
+  note: Official Copper 2025 site; the Copper series uses event-specific sites.
+- type: overview
+  scope: series
+  url: https://metsoc.org/events-posts/extraction-2025/
+  note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
+- type: event-site
+  scope: series
+  url: https://copper2022.cl/
+  note: Official COPPER-COBRE 2022 site.
+- type: event-site
+  scope: series
+  url: https://com.metsoc.org/past-com-events/
+  note: MetSoc past COM events page with COM 2019 Hosting Copper.
+- type: event-site
+  scope: series
+  url: https://www.mmij.or.jp/events/1907.html
+  note: MMIJ page for Copper 2016.
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  note: Pyrometallurgical Conferences overview listing Copper 2028 with date and city.

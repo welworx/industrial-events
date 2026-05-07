@@ -1,0 +1,42 @@
+name: Demo Conference 2027
+event_types:
+  - conference
+start: "2027-03-10"
+end: "2027-03-12"
+city: Lisbon
+country: PT
+venue: Demo Center
+address: Rua Demo 1, Lisbon, Portugal
+latitude: 38.722252
+longitude: -9.139337
+url: https://example.org/demo-2027
+co_located_with:
+  group: demo-events-2027
+  name: Demo Events 2027
+  url: https://example.org/demo-events-2027
+  series:
+    - demo-conf
+    - demo-workshops
+sources:
+  - type: event-site
+    scope: event
+    url: https://e.test/e
+    last_checked: "2026-08-15"
+deadlines:
+  - type: papers
+    name: Paper submission deadline
+    date: "2026-11-15"
+    history:
+      - date: "2026-11-01"
+        announced: "2026-08-01"
+        url: https://e.test/original-cfp
+        note: Original deadline.
+      - date: "2026-11-15"
+        announced: "2026-10-20"
+        url: https://e.test/extension
+        note: Extended deadline.
+    sources:
+      - type: cfp
+        scope: deadline
+        url: https://e.test/cfp
+        last_checked: "2026-10-20"

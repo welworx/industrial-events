@@ -1,0 +1,29 @@
+series: TMS Annual Meeting & Exhibition
+slug: tms
+website: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+description: TMS annual meeting and exhibition for minerals, metals, and materials
+  science, including selected pyrometallurgy scopes.
+recurrence: recurring
+categories:
+- metallurgy
+- materials
+- pyrometallurgy
+topics:
+- materials-science
+- minerals
+- metals
+- pyrometallurgy
+sources:
+- type: series-home
+  scope: series
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-05-05'
+  note: Official TMS Annual Meeting page with upcoming and past annual meetings.
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  last_updated: '2026-02-24'
+  note: Pyrometallurgical conference listing; TMS rows list event-specific technical
+    scopes.
+

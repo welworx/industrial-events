@@ -1,0 +1,22 @@
+series: Cross-Cutting Symposia at Extraction
+slug: cross-cutting
+website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+description: Cross-cutting symposia at Extraction covering sustainability, recycling,
+  responsible mining, geometallurgy, and economics.
+recurrence: recurring
+categories:
+- metallurgy
+- extractive-metallurgy
+- sustainability
+topics:
+- recycling
+- circular-economy
+- decarbonization
+- responsible-mining
+- geometallurgy
+- economics
+sources:
+- type: event-site
+  scope: series
+  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+  note: Official Cross-Cutting Symposia at Extraction 2025 site.

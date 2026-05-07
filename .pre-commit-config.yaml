@@ -1,9 +1,14 @@
 repos:
   - repo: local
     hooks:
-      - id: build-calendars
-        name: Build generated calendar feeds
-        entry: uv run python scripts/build_calendars.py
+      - id: build-site
+        name: Build generated site outputs
+        entry: uv run python scripts/build_site.py
+        language: system
+        pass_filenames: false
+      - id: update-candidates
+        name: Check update candidate listing
+        entry: uv run python scripts/list_update_candidates.py
         language: system
         pass_filenames: false
       - id: ruff-check

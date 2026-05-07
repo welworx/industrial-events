@@ -1,0 +1,28 @@
+name: 10th International Copper Conference (Copper 2019)
+start: '2019-08-18'
+end: '2019-08-21'
+timezone: America/Vancouver
+city: Vancouver
+country: CA
+venue: Vancouver Convention Centre
+address: 1055 Canada Place, Vancouver, BC V6C 0C3, Canada
+latitude: 49.2888506
+longitude: -123.1160655
+url: https://com.metsoc.org/past-com-events/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/past-com-events/
+  last_checked: '2026-05-05'
+- type: event-listing
+  scope: event
+  url: https://www.showsbee.com/fairs/42972-Copper-International-Conference-2019.html
+- type: venue
+  scope: event
+  url: https://www.vancouverconventioncentre.com/facility/location
+- type: geocode
+  scope: event
+  url: https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=Vancouver%20Convention%20Centre
+event_types:
+- conference

@@ -1,0 +1,14 @@
+series: Demo Conference
+slug: demo-conf
+description: Demo event series used by unit tests.
+recurrence: recurring
+categories:
+  - software
+  - testing
+topics:
+  - quality
+sources:
+  - type: series-home
+    scope: series
+    url: https://e.test/s
+    last_checked: "2026-08-01"

@@ -1,11 +1,11 @@
 ## Change Type
 
-- [ ] Conference series
-- [ ] Discovery source
+- [ ] Event series or event edition
+- [ ] Overview source
 - [ ] Documentation
 - [ ] Tooling
 
-## Conference Or Source
+## Event Or Source
 
 Series/source slug:
 
@@ -19,8 +19,8 @@ List the official pages or overview pages used to verify the change:
 
 - [ ] I used a focused branch, not `main`.
 - [ ] I preserved deadline history for moved deadlines.
-- [ ] I regenerated calendars with `uv run python scripts/build_calendars.py`.
+- [ ] I did not commit generated `public/` files.
+- [ ] I ran `uv run python scripts/build_site.py`.
 - [ ] I ran `uv run ruff check`.
 - [ ] I ran `uv run ruff format --check`.
 - [ ] I ran `uv run python -B -m unittest discover -s tests`.
-

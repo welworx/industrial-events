@@ -1,0 +1,33 @@
+name: TMS 2028 Annual Meeting & Exhibition (REWAS)
+start: '2028-03-12'
+end: '2028-03-16'
+timezone: America/Los_Angeles
+city: Las Vegas
+country: US
+venue: MGM Grand Las Vegas Hotel & Casino
+url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+  last_checked: '2026-05-05'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-05'
+  note: 'Pyrometallurgical listing scope: REWAS (TMS).'
+deadlines:
+- type: symposium-proposal
+  name: Symposium proposals due
+  date: '2027-01-31'
+  url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.tms.org/TMS2028/TMS2028/Default.aspx
+    last_checked: '2026-05-05'
+event_types:
+- conference
+- exhibition

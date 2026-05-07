@@ -1,0 +1,11 @@
+name: Demo Conference 2029
+event_types:
+  - conference
+start: "2029-04-05"
+end: "2029-04-07"
+url: https://example.org/demo-2029
+status: tentative
+sources:
+  - type: event-listing
+    scope: event
+    url: https://e.test/demo-2029

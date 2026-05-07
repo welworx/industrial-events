@@ -1,0 +1,28 @@
+name: 9th International Copper Conference (Copper 2016)
+start: '2016-11-13'
+end: '2016-11-16'
+timezone: Asia/Tokyo
+city: Kobe
+country: JP
+venue: Kobe International Conference Center
+address: 6-9-1 Minatojima-nakamachi, Chuo-ku, Kobe, Hyogo 650-0046, Japan
+latitude: 34.6662222
+longitude: 135.213
+url: https://www.mmij.or.jp/events/1907.html
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.mmij.or.jp/events/1907.html
+  last_checked: '2026-05-05'
+- type: event-site
+  scope: event
+  url: https://www.mmij.or.jp/mmij-news/2016-01-04-235
+- type: venue
+  scope: event
+  url: https://kobe-cc.jp/en/
+- type: geocode
+  scope: event
+  url: https://commons.wikimedia.org/wiki/Category:Kobe_International_Conference_Center
+event_types:
+- conference
