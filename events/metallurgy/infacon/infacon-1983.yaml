@@ -1,0 +1,15 @@
+name: Infacon III, 3rd International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1983-05-08'
+end: '1983-05-11'
+timezone: Asia/Tokyo
+city: Tokyo
+country: JP
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

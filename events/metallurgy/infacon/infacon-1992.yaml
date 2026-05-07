@@ -1,0 +1,15 @@
+name: Infacon VI, 6th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1992-03-08'
+end: '1992-03-11'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

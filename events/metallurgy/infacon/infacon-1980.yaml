@@ -1,0 +1,15 @@
+name: Infacon II, 2nd International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1980-10-12'
+end: '1980-10-16'
+timezone: Europe/Zurich
+city: Lausanne
+country: CH
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

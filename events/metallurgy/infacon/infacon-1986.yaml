@@ -1,0 +1,15 @@
+name: Infacon IV, 4th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1986-08-31'
+end: '1986-09-03'
+timezone: America/Sao_Paulo
+city: Rio de Janeiro
+country: BR
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'
