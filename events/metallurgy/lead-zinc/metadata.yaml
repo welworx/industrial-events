@@ -1,0 +1,28 @@
+series: International Symposium on Lead and Zinc Processing
+slug: lead-zinc
+website: https://j-lppf2.jp/lead-zinc2026/
+description: Recurring international symposium on lead and zinc processing.
+recurrence: recurring
+categories:
+- metallurgy
+- lead
+- zinc
+topics:
+- pyrometallurgy
+- hydrometallurgy
+- mineral-processing
+sources:
+- type: event-site
+  scope: series
+  url: https://j-lppf2.jp/lead-zinc2026/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Lists Lead-Zinc 2026 and a 2029 PbZn scope at TMS.
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists PbZn 2020 and PbZn 2023.
