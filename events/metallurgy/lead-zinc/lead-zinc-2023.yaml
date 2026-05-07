@@ -1,4 +1,4 @@
-name: PbZn 2023 - Lead-Zinc Conference 2023
+name: PbZn 2023, 10th International Symposium on Lead and Zinc Processing
 event_types:
 - conference
 start: '2023-10-17'
@@ -17,3 +17,8 @@ sources:
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://tohoku.elsevierpure.com/en/publications/scorodite-synthesis-process-using-solid-iron-oxides
+  last_checked: '2026-05-07'
+  note: Tohoku University research record identifies PbZn 2023 as the 10th International Conference on Lead and Zinc Processing in Changsha, 17-20 October 2023.
