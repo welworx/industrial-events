@@ -1,0 +1,15 @@
+name: MetSoc Events
+slug: metsoc
+url: https://metsoc.org/
+type: society
+categories:
+  - metallurgy
+  - materials
+  - mining
+topics:
+  - hydrometallurgy
+  - pyrometallurgy
+  - materials
+  - sustainability
+last_checked: "2026-05-07"
+note: Society site and event hub for MetSoc-hosted conferences. Use it for discovery, then prefer specific MetSoc event pages for event records.

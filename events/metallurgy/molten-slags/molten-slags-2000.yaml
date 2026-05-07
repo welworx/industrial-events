@@ -1,0 +1,22 @@
+name: MOLTEN 2000, 6th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2000-06-12'
+end: '2000-06-17'
+timezone: Europe/Stockholm
+city: Stockholm, Sweden / Helsinki, Finland
+url: https://www.pyrometallurgy.co.za/MoltenSlags2000/INFO.HTM
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags2000/INFO.HTM
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

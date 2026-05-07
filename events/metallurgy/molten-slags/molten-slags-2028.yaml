@@ -1,16 +1,25 @@
 name: MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts
 event_types:
 - conference
+start: '2028-06-19'
+end: '2028-06-22'
+timezone: America/Halifax
+city: Halifax
 country: CA
-url: https://www.pyrometallurgy.co.za/MoltenSlags/
-status: tentative
+url: https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/
+status: confirmed
 sources:
-- type: series-home
+- type: event-site
   scope: event
-  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  url: https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/
   last_checked: '2026-05-07'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
   last_checked: '2026-05-07'
-  note: Lists 2028 in Canada without exact dates.
+  note: Lists MOLTEN2028 in Canada.
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+  note: Series archive page currently lists editions through MOLTEN 2024, not the 2028 edition.

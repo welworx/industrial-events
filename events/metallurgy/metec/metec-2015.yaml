@@ -1,0 +1,28 @@
+name: METEC 2015, 9th International Metallurgical Trade Fair with Congresses
+event_types:
+- trade-fair
+- exhibition
+start: '2015-06-16'
+end: '2015-06-20'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.messe-duesseldorf.de/VIS/PDF/Strukturdaten_METEC_2015_gb.pdf
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2015
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec
+sources:
+- type: event-site
+  scope: event
+  url: https://www.messe-duesseldorf.de/VIS/PDF/Strukturdaten_METEC_2015_gb.pdf
+  last_checked: '2026-05-07'
+  note: Messe Dusseldorf fair profile lists METEC as the 9th International Metallurgical Trade Fair with Congresses, held 16-20 June 2015.
+- type: event-site
+  scope: event
+  url: https://www.metec-tradefair.com/fr/Professional_articles/Article_technique_n%C2%B0_1_METEC_2015
+  last_checked: '2026-05-07'
+  note: Official METEC article confirms the 16-20 June 2015 Dusseldorf dates.

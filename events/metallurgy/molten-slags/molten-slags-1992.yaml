@@ -1,0 +1,23 @@
+name: MOLTEN 1992, 4th International Conference on Molten Slags and Fluxes
+event_types:
+- conference
+start: '1992-06-08'
+end: '1992-06-11'
+timezone: Asia/Tokyo
+city: Sendai
+country: JP
+url: https://www.pyrometallurgy.co.za/MoltenSlags1992/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags1992/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

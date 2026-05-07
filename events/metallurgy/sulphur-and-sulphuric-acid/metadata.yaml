@@ -1,6 +1,5 @@
 series: Sulphur and Sulphuric Acid Conference
 slug: sulphur-and-sulphuric-acid
-website: https://www.saimm.co.za
 description: Recurring SAIMM conference on sulphur and sulphuric acid.
 recurrence: recurring
 categories:
@@ -11,7 +10,7 @@ topics:
 - sulphur
 - pyrometallurgy
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

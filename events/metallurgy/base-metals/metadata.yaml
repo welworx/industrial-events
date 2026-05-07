@@ -1,6 +1,5 @@
 series: Southern African Base Metals Conference
 slug: base-metals
-website: https://www.saimm.co.za
 description: Recurring SAIMM conference focused on base metals mining and metallurgy.
 recurrence: recurring
 categories:
@@ -12,7 +11,7 @@ topics:
 - cobalt
 - extractive-metallurgy
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

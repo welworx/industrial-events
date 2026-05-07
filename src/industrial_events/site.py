@@ -67,6 +67,10 @@ README_SUBMISSION_START = "<!-- generated:submission-opportunities:start -->"
 README_SUBMISSION_END = "<!-- generated:submission-opportunities:end -->"
 README_SERIES_START = "<!-- generated:series-overview:start -->"
 README_SERIES_END = "<!-- generated:series-overview:end -->"
+README_ONE_TIME_START = "<!-- generated:one-time-events:start -->"
+README_ONE_TIME_END = "<!-- generated:one-time-events:end -->"
+README_SINGLE_EVENT_START = "<!-- generated:single-event-records:start -->"
+README_SINGLE_EVENT_END = "<!-- generated:single-event-records:end -->"
 README_SOURCES_START = "<!-- generated:overview-sources:start -->"
 README_SOURCES_END = "<!-- generated:overview-sources:end -->"
 
@@ -442,6 +446,30 @@ def write_readme_overview(
     )
     updated = replace_marked_section(
         updated,
+        README_ONE_TIME_START,
+        README_ONE_TIME_END,
+        render_readme_one_time_events(
+            load_series_metadata(source_dir),
+            items_tuple,
+            undated_tuple,
+            config,
+            reference_date,
+        ),
+    )
+    updated = replace_marked_section(
+        updated,
+        README_SINGLE_EVENT_START,
+        README_SINGLE_EVENT_END,
+        render_readme_single_event_records(
+            load_series_metadata(source_dir),
+            items_tuple,
+            undated_tuple,
+            config,
+            reference_date,
+        ),
+    )
+    updated = replace_marked_section(
+        updated,
         README_SOURCES_START,
         README_SOURCES_END,
         render_readme_overview_sources(sources_dir),
@@ -551,19 +579,118 @@ def render_readme_series_overview(
         README_SERIES_START,
         "",
     ]
-    for series in sorted(metadata, key=lambda value: value.series.lower()):
+    for series in sorted(
+        (item for item in metadata if item.recurrence != "one-off"), key=lambda value: value.series.lower()
+    ):
         series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
         series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
+        if observed_event_count(series_items, series_undated) < 2:
+            continue
         series_link = markdown_link(series.series, series_page_url(series.slug, config))
         lines.extend(
             [
                 f"- **{series_link}**{official_series_link(series)}",
                 f"  {series.description}",
-                f"  **Next:** {next_series_event_cell(series_items, series_undated, today)}",
-                "",
+                f"  {series_badges(series, series_items, series_undated, today)}",
             ]
         )
+        next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
+        if next_event:
+            lines.append(f"  **Next:** {next_event}")
+        lines.append("")
     lines.append(README_SERIES_END)
+    return "\n".join(lines)
+
+
+def render_readme_one_time_events(
+    metadata: Iterable[SeriesMetadata],
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    config: BuildConfig,
+    reference_date: date | None = None,
+) -> str:
+    today = reference_date or date.today()
+    items_tuple = tuple(items)
+    undated_tuple = tuple(undated_events)
+    one_time = sorted(
+        (item for item in metadata if item.recurrence == "one-off"), key=lambda value: value.series.lower()
+    )
+    lines = [
+        README_ONE_TIME_START,
+        "",
+    ]
+    if not one_time:
+        lines.append("No one-time events are tracked separately right now.")
+    else:
+        for series in one_time:
+            series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
+            series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
+            series_link = markdown_link(series.series, series_page_url(series.slug, config))
+            lines.extend(
+                [
+                    f"- **{series_link}**{official_series_link(series)}",
+                    f"  {series.description}",
+                ]
+            )
+            badges = useful_single_event_badges(series, series_items, series_undated, today)
+            if badges:
+                lines.append(f"  {badges}")
+            next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
+            if next_event:
+                lines.append(f"  **Event:** {next_event}")
+            lines.append("")
+        if lines[-1] == "":
+            lines.pop()
+    lines.extend(["", README_ONE_TIME_END])
+    return "\n".join(lines)
+
+
+def render_readme_single_event_records(
+    metadata: Iterable[SeriesMetadata],
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    config: BuildConfig,
+    reference_date: date | None = None,
+) -> str:
+    today = reference_date or date.today()
+    items_tuple = tuple(items)
+    undated_tuple = tuple(undated_events)
+    singles = []
+    for series in metadata:
+        if series.recurrence == "one-off":
+            continue
+        series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
+        series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
+        if observed_event_count(series_items, series_undated) == 1:
+            singles.append(series)
+
+    lines = [
+        README_SINGLE_EVENT_START,
+        "",
+    ]
+    if not singles:
+        lines.append("No single-event records are tracked separately right now.")
+    else:
+        for series in sorted(singles, key=lambda value: value.series.lower()):
+            series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
+            series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
+            series_link = markdown_link(series.series, series_page_url(series.slug, config))
+            lines.extend(
+                [
+                    f"- **{series_link}**{official_series_link(series)}",
+                    f"  {series.description}",
+                ]
+            )
+            badges = useful_single_event_badges(series, series_items, series_undated, today)
+            if badges:
+                lines.append(f"  {badges}")
+            next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
+            if next_event:
+                lines.append(f"  **Event:** {next_event}")
+            lines.append("")
+        if lines[-1] == "":
+            lines.pop()
+    lines.extend(["", README_SINGLE_EVENT_END])
     return "\n".join(lines)
 
 
@@ -616,8 +743,11 @@ def readme_event_badges(
     event_start: date,
     reference_date: date,
 ) -> str:
-    badges = [event_type_badge(event_type) for event_type in common_event_types(conferences)]
-    badges.append(cfp_badge(deadlines, event_start, reference_date))
+    badges = [
+        *[event_type_badge(event_type) for event_type in common_event_types(conferences)],
+        cfp_badge(deadlines, event_start, reference_date),
+    ]
+    badges = [badge for badge in badges if badge]
     return " ".join(badges)
 
 
@@ -645,8 +775,95 @@ def cfp_badge(deadlines: tuple[CalendarItem, ...], event_start: date, reference_
         deadline = max(deadlines, key=lambda item: item.start)
         return shield_badge("CFP", f"closed {deadline.start.isoformat()}", "lightgrey")
     if event_start >= reference_date:
-        return shield_badge("CFP", "TBD", "yellow")
+        return ""
     return shield_badge("CFP", "closed", "lightgrey")
+
+
+def series_badges(
+    series: SeriesMetadata,
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    reference_date: date,
+) -> str:
+    items_tuple = tuple(item for item in items if item.kind == "event")
+    badges = [recurrence_badge(series.recurrence, (*items_tuple, *undated_events))]
+    return " ".join(badges)
+
+
+def useful_single_event_badges(
+    series: SeriesMetadata,
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    reference_date: date,
+) -> str:
+    badges = series_badges(series, items, undated_events, reference_date)
+    if badges == shield_badge("recurrence", "recurring", "blue"):
+        return ""
+    return badges
+
+
+def recurrence_badge(recurrence: str, items: Iterable[CalendarItem | UndatedEvent] = ()) -> str:
+    if recurrence == "one-off":
+        return shield_badge("event", "one-time", "lightgrey")
+    if recurrence == "unknown":
+        return shield_badge("recurrence", "unknown", "yellow")
+    label, cadence = observed_cadence(items)
+    if label and cadence:
+        return shield_badge(label, cadence, "blue")
+    return shield_badge("recurrence", recurrence, "blue")
+
+
+def observed_cadence(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[str, str]:
+    years = sorted({item_year(item) for item in items if item_year(item) is not None})
+    if len(years) < 2:
+        return "", ""
+    if len(years) == 2:
+        gap = years[1] - years[0]
+        if gap == 1:
+            return "span", "1 year"
+        return "span", f"{gap} years"
+    gaps = [later - earlier for earlier, later in zip(years, years[1:])]
+    if gaps and len(set(gaps)) == 1:
+        gap = gaps[0]
+        if gap == 1:
+            frequency = "1 year"
+        else:
+            frequency = f"{gap} years"
+        return "frequency", frequency
+    return "frequency", "irregular"
+
+
+def observed_years(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[int, ...]:
+    return tuple(sorted({item_year(item) for item in items if item_year(item) is not None}))
+
+
+def observed_gap_years(items: Iterable[CalendarItem | UndatedEvent]) -> int | None:
+    years = observed_years(items)
+    if len(years) < 2:
+        return None
+    gaps = [later - earlier for earlier, later in zip(years, years[1:])]
+    if len(years) == 2:
+        return gaps[0]
+    if gaps and len(set(gaps)) == 1:
+        return gaps[0]
+    return None
+
+
+def item_year(item: CalendarItem | UndatedEvent) -> int | None:
+    if isinstance(item, CalendarItem):
+        if item.kind != "event":
+            return None
+        return item.start.year
+    match = re.search(r"\b(20\d{2}|19\d{2})\b", item.title)
+    if not match:
+        return None
+    return int(match.group(1))
+
+
+def observed_event_count(items: Iterable[CalendarItem], undated_events: Iterable[UndatedEvent]) -> int:
+    years = {item.start.year for item in items if item.kind == "event"}
+    years.update(year for event in undated_events if (year := item_year(event)) is not None)
+    return len(years)
 
 
 def shield_badge(label: str, message: str, color: str) -> str:
@@ -715,12 +932,15 @@ def common_tags(conferences: Iterable[CalendarItem]) -> tuple[str, ...]:
 
 
 def next_series_event_cell(
+    recurrence: str,
     items: Iterable[CalendarItem],
     undated_events: Iterable[UndatedEvent],
     reference_date: date,
 ) -> str:
+    items_tuple = tuple(items)
+    undated_tuple = tuple(undated_events)
     upcoming = sorted(
-        (item for item in items if item.kind == "event" and item.start >= reference_date),
+        (item for item in items_tuple if item.kind == "event" and item.start >= reference_date),
         key=lambda item: (item.start, item.summary.lower()),
     )
     if upcoming:
@@ -729,10 +949,31 @@ def next_series_event_cell(
             f"{shield_badge('next', compact_date_range_with_year(item.start, item.end_exclusive), 'brightgreen')} "
             f"{markdown_link(item.summary, item.url)}"
         )
-    undated = sorted(undated_events, key=lambda item: item.title.lower())
+    undated = sorted(undated_tuple, key=lambda item: item.title.lower())
     if undated:
         return f"{shield_badge('next', 'TBD', 'yellow')} {markdown_link(undated[0].title, undated[0].url)}"
-    return shield_badge("next", "TBD", "yellow")
+    probable_year = probable_next_year(recurrence, (*items_tuple, *undated_tuple), reference_date)
+    if probable_year:
+        return shield_badge("next", f"probably {probable_year}", "yellow")
+    return ""
+
+
+def probable_next_year(
+    recurrence: str,
+    items: Iterable[CalendarItem | UndatedEvent],
+    reference_date: date,
+) -> int | None:
+    if recurrence != "recurring":
+        return None
+    items_tuple = tuple(items)
+    gap = observed_gap_years(items_tuple)
+    years = observed_years(items_tuple)
+    if gap is None or not years:
+        return None
+    probable = years[-1] + gap
+    while probable < reference_date.year:
+        probable += gap
+    return probable
 
 
 def series_page_url(slug: str, config: BuildConfig) -> str:
@@ -740,10 +981,9 @@ def series_page_url(slug: str, config: BuildConfig) -> str:
 
 
 def official_series_link(series: SeriesMetadata) -> str:
-    official_url = series.website or next((url for url in series.sources if url), "")
-    if not official_url:
+    if not series.website:
         return ""
-    return f" {markdown_link('↗', official_url)}"
+    return f" {markdown_link('↗', series.website)}"
 
 
 def load_source_pages(source_dir: Path) -> list[dict]:

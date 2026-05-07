@@ -1,0 +1,24 @@
+name: MOLTEN 1988, 3rd International Conference on Molten Slags and Fluxes
+event_types:
+- conference
+start: '1988-06-27'
+end: '1988-06-29'
+timezone: Europe/London
+city: Glasgow
+country: GB
+venue: University of Strathclyde
+url: https://ci.nii.ac.jp/ncid/BA10849629
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://ci.nii.ac.jp/ncid/BA10849629
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

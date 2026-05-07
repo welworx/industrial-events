@@ -1,0 +1,23 @@
+name: MOLTEN 1980, 1st International Symposium on Metallurgical Slags
+event_types:
+- conference
+start: '1980-08-24'
+end: '1980-08-28'
+timezone: America/Halifax
+city: Halifax
+country: CA
+url: https://libris.kb.se/bib/4516431
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://libris.kb.se/bib/4516431
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

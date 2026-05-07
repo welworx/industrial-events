@@ -1,6 +1,5 @@
 series: International Heavy Minerals Conference
 slug: heavy-minerals
-website: https://www.saimm.co.za
 description: Recurring international heavy minerals conference series.
 recurrence: recurring
 categories:
@@ -10,7 +9,7 @@ topics:
 - heavy-minerals
 - mineral-processing
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

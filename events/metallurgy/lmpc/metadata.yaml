@@ -1,6 +1,5 @@
 series: Liquid Metal Processing and Casting Conference
 slug: lmpc
-website: https://www.tms.org
 description: Recurring Liquid Metal Processing and Casting conference series.
 recurrence: recurring
 categories:
@@ -11,7 +10,7 @@ topics:
 - casting
 - processing
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.tms.org
   last_checked: '2026-05-07'

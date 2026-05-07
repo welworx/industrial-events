@@ -1,6 +1,5 @@
 series: SAIMM Pyrometallurgy International Conference
 slug: saimm-pyrometallurgy
-website: https://www.saimm.co.za
 description: Recurring SAIMM pyrometallurgy conference series.
 recurrence: recurring
 categories:
@@ -11,7 +10,7 @@ topics:
 - sustainability
 - competitiveness
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

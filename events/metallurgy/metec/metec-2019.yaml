@@ -1,0 +1,23 @@
+name: METEC 2019, 10th International Metallurgy Trade Fair
+event_types:
+- trade-fair
+- exhibition
+start: '2019-06-25'
+end: '2019-06-29'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.metec-tradefair.com/en/Media_News/Press/Press_Material/Press_releases/GIFA%2C_METEC%2C_THERMPROCESS_and_NEWCAST_%E2%80%93_%E2%80%9CThe_Bright_World_of_Metals%E2%80%9D_is_taking_place_in_D%C3%BCsseldorf_again_from_25._to_29._June_2019
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2019
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec
+sources:
+- type: event-site
+  scope: event
+  url: https://www.metec-tradefair.com/en/Media_News/Press/Press_Material/Press_releases/GIFA%2C_METEC%2C_THERMPROCESS_and_NEWCAST_%E2%80%93_%E2%80%9CThe_Bright_World_of_Metals%E2%80%9D_is_taking_place_in_D%C3%BCsseldorf_again_from_25._to_29._June_2019
+  last_checked: '2026-05-07'
+  note: Official METEC press release lists METEC 2019 dates and says METEC was taking place for the tenth time.
