@@ -245,7 +245,9 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("](<https://e.test/s>)", readme_series)
         self.assertNotIn("**Types:**", readme_series)
         self.assertNotIn("**Tags:**", readme_series)
-        self.assertIn("**Series:** ![recurrence: recurring]", readme_series)
+        self.assertNotIn("**Series:**", readme_series)
+        self.assertIn("![recurrence: recurring 2027-2029, annual]", readme_series)
+        self.assertIn("![status: active]", readme_series)
         self.assertIn("**Next:** ", readme_series)
         self.assertIn(
             "![next: Mar 10-12, 2027](https://img.shields.io/badge/next-Mar%2010--12%2C%202027-brightgreen) "
@@ -374,6 +376,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("](<https://example.org/discovery>)", section)
         self.assertNotIn("**Next:**", section)
         self.assertNotIn("next-TBD", section)
+        self.assertNotIn("**Series:**", section)
 
     def test_rejects_unknown_fields(self) -> None:
         source = FIXTURES / "invalid-unknown-field"
