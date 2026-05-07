@@ -1,0 +1,20 @@
+name: COM 2023, 62nd Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2023-08-21'
+end: '2023-08-24'
+timezone: America/Toronto
+city: Toronto
+country: CA
+url: https://com.metsoc.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Listed with Wasmund memorial of sustainability in pyrometallurgy.
