@@ -1,0 +1,12 @@
+name: XVIII International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+city: Sydney
+country: AU
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+  note: Official IMPC history identifies congress XVIII in 1993 at Sydney; exact event dates are not listed in this source.

@@ -1,0 +1,12 @@
+name: IV International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+city: Stockholm
+country: SE
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+  note: Official IMPC history identifies congress IV in 1957 at Stockholm; exact event dates are not listed in this source.

@@ -1,0 +1,19 @@
+name: XXII International Mineral Processing Congress
+event_types:
+- conference
+start: '2003-09-29'
+end: '2003-10-03'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: https://books.google.com/books/about/Proceedings_of_the_XXII_International_Mi.html?id=Fh4e0AEACAAJ
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://books.google.com/books/about/Proceedings_of_the_XXII_International_Mi.html?id=Fh4e0AEACAAJ
+  last_checked: '2026-05-07'
