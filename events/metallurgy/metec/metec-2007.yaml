@@ -1,0 +1,22 @@
+name: METEC 2007, 7th International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '2007-06-12'
+end: '2007-06-16'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.foundrymag.com/issues-and-ideas/article/21926184/straight-from-the-showroom
+status: confirmed
+sources:
+- type: news
+  scope: event
+  url: https://www.foundrymag.com/issues-and-ideas/article/21926184/straight-from-the-showroom
+  last_checked: '2026-05-07'
+  note: Foundry Management & Technology reports METEC 2007 as the seventh presentation and says the Dusseldorf trade-fair quartet ran 12-16 June 2007.
+- type: event-listing
+  scope: event
+  url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+  last_checked: '2026-05-07'
+  note: TradeFairDates lists METEC 2007 in Dusseldorf, 12-16 June 2007.

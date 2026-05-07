@@ -1,0 +1,17 @@
+name: METEC 1979, 1st International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '1979-06-16'
+end: '1979-06-22'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.duesseldorf.de/stadtarchiv/stadtgeschichte/chronik/1979
+status: confirmed
+sources:
+- type: city-archive
+  scope: event
+  url: https://www.duesseldorf.de/stadtarchiv/stadtgeschichte/chronik/1979
+  last_checked: '2026-05-07'
+  note: Dusseldorf city chronicle lists METEC as the 1st International Metallurgical Trade Fair and Congress, 16-22 June 1979.

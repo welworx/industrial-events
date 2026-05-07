@@ -1,0 +1,22 @@
+name: METEC 2011, 8th International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '2011-06-28'
+end: '2011-07-02'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.steeltimesint.com/content-images/subscriberpdfs/STI_March_editorial_web_res.pdf
+status: confirmed
+sources:
+- type: news
+  scope: event
+  url: https://www.steeltimesint.com/content-images/subscriberpdfs/STI_March_editorial_web_res.pdf
+  last_checked: '2026-05-07'
+  note: Steel Times International March 2011 issue refers to the eighth METEC in Dusseldorf, 28 June-2 July 2011.
+- type: event-listing
+  scope: event
+  url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+  last_checked: '2026-05-07'
+  note: TradeFairDates lists METEC 2011 in Dusseldorf, 28 June-2 July 2011.

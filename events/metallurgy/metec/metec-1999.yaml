@@ -1,0 +1,17 @@
+name: METEC 1999, 5th International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '1999-06-09'
+end: '1999-06-15'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+  last_checked: '2026-05-07'
+  note: TradeFairDates lists METEC 1999 in Dusseldorf, 9-15 June 1999; ordinal follows the event-date sequence and later METEC numbering continuity.
