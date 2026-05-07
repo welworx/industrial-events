@@ -14,7 +14,7 @@ sources:
 - type: event-site
   scope: event
   url: https://www.mmij.or.jp/events/1907.html
-  last_checked: '2026-05-05'
+  last_checked: '2026-05-07'
 - type: event-site
   scope: event
   url: https://www.mmij.or.jp/mmij-news/2016-01-04-235
