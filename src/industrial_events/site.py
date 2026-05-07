@@ -813,8 +813,8 @@ def observed_cadence(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[str,
             frequency = "annual"
         else:
             frequency = f"{gap} years"
-        return "every", frequency
-    return "every", "irregular"
+        return "frequency", frequency
+    return "frequency", "irregular"
 
 
 def observed_years(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[int, ...]:

@@ -103,7 +103,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[CALPHAD Conference](<https://welworx.github.io/industrial-events/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
   Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
-  ![every: annual](https://img.shields.io/badge/every-annual-blue)
+  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
   **Next:** ![next: Jun 7-12, 2026](https://img.shields.io/badge/next-Jun%207--12%2C%202026-brightgreen) [CALPHAD 2026](<https://calphad2026.org>)
 
 - **[Conference of Metallurgists](<https://welworx.github.io/industrial-events/events/series/com.html>)** [↗](<https://com.metsoc.org>)
@@ -138,7 +138,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)**
   Recurring international conference series for copper extraction, processing, recycling, and related metallurgical operations.
-  ![every: 3 years](https://img.shields.io/badge/every-3%20years-blue)
+  ![frequency: 3 years](https://img.shields.io/badge/frequency-3%20years-blue)
   **Next:** ![next: Sep 3-7, 2028](https://img.shields.io/badge/next-Sep%203--7%2C%202028-brightgreen) [13th International Copper Conference (Copper 2028)](<https://www.pyrometallurgy.co.za/Conferences/>)
 
 - **[International Ferro-Alloys Congress](<https://welworx.github.io/industrial-events/events/series/infacon.html>)** [↗](<https://www.pyrometallurgy.co.za/Infacon/>)
@@ -198,7 +198,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[SME Annual Conference & Expo](<https://welworx.github.io/industrial-events/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
   Recurring Society for Mining, Metallurgy & Exploration annual conference and expo.
-  ![every: annual](https://img.shields.io/badge/every-annual-blue)
+  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
   **Next:** ![next: Feb 28-Mar 3, 2027](https://img.shields.io/badge/next-Feb%2028--Mar%203%2C%202027-brightgreen) [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>)
 
 - **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)**
@@ -223,7 +223,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[TMS Annual Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx>)
   TMS annual meeting and exhibition for minerals, metals, and materials science, including selected pyrometallurgy scopes.
-  ![every: annual](https://img.shields.io/badge/every-annual-blue)
+  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
   **Next:** ![next: Mar 14-18, 2027](https://img.shields.io/badge/next-Mar%2014--18%2C%202027-brightgreen) [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>)
 
 - **[Unified International Technical Conference on Refractories](<https://welworx.github.io/industrial-events/events/series/unitecr.html>)** [↗](<https://www.unitecr.org>)

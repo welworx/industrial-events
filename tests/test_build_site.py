@@ -246,7 +246,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("**Types:**", readme_series)
         self.assertNotIn("**Tags:**", readme_series)
         self.assertNotIn("**Series:**", readme_series)
-        self.assertIn("![every: annual]", readme_series)
+        self.assertIn("![frequency: annual]", readme_series)
         self.assertNotIn("![status:", readme_series)
         self.assertIn("**Next:** ", readme_series)
         self.assertIn(
