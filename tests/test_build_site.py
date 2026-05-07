@@ -341,11 +341,11 @@ class BuildSiteTests(unittest.TestCase):
     def test_readme_series_overview_sorts_by_series_name(self) -> None:
         metadata = (
             build_site.SeriesMetadata(
-                path=Path("beta/metadata.yaml"),
+                path=Path("zeta/metadata.yaml"),
                 domain="software",
                 series="Zeta Events",
                 slug="zeta",
-                description="Later alphabetically.",
+                description="Later alphabetically with two events.",
                 recurrence="recurring",
                 categories=("software",),
                 topics=(),
@@ -355,7 +355,7 @@ class BuildSiteTests(unittest.TestCase):
                 domain="software",
                 series="Alpha Events",
                 slug="alpha",
-                description="Earlier alphabetically.",
+                description="Earlier alphabetically with two events.",
                 recurrence="recurring",
                 categories=("software",),
                 topics=(),
@@ -371,8 +371,88 @@ class BuildSiteTests(unittest.TestCase):
                 categories=("software",),
                 topics=(),
             ),
+            build_site.SeriesMetadata(
+                path=Path("single/metadata.yaml"),
+                domain="software",
+                series="Singleton Conf",
+                slug="single-conf",
+                description="Only one tracked event so far.",
+                recurrence="recurring",
+                categories=("software",),
+                topics=(),
+            ),
+            build_site.SeriesMetadata(
+                path=Path("cadence/metadata.yaml"),
+                domain="software",
+                series="Cadence Conf",
+                slug="cadence-conf",
+                description="Two tracked events.",
+                recurrence="recurring",
+                categories=("software",),
+                topics=(),
+            ),
         )
         items = (
+            build_site.CalendarItem(
+                uid="alpha-2024@industrial-events",
+                summary="Alpha Events 2024",
+                start=Date(2024, 4, 1),
+                end_exclusive=Date(2024, 4, 2),
+                series="Alpha Events",
+                series_slug="alpha",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/alpha-2024",
+            ),
+            build_site.CalendarItem(
+                uid="alpha-2026@industrial-events",
+                summary="Alpha Events 2026",
+                start=Date(2026, 4, 1),
+                end_exclusive=Date(2026, 4, 2),
+                series="Alpha Events",
+                series_slug="alpha",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/alpha-2026",
+            ),
+            build_site.CalendarItem(
+                uid="zeta-2024@industrial-events",
+                summary="Zeta Events 2024",
+                start=Date(2024, 3, 1),
+                end_exclusive=Date(2024, 3, 2),
+                series="Zeta Events",
+                series_slug="zeta",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/zeta-2024",
+            ),
+            build_site.CalendarItem(
+                uid="zeta-2026@industrial-events",
+                summary="Zeta Events 2026",
+                start=Date(2026, 3, 1),
+                end_exclusive=Date(2026, 3, 2),
+                series="Zeta Events",
+                series_slug="zeta",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/zeta-2026",
+            ),
             build_site.CalendarItem(
                 uid="one-time-2026@industrial-events",
                 summary="One-Time Summit 2026",
@@ -387,6 +467,51 @@ class BuildSiteTests(unittest.TestCase):
                 kind="event",
                 status="CONFIRMED",
                 url="https://example.org/one-time",
+            ),
+            build_site.CalendarItem(
+                uid="single-conf-2026@industrial-events",
+                summary="Singleton Conf 2026",
+                start=Date(2026, 7, 1),
+                end_exclusive=Date(2026, 7, 2),
+                series="Singleton Conf",
+                series_slug="single-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/single",
+            ),
+            build_site.CalendarItem(
+                uid="cadence-conf-2024@industrial-events",
+                summary="Cadence Conf 2024",
+                start=Date(2024, 5, 1),
+                end_exclusive=Date(2024, 5, 2),
+                series="Cadence Conf",
+                series_slug="cadence-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/cadence-2024",
+            ),
+            build_site.CalendarItem(
+                uid="cadence-conf-2026@industrial-events",
+                summary="Cadence Conf 2026",
+                start=Date(2026, 5, 1),
+                end_exclusive=Date(2026, 5, 2),
+                series="Cadence Conf",
+                series_slug="cadence-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/cadence-2026",
             ),
         )
 
@@ -404,18 +529,31 @@ class BuildSiteTests(unittest.TestCase):
             test_config(),
             reference_date=Date(2026, 1, 1),
         )
+        single_section = build_site.render_readme_single_event_records(
+            metadata,
+            items,
+            (),
+            test_config(),
+            reference_date=Date(2026, 1, 1),
+        )
 
         self.assertLess(section.index("Alpha Events"), section.index("Zeta Events"))
-        self.assertEqual(section.count("![recurrence: recurring]"), 2)
+        self.assertGreaterEqual(section.count("![span: 2 years]"), 3)
         self.assertNotIn("One-Time Summit", section)
+        self.assertNotIn("Singleton Conf", section)
+        self.assertIn("Cadence Conf", section)
+        self.assertIn("![span: 2 years]", section)
         self.assertNotIn("](<https://example.org/discovery>)", section)
-        self.assertNotIn("**Next:**", section)
         self.assertNotIn("next-TBD", section)
         self.assertNotIn("**Series:**", section)
         self.assertIn("One-Time Summit", one_time_section)
         self.assertIn("![event: one-time]", one_time_section)
         self.assertNotIn("![status:", one_time_section)
         self.assertIn("**Event:**", one_time_section)
+        self.assertIn("Singleton Conf", single_section)
+        self.assertNotIn("Cadence Conf", single_section)
+        self.assertIn("![recurrence: recurring]", single_section)
+        self.assertIn("**Event:**", single_section)
 
     def test_rejects_unknown_fields(self) -> None:
         source = FIXTURES / "invalid-unknown-field"
