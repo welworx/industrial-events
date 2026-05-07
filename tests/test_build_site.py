@@ -246,8 +246,8 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("**Types:**", readme_series)
         self.assertNotIn("**Tags:**", readme_series)
         self.assertNotIn("**Series:**", readme_series)
-        self.assertIn("![recurrence: recurring 2027-2029, annual]", readme_series)
-        self.assertIn("![status: active]", readme_series)
+        self.assertIn("![every: annual]", readme_series)
+        self.assertNotIn("![status:", readme_series)
         self.assertIn("**Next:** ", readme_series)
         self.assertIn(
             "![next: Mar 10-12, 2027](https://img.shields.io/badge/next-Mar%2010--12%2C%202027-brightgreen) "
@@ -413,8 +413,8 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("next-TBD", section)
         self.assertNotIn("**Series:**", section)
         self.assertIn("One-Time Summit", one_time_section)
-        self.assertIn("![recurrence: one-off 2026]", one_time_section)
-        self.assertIn("![status: one-off]", one_time_section)
+        self.assertIn("![event: one-time]", one_time_section)
+        self.assertNotIn("![status:", one_time_section)
         self.assertIn("**Event:**", one_time_section)
 
     def test_rejects_unknown_fields(self) -> None:

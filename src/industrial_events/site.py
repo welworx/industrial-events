@@ -720,46 +720,33 @@ def series_badges(
 ) -> str:
     items_tuple = tuple(item for item in items if item.kind == "event")
     badges = [recurrence_badge(series.recurrence, (*items_tuple, *undated_events))]
-    status = series_status(series.recurrence, items_tuple, tuple(undated_events), reference_date)
-    if status:
-        badges.append(status_badge_markdown(status))
     return " ".join(badges)
 
 
 def recurrence_badge(recurrence: str, items: Iterable[CalendarItem | UndatedEvent] = ()) -> str:
-    colors = {
-        "recurring": "blue",
-        "one-off": "lightgrey",
-        "unknown": "yellow",
-    }
-    message = recurrence
+    if recurrence == "one-off":
+        return shield_badge("event", "one-time", "lightgrey")
+    if recurrence == "unknown":
+        return shield_badge("recurrence", "unknown", "yellow")
     cadence = observed_cadence(items)
     if cadence:
-        message = f"{message} {cadence}"
-    return shield_badge("recurrence", message, colors.get(recurrence, "lightgrey"))
+        return shield_badge("every", cadence, "blue")
+    return shield_badge("recurrence", recurrence, "blue")
 
 
 def observed_cadence(items: Iterable[CalendarItem | UndatedEvent]) -> str:
     years = sorted({item_year(item) for item in items if item_year(item) is not None})
-    if not years:
-        return ""
-    if len(years) == 1:
-        return str(years[0])
     if len(years) < 3:
-        return f"{years[0]}-{years[-1]}"
+        return ""
     gaps = [later - earlier for earlier, later in zip(years, years[1:])]
     if gaps and len(set(gaps)) == 1:
         gap = gaps[0]
         if gap == 1:
             frequency = "annual"
-        elif gap == 2:
-            frequency = "biennial"
-        elif gap == 3:
-            frequency = "triennial"
         else:
-            frequency = f"every {gap}y"
-        return f"{years[0]}-{years[-1]}, {frequency}"
-    return f"{years[0]}-{years[-1]}, irregular"
+            frequency = f"{gap} years"
+        return frequency
+    return "irregular"
 
 
 def item_year(item: CalendarItem | UndatedEvent) -> int | None:
@@ -771,33 +758,6 @@ def item_year(item: CalendarItem | UndatedEvent) -> int | None:
     if not match:
         return None
     return int(match.group(1))
-
-
-def series_status(
-    recurrence: str,
-    items: tuple[CalendarItem, ...],
-    undated_events: tuple[UndatedEvent, ...],
-    reference_date: date,
-) -> str:
-    if recurrence == "one-off":
-        return "one-off"
-    if any(item.start >= reference_date for item in items) or undated_events:
-        return "active"
-    if not items:
-        return ""
-    latest_year = max(item.start.year for item in items)
-    if latest_year <= reference_date.year - 5:
-        return "inactive"
-    return ""
-
-
-def status_badge_markdown(status: str) -> str:
-    colors = {
-        "active": "brightgreen",
-        "inactive": "lightgrey",
-        "one-off": "lightgrey",
-    }
-    return shield_badge("status", status, colors.get(status, "lightgrey"))
 
 
 def shield_badge(label: str, message: str, color: str) -> str:
