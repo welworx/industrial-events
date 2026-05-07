@@ -1,0 +1,21 @@
+name: SIPS 2015 Sustainable Industrial Processing Summit and Exhibition
+event_types:
+- conference
+- exhibition
+start: '2015-10-04'
+end: '2015-10-09'
+timezone: Europe/Istanbul
+city: Antalya
+country: TR
+url: http://www.flogen.org/sips2015
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.flogen.org/sips2015
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Listed as incorporating the Vaniukov International Symposium.
