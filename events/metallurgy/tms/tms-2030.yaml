@@ -6,7 +6,7 @@ sources:
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-05'
+  last_checked: '2026-05-07'
   note: Lists Sulfide Smelting (TMS) in 2030, USA, without usable meeting dates.
 event_types:
 - conference
