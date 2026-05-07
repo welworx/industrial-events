@@ -1,0 +1,19 @@
+name: Liquid Metal Processing and Casting Conference 2019
+event_types:
+- conference
+start: '2019-09-08'
+end: '2019-09-11'
+timezone: Europe/London
+city: Birmingham
+country: GB
+url: https://www.tms.org/LMPC2019
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/LMPC2019
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
