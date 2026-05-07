@@ -6,7 +6,7 @@
 [![iCalendar](https://img.shields.io/badge/calendar-iCalendar-green)](https://welworx.github.io/industrial-events/calendars/all.ics)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Curated YAML data for selected metallurgy and materials events, currently covering copper, extraction metallurgy, nickel/cobalt, cross-cutting Extraction symposia, and TMS Annual Meeting scopes. GitHub Pages outputs are generated during deployment from the source YAML files.
+Curated YAML data for selected industrial events across metallurgy, mining, materials, and process-engineering domains. Event records prefer official event pages when available; discovery and organizer pages are tracked separately to support maintenance. GitHub Pages outputs are generated during deployment from the source YAML files.
 
 Best way to consume the data: [open the reader-friendly event site](https://welworx.github.io/industrial-events/).
 
