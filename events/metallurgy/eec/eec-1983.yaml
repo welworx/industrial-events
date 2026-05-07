@@ -1,0 +1,12 @@
+name: 1st European Electric Steelmaking Conference
+event_types:
+- conference
+city: Aachen
+country: DE
+status: estimated
+sources:
+- type: event-brochure
+  scope: event
+  url: https://www.metallurgia-italiana.net/eng/public/Eventi/14538064774624.pdf
+  last_checked: '2026-05-07'
+  note: AIM EEC 2016 background list identifies the 1st EEC in Aachen, Germany, in 1983; exact dates are not listed in this source.

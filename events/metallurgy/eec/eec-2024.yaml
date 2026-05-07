@@ -1,0 +1,22 @@
+name: EEC 2024, 13th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2024-06-03'
+end: '2024-06-07'
+timezone: Europe/Berlin
+city: Essen
+country: DE
+venue: Philharmonie Essen
+url: https://s-x-aipi-project.eu/events/13th-european-electric-steelmaking-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://s-x-aipi-project.eu/events/13th-european-electric-steelmaking-conference
+  last_checked: '2026-05-07'
+  note: s-X-AIPI event page identifies the 13th European Electric Steelmaking Conference in Essen, 3-7 June 2024.
+- type: event-listing
+  scope: event
+  url: https://www.home-of-steel.de/termine/13th-eec-2024-286
+  last_checked: '2026-05-07'
+  note: Home of Steel listing says VDEh organized the 13th EEC at Philharmonie Essen in June 2024 and summarizes the EEC sequence from 1983 through 2021.

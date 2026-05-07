@@ -1,0 +1,21 @@
+name: 7th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2002-05-26'
+end: '2002-05-29'
+timezone: Europe/Rome
+city: Venice
+country: IT
+url: https://www.mch.rwth-aachen.de/cms/mch/forschung/~jevy/publikationen/?showall=1
+status: confirmed
+sources:
+- type: publication-record
+  scope: event
+  url: https://www.mch.rwth-aachen.de/cms/mch/forschung/~jevy/publikationen/?showall=1
+  last_checked: '2026-05-07'
+  note: RWTH publication list identifies proceedings of the 7th European Electric Steelmaking Conference in Venice, 26-29 May 2002.
+- type: event-brochure
+  scope: event
+  url: https://www.metallurgia-italiana.net/eng/public/Eventi/14538064774624.pdf
+  last_checked: '2026-05-07'
+  note: AIM EEC 2016 background list identifies the 7th EEC in Venice, Italy, in 2002.
