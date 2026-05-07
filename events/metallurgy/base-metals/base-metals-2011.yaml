@@ -1,0 +1,22 @@
+name: 6th Southern African Base Metals Conference
+event_types:
+- conference
+start: '2011-07-18'
+end: '2011-07-21'
+timezone: Africa/Johannesburg
+city: Phalaborwa
+country: ZA
+venue: Hans Merensky Hotel & Spa
+url: https://www.saimm.co.za/saimm-events/upcoming-events/past-events/6th-southern-african-base-metals-conference-2011
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/past-events/6th-southern-african-base-metals-conference-2011
+  last_checked: '2026-05-07'
+  note: SAIMM page gives 18-20 July 2011 conference dates and 21 July technical visit in the event date range.
+- type: proceedings
+  scope: event
+  url: https://www.911metallurgist.com/wp-content/uploads/2016/02/Review-of-selective-separations-of-cobalt-uranium-zinc-nickel-and-associated-contaminants-from-various-process-streams.pdf
+  last_checked: '2026-05-07'
+  note: Proceedings paper header identifies the 6th Southern African Base Metals Conference 2011.

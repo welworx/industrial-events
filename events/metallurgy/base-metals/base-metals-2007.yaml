@@ -1,0 +1,20 @@
+name: 4th Southern African Base Metals Conference
+event_types:
+- conference
+start: '2007-07-23'
+end: '2007-07-25'
+timezone: Africa/Windhoek
+city: Swakopmund
+country: NA
+url: https://www.saimm.co.za/Conferences/BM2007/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/BM2007/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/past-events/7th-base-metals-conference-2013?print=1&tmpl=component
+  last_checked: '2026-05-07'
+  note: SAIMM series page places Swakopmund, Namibia 2007 as the fourth event.

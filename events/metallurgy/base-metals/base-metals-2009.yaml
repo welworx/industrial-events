@@ -1,0 +1,21 @@
+name: 5th Southern African Base Metals Conference
+event_types:
+- conference
+start: '2009-07-27'
+end: '2009-07-31'
+timezone: Africa/Gaborone
+city: Kasane
+country: BW
+venue: Mowana Safari Lodge
+url: https://www.saimm.co.za/Conferences/BM2009/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/BM2009/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.basemetals.org.za/Kasane2009/
+  last_checked: '2026-05-07'
+  note: Event page gives the 27-31 July 2009 dates and lists the preceding Base Metals events.
