@@ -1,0 +1,21 @@
+name: MOLTEN 2021, 11th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2021-02-21'
+end: '2021-02-25'
+timezone: Asia/Seoul
+city: Seoul
+country: KR
+url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'
+  note: KIM records the 11th edition as Korea virtual, February 21-25, 2021.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+  note: Pyrometallurgy archive still lists the original 2020 Seoul schedule.

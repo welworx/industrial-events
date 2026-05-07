@@ -1,0 +1,23 @@
+name: MOLTEN 2004, 7th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2004-01-25'
+end: '2004-01-28'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: https://pyrometallurgy.co.za/MoltenSlags2004/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags2004/000b-Prelims.pdf
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

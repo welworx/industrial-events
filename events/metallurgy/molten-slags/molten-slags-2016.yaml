@@ -1,0 +1,24 @@
+name: MOLTEN 2016, 10th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2016-05-22'
+end: '2016-05-25'
+timezone: America/Los_Angeles
+city: Seattle
+country: US
+venue: Grand Hyatt Seattle
+url: https://www.tms.org/meetings/2016/molten16/proceedings.aspx
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/meetings/2016/molten16/proceedings.aspx
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

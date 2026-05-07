@@ -17,6 +17,11 @@ sources:
   last_checked: '2026-05-07'
 - type: overview
   scope: series
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'
+  note: MOLTEN history lists editions from 1980 through 2024 and records the 11th edition as a 2021 virtual event.
+- type: overview
+  scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/
   last_checked: '2026-05-07'
   note: Lists MOLTEN2028.

@@ -1,0 +1,25 @@
+name: MOLTEN 2024, 12th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2024-06-17'
+end: '2024-06-19'
+timezone: Australia/Brisbane
+city: Brisbane
+country: AU
+venue: Brisbane Convention and Exhibition Centre
+url: https://www.ausimm.com/conferences-and-events/molten-conferences-2024/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.ausimm.com/conferences-and-events/molten-conferences-2024/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.ausimm.com/conferences-and-events/molten-conferences-2024/about/molten/
+  last_checked: '2026-05-07'
+  note: Venue source.
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'

@@ -1,0 +1,23 @@
+name: MOLTEN 2009, 8th International Conference on Molten Slags, Fluxes and Salts
+event_types:
+- conference
+start: '2009-01-18'
+end: '2009-01-21'
+timezone: America/Santiago
+city: Santiago
+country: CL
+url: https://www.pyrometallurgy.co.za/MoltenSlags2009/0000-FrontPages.pdf
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags2009/0000-FrontPages.pdf
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/MoltenSlags/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
+  last_checked: '2026-05-07'
