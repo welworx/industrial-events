@@ -23,7 +23,7 @@ sources:
 - type: event-site
   scope: event
   url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
-  last_checked: '2026-05-05'
+  last_checked: '2026-05-07'
 - type: venue
   scope: event
   url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/
