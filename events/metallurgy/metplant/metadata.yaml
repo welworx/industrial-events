@@ -1,0 +1,22 @@
+series: MetPlant
+slug: metplant
+website: https://www.ausimm.com
+description: Recurring AusIMM metallurgical plant design and operating strategies conference.
+recurrence: recurring
+categories:
+- metallurgy
+- mineral-processing
+topics:
+- plant-design
+- operations
+- mineral-processing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.ausimm.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: series
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists MetPlant editions including 2006 and 2008.
