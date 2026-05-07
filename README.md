@@ -252,6 +252,14 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 <!-- generated:series-overview:end -->
 
+## Covered One-Time Events
+
+<!-- generated:one-time-events:start -->
+
+No one-time events are tracked separately right now.
+
+<!-- generated:one-time-events:end -->
+
 ## Discovery Sources
 
 <!-- generated:overview-sources:start -->

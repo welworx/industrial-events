@@ -361,11 +361,45 @@ class BuildSiteTests(unittest.TestCase):
                 topics=(),
                 sources=("https://example.org/discovery",),
             ),
+            build_site.SeriesMetadata(
+                path=Path("one/metadata.yaml"),
+                domain="software",
+                series="One-Time Summit",
+                slug="one-time",
+                description="Standalone event.",
+                recurrence="one-off",
+                categories=("software",),
+                topics=(),
+            ),
+        )
+        items = (
+            build_site.CalendarItem(
+                uid="one-time-2026@industrial-events",
+                summary="One-Time Summit 2026",
+                start=Date(2026, 6, 1),
+                end_exclusive=Date(2026, 6, 2),
+                series="One-Time Summit",
+                series_slug="one-time",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/one-time",
+            ),
         )
 
         section = build_site.render_readme_series_overview(
             metadata,
+            items,
             (),
+            test_config(),
+            reference_date=Date(2026, 1, 1),
+        )
+        one_time_section = build_site.render_readme_one_time_events(
+            metadata,
+            items,
             (),
             test_config(),
             reference_date=Date(2026, 1, 1),
@@ -373,10 +407,15 @@ class BuildSiteTests(unittest.TestCase):
 
         self.assertLess(section.index("Alpha Events"), section.index("Zeta Events"))
         self.assertEqual(section.count("![recurrence: recurring]"), 2)
+        self.assertNotIn("One-Time Summit", section)
         self.assertNotIn("](<https://example.org/discovery>)", section)
         self.assertNotIn("**Next:**", section)
         self.assertNotIn("next-TBD", section)
         self.assertNotIn("**Series:**", section)
+        self.assertIn("One-Time Summit", one_time_section)
+        self.assertIn("![recurrence: one-off 2026]", one_time_section)
+        self.assertIn("![status: one-off]", one_time_section)
+        self.assertIn("**Event:**", one_time_section)
 
     def test_rejects_unknown_fields(self) -> None:
         source = FIXTURES / "invalid-unknown-field"

@@ -67,6 +67,8 @@ README_SUBMISSION_START = "<!-- generated:submission-opportunities:start -->"
 README_SUBMISSION_END = "<!-- generated:submission-opportunities:end -->"
 README_SERIES_START = "<!-- generated:series-overview:start -->"
 README_SERIES_END = "<!-- generated:series-overview:end -->"
+README_ONE_TIME_START = "<!-- generated:one-time-events:start -->"
+README_ONE_TIME_END = "<!-- generated:one-time-events:end -->"
 README_SOURCES_START = "<!-- generated:overview-sources:start -->"
 README_SOURCES_END = "<!-- generated:overview-sources:end -->"
 
@@ -442,6 +444,18 @@ def write_readme_overview(
     )
     updated = replace_marked_section(
         updated,
+        README_ONE_TIME_START,
+        README_ONE_TIME_END,
+        render_readme_one_time_events(
+            load_series_metadata(source_dir),
+            items_tuple,
+            undated_tuple,
+            config,
+            reference_date,
+        ),
+    )
+    updated = replace_marked_section(
+        updated,
         README_SOURCES_START,
         README_SOURCES_END,
         render_readme_overview_sources(sources_dir),
@@ -551,7 +565,9 @@ def render_readme_series_overview(
         README_SERIES_START,
         "",
     ]
-    for series in sorted(metadata, key=lambda value: value.series.lower()):
+    for series in sorted(
+        (item for item in metadata if item.recurrence != "one-off"), key=lambda value: value.series.lower()
+    ):
         series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
         series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
         series_link = markdown_link(series.series, series_page_url(series.slug, config))
@@ -567,6 +583,47 @@ def render_readme_series_overview(
             lines.append(f"  **Next:** {next_event}")
         lines.append("")
     lines.append(README_SERIES_END)
+    return "\n".join(lines)
+
+
+def render_readme_one_time_events(
+    metadata: Iterable[SeriesMetadata],
+    items: Iterable[CalendarItem],
+    undated_events: Iterable[UndatedEvent],
+    config: BuildConfig,
+    reference_date: date | None = None,
+) -> str:
+    today = reference_date or date.today()
+    items_tuple = tuple(items)
+    undated_tuple = tuple(undated_events)
+    one_time = sorted(
+        (item for item in metadata if item.recurrence == "one-off"), key=lambda value: value.series.lower()
+    )
+    lines = [
+        README_ONE_TIME_START,
+        "",
+    ]
+    if not one_time:
+        lines.append("No one-time events are tracked separately right now.")
+    else:
+        for series in one_time:
+            series_items = tuple(item for item in items_tuple if item.series_slug == series.slug)
+            series_undated = tuple(item for item in undated_tuple if item.series_slug == series.slug)
+            series_link = markdown_link(series.series, series_page_url(series.slug, config))
+            lines.extend(
+                [
+                    f"- **{series_link}**{official_series_link(series)}",
+                    f"  {series.description}",
+                    f"  {series_badges(series, series_items, series_undated, today)}",
+                ]
+            )
+            next_event = next_series_event_cell(series_items, series_undated, today)
+            if next_event:
+                lines.append(f"  **Event:** {next_event}")
+            lines.append("")
+        if lines[-1] == "":
+            lines.pop()
+    lines.extend(["", README_ONE_TIME_END])
     return "\n".join(lines)
 
 
