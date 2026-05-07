@@ -1,0 +1,21 @@
+name: SAIMM Pyrometallurgy International Conference 2026
+event_types:
+- conference
+start: '2026-05-25'
+end: '2026-05-29'
+timezone: Africa/Johannesburg
+city: Pretoria
+country: ZA
+venue: CSIR
+url: https://www.saimm.co.za
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
+  note: Listed with Foundations of Competitiveness and Sustainability scope.
