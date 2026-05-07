@@ -594,7 +594,7 @@ def render_readme_series_overview(
                 f"  {series_badges(series, series_items, series_undated, today)}",
             ]
         )
-        next_event = next_series_event_cell(series_items, series_undated, today)
+        next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
         if next_event:
             lines.append(f"  **Next:** {next_event}")
         lines.append("")
@@ -633,7 +633,7 @@ def render_readme_one_time_events(
                     f"  {series_badges(series, series_items, series_undated, today)}",
                 ]
             )
-            next_event = next_series_event_cell(series_items, series_undated, today)
+            next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
             if next_event:
                 lines.append(f"  **Event:** {next_event}")
             lines.append("")
@@ -680,7 +680,7 @@ def render_readme_single_event_records(
                     f"  {series_badges(series, series_items, series_undated, today)}",
                 ]
             )
-            next_event = next_series_event_cell(series_items, series_undated, today)
+            next_event = next_series_event_cell(series.recurrence, series_items, series_undated, today)
             if next_event:
                 lines.append(f"  **Event:** {next_event}")
             lines.append("")
@@ -817,6 +817,22 @@ def observed_cadence(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[str,
     return "every", "irregular"
 
 
+def observed_years(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[int, ...]:
+    return tuple(sorted({item_year(item) for item in items if item_year(item) is not None}))
+
+
+def observed_gap_years(items: Iterable[CalendarItem | UndatedEvent]) -> int | None:
+    years = observed_years(items)
+    if len(years) < 2:
+        return None
+    gaps = [later - earlier for earlier, later in zip(years, years[1:])]
+    if len(years) == 2:
+        return gaps[0]
+    if gaps and len(set(gaps)) == 1:
+        return gaps[0]
+    return None
+
+
 def item_year(item: CalendarItem | UndatedEvent) -> int | None:
     if isinstance(item, CalendarItem):
         if item.kind != "event":
@@ -900,12 +916,15 @@ def common_tags(conferences: Iterable[CalendarItem]) -> tuple[str, ...]:
 
 
 def next_series_event_cell(
+    recurrence: str,
     items: Iterable[CalendarItem],
     undated_events: Iterable[UndatedEvent],
     reference_date: date,
 ) -> str:
+    items_tuple = tuple(items)
+    undated_tuple = tuple(undated_events)
     upcoming = sorted(
-        (item for item in items if item.kind == "event" and item.start >= reference_date),
+        (item for item in items_tuple if item.kind == "event" and item.start >= reference_date),
         key=lambda item: (item.start, item.summary.lower()),
     )
     if upcoming:
@@ -914,10 +933,31 @@ def next_series_event_cell(
             f"{shield_badge('next', compact_date_range_with_year(item.start, item.end_exclusive), 'brightgreen')} "
             f"{markdown_link(item.summary, item.url)}"
         )
-    undated = sorted(undated_events, key=lambda item: item.title.lower())
+    undated = sorted(undated_tuple, key=lambda item: item.title.lower())
     if undated:
         return f"{shield_badge('next', 'TBD', 'yellow')} {markdown_link(undated[0].title, undated[0].url)}"
+    probable_year = probable_next_year(recurrence, (*items_tuple, *undated_tuple), reference_date)
+    if probable_year:
+        return shield_badge("next", f"probably {probable_year}", "yellow")
     return ""
+
+
+def probable_next_year(
+    recurrence: str,
+    items: Iterable[CalendarItem | UndatedEvent],
+    reference_date: date,
+) -> int | None:
+    if recurrence != "recurring":
+        return None
+    items_tuple = tuple(items)
+    gap = observed_gap_years(items_tuple)
+    years = observed_years(items_tuple)
+    if gap is None or not years:
+        return None
+    probable = years[-1] + gap
+    while probable < reference_date.year:
+        probable += gap
+    return probable
 
 
 def series_page_url(slug: str, config: BuildConfig) -> str:

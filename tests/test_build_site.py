@@ -522,6 +522,13 @@ class BuildSiteTests(unittest.TestCase):
             test_config(),
             reference_date=Date(2026, 1, 1),
         )
+        later_section = build_site.render_readme_series_overview(
+            metadata,
+            items,
+            (),
+            test_config(),
+            reference_date=Date(2027, 1, 1),
+        )
         one_time_section = build_site.render_readme_one_time_events(
             metadata,
             items,
@@ -545,6 +552,10 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("![span: 2 years]", section)
         self.assertNotIn("](<https://example.org/discovery>)", section)
         self.assertNotIn("next-TBD", section)
+        self.assertIn(
+            "![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)",
+            later_section,
+        )
         self.assertNotIn("**Series:**", section)
         self.assertIn("One-Time Summit", one_time_section)
         self.assertIn("![event: one-time]", one_time_section)
