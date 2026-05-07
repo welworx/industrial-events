@@ -1,0 +1,19 @@
+name: 4th Slag Valorisation Symposium
+event_types:
+- conference
+start: '2015-04-15'
+end: '2015-04-17'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+url: http://slag-valorisation-symposium.eu
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://slag-valorisation-symposium.eu
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
