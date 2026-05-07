@@ -1,0 +1,20 @@
+name: EASES 2021, 4th European Academic Symposium on EAF Steelmaking
+event_types:
+- conference
+start: '2021-06-16'
+end: '2021-06-18'
+timezone: Europe/Berlin
+city: Aachen
+country: DE
+url: https://www.eases.rwth-aachen.de/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.eases.rwth-aachen.de/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Listed as a free virtual conference.
