@@ -1,0 +1,19 @@
+name: CALPHAD 2026
+event_types:
+- conference
+start: '2026-06-07'
+end: '2026-06-12'
+timezone: America/Toronto
+city: Quebec City
+country: CA
+url: https://calphad2026.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://calphad2026.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
