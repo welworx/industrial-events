@@ -103,7 +103,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[CALPHAD Conference](<https://welworx.github.io/industrial-events/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
   Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
-  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Jun 7-12, 2026](https://img.shields.io/badge/next-Jun%207--12%2C%202026-brightgreen) [CALPHAD 2026](<https://calphad2026.org>)
 
 - **[Conference of Metallurgists](<https://welworx.github.io/industrial-events/events/series/com.html>)** [↗](<https://com.metsoc.org>)
@@ -198,7 +198,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[SME Annual Conference & Expo](<https://welworx.github.io/industrial-events/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
   Recurring Society for Mining, Metallurgy & Exploration annual conference and expo.
-  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Feb 28-Mar 3, 2027](https://img.shields.io/badge/next-Feb%2028--Mar%203%2C%202027-brightgreen) [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>)
 
 - **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)**
@@ -223,7 +223,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[TMS Annual Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx>)
   TMS annual meeting and exhibition for minerals, metals, and materials science, including selected pyrometallurgy scopes.
-  ![frequency: annual](https://img.shields.io/badge/frequency-annual-blue)
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Mar 14-18, 2027](https://img.shields.io/badge/next-Mar%2014--18%2C%202027-brightgreen) [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>)
 
 - **[Unified International Technical Conference on Refractories](<https://welworx.github.io/industrial-events/events/series/unitecr.html>)** [↗](<https://www.unitecr.org>)
