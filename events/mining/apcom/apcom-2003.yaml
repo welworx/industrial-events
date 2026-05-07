@@ -1,0 +1,16 @@
+name: APCOM 2003, 31st International Symposium on Application of Computers and Operations Research in the Minerals Industries
+event_types:
+- conference
+start: '2003-05-14'
+end: '2003-05-16'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: https://www.mdpi.com/2076-3417/14/24/11773
+status: confirmed
+sources:
+- type: reference
+  scope: event
+  url: https://www.mdpi.com/2076-3417/14/24/11773
+  last_checked: '2026-05-07'
+  note: Reference list cites APCOM 2003 as the 31st International Symposium in Cape Town, 14-16 May 2003.

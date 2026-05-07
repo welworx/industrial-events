@@ -1,0 +1,16 @@
+name: APCOM 2017, 38th International Symposium on Application of Computers and Operations Research in the Mineral Industry
+event_types:
+- conference
+start: '2017-08-09'
+end: '2017-08-11'
+timezone: America/Denver
+city: Golden
+country: US
+url: https://csmspace.com/events/apcom2017/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://csmspace.com/events/apcom2017/
+  last_checked: '2026-05-07'
+  note: Colorado School of Mines identifies APCOM 2017 as the 38th International Symposium in Golden, 9-11 August 2017.
