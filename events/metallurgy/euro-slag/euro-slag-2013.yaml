@@ -1,0 +1,19 @@
+name: 7th European Slag Conference
+event_types:
+- conference
+start: '2013-10-09'
+end: '2013-10-11'
+timezone: Europe/Amsterdam
+city: IJmuiden
+country: NL
+url: http://www.euroslag.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.euroslag.org
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
