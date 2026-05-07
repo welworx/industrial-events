@@ -219,6 +219,7 @@ class BuildSiteTests(unittest.TestCase):
             "![CFP: due 2026-11-15](https://img.shields.io/badge/CFP-due%202026--11--15-brightgreen)",
             readme_upcoming,
         )
+        self.assertNotIn("![CFP: TBD]", readme_upcoming)
         demo_2029_line = next(line for line in readme_upcoming.splitlines() if "Demo Conference 2029" in line)
         self.assertLess(demo_2029_line.index("![location: Location TBD]"), demo_2029_line.index("![venue: TBD]"))
         self.assertLess(demo_2029_line.index("![venue: TBD]"), demo_2029_line.index("![type: conference]"))
@@ -244,6 +245,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("](<https://e.test/s>)", readme_series)
         self.assertNotIn("**Types:**", readme_series)
         self.assertNotIn("**Tags:**", readme_series)
+        self.assertIn("**Series:** ![recurrence: recurring]", readme_series)
         self.assertIn("**Next:** ", readme_series)
         self.assertIn(
             "![next: Mar 10-12, 2027](https://img.shields.io/badge/next-Mar%2010--12%2C%202027-brightgreen) "
@@ -367,6 +369,7 @@ class BuildSiteTests(unittest.TestCase):
         )
 
         self.assertLess(section.index("Alpha Events"), section.index("Zeta Events"))
+        self.assertEqual(section.count("![recurrence: recurring]"), 2)
         self.assertNotIn("**Next:**", section)
         self.assertNotIn("next-TBD", section)
 

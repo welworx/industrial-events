@@ -559,6 +559,7 @@ def render_readme_series_overview(
             [
                 f"- **{series_link}**{official_series_link(series)}",
                 f"  {series.description}",
+                f"  **Series:** {recurrence_badge(series.recurrence)}",
             ]
         )
         next_event = next_series_event_cell(series_items, series_undated, today)
@@ -618,8 +619,11 @@ def readme_event_badges(
     event_start: date,
     reference_date: date,
 ) -> str:
-    badges = [event_type_badge(event_type) for event_type in common_event_types(conferences)]
-    badges.append(cfp_badge(deadlines, event_start, reference_date))
+    badges = [
+        *[event_type_badge(event_type) for event_type in common_event_types(conferences)],
+        cfp_badge(deadlines, event_start, reference_date),
+    ]
+    badges = [badge for badge in badges if badge]
     return " ".join(badges)
 
 
@@ -647,8 +651,17 @@ def cfp_badge(deadlines: tuple[CalendarItem, ...], event_start: date, reference_
         deadline = max(deadlines, key=lambda item: item.start)
         return shield_badge("CFP", f"closed {deadline.start.isoformat()}", "lightgrey")
     if event_start >= reference_date:
-        return shield_badge("CFP", "TBD", "yellow")
+        return ""
     return shield_badge("CFP", "closed", "lightgrey")
+
+
+def recurrence_badge(recurrence: str) -> str:
+    colors = {
+        "recurring": "blue",
+        "one-off": "lightgrey",
+        "unknown": "yellow",
+    }
+    return shield_badge("recurrence", recurrence, colors.get(recurrence, "lightgrey"))
 
 
 def shield_badge(label: str, message: str, color: str) -> str:
