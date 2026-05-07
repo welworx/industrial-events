@@ -5,6 +5,7 @@ Discovery sources are pages that help discover or verify events but are not even
 Examples:
 
 - pages listing many related conferences,
+- society or organizer event hubs,
 - society pages with multiple event series,
 - long-lived archive pages,
 - industry calendars useful for future checks.

@@ -755,10 +755,9 @@ def series_page_url(slug: str, config: BuildConfig) -> str:
 
 
 def official_series_link(series: SeriesMetadata) -> str:
-    official_url = series.website or next((url for url in series.sources if url), "")
-    if not official_url:
+    if not series.website:
         return ""
-    return f" {markdown_link('↗', official_url)}"
+    return f" {markdown_link('↗', series.website)}"
 
 
 def load_source_pages(source_dir: Path) -> list[dict]:

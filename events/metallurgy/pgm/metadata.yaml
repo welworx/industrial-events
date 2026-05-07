@@ -1,6 +1,5 @@
 series: International PGM Conference
 slug: pgm
-website: https://www.saimm.co.za
 description: Recurring SAIMM international conference on platinum group metals.
 recurrence: recurring
 categories:
@@ -11,7 +10,7 @@ topics:
 - mining
 - extractive-metallurgy
 sources:
-- type: series-home
+- type: organizer
   scope: series
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

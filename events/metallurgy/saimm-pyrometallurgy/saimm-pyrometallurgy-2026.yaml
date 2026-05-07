@@ -7,10 +7,9 @@ timezone: Africa/Johannesburg
 city: Pretoria
 country: ZA
 venue: CSIR
-url: https://www.saimm.co.za
 status: confirmed
 sources:
-- type: event-site
+- type: organizer
   scope: event
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

@@ -22,7 +22,7 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 
 #### May
 
-- 25-29: [SAIMM Pyrometallurgy International Conference 2026](<https://www.saimm.co.za>) [![location: Pretoria, ZA](https://img.shields.io/badge/location-Pretoria%2C%20ZA-informational)](<https://www.google.com/maps/search/?api=1&query=CSIR,%20Pretoria,%20ZA>) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `pyrometallurgy` `sustainability` `competitiveness`
+- 25-29: SAIMM Pyrometallurgy International Conference 2026 [![location: Pretoria, ZA](https://img.shields.io/badge/location-Pretoria%2C%20ZA-informational)](<https://www.google.com/maps/search/?api=1&query=CSIR,%20Pretoria,%20ZA>) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `pyrometallurgy` `sustainability` `competitiveness`
 
 #### June
 
@@ -150,12 +150,12 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
-- **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)** [↗](<https://www.pyrometallurgy.co.za/MoltenSlags/>)
+- **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)**
   Recurring international conference on molten slags, fluxes, and salts.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
   **Next:** ![next: Jun 19-22, 2028](https://img.shields.io/badge/next-Jun%2019--22%2C%202028-brightgreen) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>)
 
-- **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/Copper2025/default.aspx>)
+- **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)**
   Recurring international conference series for copper extraction, processing, recycling, and related metallurgical operations.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
   **Next:** ![next: Sep 3-7, 2028](https://img.shields.io/badge/next-Sep%203--7%2C%202028-brightgreen) [13th International Copper Conference (Copper 2028)](<https://www.pyrometallurgy.co.za/Conferences/>)
@@ -165,7 +165,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
   **Next:** ![next: May 23-27, 2027](https://img.shields.io/badge/next-May%2023--27%2C%202027-brightgreen) [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>)
 
-- **[International Heavy Minerals Conference](<https://welworx.github.io/industrial-events/events/series/heavy-minerals.html>)** [↗](<https://www.saimm.co.za>)
+- **[International Heavy Minerals Conference](<https://welworx.github.io/industrial-events/events/series/heavy-minerals.html>)**
   Recurring international heavy minerals conference series.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
@@ -173,7 +173,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   Recurring International Mineral Processing Congress series.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
-- **[International PGM Conference](<https://welworx.github.io/industrial-events/events/series/pgm.html>)** [↗](<https://www.saimm.co.za>)
+- **[International PGM Conference](<https://welworx.github.io/industrial-events/events/series/pgm.html>)**
   Recurring SAIMM international conference on platinum group metals.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
@@ -186,7 +186,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   International symposium focused on nickel and cobalt processing, metallurgy, recycling, and battery-material topics.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
-- **[Liquid Metal Processing and Casting Conference](<https://welworx.github.io/industrial-events/events/series/lmpc.html>)** [↗](<https://www.tms.org>)
+- **[Liquid Metal Processing and Casting Conference](<https://welworx.github.io/industrial-events/events/series/lmpc.html>)**
   Recurring Liquid Metal Processing and Casting conference series.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
@@ -203,10 +203,10 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   Recurring Southern African mineral beneficiation and metallurgy conference.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
-- **[SAIMM Pyrometallurgy International Conference](<https://welworx.github.io/industrial-events/events/series/saimm-pyrometallurgy.html>)** [↗](<https://www.saimm.co.za>)
+- **[SAIMM Pyrometallurgy International Conference](<https://welworx.github.io/industrial-events/events/series/saimm-pyrometallurgy.html>)**
   Recurring SAIMM pyrometallurgy conference series.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
-  **Next:** ![next: May 25-29, 2026](https://img.shields.io/badge/next-May%2025--29%2C%202026-brightgreen) [SAIMM Pyrometallurgy International Conference 2026](<https://www.saimm.co.za>)
+  **Next:** ![next: May 25-29, 2026](https://img.shields.io/badge/next-May%2025--29%2C%202026-brightgreen) SAIMM Pyrometallurgy International Conference 2026
 
 - **[Silicon for the Chemical and Solar Industry](<https://welworx.github.io/industrial-events/events/series/silicon.html>)** [↗](<https://www.ntnu.edu/si-conference/home>)
   Recurring conference on silicon for the chemical and solar industry.
@@ -221,7 +221,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
   **Next:** ![next: Feb 28-Mar 3, 2027](https://img.shields.io/badge/next-Feb%2028--Mar%203%2C%202027-brightgreen) [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>)
 
-- **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)** [↗](<https://www.saimm.co.za>)
+- **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)**
   Recurring SAIMM conference focused on base metals mining and metallurgy.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
@@ -229,7 +229,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
   Recurring international conference on modelling and simulation of metallurgical processes in steelmaking.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
-- **[Sulphur and Sulphuric Acid Conference](<https://welworx.github.io/industrial-events/events/series/sulphur-and-sulphuric-acid.html>)** [↗](<https://www.saimm.co.za>)
+- **[Sulphur and Sulphuric Acid Conference](<https://welworx.github.io/industrial-events/events/series/sulphur-and-sulphuric-acid.html>)**
   Recurring SAIMM conference on sulphur and sulphuric acid.
   **Series:** ![recurrence: recurring](https://img.shields.io/badge/recurrence-recurring-blue)
 
@@ -258,6 +258,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 Discovery sources help find and monitor events. Event-specific verification dates are tracked with the event data.
 
+- [MetSoc Events](<https://metsoc.org/>)
 - [Pyrometallurgical Conferences](<https://www.pyrometallurgy.co.za/Conferences/>)
 
 <!-- generated:overview-sources:end -->

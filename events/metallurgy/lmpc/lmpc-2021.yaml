@@ -6,10 +6,9 @@ end: '2021-09-22'
 timezone: America/New_York
 city: Philadelphia
 country: US
-url: https://www.tms.org
 status: confirmed
 sources:
-- type: event-site
+- type: organizer
   scope: event
   url: https://www.tms.org
   last_checked: '2026-05-07'

@@ -6,10 +6,9 @@ end: '2024-09-21'
 timezone: Asia/Shanghai
 city: Beijing
 country: CN
-url: https://www.saimm.co.za
 status: confirmed
 sources:
-- type: event-site
+- type: organizer
   scope: event
   url: https://www.saimm.co.za
   last_checked: '2026-05-07'

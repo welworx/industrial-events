@@ -1,6 +1,5 @@
 series: International Conference on Molten Slags, Fluxes and Salts
 slug: molten-slags
-website: https://www.pyrometallurgy.co.za/MoltenSlags/
 description: Recurring international conference on molten slags, fluxes, and salts.
 recurrence: recurring
 categories:
@@ -12,7 +11,7 @@ topics:
 - salts
 - smelting
 sources:
-- type: series-home
+- type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/MoltenSlags/
   last_checked: '2026-05-07'

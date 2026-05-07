@@ -242,7 +242,7 @@ class BuildSiteTests(unittest.TestCase):
             "- **[Demo Conference](<https://welworx.github.io/industrial-events/events/series/demo-conf.html>)**",
             readme_series,
         )
-        self.assertIn("](<https://e.test/s>)", readme_series)
+        self.assertNotIn("](<https://e.test/s>)", readme_series)
         self.assertNotIn("**Types:**", readme_series)
         self.assertNotIn("**Tags:**", readme_series)
         self.assertIn("**Series:** ![recurrence: recurring]", readme_series)
@@ -357,6 +357,7 @@ class BuildSiteTests(unittest.TestCase):
                 recurrence="recurring",
                 categories=("software",),
                 topics=(),
+                sources=("https://example.org/discovery",),
             ),
         )
 
@@ -370,6 +371,7 @@ class BuildSiteTests(unittest.TestCase):
 
         self.assertLess(section.index("Alpha Events"), section.index("Zeta Events"))
         self.assertEqual(section.count("![recurrence: recurring]"), 2)
+        self.assertNotIn("](<https://example.org/discovery>)", section)
         self.assertNotIn("**Next:**", section)
         self.assertNotIn("next-TBD", section)
 
