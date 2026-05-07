@@ -1,0 +1,19 @@
+name: Fifth International Platinum Conference
+event_types:
+- conference
+start: '2012-09-17'
+end: '2012-09-21'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: http://www.platinum.org.za/Pt2012/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.platinum.org.za/Pt2012/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
