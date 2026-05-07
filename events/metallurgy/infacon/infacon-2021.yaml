@@ -1,0 +1,19 @@
+name: Infacon XVI, 16th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '2021-09-26'
+end: '2021-09-29'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: http://infacon16.com
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://infacon16.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

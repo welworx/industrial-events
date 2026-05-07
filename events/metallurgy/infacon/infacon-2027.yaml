@@ -1,0 +1,19 @@
+name: Infacon XVIII, 18th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '2027-05-23'
+end: '2027-05-27'
+timezone: Atlantic/Reykjavik
+city: Reykjavik
+country: IS
+url: https://infacon18.com
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://infacon18.com
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-05-07'
