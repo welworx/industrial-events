@@ -10,7 +10,19 @@ Curated YAML data for selected industrial events across metallurgy, mining, mate
 
 Best way to consume the data: [open the reader-friendly event site](https://welworx.github.io/industrial-events/).
 
+Found an update, missing event, corrected date, or better official source? Please open a GitHub issue with a short note and links. Automation can pick up issue notes and do most of the data-entry work.
+
 Generated overview sections are updated with `uv run python scripts/build_site.py`.
+
+## Feeds
+
+- [Reader-friendly event site](https://welworx.github.io/industrial-events/)
+- [Subscribe to all events calendar](https://welworx.github.io/industrial-events/calendars/all.ics)
+- [RSS update feed](https://welworx.github.io/industrial-events/events.xml)
+- [Machine-readable feed index](https://welworx.github.io/industrial-events/calendars/index.json)
+- [Full generated event list](https://welworx.github.io/industrial-events/events/all.html)
+
+Filter feeds are generated for series, categories, event types, countries, domains, and co-located groups.
 
 ## Upcoming Events
 
@@ -133,7 +145,7 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)**
   Recurring international conference on molten slags, fluxes, and salts.
-  ![span: 16 years](https://img.shields.io/badge/span-16%20years-blue)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 19-22, 2028](https://img.shields.io/badge/next-Jun%2019--22%2C%202028-brightgreen) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>)
 
 - **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)**
@@ -286,16 +298,6 @@ Discovery sources help find and monitor events. Event-specific verification date
 - [Pyrometallurgical Conferences](<https://www.pyrometallurgy.co.za/Conferences/>)
 
 <!-- generated:overview-sources:end -->
-
-## Feeds
-
-- [Reader-friendly event site](https://welworx.github.io/industrial-events/)
-- [Subscribe to all events calendar](https://welworx.github.io/industrial-events/calendars/all.ics)
-- [RSS update feed](https://welworx.github.io/industrial-events/events.xml)
-- [Machine-readable feed index](https://welworx.github.io/industrial-events/calendars/index.json)
-- [Full generated event list](https://welworx.github.io/industrial-events/events/all.html)
-
-Filter feeds are generated for series, categories, event types, countries, domains, and co-located groups.
 
 ## Data Layout
 
