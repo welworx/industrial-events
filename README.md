@@ -8,11 +8,9 @@
 
 Curated YAML data for selected industrial events across metallurgy, mining, materials, and process-engineering domains. Event records prefer official event pages when available; discovery and organizer pages are tracked separately to support maintenance. GitHub Pages outputs are generated during deployment from the source YAML files.
 
-Best way to consume the data: [open the reader-friendly event site](https://welworx.github.io/industrial-events/).
+**Best way to consume the data**: [open the reader-friendly event site](https://welworx.github.io/industrial-events/).
 
-Found an update, missing event, corrected date, or better official source? Please open a GitHub issue with a short note and links. Automation can pick up issue notes and do most of the data-entry work.
-
-Generated overview sections are updated with `uv run python scripts/build_site.py`.
+**Something wrong/missing?** Please open a GitHub issue with a short note and links. 
 
 ## Feeds
 
@@ -39,10 +37,19 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 #### June
 
 - 7-12: [CALPHAD 2026](<https://calphad2026.org>) [![location: Quebec City, CA](https://img.shields.io/badge/location-Quebec%20City%2C%20CA-informational)](<https://www.google.com/maps/search/?api=1&query=Quebec%20City,%20CA>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `materials` `thermodynamics` `phase-diagrams` `materials-science`
+- 16-18: [XIII European Slag Conference](<https://www.euroslag2026.eu>) [![location: Lulea, SE](https://img.shields.io/badge/location-Lulea%2C%20SE-informational)](<https://www.google.com/maps/search/?api=1&query=Kulturens%20Hus,%20Skeppsbrogatan%2017,%20972%2031%20Lulea,%20Sweden,%20Lulea,%20SE>) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `slag` `recycling` `circular-economy`
 
 #### August
 
 - 17-20: [COM 2026, 65th Annual Conference of Metallurgists](<https://com.metsoc.org>) [![location: Calgary, CA](https://img.shields.io/badge/location-Calgary%2C%20CA-informational)](<https://www.google.com/maps/search/?api=1&query=Calgary,%20CA>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability`
+
+#### September
+
+- 20-24: [LMPC 2026, Liquid Metal Processing and Casting Conference](<https://www.nmavs.org/lmpc2026/>) [![location: Santa Fe, US](https://img.shields.io/badge/location-Santa%20Fe%2C%20US-informational)](<https://www.google.com/maps/search/?api=1&query=Eldorado%20Hotel%20and%20Spa,%20Santa%20Fe,%20US>) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![CFP: closed 2026-03-15](https://img.shields.io/badge/CFP-closed%202026--03--15-lightgrey) `metallurgy` `materials` `liquid-metals` `casting` `processing`
+
+#### October
+
+- 18-22: [IMPC 2026, XXXII International Mineral Processing Congress](<https://impc2026.com/>) [![location: Cape Town, ZA](https://img.shields.io/badge/location-Cape%20Town%2C%20ZA-informational)](<https://www.google.com/maps/search/?api=1&query=Cape%20Town%20International%20Convention%20Centre,%20Convention%20Square,%201%20Lower%20Long%20Street,%20Cape%20Town%208001,%20South%20Africa,%20Cape%20Town,%20ZA>) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![type: exhibition](https://img.shields.io/badge/type-exhibition-teal) ![CFP: due 2026-06-04](https://img.shields.io/badge/CFP-due%202026--06--04-brightgreen) `metallurgy` `mineral-processing` `mining`
 
 #### November
 
@@ -58,6 +65,10 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 
 - 14-18: [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>) [![location: Orlando, US](https://img.shields.io/badge/location-Orlando%2C%20US-informational)](<https://www.google.com/maps/search/?api=1&query=Orlando%20World%20Center%20Marriott,%20Orlando,%20US>) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![type: exhibition](https://img.shields.io/badge/type-exhibition-teal) ![CFP: closed 2026-01-31](https://img.shields.io/badge/CFP-closed%202026--01--31-lightgrey) `metallurgy` `materials` `pyrometallurgy` `materials-science` `minerals` `metals`
 
+#### April
+
+- 13-16: [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) [![location: Leuven, BE](https://img.shields.io/badge/location-Leuven%2C%20BE-informational)](<https://www.google.com/maps/search/?api=1&query=Leuven,%20BE>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![CFP: due 2026-09-15](https://img.shields.io/badge/CFP-due%202026--09--15-brightgreen) `metallurgy` `slag` `recycling` `circular-economy`
+
 #### May
 
 - 23-27: [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) [![location: Reykjavik, IS](https://img.shields.io/badge/location-Reykjavik%2C%20IS-informational)](<https://www.google.com/maps/search/?api=1&query=Reykjavik,%20IS>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blue) `metallurgy` `ferro-alloys` `pyrometallurgy` `smelting`
@@ -65,6 +76,10 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 #### June
 
 - 21-25: [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>) [![location: Dusseldorf, DE](https://img.shields.io/badge/location-Dusseldorf%2C%20DE-informational)](<https://www.google.com/maps/search/?api=1&query=Dusseldorf,%20DE>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-orange) ![type: exhibition](https://img.shields.io/badge/type-exhibition-teal) `metallurgy` `trade-fair` `foundry`
+
+#### November
+
+- 7-10: [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) [![location: Osaka, JP](https://img.shields.io/badge/location-Osaka%2C%20JP-informational)](<https://www.google.com/maps/search/?api=1&query=Osaka%20International%20Convention%20Center,%205-3-51%20Nakanoshima,%20Kita-ku,%20Osaka%20City,%20Osaka%20Prefecture,%20Japan,%20Osaka,%20JP>) ![type: conference](https://img.shields.io/badge/type-conference-blue) ![CFP: due 2026-12-18](https://img.shields.io/badge/CFP-due%202026--12--18-brightgreen) `metallurgy` `refractories` `high-temperature-materials`
 
 ### 2028
 
@@ -100,7 +115,12 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 | Deadline | Event | Event Dates | Scope / Co-located | Last Checked |
 | --- | --- | --- | --- | --- |
+| [Final paper submission: 2026-06-04](<https://impc2026.com/>) | [IMPC 2026, XXXII International Mineral Processing Congress](<https://impc2026.com/>) | Oct 18-22, 2026 | TBD | 2026-05-07 |
+| [Abstract submission: 2026-09-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
+| [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-05-07 |
+| [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-07 |
+| [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-05-07 |
 
 <!-- generated:submission-opportunities:end -->
 
@@ -130,13 +150,13 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[European Metallurgical Conference](<https://welworx.github.io/industrial-events/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
   Recurring European Metallurgical Conference series.
-  ![span: 4 years](https://img.shields.io/badge/span-4%20years-blue)
-  **Next:** ![next: probably 2029](https://img.shields.io/badge/next-probably%202029-yellow)
+  ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
+  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
 - **[European Slag Conference](<https://welworx.github.io/industrial-events/events/series/euro-slag.html>)** [↗](<http://www.euroslag.org>)
   Recurring European conference on slag and slag products.
-  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Jun 16-18, 2026](https://img.shields.io/badge/next-Jun%2016--18%2C%202026-brightgreen) [XIII European Slag Conference](<https://www.euroslag2026.eu>)
 
 - **[International Conference on CFD in the Minerals and Process Industries](<https://welworx.github.io/industrial-events/events/series/cfd-minerals.html>)** [↗](<http://www.cfd.com.au/cfdconf/>)
   Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
@@ -160,13 +180,12 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[International Heavy Minerals Conference](<https://welworx.github.io/industrial-events/events/series/heavy-minerals.html>)**
   Recurring international heavy minerals conference series.
-  ![span: 3 years](https://img.shields.io/badge/span-3%20years-blue)
-  **Next:** ![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[International Mineral Processing Congress](<https://welworx.github.io/industrial-events/events/series/impc.html>)** [↗](<https://www.impcouncil.com>)
   Recurring International Mineral Processing Congress series.
-  ![span: 4 years](https://img.shields.io/badge/span-4%20years-blue)
-  **Next:** ![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Oct 18-22, 2026](https://img.shields.io/badge/next-Oct%2018--22%2C%202026-brightgreen) [IMPC 2026, XXXII International Mineral Processing Congress](<https://impc2026.com/>)
 
 - **[International PGM Conference](<https://welworx.github.io/industrial-events/events/series/pgm.html>)**
   Recurring SAIMM international conference on platinum group metals.
@@ -180,8 +199,8 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Liquid Metal Processing and Casting Conference](<https://welworx.github.io/industrial-events/events/series/lmpc.html>)**
   Recurring Liquid Metal Processing and Casting conference series.
-  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Sep 20-24, 2026](https://img.shields.io/badge/next-Sep%2020--24%2C%202026-brightgreen) [LMPC 2026, Liquid Metal Processing and Casting Conference](<https://www.nmavs.org/lmpc2026/>)
 
 - **[METEC](<https://welworx.github.io/industrial-events/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
   Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
@@ -210,8 +229,8 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Slag Valorisation Symposium](<https://welworx.github.io/industrial-events/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
   Recurring symposium on slag valorisation.
-  ![span: 4 years](https://img.shields.io/badge/span-4%20years-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Apr 13-16, 2027](https://img.shields.io/badge/next-Apr%2013--16%2C%202027-brightgreen) [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>)
 
 - **[SME Annual Conference & Expo](<https://welworx.github.io/industrial-events/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
   Recurring Society for Mining, Metallurgy & Exploration annual conference and expo.
@@ -220,13 +239,12 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)**
   Recurring SAIMM conference focused on base metals mining and metallurgy.
-  ![span: 8 years](https://img.shields.io/badge/span-8%20years-blue)
-  **Next:** ![next: probably 2029](https://img.shields.io/badge/next-probably%202029-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[SteelSim](<https://welworx.github.io/industrial-events/events/series/steelsim.html>)** [↗](<https://www.aist.org/conference-expositions/steelsim>)
   Recurring international conference on modelling and simulation of metallurgical processes in steelmaking.
-  ![span: 4 years](https://img.shields.io/badge/span-4%20years-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [SteelSim 2027, 12th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking](<https://www.steelsim2025.com/>)
 
 - **[Sulphur and Sulphuric Acid Conference](<https://welworx.github.io/industrial-events/events/series/sulphur-and-sulphuric-acid.html>)**
   Recurring SAIMM conference on sulphur and sulphuric acid.
@@ -245,8 +263,8 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 - **[Unified International Technical Conference on Refractories](<https://welworx.github.io/industrial-events/events/series/unitecr.html>)** [↗](<https://www.unitecr.org>)
   Recurring unified international technical conference on refractories.
-  ![span: 4 years](https://img.shields.io/badge/span-4%20years-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Nov 7-10, 2027](https://img.shields.io/badge/next-Nov%207--10%2C%202027-brightgreen) [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>)
 
 <!-- generated:series-overview:end -->
 
@@ -287,6 +305,8 @@ No one-time events are tracked separately right now.
   Recurring World Foundry Organization congress for foundry and casting technology.
 
 <!-- generated:single-event-records:end -->
+
+Generated overview sections are updated with `uv run python scripts/build_site.py`.
 
 ## Discovery Sources
 

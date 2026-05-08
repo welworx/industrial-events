@@ -1,0 +1,21 @@
+name: EMC2023, 12th European Metallurgical Conference
+event_types:
+- conference
+start: '2023-06-11'
+end: '2023-06-14'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: CCD Congress Center Duesseldorf
+address: Stockumer Kirchstrasse 61, 40474 Duesseldorf, Germany
+url: https://gdmb.de/emc-2023-european-metallurgical-conference-en/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://gdmb.de/emc-2023-european-metallurgical-conference-en/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
