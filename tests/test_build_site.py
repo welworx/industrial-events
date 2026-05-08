@@ -306,6 +306,61 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("X-WR-CALDESC:This calendar makes existing public event", unfolded_calendar)
         self.assertIn("Disclaimer: This calendar makes existing public event", unfolded_calendar)
 
+    def test_event_dataset_round_trips_json(self) -> None:
+        dataset = build_site.load_event_dataset(test_config())
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "events-dataset.json"
+            build_site.write_event_dataset(path, dataset)
+            loaded = build_site.read_event_dataset(path)
+
+        self.assertEqual(dataset.items, loaded.items)
+        self.assertEqual(dataset.undated_events, loaded.undated_events)
+        self.assertEqual(dataset.series_metadata, loaded.series_metadata)
+        self.assertEqual(dataset.source_pages, loaded.source_pages)
+
+    def test_readme_update_preserves_manual_content_and_rebuilds_all_generated_blocks(self) -> None:
+        config = test_config()
+        dataset = build_site.load_event_dataset(config)
+        stale_sections = {
+            build_site.README_UPCOMING_START: build_site.README_UPCOMING_END,
+            build_site.README_SUBMISSION_START: build_site.README_SUBMISSION_END,
+            build_site.README_SERIES_START: build_site.README_SERIES_END,
+            build_site.README_ONE_TIME_START: build_site.README_ONE_TIME_END,
+            build_site.README_SINGLE_EVENT_START: build_site.README_SINGLE_EVENT_END,
+            build_site.README_SOURCES_START: build_site.README_SOURCES_END,
+        }
+        readme_parts = ["# Manual title", "", "Manual intro survives."]
+        for index, (start_marker, end_marker) in enumerate(stale_sections.items(), start=1):
+            readme_parts.extend(
+                [
+                    "",
+                    f"Manual content before generated block {index}.",
+                    start_marker,
+                    f"stale generated content {index}",
+                    end_marker,
+                    f"Manual content after generated block {index}.",
+                ]
+            )
+        config.readme_path.parent.mkdir(parents=True, exist_ok=True)
+        config.readme_path.write_text("\n".join(readme_parts) + "\n", encoding="utf-8")
+
+        build_site.write_readme(config, dataset, reference_date=Date(2026, 1, 1))
+
+        updated = config.readme_path.read_text(encoding="utf-8")
+        self.assertIn("# Manual title", updated)
+        self.assertIn("Manual intro survives.", updated)
+        for index in range(1, len(stale_sections) + 1):
+            self.assertIn(f"Manual content before generated block {index}.", updated)
+            self.assertIn(f"Manual content after generated block {index}.", updated)
+            self.assertNotIn(f"stale generated content {index}", updated)
+        self.assertIn("Demo Conference 2027", updated)
+        self.assertIn("Paper submission: 2026-11-15", updated)
+        self.assertIn("Demo Conference", updated)
+        self.assertIn("No one-time events are tracked separately right now.", updated)
+        self.assertIn("No single-event records are tracked separately right now.", updated)
+        self.assertIn("Discovery sources help find and monitor events.", updated)
+
     def test_readme_overview_sources_do_not_show_global_last_checked(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             source_file = Path(tmp_dir) / "metallurgy" / "overview.yaml"

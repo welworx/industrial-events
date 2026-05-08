@@ -83,6 +83,14 @@ class Feed:
 
 
 @dataclass(frozen=True)
+class EventDataset:
+    items: tuple[CalendarItem, ...]
+    undated_events: tuple[UndatedEvent, ...]
+    series_metadata: tuple[SeriesMetadata, ...]
+    source_pages: tuple[dict, ...]
+
+
+@dataclass(frozen=True)
 class MarkdownPage:
     path: Path
     title: str
@@ -109,6 +117,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--output", type=Path)
     parser.add_argument("--readme", type=Path)
     parser.add_argument("--sources", type=Path)
+    parser.add_argument("--dataset", type=Path, help="Read normalized event data from a JSON dataset artifact.")
+    parser.add_argument("--write-dataset", type=Path, help="Write normalized event data to a JSON dataset artifact.")
+    parser.add_argument("--skip-readme", action="store_true", help="Build site outputs without updating README.md.")
+    parser.add_argument("--readme-only", action="store_true", help="Update README.md without writing site outputs.")
     parser.add_argument("--log-level", choices=("DEBUG", "INFO", "WARNING", "ERROR"), default="INFO")
     args = parser.parse_args(argv)
     configure_logging(args.log_level)
@@ -121,7 +133,14 @@ def main(argv: list[str] | None = None) -> int:
             readme_path=args.readme,
             sources_dir=args.sources,
         )
-        feeds = build_site(config)
+        dataset = read_event_dataset(args.dataset) if args.dataset else load_event_dataset(config)
+        if args.write_dataset:
+            write_event_dataset(args.write_dataset, dataset)
+        if args.readme_only:
+            write_readme(config, dataset)
+            feeds = []
+        else:
+            feeds = build_site(config, dataset=dataset, update_readme=not args.skip_readme)
     except (CalendarBuildError, ConfigError) as exc:
         LOGGER.error("Build failed: %s", exc)
         return 1
@@ -138,6 +157,8 @@ def build_site(
     config: BuildConfig,
     updated_at: datetime | None = None,
     reference_date: date | None = None,
+    dataset: EventDataset | None = None,
+    update_readme: bool = True,
 ) -> list[Feed]:
     LOGGER.info("Building event outputs")
     LOGGER.info("Source directory: %s", config.source_dir)
@@ -147,7 +168,8 @@ def build_site(
 
     updated_at = feed_updated_at(config) if updated_at is None else normalize_datetime(updated_at)
     LOGGER.info("RSS build timestamp: %s", updated_at.isoformat())
-    items = load_items(config.source_dir, config)
+    dataset = dataset or load_event_dataset(config)
+    items = dataset.items
     event_count = sum(1 for item in items if item.kind == "event")
     deadline_count = len(items) - event_count
     LOGGER.info(
@@ -158,7 +180,7 @@ def build_site(
     )
     feeds = build_feeds(items, config.output_dir)
     LOGGER.info("Built %d iCalendar feed definition(s)", len(feeds))
-    undated_events = load_undated_events(config.source_dir)
+    undated_events = dataset.undated_events
     LOGGER.info("Loaded %d announced event(s) without calendar dates", len(undated_events))
     stale_count = clean_stale_feeds(config.output_dir, {feed.path.resolve() for feed in feeds}, config, updated_at)
     LOGGER.info("Cleaned %d stale iCalendar feed(s)", stale_count)
@@ -174,21 +196,217 @@ def build_site(
     write_index(config.output_dir, feeds)
     LOGGER.info("Writing event list pages")
     write_event_pages(config.output_dir.parent, items, undated_events, reference_date)
-    LOGGER.info("Updating README overview sections")
-    write_readme_overview(
-        config.readme_path,
-        config.source_dir,
-        config.sources_dir,
-        items,
-        undated_events,
-        config,
-        reference_date,
-    )
+    if update_readme:
+        LOGGER.info("Updating README overview sections")
+        write_readme(config, dataset, reference_date)
     LOGGER.info("Writing RSS event stream")
     write_rss_feed(config.output_dir.parent, items, updated_at, config)
     LOGGER.info("Writing site index page")
     write_site_index(config.output_dir, feeds, config)
     return feeds
+
+
+def load_event_dataset(config: BuildConfig) -> EventDataset:
+    return EventDataset(
+        items=tuple(load_items(config.source_dir, config)),
+        undated_events=tuple(load_undated_events(config.source_dir)),
+        series_metadata=tuple(load_series_metadata(config.source_dir)),
+        source_pages=tuple(load_source_pages(config.sources_dir)),
+    )
+
+
+def write_readme(
+    config: BuildConfig,
+    dataset: EventDataset,
+    reference_date: date | None = None,
+) -> None:
+    write_readme_overview(
+        config.readme_path,
+        config.source_dir,
+        config.sources_dir,
+        dataset.items,
+        dataset.undated_events,
+        config,
+        reference_date,
+        series_metadata=dataset.series_metadata,
+        source_pages=dataset.source_pages,
+    )
+
+
+def write_event_dataset(path: Path, dataset: EventDataset) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(event_dataset_to_json(dataset), indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    LOGGER.info("Wrote event dataset artifact: %s", path)
+
+
+def read_event_dataset(path: Path) -> EventDataset:
+    return event_dataset_from_json(json.loads(path.read_text(encoding="utf-8")))
+
+
+def event_dataset_to_json(dataset: EventDataset) -> dict:
+    return {
+        "items": [calendar_item_to_json(item) for item in dataset.items],
+        "undated_events": [undated_event_to_json(item) for item in dataset.undated_events],
+        "series_metadata": [series_metadata_to_json(item) for item in dataset.series_metadata],
+        "source_pages": [json_ready_mapping(item) for item in dataset.source_pages],
+    }
+
+
+def event_dataset_from_json(value: dict) -> EventDataset:
+    return EventDataset(
+        items=tuple(calendar_item_from_json(item) for item in value["items"]),
+        undated_events=tuple(undated_event_from_json(item) for item in value["undated_events"]),
+        series_metadata=tuple(series_metadata_from_json(item) for item in value["series_metadata"]),
+        source_pages=tuple(source_page_from_json(item) for item in value["source_pages"]),
+    )
+
+
+def calendar_item_to_json(item: CalendarItem) -> dict:
+    return {
+        "uid": item.uid,
+        "summary": item.summary,
+        "start": item.start.isoformat(),
+        "end_exclusive": item.end_exclusive.isoformat(),
+        "series": item.series,
+        "series_slug": item.series_slug,
+        "domain": item.domain,
+        "categories": list(item.categories),
+        "topics": list(item.topics),
+        "country": item.country,
+        "kind": item.kind,
+        "status": item.status,
+        "event_types": list(item.event_types),
+        "location": item.location,
+        "city": item.city,
+        "venue": item.venue,
+        "address": item.address,
+        "url": item.url,
+        "description": item.description,
+        "latitude": item.latitude,
+        "longitude": item.longitude,
+        "last_checked": item.last_checked.isoformat() if item.last_checked else None,
+        "co_location_group": item.co_location_group,
+        "co_location_name": item.co_location_name,
+        "co_location_url": item.co_location_url,
+        "co_location_series": list(item.co_location_series),
+    }
+
+
+def calendar_item_from_json(value: dict) -> CalendarItem:
+    return CalendarItem(
+        uid=value["uid"],
+        summary=value["summary"],
+        start=date.fromisoformat(value["start"]),
+        end_exclusive=date.fromisoformat(value["end_exclusive"]),
+        series=value["series"],
+        series_slug=value["series_slug"],
+        domain=value["domain"],
+        categories=tuple(value["categories"]),
+        topics=tuple(value["topics"]),
+        country=value["country"],
+        kind=value["kind"],
+        status=value["status"],
+        event_types=tuple(value["event_types"]),
+        location=value["location"],
+        city=value["city"],
+        venue=value["venue"],
+        address=value["address"],
+        url=value["url"],
+        description=value["description"],
+        latitude=value["latitude"],
+        longitude=value["longitude"],
+        last_checked=date.fromisoformat(value["last_checked"]) if value["last_checked"] else None,
+        co_location_group=value["co_location_group"],
+        co_location_name=value["co_location_name"],
+        co_location_url=value["co_location_url"],
+        co_location_series=tuple(value["co_location_series"]),
+    )
+
+
+def undated_event_to_json(item: UndatedEvent) -> dict:
+    return {
+        "series_slug": item.series_slug,
+        "domain": item.domain,
+        "categories": list(item.categories),
+        "title": item.title,
+        "url": item.url,
+        "scope": item.scope,
+        "location": item.location,
+        "source_url": item.source_url,
+        "last_checked": item.last_checked.isoformat() if item.last_checked else None,
+        "co_location_group": item.co_location_group,
+        "event_types": list(item.event_types),
+    }
+
+
+def undated_event_from_json(value: dict) -> UndatedEvent:
+    return UndatedEvent(
+        series_slug=value["series_slug"],
+        domain=value["domain"],
+        categories=tuple(value["categories"]),
+        title=value["title"],
+        url=value["url"],
+        scope=value["scope"],
+        location=value["location"],
+        source_url=value["source_url"],
+        last_checked=date.fromisoformat(value["last_checked"]) if value["last_checked"] else None,
+        co_location_group=value["co_location_group"],
+        event_types=tuple(value["event_types"]),
+    )
+
+
+def series_metadata_to_json(item: SeriesMetadata) -> dict:
+    return {
+        "path": str(item.path),
+        "domain": item.domain,
+        "series": item.series,
+        "slug": item.slug,
+        "description": item.description,
+        "recurrence": item.recurrence,
+        "categories": list(item.categories),
+        "topics": list(item.topics),
+        "website": item.website,
+        "sources": list(item.sources),
+        "checked_dates": [value.isoformat() for value in item.checked_dates],
+    }
+
+
+def series_metadata_from_json(value: dict) -> SeriesMetadata:
+    return SeriesMetadata(
+        path=Path(value["path"]),
+        domain=value["domain"],
+        series=value["series"],
+        slug=value["slug"],
+        description=value["description"],
+        recurrence=value["recurrence"],
+        categories=tuple(value["categories"]),
+        topics=tuple(value["topics"]),
+        website=value["website"],
+        sources=tuple(value["sources"]),
+        checked_dates=tuple(date.fromisoformat(item) for item in value["checked_dates"]),
+    )
+
+
+def json_ready_mapping(value: dict) -> dict:
+    result = {}
+    for key, item in value.items():
+        if isinstance(item, date):
+            result[key] = item.isoformat()
+        elif isinstance(item, tuple):
+            result[key] = list(item)
+        else:
+            result[key] = item
+    return result
+
+
+def source_page_from_json(value: dict) -> dict:
+    result = dict(value)
+    for key in ("last_checked", "last_updated"):
+        if result.get(key):
+            result[key] = date.fromisoformat(result[key])
+    result["categories"] = tuple(result.get("categories", ()))
+    result["topics"] = tuple(result.get("topics", ()))
+    return result
 
 
 def feed_updated_at(config: BuildConfig) -> datetime:
@@ -412,6 +630,8 @@ def write_readme_overview(
     undated_events: Iterable[UndatedEvent],
     config: BuildConfig,
     reference_date: date | None = None,
+    series_metadata: Iterable[SeriesMetadata] | None = None,
+    source_pages: Iterable[dict] | None = None,
 ) -> None:
     if not readme_path.exists():
         LOGGER.debug("Skipping README update; file does not exist: %s", readme_path)
@@ -419,6 +639,10 @@ def write_readme_overview(
 
     items_tuple = tuple(items)
     undated_tuple = tuple(undated_events)
+    series_metadata_tuple = (
+        tuple(series_metadata) if series_metadata is not None else tuple(load_series_metadata(source_dir))
+    )
+    source_pages_tuple = tuple(source_pages) if source_pages is not None else tuple(load_source_pages(sources_dir))
     current = readme_path.read_text(encoding="utf-8")
     updated = replace_marked_section(
         current,
@@ -437,7 +661,7 @@ def write_readme_overview(
         README_SERIES_START,
         README_SERIES_END,
         render_readme_series_overview(
-            load_series_metadata(source_dir),
+            series_metadata_tuple,
             items_tuple,
             undated_tuple,
             config,
@@ -449,7 +673,7 @@ def write_readme_overview(
         README_ONE_TIME_START,
         README_ONE_TIME_END,
         render_readme_one_time_events(
-            load_series_metadata(source_dir),
+            series_metadata_tuple,
             items_tuple,
             undated_tuple,
             config,
@@ -461,7 +685,7 @@ def write_readme_overview(
         README_SINGLE_EVENT_START,
         README_SINGLE_EVENT_END,
         render_readme_single_event_records(
-            load_series_metadata(source_dir),
+            series_metadata_tuple,
             items_tuple,
             undated_tuple,
             config,
@@ -472,7 +696,7 @@ def write_readme_overview(
         updated,
         README_SOURCES_START,
         README_SOURCES_END,
-        render_readme_overview_sources(sources_dir),
+        render_readme_overview_sources(source_pages_tuple),
     )
     if updated == current:
         return
@@ -694,8 +918,8 @@ def render_readme_single_event_records(
     return "\n".join(lines)
 
 
-def render_readme_overview_sources(source_dir: Path) -> str:
-    sources = load_source_pages(source_dir)
+def render_readme_overview_sources(sources: Path | Iterable[dict]) -> str:
+    sources = tuple(load_source_pages(sources) if isinstance(sources, Path) else sources)
     lines = [
         README_SOURCES_START,
         "",

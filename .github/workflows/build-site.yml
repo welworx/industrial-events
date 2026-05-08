@@ -6,16 +6,14 @@ on:
   pull_request:
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build:
+  dataset:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -23,13 +21,69 @@ jobs:
         with:
           enable-cache: true
       - run: uv python install 3.12
-      - run: uv run python scripts/build_site.py
+      - run: mkdir -p build-artifacts
+      - run: uv run python scripts/build_dataset.py --output build-artifacts/events-dataset.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: event-dataset
+          path: build-artifacts/events-dataset.json
+
+  build:
+    needs: dataset
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - run: uv python install 3.12
+      - uses: actions/download-artifact@v4
+        with:
+          name: event-dataset
+          path: build-artifacts
+      - run: uv run python scripts/build_site.py --dataset build-artifacts/events-dataset.json --skip-readme
       - run: uv run python scripts/list_update_candidates.py --pretty
       - run: uv run ruff check
       - run: uv run ruff format --check
       - run: uv run python -B -m unittest discover -s tests
-      - name: Commit generated README sections
+      - uses: actions/upload-pages-artifact@v5
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          path: public
+
+  update-readme:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    needs: dataset
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - run: uv python install 3.12
+      - uses: actions/download-artifact@v4
+        with:
+          name: event-dataset
+          path: build-artifacts
+      - name: Check whether README generation is needed
+        id: readme
+        run: |
+          changed_files="$(git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}")"
+          if echo "$changed_files" | grep -Eq '^(events|sources)/.*\.ya?ml$'; then
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Update generated README sections
+        if: steps.readme.outputs.needed == 'true'
+        run: uv run python scripts/update_readme.py --dataset build-artifacts/events-dataset.json
+      - name: Commit generated README sections
+        if: steps.readme.outputs.needed == 'true'
         run: |
           if ! git diff --quiet -- README.md; then
             git config user.name "github-actions[bot]"
@@ -38,15 +92,14 @@ jobs:
             git commit -m "Update generated README sections"
             git push
           fi
-      - uses: actions/upload-pages-artifact@v5
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        with:
-          path: public
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
