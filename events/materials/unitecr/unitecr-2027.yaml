@@ -1,0 +1,42 @@
+name: UNITECR 2027, 20th Unified International Technical Conference on Refractories
+event_types:
+- conference
+start: '2027-11-07'
+end: '2027-11-10'
+timezone: Asia/Tokyo
+city: Osaka
+country: JP
+venue: Osaka International Convention Center
+address: 5-3-51 Nakanoshima, Kita-ku, Osaka City, Osaka Prefecture, Japan
+url: https://unitecr2027.org/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://unitecr2027.org/
+  last_checked: '2026-05-07'
+- type: venue
+  scope: event
+  url: https://unitecr2027.org/venue/
+  last_checked: '2026-05-07'
+deadlines:
+- type: abstract
+  name: Abstract submission deadline
+  date: '2026-12-18'
+  url: https://unitecr2027.org/call-for-papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://unitecr2027.org/call-for-papers/
+    last_checked: '2026-05-07'
+- type: paper
+  name: Paper submission deadline
+  date: '2027-05-28'
+  url: https://unitecr2027.org/important-dates/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://unitecr2027.org/important-dates/
+    last_checked: '2026-05-07'

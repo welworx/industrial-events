@@ -1,0 +1,21 @@
+name: Eighth International Heavy Minerals Conference 2011
+event_types:
+- conference
+start: '2011-10-05'
+end: '2011-10-06'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Perth Hotel
+url: https://www.ausimm.com/publications/conference-proceedings/eighth-international-heavy-minerals-conference-2011/a-fortunate-life---45-years-in-heavy-minerals/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.proceedings.com/13153.html
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://ro.ecu.edu.au/ecuworks2011/433/
+  last_checked: '2026-05-07'
+  note: Edith Cowan University proceeding identifies the conference venue as Pan Pacific Perth Hotel.

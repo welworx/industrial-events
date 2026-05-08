@@ -1,0 +1,19 @@
+name: EMC2007, 4th European Metallurgical Conference
+event_types:
+- conference
+start: '2007-06-11'
+end: '2007-06-14'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://pure.unileoben.ac.at/en/publications/production-of-nb-powder-by-magnesiothermic-reduction-of-niobium-o/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://pure.unileoben.ac.at/en/publications/production-of-nb-powder-by-magnesiothermic-reduction-of-niobium-o/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.itu.edu.tr/en/publications/effect-of-aging-on-the-mechanical-properties-of-gold-alloys/
+  last_checked: '2026-05-07'

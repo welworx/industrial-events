@@ -1,0 +1,28 @@
+name: COM 2025 & LightMAT 2025, 64th Annual Conference of Metallurgy and Materials
+event_types:
+- conference
+start: '2025-07-07'
+end: '2025-07-10'
+timezone: America/Toronto
+city: Montreal
+country: CA
+venue: Le Centre Sheraton Montreal
+url: https://metsoc.org/events-posts/com-2025-lightmat-2025/
+status: confirmed
+co_located_with:
+  group: com-lightmat-2025
+  name: COM 2025 / LightMAT 2025
+  url: https://com.metsoc.org/
+  series:
+  - com
+sources:
+- type: event-site
+  scope: event
+  url: https://metsoc.org/events-posts/com-2025-lightmat-2025/
+  last_checked: '2026-05-07'
+  note: MetSoc lists COM 2025 & LightMAT 2025 in Montreal, 7-10 July 2025.
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/
+  last_checked: '2026-05-07'
+  note: COM 2026 site identifies COM 2025 Meets LightMAT 2025 as the 64th Annual Conference of Metallurgy and Materials.

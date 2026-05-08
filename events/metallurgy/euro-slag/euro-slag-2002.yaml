@@ -1,0 +1,20 @@
+name: 3rd European Slag Conference
+event_types:
+- conference
+start: '2002-10-02'
+end: '2002-10-04'
+timezone: Europe/London
+city: Keyworth
+country: GB
+url: https://books.google.com/books/about/Manufacturing_and_processing_of_iron_and.html?id=63cntwAACAAJ
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://books.google.com/books/about/Manufacturing_and_processing_of_iron_and.html?id=63cntwAACAAJ
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://d-nb.info/969266065/04
+  last_checked: '2026-05-07'
+  note: Bibliographic scan identifies the 3rd European Slag Conference, 2-4 October 2002, Keyworth.

@@ -1,0 +1,21 @@
+name: APCOM 2015, 37th International Symposium on Application of Computers and Operations Research in the Minerals Industry
+event_types:
+- conference
+start: '2015-05-23'
+end: '2015-05-27'
+timezone: America/Anchorage
+city: Fairbanks
+country: US
+url: https://www.maptek.com/news/maptek-scheduler-streamlines-project-management/
+status: confirmed
+sources:
+- type: news
+  scope: event
+  url: https://www.maptek.com/news/maptek-scheduler-streamlines-project-management/
+  last_checked: '2026-05-07'
+  note: Maptek identifies APCOM 2015 as the 37th International Symposium in Fairbanks, Alaska, 23-27 May 2015.
+- type: proceedings
+  scope: event
+  url: https://stacks.cdc.gov/view/cdc/228227
+  last_checked: '2026-05-07'
+  note: CDC/NIOSH proceedings record confirms APCOM 2015 dates and Fairbanks location.

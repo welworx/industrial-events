@@ -1,0 +1,16 @@
+name: COM 2009, 48th Conference of Metallurgists
+event_types:
+- conference
+start: '2009-08-24'
+end: '2009-08-27'
+timezone: America/Toronto
+city: Sudbury
+country: CA
+url: http://www.metsoc.org/com2009/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2009 as the 48th Conference of Metallurgists in Sudbury, 24-27 August 2009.

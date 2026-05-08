@@ -1,0 +1,21 @@
+name: SteelSim 2007, 2nd International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2007-09-12'
+end: '2007-09-14'
+timezone: Europe/Vienna
+city: Graz
+country: AT
+venue: Conference Center Graz/Seggau
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 2nd edition as SteelSim 2007, 12-14 September 2007 in Graz.
+- type: proceedings
+  scope: event
+  url: https://publica.fraunhofer.de/entities/mainwork/383963d9-f2b0-43f5-a603-5c5eba83ef61
+  last_checked: '2026-05-07'

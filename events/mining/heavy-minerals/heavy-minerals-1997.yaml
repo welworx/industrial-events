@@ -1,0 +1,17 @@
+name: First International Heavy Minerals Conference 1997
+event_types:
+- conference
+city: Durban
+country: ZA
+status: estimated
+sources:
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/journal-comments/761-heavy-minerals-conference-2019
+  last_checked: '2026-05-07'
+  note: SAIMM 2019 retrospective identifies the first conference as Durban, South Africa, in 1997.
+- type: overview
+  scope: event
+  url: https://saimm.org.za/Journal/v085n05p231.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM annual report says the first conference was held in Durban in October 1997; exact days not found.

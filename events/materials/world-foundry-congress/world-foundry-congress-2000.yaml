@@ -1,0 +1,16 @@
+name: 64th World Foundry Congress
+event_types:
+- conference
+start: '2000-09-11'
+end: '2000-09-14'
+timezone: Europe/Paris
+city: Paris
+country: FR
+url: https://www.castingarea.com/societies/wfo-press-release2000.htm
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.castingarea.com/societies/wfo-press-release2000.htm
+  last_checked: '2026-05-07'
+  note: WFO press release identifies the 64th World Foundry Congress in Paris, 11-14 September 2000.

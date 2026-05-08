@@ -1,0 +1,15 @@
+name: Infacon VII, 7th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1995-06-11'
+end: '1995-06-14'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

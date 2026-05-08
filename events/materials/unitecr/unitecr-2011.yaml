@@ -1,0 +1,12 @@
+name: UNITECR 2011, 12th Unified International Technical Conference on Refractories
+event_types:
+- conference
+city: Kyoto
+country: JP
+status: estimated
+sources:
+- type: event-site
+  scope: event
+  url: https://www.unitecr2019.org/what.html
+  last_checked: '2026-05-07'
+  note: Official UNITECR 2019 history lists Kyoto, Japan, as the 2011 sanctioned congress; ordinal inferred from the official sequence and later 14th/15th labels.

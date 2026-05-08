@@ -1,0 +1,22 @@
+name: EEC 2016, 11th European Electric Steelmaking Conference & Expo
+event_types:
+- conference
+start: '2016-05-25'
+end: '2016-05-27'
+timezone: Europe/Rome
+city: Venice
+country: IT
+venue: Giorgio Cini Foundation
+url: https://www.showsbee.com/fairs/17164-European-Electric-Steelmaking-Conference-2016.html
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.showsbee.com/fairs/17164-European-Electric-Steelmaking-Conference-2016.html
+  last_checked: '2026-05-07'
+  note: Showsbee identifies EEC 2016 as the 11th European Electric Steelmaking Conference & Expo in Venice, 25-27 May 2016.
+- type: event-brochure
+  scope: event
+  url: https://www.metallurgia-italiana.net/eng/public/Eventi/14538064774624.pdf
+  last_checked: '2026-05-07'
+  note: AIM flyer identifies the 11th EEC in Venice and lists previous EEC locations through the 10th.

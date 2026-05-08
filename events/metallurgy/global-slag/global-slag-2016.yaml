@@ -1,0 +1,16 @@
+name: 11th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2016-05-24'
+end: '2016-05-25'
+timezone: Europe/London
+city: London
+country: GB
+url: https://www.globalslag.com/component/content/article/667-global-slag-2016-review%3FItemid%3D
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/component/content/article/667-global-slag-2016-review%3FItemid%3D
+  last_checked: '2026-05-07'
+  note: Official review identifies the 11th Global Slag Conference, Exhibition & Awards in London, 24-25 May 2016.

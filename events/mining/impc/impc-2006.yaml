@@ -1,0 +1,19 @@
+name: XXIII International Mineral Processing Congress
+event_types:
+- conference
+start: '2006-09-03'
+end: '2006-09-08'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+url: https://research.itu.edu.tr/en/publications/forword/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.itu.edu.tr/en/publications/forword/
+  last_checked: '2026-05-07'

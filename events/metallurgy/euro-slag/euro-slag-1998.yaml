@@ -1,0 +1,13 @@
+name: 1st European Slag Conference
+event_types:
+- conference
+status: estimated
+city: Marseille
+country: FR
+url: https://afoco.org/wp-content/uploads/2023/08/06-motz-pdf.pdf
+sources:
+- type: overview
+  scope: event
+  url: https://afoco.org/wp-content/uploads/2023/08/06-motz-pdf.pdf
+  last_checked: '2026-05-07'
+  note: Euroslag history slide identifies the first European Slag Conference in Marseilles in 1998; exact dates are not listed in this source.

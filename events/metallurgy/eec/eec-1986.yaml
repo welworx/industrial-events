@@ -1,0 +1,12 @@
+name: 2nd European Electric Steelmaking Conference
+event_types:
+- conference
+city: Florence
+country: IT
+status: estimated
+sources:
+- type: event-brochure
+  scope: event
+  url: https://www.metallurgia-italiana.net/eng/public/Eventi/14538064774624.pdf
+  last_checked: '2026-05-07'
+  note: AIM EEC 2016 background list identifies the 2nd EEC in Florence, Italy, in 1986; exact dates are not listed in this source.

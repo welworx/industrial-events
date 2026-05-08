@@ -1,0 +1,22 @@
+name: EEC 2026, 14th European Electric Steelmaking Conference & EMECR 2026
+event_types:
+- conference
+start: '2026-05-11'
+end: '2026-05-13'
+timezone: Europe/Rome
+city: Milan
+country: IT
+venue: Milan Marriott Hotel
+url: https://www.aimnet.it/manifestazione.php?id=901&idc=4
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aimnet.it/manifestazione.php?id=901&idc=4
+  last_checked: '2026-05-07'
+  note: AIM identifies EEC 2026 as the 14th European Electric Steelmaking conference, jointly held with EMECR 2026 in Milan, 11-13 May 2026.
+- type: event-site
+  scope: event
+  url: https://submit.m-n.marketing/event/66/
+  last_checked: '2026-05-07'
+  note: Conference platform confirms EEC 2026 / EMECR 2026 at the Milan Marriott Hotel, 11-13 May 2026.

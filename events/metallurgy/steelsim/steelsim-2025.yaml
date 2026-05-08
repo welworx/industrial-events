@@ -1,0 +1,20 @@
+name: SteelSim 2025, 11th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2025-09-02'
+end: '2025-09-04'
+timezone: Europe/Prague
+city: Trinec
+country: CZ
+venue: TRISIA Cultural and Congress Center
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.aimnet.it/eng/manifestazione.php?id=897&idc=6
+  last_checked: '2026-05-07'

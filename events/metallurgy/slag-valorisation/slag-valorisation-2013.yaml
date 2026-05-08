@@ -1,0 +1,23 @@
+name: 3rd Slag Valorisation Symposium
+event_types:
+- conference
+start: '2013-03-19'
+end: '2013-03-20'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+url: https://slag-valorisation-symposium.eu/2013/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2023/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2013/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.tudelft.nl/en/publications/recovery-of-rare-earth-elements-from-eol-permanent-magnets-with-m/
+  last_checked: '2026-05-07'

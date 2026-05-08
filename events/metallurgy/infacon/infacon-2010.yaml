@@ -1,0 +1,15 @@
+name: Infacon XII, 12th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '2010-06-06'
+end: '2010-06-09'
+timezone: Europe/Helsinki
+city: Helsinki
+country: FI
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

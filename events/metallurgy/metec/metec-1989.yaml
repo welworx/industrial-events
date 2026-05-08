@@ -1,0 +1,17 @@
+name: METEC 1989, 3rd International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '1989-05-20'
+end: '1989-05-26'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+  last_checked: '2026-05-07'
+  note: TradeFairDates lists METEC 1989 in Dusseldorf, 20-26 May 1989; ordinal follows the event-date sequence and later METEC numbering continuity.

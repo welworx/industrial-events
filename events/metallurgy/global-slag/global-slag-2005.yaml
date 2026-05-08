@@ -1,0 +1,21 @@
+name: 1st Global Slag Conference
+event_types:
+- conference
+start: '2005-11-14'
+end: '2005-11-15'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.globalslag.com/conferences/global-slag/review
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review
+  last_checked: '2026-05-07'
+  note: Official past-conference page lists the 1st Global Slag Conference in Dusseldorf, Germany, in 2005.
+- type: reference
+  scope: event
+  url: https://journals.sagepub.com/doi/10.1179/1743285514Y.0000000082
+  last_checked: '2026-05-07'
+  note: Reference list cites the 1st Global Slag Conference in Dusseldorf, 14-15 November 2005.

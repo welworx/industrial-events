@@ -1,0 +1,16 @@
+name: COM 2005, 44th Conference of Metallurgists
+event_types:
+- conference
+start: '2005-08-21'
+end: '2005-08-24'
+timezone: America/Edmonton
+city: Calgary
+country: CA
+url: http://www.metsoc.org/conferences/com2005/default.asp
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2005 as the 44th Conference of Metallurgists in Calgary, 21-24 August 2005.

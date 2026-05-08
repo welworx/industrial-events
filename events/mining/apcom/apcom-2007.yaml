@@ -1,0 +1,16 @@
+name: APCOM 2007, 33rd International Symposium on Application of Computers and Operations Research in the Minerals Industry
+event_types:
+- conference
+start: '2007-04-24'
+end: '2007-04-27'
+timezone: America/Santiago
+city: Santiago
+country: CL
+url: http://www.apcom2007.com
+status: confirmed
+sources:
+- type: event-calendar
+  scope: event
+  url: https://www.womp-int.com/2007vol1.htm
+  last_checked: '2026-05-07'
+  note: World of Mining Professionals calendar lists APCOM 2007 as the 33rd International Symposium in Santiago, 24-27 April 2007.

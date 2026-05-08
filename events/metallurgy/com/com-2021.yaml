@@ -1,0 +1,20 @@
+name: COM 2021, 60th Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2021-08-17'
+end: '2021-08-19'
+timezone: America/Toronto
+venue: Virtual online conference
+url: https://metsoc.org/events-posts/60th-annual-conference-of-metallurgists-com-2021/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://metsoc.org/events-posts/60th-annual-conference-of-metallurgists-com-2021/
+  last_checked: '2026-05-07'
+  note: MetSoc identifies COM 2021 as the 60th Annual Conference of Metallurgists, a virtual online conference held 17-19 August 2021.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2021 as the 60th Annual Conference of Metallurgists, 17-19 August 2021.

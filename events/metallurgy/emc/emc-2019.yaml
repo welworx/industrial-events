@@ -1,0 +1,21 @@
+name: EMC2019, 10th European Metallurgical Conference
+event_types:
+- conference
+start: '2019-06-23'
+end: '2019-06-26'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://fliphtml5.com/drgc/yvva/World_of_Metallurgy_062019/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://fliphtml5.com/drgc/yvva/World_of_Metallurgy_062019/
+  last_checked: '2026-05-07'
+  note: GDMB World of Metallurgy issue lists proceedings of the 10th EMC 2019, held 23-26 June 2019 in Dusseldorf.
+- type: event-report
+  scope: event
+  url: https://www.gifa.com/cgi-bin/md_gmtn/lib/pub/tt.cgi?lang=2&oid=291810&ticket=g_u_e_s_t
+  last_checked: '2026-05-07'
+  note: Messe report points to the next EMC in Dusseldorf on 23-26 June 2019.

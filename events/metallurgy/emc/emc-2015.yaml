@@ -1,0 +1,20 @@
+name: EMC2015, 8th European Metallurgical Conference
+event_types:
+- conference
+start: '2015-06-14'
+end: '2015-06-17'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://research.aalto.fi/en/publications/corrosion-and-wear-of-mixed-metal-oxide-anodes-in-electrowinning/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://research.aalto.fi/en/publications/corrosion-and-wear-of-mixed-metal-oxide-anodes-in-electrowinning/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://avesis.ktu.edu.tr/hdeveci/yayinlar?themeId=1
+  last_checked: '2026-05-07'
+  note: Publication listing includes European Metallurgical Conference EMC 2015 in Dusseldorf, Germany, 15-17 June 2015; Aalto proceedings record gives the wider 14-17 June conference dates.

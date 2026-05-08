@@ -1,0 +1,15 @@
+name: Infacon XIV, 14th International Ferro-Alloys Congress
+event_types:
+- conference
+start: '2015-06-01'
+end: '2015-06-04'
+timezone: Europe/Kyiv
+city: Kyiv
+country: UA
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

@@ -1,0 +1,16 @@
+name: 59th World Foundry Congress
+event_types:
+- conference
+start: '1992-09-20'
+end: '1992-09-25'
+timezone: America/Sao_Paulo
+city: Sao Paulo
+country: BR
+url: https://research.aalto.fi/en/publications/on-the-effects-of-impurities-on-the-solidification-and-mechanical-2
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://research.aalto.fi/en/publications/on-the-effects-of-impurities-on-the-solidification-and-mechanical-2
+  last_checked: '2026-05-07'
+  note: Aalto research record lists the 59th World Foundry Congress in Sao Paulo, 20-25 September 1992.

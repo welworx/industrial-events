@@ -1,0 +1,21 @@
+name: 9th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2008-05-19'
+end: '2008-05-21'
+timezone: Europe/Warsaw
+city: Krakow
+country: PL
+url: https://www.eec-2008.agh.edu.pl/html/scope.htm
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.eec-2008.agh.edu.pl/html/scope.htm
+  last_checked: '2026-05-07'
+  note: EEC 2008 scope page identifies Krakow as the 9th European Electric Steelmaking Conference.
+- type: publication-record
+  scope: event
+  url: https://pure.fh-ooe.at/en/publications/electrical-conductivity-and-corresponding-specific-energy-consump-3/
+  last_checked: '2026-05-07'
+  note: University of Applied Sciences Upper Austria record gives the 9th EEC in Krakow, 19-21 May 2008.

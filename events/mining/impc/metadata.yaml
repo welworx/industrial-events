@@ -16,6 +16,11 @@ sources:
   last_checked: '2026-05-07'
 - type: overview
   scope: series
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+  note: Official IMPC history table lists congress numbers, years, and venues from I in 1952 through XXXIII in 2028.
+- type: overview
+  scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-05-07'
   note: Archive lists IMPC 2012 and IMPC 2016.

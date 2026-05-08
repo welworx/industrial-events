@@ -1,0 +1,22 @@
+name: METEC 2003, 6th International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '2003-06-16'
+end: '2003-06-21'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
+  last_checked: '2026-05-07'
+  note: TradeFairDates lists METEC 2003 in Dusseldorf, 16-21 June 2003; ordinal follows the 2007 seventh presentation source and later METEC numbering continuity.
+- type: news
+  scope: event
+  url: https://www.thefreelibrary.com/Guide%2Bto%2BGIFA%3A%2BGIFA%2B2003%2Bshowcases%2Bmetalcasting%2BJune%2B16-21%2Bin...-a0101889811
+  last_checked: '2026-05-07'
+  note: Modern Casting guide confirms METEC was part of the concurrent Dusseldorf trade-fair group, 16-21 June 2003.

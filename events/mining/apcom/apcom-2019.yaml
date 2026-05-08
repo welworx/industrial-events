@@ -1,0 +1,21 @@
+name: APCOM 2019, 39th Conference on Applications of Computers and Operations Research in the Minerals Industries
+event_types:
+- conference
+start: '2019-06-04'
+end: '2019-06-06'
+timezone: Europe/Warsaw
+city: Wroclaw
+country: PL
+url: https://apcom.info/hello-world/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://apcom.info/hello-world/
+  last_checked: '2026-05-07'
+  note: APCOM 2019 site identifies the Wroclaw event as the 39th APCOM conference, 4-6 June 2019.
+- type: event-calendar
+  scope: event
+  url: https://mining-report.de/english/event/apcom-2019/
+  last_checked: '2026-05-07'
+  note: Mining Report calendar confirms APCOM 2019 dates, Wroclaw location, and 39th ordinal.

@@ -1,0 +1,25 @@
+name: 4th Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2013-04-03'
+end: '2013-04-05'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://saimm.org.za/saimm-events/past-saimm-events?format=html&tmpl=component
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://saimm.org.za/saimm-events/past-saimm-events?format=html&tmpl=component
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Pyrometallurgy archive lists SAIMM Sulphuric Acid 2013 on 3-5 April 2013 at Sun City.
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/events/0401slags/downloads/117_Seo.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM CPD list records the accredited conference portion as 3-4 April 2013.

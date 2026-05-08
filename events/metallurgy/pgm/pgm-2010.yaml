@@ -1,0 +1,19 @@
+name: Fourth International Platinum Conference
+event_types:
+- conference
+start: '2010-10-11'
+end: '2010-10-14'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.platinum.org.za/Pt2010/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.platinum.org.za/Pt2010/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/Pt2010/
+  last_checked: '2026-05-07'

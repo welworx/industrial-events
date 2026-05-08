@@ -1,0 +1,21 @@
+name: Silicon for the Chemical and Solar Industry XVII
+event_types:
+- conference
+start: '2024-09-10'
+end: '2024-09-13'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.ntnu.edu/si-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.ntnu.edu/ima/about-us/courses-and-conferences
+  last_checked: '2026-05-07'
+  note: NTNU course and conference page identifies Silicon for the Chemical and Solar Industry XVII in Trondheim, 10-13 September 2024.
+- type: publication-record
+  scope: event
+  url: https://www.sintef.no/en/publications/publication/2306524/
+  last_checked: '2026-05-07'
+  note: SINTEF publication record lists Silicon for the Chemical and Solar Industry XVII / CRU Silicon Market Forum in Trondheim, 10-13 September 2024.

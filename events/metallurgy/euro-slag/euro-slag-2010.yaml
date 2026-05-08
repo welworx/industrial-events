@@ -1,0 +1,21 @@
+name: 6th European Slag Conference
+event_types:
+- conference
+start: '2010-10-20'
+end: '2010-10-22'
+timezone: Europe/Madrid
+city: Madrid
+country: ES
+url: https://www.zkg.de/en/issue/zkg_2010-12-1035461.html
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.zkg.de/en/issue/zkg_2010-12-1035461.html
+  last_checked: '2026-05-07'
+  note: ZKG issue listing identifies the 6th European Slag Conference EUROSLAG 2010 in Madrid, 20-22 October 2010.
+- type: proceedings
+  scope: event
+  url: https://crd.ndl.go.jp/reference/entry/index.php?id=1000108694&page=ref_view
+  last_checked: '2026-05-07'
+  note: Bibliographic record lists the 6th European Slag Conference proceedings, 20-22 October 2010, Madrid.

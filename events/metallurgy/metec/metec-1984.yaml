@@ -1,0 +1,17 @@
+name: METEC 1984, 2nd International Metallurgical Trade Fair with Congress
+event_types:
+- trade-fair
+- exhibition
+start: '1984-06-22'
+end: '1984-06-28'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://ci.nii.ac.jp/ncid/BB17139913
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://ci.nii.ac.jp/ncid/BB17139913
+  last_checked: '2026-05-07'
+  note: CiNii Books record gives the alternate title METEC 84, Dusseldorf, 22-28 June 1984; ordinal follows the 1979 first edition and later METEC numbering continuity.

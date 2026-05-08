@@ -1,0 +1,15 @@
+name: Infacon I, 1st International Ferro-Alloys Congress
+event_types:
+- conference
+start: '1974-04-22'
+end: '1974-04-26'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+url: https://www.pyrometallurgy.co.za/Infacon/
+status: confirmed
+sources:
+- type: series-home
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Infacon/
+  last_checked: '2026-05-07'

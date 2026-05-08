@@ -1,0 +1,21 @@
+name: Fifth International Heavy Minerals Conference 2005
+event_types:
+- conference
+start: '2005-10-16'
+end: '2005-10-19'
+timezone: America/New_York
+city: Ponte Vedra Beach
+country: US
+venue: Marriott Sawgrass Resort
+url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.onetunnel.org/search?Keywords=tunneling%2520safety&Organization=SME&SearchField=All&SortBy=Alphabetically&page=383&pageSize=20
+  last_checked: '2026-05-07'
+  note: SME/OneTunnel listing says the fifth HMC was held 16-19 October 2005 at the Marriott Sawgrass Resort in Ponte Vedra, Florida.

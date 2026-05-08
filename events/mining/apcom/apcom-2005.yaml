@@ -1,0 +1,16 @@
+name: APCOM 2005, 32nd International Symposium on Application of Computers and Operations Research in the Minerals Industries
+event_types:
+- conference
+start: '2005-03-30'
+end: '2005-04-01'
+timezone: America/Phoenix
+city: Tucson
+country: US
+url: https://publications.gc.ca/collections/collection_2007/nrcan-rncan/M38-2005E.pdf
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://publications.gc.ca/collections/collection_2007/nrcan-rncan/M38-2005E.pdf
+  last_checked: '2026-05-07'
+  note: Natural Resources Canada bibliography cites the 32nd APCOM proceedings in Tucson, 30 March-1 April 2005.

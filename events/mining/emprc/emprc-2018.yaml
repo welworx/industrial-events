@@ -1,0 +1,19 @@
+name: EMPRC 2018, 1st European Mineral Processing and Recycling Congress
+event_types:
+- conference
+start: '2018-06-25'
+end: '2018-06-26'
+timezone: Europe/Berlin
+city: Essen
+country: DE
+url: https://www.at-minerals.com/en/artikel/at_EMPRC_2018_First_European_Mineral_Processing_and_Recycling_Congress-2893378.html
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.at-minerals.com/en/artikel/at_EMPRC_2018_First_European_Mineral_Processing_and_Recycling_Congress-2893378.html
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.at-minerals.com/en/artikel/at_The_first_European_Mineral_Processing_and_Recycling_Congress-3278226.html
+  last_checked: '2026-05-07'

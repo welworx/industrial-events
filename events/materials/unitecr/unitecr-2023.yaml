@@ -1,0 +1,21 @@
+name: UNITECR 2023, 18th Biennial Worldwide Congress on Refractories
+event_types:
+- conference
+start: '2023-09-26'
+end: '2023-09-29'
+timezone: Europe/Berlin
+city: Frankfurt
+country: DE
+venue: KAP Europa
+url: https://unitecr2023.org/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.showsbee.com/fairs/80915-UNITECR-2023.html
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://unitecr2027.org/what/
+  last_checked: '2026-05-07'
+  note: Official UNITECR 2027 history lists Frankfurt, Germany, as the 2023 sanctioned congress.

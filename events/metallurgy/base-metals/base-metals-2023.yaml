@@ -1,0 +1,21 @@
+name: Copper Cobalt Africa 2023, 10th Southern African Base Metals Conference
+event_types:
+- conference
+start: '2023-06-13'
+end: '2023-06-15'
+timezone: Africa/Lusaka
+city: Livingstone
+country: ZM
+venue: Avani Victoria Falls Resort
+url: https://www.saimm.co.za/saimm-events/upcoming-events/copper-cobalt-africa?print=1&tmpl=component
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/copper-cobalt-africa?print=1&tmpl=component
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/Copper-Cobalt-2023/
+  last_checked: '2026-05-07'
+  note: Proceedings page covers the broader June 12-16 programme; event dates here track the conference dates.

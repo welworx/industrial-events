@@ -1,0 +1,47 @@
+name: LMPC 2026, Liquid Metal Processing and Casting Conference
+event_types:
+- conference
+start: '2026-09-20'
+end: '2026-09-24'
+timezone: America/Denver
+city: Santa Fe
+country: US
+venue: Eldorado Hotel and Spa
+url: https://www.nmavs.org/lmpc2026/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.nmavs.org/lmpc2026/
+  last_checked: '2026-05-07'
+deadlines:
+- type: manuscript
+  name: Manuscript submission deadline
+  date: '2026-03-15'
+  url: https://www.nmavs.org/lmpc2026/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.nmavs.org/lmpc2026/
+    last_checked: '2026-05-07'
+- type: discount-registration
+  name: Discount registration deadline
+  date: '2026-08-08'
+  url: https://www.nmavs.org/lmpc2026/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.nmavs.org/lmpc2026/
+    last_checked: '2026-05-07'
+- type: housing
+  name: Housing deadline
+  date: '2026-08-26'
+  url: https://www.nmavs.org/lmpc2026/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.nmavs.org/lmpc2026/
+    last_checked: '2026-05-07'

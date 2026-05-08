@@ -1,0 +1,20 @@
+name: 1st Slag Valorisation Symposium
+event_types:
+- conference
+start: '2009-04-06'
+end: '2009-04-07'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+url: https://slag-valorisation-symposium.eu/2023/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2023/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.mtm.kuleuven.be/english/research/semper/sustainable-resources-for-engineered-materials/team/00064066/view?pubsonpage=50&pubtype=conference&sortby=stitle
+  last_checked: '2026-05-07'
+  note: KU Leuven publication record says the first symposium was held in Leuven, Belgium on 6-7 April 2009.

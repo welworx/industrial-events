@@ -1,0 +1,20 @@
+name: 5th International Symposium on Nickel and Cobalt (Ni-Co 2021)
+event_types:
+- conference
+start: '2021-03-15'
+end: '2021-03-18'
+timezone: America/New_York
+city: Virtual Event
+venue: TMS2021 Virtual
+url: https://www.tms.org/TMS2021/TMS2021/Programming/Ni-Co_2021.aspx
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/TMS2021/TMS2021/Programming/Ni-Co_2021.aspx
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.tms.org/TMS2021/TMS2021/Default.aspx
+  last_checked: '2026-05-07'
+  note: TMS2021 was a virtual event; program news lists times in EDT.

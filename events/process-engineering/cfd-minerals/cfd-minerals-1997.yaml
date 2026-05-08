@@ -1,0 +1,19 @@
+name: 1st International Conference on CFD in the Mineral and Metal Processing and Power Generation Industries
+event_types:
+- conference
+start: '1997-07-03'
+end: '1997-07-04'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+url: https://www.cfd.com.au/cfd_conf97/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.cfd.com.au/cfd_conf97/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://people.csiro.au/W/P/peter-witt.aspx
+  last_checked: '2026-05-07'

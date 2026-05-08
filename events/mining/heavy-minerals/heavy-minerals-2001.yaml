@@ -1,0 +1,20 @@
+name: Third International Heavy Minerals Conference 2001
+event_types:
+- conference
+start: '2001-06-18'
+end: '2001-06-19'
+timezone: Australia/Perth
+city: Fremantle
+country: AU
+url: https://www.ausimm.com/publications/conference-proceedings/international-heavy-minerals-conference/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.ausimm.com/publications/conference-proceedings/international-heavy-minerals-conference/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://www.mdpi.com/2075-163X/12/10/1252
+  last_checked: '2026-05-07'
+  note: MDPI reference lists the 3rd International Heavy Minerals Conference in Fremantle, Western Australia, 18-19 June 2001.

@@ -1,0 +1,21 @@
+name: Copper Cobalt Africa 2015, 8th Southern African Base Metals Conference
+event_types:
+- conference
+start: '2015-07-06'
+end: '2015-07-08'
+timezone: Africa/Lusaka
+city: Livingstone
+country: ZM
+venue: Zambezi Sun Hotel
+url: https://www.saimm.co.za/Conferences/BM2015/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/BM2015/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/FullJournal/SAIMM-201505-May.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM announcement identifies Copper Cobalt Africa in association with the 8th Southern African Base Metals Conference, 6-8 July 2015.

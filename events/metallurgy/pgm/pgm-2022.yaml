@@ -1,0 +1,20 @@
+name: 8th International PGM Conference
+event_types:
+- conference
+start: '2022-11-02'
+end: '2022-11-04'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.saimm.co.za/saimm-events/upcoming-events/8th-international-pgm-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/8th-international-pgm-conference
+  last_checked: '2026-05-07'
+  note: SAIMM page gives 2-3 November 2022 conference dates and 4 November technical visit in the event date range.
+- type: proceedings
+  scope: event
+  url: https://www.saimm.co.za/Conferences/PGM2022/
+  last_checked: '2026-05-07'

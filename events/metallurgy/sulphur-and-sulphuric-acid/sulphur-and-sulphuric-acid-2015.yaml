@@ -1,0 +1,21 @@
+name: 5th Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2015-04-08'
+end: '2015-04-10'
+timezone: Africa/Johannesburg
+city: Durban
+country: ZA
+venue: Southern Sun Elangeni Maharani
+url: https://www.saimm.co.za/FullJournal/SAIMM-201406-Jun.pdf
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/FullJournal/SAIMM-201406-Jun.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM diary lists 8-9 April 2015 conference dates and 10 April technical visit.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

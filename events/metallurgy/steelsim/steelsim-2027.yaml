@@ -1,0 +1,13 @@
+name: SteelSim 2027, 12th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+city: Dusseldorf
+country: DE
+url: https://www.steelsim2025.com/
+status: tentative
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: SteelSim 2025 organizers announced SteelSim 2027 in Dusseldorf; exact dates were not published.

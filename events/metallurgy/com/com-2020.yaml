@@ -1,0 +1,15 @@
+name: COM+U2020, 59th Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2020-10-14'
+end: '2020-10-15'
+timezone: America/Toronto
+venue: Virtual event
+url: https://com.metsoc.org/past-com-events/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/past-com-events/
+  last_checked: '2026-05-07'
+  note: MetSoc past COM page identifies COM+U2020 as a virtual event, 14-15 October 2020, and says the 59th Annual Conference of Metallurgists was transformed into MetSoc's first virtual event.

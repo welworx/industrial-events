@@ -1,0 +1,17 @@
+name: Silicon for the Chemical and Solar Industry XVIII
+event_types:
+- conference
+start: '2026-09-07'
+end: '2026-09-10'
+timezone: Europe/Oslo
+city: Kristiansand
+country: NO
+venue: Caledonien Hotel
+url: https://www.ntnu.edu/si-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.ntnu.edu/si-conference
+  last_checked: '2026-05-07'
+  note: NTNU conference page welcomes attendees to the 18th Si-Conference, part of Silicon Market Forum, 7-10 September 2026 at Caledonien Hotel in Kristiansand.

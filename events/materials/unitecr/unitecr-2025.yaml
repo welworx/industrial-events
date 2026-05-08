@@ -1,0 +1,20 @@
+name: UNITECR 2025, 19th Biennial Worldwide Congress on Refractories
+event_types:
+- conference
+start: '2025-10-27'
+end: '2025-10-30'
+timezone: America/Cancun
+city: Cancun
+country: MX
+venue: JW Marriott Cancun Resort
+url: https://unitecr2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://unitecr2025.com/about
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.showsbee.com/fairs/90005-UNITECR-2025.html
+  last_checked: '2026-05-07'

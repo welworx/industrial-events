@@ -1,0 +1,20 @@
+name: UNITECR 2022, 17th Unified International Technical Conference on Refractories
+event_types:
+- conference
+start: '2022-03-15'
+end: '2022-03-18'
+timezone: America/Chicago
+city: Chicago
+country: US
+venue: Hilton Chicago
+url: https://ceramics.org/meetings-events/acers-meetings
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://impact.ornl.gov/en/publications/the-unified-international-technical-conference-on-refractories-un/
+  last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.showsbee.com/fairs/77313-UNITECR-2022.html
+  last_checked: '2026-05-07'

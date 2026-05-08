@@ -1,0 +1,12 @@
+name: V International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+city: London
+country: GB
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+  note: Official IMPC history identifies congress V in 1960 at London; exact event dates are not listed in this source.

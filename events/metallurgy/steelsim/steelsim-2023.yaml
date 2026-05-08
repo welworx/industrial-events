@@ -1,0 +1,16 @@
+name: SteelSim 2023, 10th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2023-09-11'
+end: '2023-09-13'
+timezone: Europe/London
+city: Warwick
+country: GB
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 10th edition as SteelSim 2023, 11-13 September 2023 in Warwick.

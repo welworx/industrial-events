@@ -1,0 +1,17 @@
+name: 7th International Platinum Conference
+event_types:
+- conference
+start: '2017-10-18'
+end: '2017-10-20'
+timezone: Africa/Johannesburg
+city: Polokwane
+country: ZA
+venue: Protea Hotel Ranch Resort
+url: https://www.saimm.co.za/saimm-events/upcoming-events/platinum-2017-incorporating-ami-precious-metals-2017
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/platinum-2017-incorporating-ami-precious-metals-2017
+  last_checked: '2026-05-07'
+  note: SAIMM page gives 18-19 October 2017 conference dates and 20 October technical tours in the event date range.

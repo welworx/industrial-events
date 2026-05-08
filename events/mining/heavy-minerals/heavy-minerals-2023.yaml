@@ -1,0 +1,20 @@
+name: Twelfth International Heavy Minerals Conference 2023
+event_types:
+- conference
+start: '2023-08-21'
+end: '2023-08-22'
+timezone: Africa/Johannesburg
+city: Ballito
+country: ZA
+venue: The Capital Zimbali
+url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2023-twelfth-international-heavy-minerals-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2023-twelfth-international-heavy-minerals-conference
+  last_checked: '2026-05-07'
+- type: programme
+  scope: event
+  url: https://www.saimm.co.za/media/com_eventbooking/Heavy%20%20Minerals%20Conference%20Final%20Programme%2016082023.pdf
+  last_checked: '2026-05-07'

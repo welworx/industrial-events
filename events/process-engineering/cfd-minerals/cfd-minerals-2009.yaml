@@ -1,0 +1,20 @@
+name: 7th International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '2009-12-09'
+end: '2009-12-11'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+venue: Rydges Hotel
+url: https://flair.monash.edu/intranet/proceedings/cfd2009/PDFs/221FEN.pdf
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://flair.monash.edu/intranet/proceedings/cfd2009/PDFs/221FEN.pdf
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.flair.monash.edu.au/conferences/
+  last_checked: '2026-05-07'

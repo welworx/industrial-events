@@ -1,4 +1,4 @@
-name: UNITECR 2015, Unified International Technical Conference on Refractories
+name: UNITECR 2015, 14th Biennial Worldwide Congress on Refractories
 event_types:
 - conference
 start: '2015-09-15'
@@ -17,3 +17,8 @@ sources:
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://cerameunie.eu/topics/cerame-unie-sectors/
+  last_checked: '2026-05-07'
+  note: Cerame-Unie identifies UNITECR 2015 as the 14th Biennial Worldwide Congress.

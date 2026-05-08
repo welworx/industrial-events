@@ -1,0 +1,37 @@
+name: Thirteenth International Heavy Minerals Conference 2025
+event_types:
+- conference
+start: '2025-08-18'
+end: '2025-08-19'
+timezone: Africa/Johannesburg
+city: Rustenburg
+country: ZA
+venue: Sun City Resort
+url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+  last_checked: '2026-05-07'
+deadlines:
+- type: abstract
+  name: Abstract submission deadline
+  date: '2025-02-25'
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+    last_checked: '2026-05-07'
+- type: paper
+  name: Paper submission deadline
+  date: '2025-04-04'
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+    last_checked: '2026-05-07'

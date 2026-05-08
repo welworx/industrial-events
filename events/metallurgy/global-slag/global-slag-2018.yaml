@@ -1,0 +1,16 @@
+name: 13th Global Slag Conference and Exhibition
+event_types:
+- conference
+start: '2018-04-24'
+end: '2018-04-25'
+timezone: Europe/Prague
+city: Prague
+country: CZ
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2018
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2018
+  last_checked: '2026-05-07'
+  note: Official review identifies the 13th Global Slag Conference and Exhibition in Prague, 24-25 April 2018.

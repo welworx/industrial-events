@@ -1,0 +1,16 @@
+name: SteelSim 2009, 3rd International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2009-09-08'
+end: '2009-09-09'
+timezone: Europe/Vienna
+city: Leoben
+country: AT
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 3rd edition as SteelSim 2009, 8-9 September 2009 in Leoben.

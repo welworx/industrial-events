@@ -7,7 +7,7 @@ timezone: Europe/Vienna
 city: Vienna
 country: AT
 url: https://www.globalslag.com/conferences/global-slag/
-status: confirmed
+status: cancelled
 sources:
 - type: event-site
   scope: event
@@ -17,3 +17,8 @@ sources:
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-05-07'
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/?catid=24&id=678%3Aglobal-slag-2023-review&view=article
+  last_checked: '2026-05-07'
+  note: Official review says the 15th Global Slag Conference ultimately took place in Dusseldorf in 2023 after a three-year Covid delay, superseding this planned 2021 Vienna record.

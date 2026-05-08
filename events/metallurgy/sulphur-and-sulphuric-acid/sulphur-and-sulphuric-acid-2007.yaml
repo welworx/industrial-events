@@ -1,0 +1,21 @@
+name: 1st Sulphur and Sulphuric Acid Conference (SO2 Handling and Sulphuric Acid Manufacture)
+event_types:
+- conference
+start: '2007-04-18'
+end: '2007-04-20'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+url: https://www.saimm.co.za/saimm-events/other-organisers/5-events/about-saimm-events
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/other-organisers/5-events/about-saimm-events
+  last_checked: '2026-05-07'
+  note: SAIMM archive lists SO2 Handling and Sulphuric Acid Manufacture on 18-20 April 2007; ordinal inferred from later 2013-2025 numbered continuity.
+- type: overview
+  scope: event
+  url: https://www.saimm.co.za/events/0401slags/downloads/117_Seo.pdf
+  last_checked: '2026-05-07'
+  note: SAIMM CPD list records the accredited conference portion as 19-20 April 2007.

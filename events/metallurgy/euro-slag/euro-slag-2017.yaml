@@ -1,0 +1,20 @@
+name: 9th European Slag Conference
+event_types:
+- conference
+start: '2017-10-11'
+end: '2017-10-13'
+timezone: Europe/Paris
+city: Metz
+country: FR
+venue: The Arsenal
+url: https://www.zkg.de/en/artikel/zkg_9th_European_Slag_Conference_Circular_economy_in_the_slag_industry-2869651.html
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.zkg.de/en/artikel/zkg_9th_European_Slag_Conference_Circular_economy_in_the_slag_industry-2869651.html
+  last_checked: '2026-05-07'
+- type: event-listing
+  scope: event
+  url: https://www.hatch.com/es-CL/About-Us/Events-And-Conferences/2017/10/EUROSLAG---9th-European-Slag-Conference
+  last_checked: '2026-05-07'

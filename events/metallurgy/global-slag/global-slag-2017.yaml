@@ -1,0 +1,16 @@
+name: 12th Global Slag Conference, Exhibition & Awards
+event_types:
+- conference
+start: '2017-05-18'
+end: '2017-05-19'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2017
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.globalslag.com/conferences/global-slag/review/global-slag-review-2017
+  last_checked: '2026-05-07'
+  note: Official review identifies the 12th Global Slag Conference, Exhibition & Awards in Dusseldorf, 18-19 May 2017.

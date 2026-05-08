@@ -1,0 +1,20 @@
+name: EMC2005, 3rd European Metallurgical Conference
+event_types:
+- conference
+start: '2005-09-18'
+end: '2005-09-21'
+timezone: Europe/Berlin
+city: Dresden
+country: DE
+url: https://research.tudelft.nl/en/publications/the-co-operative-road-to-survival-of-metallurgical-engineering-pr
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://research.tudelft.nl/en/publications/the-co-operative-road-to-survival-of-metallurgical-engineering-pr
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.aalto.fi/en/publications/cathodic-reactions-of-copper-in-cupric-chloride-solution/
+  last_checked: '2026-05-07'
+  note: Proceedings records identify EMC 2005 in Dresden, 18-21 September 2005.

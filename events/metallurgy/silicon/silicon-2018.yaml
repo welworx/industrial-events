@@ -1,0 +1,21 @@
+name: Silicon for the Chemical and Solar Industry XIV
+event_types:
+- conference
+start: '2018-06-11'
+end: '2018-06-14'
+timezone: Europe/Oslo
+city: Svolvaer
+country: NO
+url: https://www.ntnu.edu/si-conference
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.ntnu.edu/documents/1284051995/0/2018_Silicon%2Bfor%2Bthe%2Bchemical%2Band%2Bsolar%2Bindustry%2BXIV.pdf/80cfab09-e51f-f25a-4184-e3bb970317cb?t=1745837860749
+  last_checked: '2026-05-07'
+  note: NTNU proceedings title identifies Silicon for the Chemical and Solar Industry XIV in Svolvaer, Norway, 11-14 June 2018.
+- type: publication-record
+  scope: event
+  url: https://www.sintef.no/en/publications/publication/1637430/
+  last_checked: '2026-05-07'
+  note: SINTEF publication record lists the XIV conference in Svolvaer, 11-14 June 2018, organized by NTNU.

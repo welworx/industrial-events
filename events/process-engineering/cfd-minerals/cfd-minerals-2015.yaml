@@ -1,0 +1,20 @@
+name: 11th International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '2015-12-07'
+end: '2015-12-09'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+venue: Melbourne Convention and Exhibition Centre
+url: https://www.cfd.com.au/cfd_conf15/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.cfd.com.au/cfd_conf15/
+  last_checked: '2026-05-07'
+- type: proceedings
+  scope: event
+  url: https://research.tue.nl/en/publications/numerical-and-experimental-characterization-of-particle-clusters-/
+  last_checked: '2026-05-07'

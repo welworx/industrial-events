@@ -1,0 +1,21 @@
+name: 66th World Foundry Congress
+event_types:
+- conference
+start: '2004-09-06'
+end: '2004-09-09'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+url: https://books.google.com/books/about/66th_World_Foundry_Congress.html?id=e_cvAAAACAAJ
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://books.google.com/books/about/66th_World_Foundry_Congress.html?id=e_cvAAAACAAJ
+  last_checked: '2026-05-07'
+  note: Google Books bibliographic record identifies the 66th World Foundry Congress proceedings in Istanbul, 6-9 September 2004.
+- type: proceedings
+  scope: event
+  url: https://orbit.dtu.dk/en/publications/iron-melt-flow-in-thin-walled-sections-using-vertically-parted-mo
+  last_checked: '2026-05-07'
+  note: DTU research record confirms the 66th World Foundry Congress in Istanbul, 6-9 September 2004.

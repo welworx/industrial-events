@@ -1,0 +1,16 @@
+name: COM 2012, 51st Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2012-09-30'
+end: '2012-10-03'
+timezone: America/Toronto
+city: Niagara Falls
+country: CA
+url: http://web.cim.org/COM2012/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists COM 2012 as the 51st Annual Conference of Metallurgists in Niagara Falls, 30 September-3 October 2012.

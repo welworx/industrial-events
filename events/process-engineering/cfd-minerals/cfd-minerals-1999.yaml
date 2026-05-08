@@ -1,0 +1,19 @@
+name: 2nd International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '1999-12-06'
+end: '1999-12-08'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+url: https://www.cfd.com.au/cfd_conf99/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.cfd.com.au/cfd_conf99/
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://people.csiro.au/W/P/peter-witt.aspx
+  last_checked: '2026-05-07'

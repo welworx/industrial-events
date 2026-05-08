@@ -1,0 +1,16 @@
+name: 65th World Foundry Congress
+event_types:
+- conference
+start: '2002-10-20'
+end: '2002-10-24'
+timezone: Asia/Seoul
+city: Gyeongju
+country: KR
+url: https://cris.vtt.fi/en/publications/indirect-coating-of-castings-with-a-wear-resistant-material/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://cris.vtt.fi/en/publications/indirect-coating-of-castings-with-a-wear-resistant-material/
+  last_checked: '2026-05-07'
+  note: VTT research record identifies the 65th World Foundry Congress in Gyeongju, Korea, 20-24 October 2002.

@@ -1,0 +1,16 @@
+name: 6th International Platinum Conference
+event_types:
+- conference
+start: '2014-10-20'
+end: '2014-10-24'
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+url: https://www.saimm.co.za/saimm-events/upcoming-events/past-events/6th-international-platinum-conference-2014
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/past-events/6th-international-platinum-conference-2014
+  last_checked: '2026-05-07'
+  note: SAIMM page body gives 20-22 October 2014 conference dates and 23-24 October technical visits; the page header has a stale January start date.

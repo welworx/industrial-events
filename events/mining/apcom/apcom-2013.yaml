@@ -1,0 +1,21 @@
+name: APCOM 2013, 36th International Symposium on Applications of Computers and Operations Research in the Mineral Industry
+event_types:
+- conference
+start: '2013-11-03'
+end: '2013-11-08'
+timezone: America/Sao_Paulo
+city: Porto Alegre
+country: BR
+url: http://www.demin.ufrgs.br/apcom_index.html
+status: confirmed
+sources:
+- type: news
+  scope: event
+  url: https://www.maptek.com/news/global-mining-technology-developer-maptek-to-sponsor-apcom-2013/
+  last_checked: '2026-05-07'
+  note: Maptek identifies APCOM 2013 as the 36th session in Porto Alegre, 3-8 November 2013.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'
+  note: Archive lists APCOM 2013 as the 36th International Symposium in Porto Alegre, 3-8 November 2013.

@@ -1,0 +1,12 @@
+name: III International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+city: Goslar
+country: DE
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-05-07'
+  note: Official IMPC history identifies congress III in 1955 at Goslar; exact event dates are not listed in this source.

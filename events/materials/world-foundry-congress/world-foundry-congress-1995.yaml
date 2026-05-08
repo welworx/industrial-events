@@ -1,0 +1,16 @@
+name: 61st World Foundry Congress
+event_types:
+- conference
+start: '1995-09-24'
+end: '1995-09-29'
+timezone: Asia/Shanghai
+city: Beijing
+country: CN
+url: https://research.aalto.fi/en/publications/the-effects-of-austenite-on-thermal-stability-and-fatigue-propert
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://research.aalto.fi/en/publications/the-effects-of-austenite-on-thermal-stability-and-fatigue-propert
+  last_checked: '2026-05-07'
+  note: Aalto research record lists the 61st World Foundry Congress in Beijing, 24-29 September 1995.

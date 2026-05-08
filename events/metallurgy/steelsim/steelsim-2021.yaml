@@ -1,0 +1,17 @@
+name: SteelSim 2021, 9th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking
+event_types:
+- conference
+start: '2021-10-05'
+end: '2021-10-07'
+timezone: Europe/Vienna
+city: Leoben
+country: AT
+venue: Virtual event
+url: https://www.steelsim2025.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.steelsim2025.com/
+  last_checked: '2026-05-07'
+  note: Official SteelSim 2025 history table lists the 9th edition as a virtual SteelSim 2021 event associated with Leoben, 5-7 October 2021.

@@ -1,0 +1,22 @@
+name: 8th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2005-05-09'
+end: '2005-05-11'
+timezone: Europe/London
+city: Birmingham
+country: GB
+venue: International Convention Centre
+url: https://obnb.uk/p13801399-the-eighth-european-electric-steelmaking-conference-9-11-may-2005-birmingham-uk
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://obnb.uk/p13801399-the-eighth-european-electric-steelmaking-conference-9-11-may-2005-birmingham-uk
+  last_checked: '2026-05-07'
+  note: Open British National Bibliography record identifies the 8th European Electric Steelmaking Conference in Birmingham, 9-11 May 2005.
+- type: journal-report
+  scope: event
+  url: https://www.tandfonline.com/doi/abs/10.1179/174328105X71281
+  last_checked: '2026-05-07'
+  note: Ironmaking & Steelmaking conference report identifies the 8th EEC at the International Convention Centre in Birmingham.

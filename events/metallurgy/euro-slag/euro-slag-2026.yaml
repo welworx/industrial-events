@@ -1,0 +1,32 @@
+name: XIII European Slag Conference
+event_types:
+- conference
+start: '2026-06-16'
+end: '2026-06-18'
+timezone: Europe/Stockholm
+city: Lulea
+country: SE
+venue: Kulturens Hus
+address: Skeppsbrogatan 17, 972 31 Lulea, Sweden
+url: https://www.euroslag2026.eu
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.euroslag2026.eu/reg/
+  last_checked: '2026-05-07'
+- type: venue
+  scope: event
+  url: https://www.euroslag2026.eu/conf_venue/
+  last_checked: '2026-05-07'
+deadlines:
+- type: discount-registration
+  name: Early bird registration deadline
+  date: '2026-03-16'
+  url: https://www.euroslag2026.eu/important-dates/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.euroslag2026.eu/important-dates/
+    last_checked: '2026-05-07'

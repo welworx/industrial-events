@@ -1,0 +1,20 @@
+name: 8th Sulphur and Sulphuric Acid Conference
+event_types:
+- conference
+start: '2023-03-13'
+end: '2023-03-16'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+venue: The Vineyard Hotel
+url: https://www.saimm.co.za/saimm-events/upcoming-events/the-8th-sulphur-and-sulphuric-acid-conference-2023
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/the-8th-sulphur-and-sulphuric-acid-conference-2023
+  last_checked: '2026-05-07'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-07'

@@ -1,0 +1,22 @@
+name: 11th European Slag Conference
+event_types:
+- conference
+start: '2022-10-04'
+end: '2022-10-07'
+timezone: Europe/Berlin
+city: Cologne
+country: DE
+venue: Maritim Hotel Koln
+url: https://www.asa-inc.org.au/blog/2022/07/dont-delay-submit-your-euroslag-papers-today
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.asa-inc.org.au/blog/2022/07/dont-delay-submit-your-euroslag-papers-today
+  last_checked: '2026-05-07'
+  note: ASA listing gives the 11th European Slag Conference dates, venue, and Cologne location.
+- type: event-report
+  scope: event
+  url: https://aridosasidan.com/noticias/
+  last_checked: '2026-05-07'
+  note: ASIDAN news archive confirms participation at the 11th European Slag Conference in Cologne, 4-7 October 2022.

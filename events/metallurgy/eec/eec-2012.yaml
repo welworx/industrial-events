@@ -1,0 +1,16 @@
+name: 10th European Electric Steelmaking Conference
+event_types:
+- conference
+start: '2012-09-25'
+end: '2012-09-28'
+timezone: Europe/Vienna
+city: Graz
+country: AT
+url: https://graz.elsevierpure.com/en/publications/electric-arc-furnace-with-static-var-compensator-planning-and-ope
+status: confirmed
+sources:
+- type: publication-record
+  scope: event
+  url: https://graz.elsevierpure.com/en/publications/electric-arc-furnace-with-static-var-compensator-planning-and-ope
+  last_checked: '2026-05-07'
+  note: Graz University of Technology record identifies EEC 2012 as the 10th European Electric Steelmaking Conference in Graz, 25-28 September 2012.

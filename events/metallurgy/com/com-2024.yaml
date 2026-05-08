@@ -1,0 +1,22 @@
+name: COM 2024, 63rd Annual Conference of Metallurgists
+event_types:
+- conference
+start: '2024-08-19'
+end: '2024-08-22'
+timezone: America/Halifax
+city: Halifax
+country: CA
+venue: Halifax Convention Centre
+url: https://metsoc.org/events-posts/the-63rd-annual-conference-of-metallurgists/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://metsoc.org/events-posts/the-63rd-annual-conference-of-metallurgists/
+  last_checked: '2026-05-07'
+  note: MetSoc identifies COM 2024 as the 63rd Annual Conference of Metallurgists in Halifax, 19-22 August 2024.
+- type: proceedings
+  scope: event
+  url: https://link.springer.com/book/10.1007/978-3-031-67398-6
+  last_checked: '2026-05-07'
+  note: Springer proceedings confirm COM 2024 as the 63rd Annual Conference of Metallurgists in Halifax, 19-22 August 2024.

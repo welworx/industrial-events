@@ -1,0 +1,16 @@
+name: 60th World Foundry Congress
+event_types:
+- conference
+start: '1993-09-26'
+end: '1993-10-01'
+timezone: Europe/Amsterdam
+city: The Hague
+country: NL
+url: https://cris.vtt.fi/en/publications/derivative-dilatation-analysis-a-promising-method-for-quality-con/
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://cris.vtt.fi/en/publications/derivative-dilatation-analysis-a-promising-method-for-quality-con/
+  last_checked: '2026-05-07'
+  note: VTT research record identifies the 60th World Foundry Congress in The Hague, 26 September-1 October 1993.

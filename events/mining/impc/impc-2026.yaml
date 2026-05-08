@@ -1,0 +1,33 @@
+name: IMPC 2026, XXXII International Mineral Processing Congress
+event_types:
+- conference
+- exhibition
+start: '2026-10-18'
+end: '2026-10-22'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+venue: Cape Town International Convention Centre
+address: Convention Square, 1 Lower Long Street, Cape Town 8001, South Africa
+url: https://impc2026.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://impc2026.com/
+  last_checked: '2026-05-07'
+- type: venue
+  scope: event
+  url: https://www.impc2026.com/about/congress-venue
+  last_checked: '2026-05-07'
+deadlines:
+- type: final-paper
+  name: Final paper submission deadline
+  date: '2026-06-04'
+  url: https://impc2026.com/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://impc2026.com/
+    last_checked: '2026-05-07'
