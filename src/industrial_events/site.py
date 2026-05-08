@@ -822,7 +822,7 @@ def observed_cadence(items: Iterable[CalendarItem | UndatedEvent]) -> tuple[str,
         if gap == 1:
             return "span", "1 year"
         return "span", f"{gap} years"
-    gaps = [later - earlier for earlier, later in zip(years, years[1:])]
+    gaps = [later - earlier for earlier, later in zip(years, years[1:], strict=False)]
     if gaps and len(set(gaps)) == 1:
         gap = gaps[0]
         if gap == 1:
@@ -841,7 +841,7 @@ def observed_gap_years(items: Iterable[CalendarItem | UndatedEvent]) -> int | No
     years = observed_years(items)
     if len(years) < 2:
         return None
-    gaps = [later - earlier for earlier, later in zip(years, years[1:])]
+    gaps = [later - earlier for earlier, later in zip(years, years[1:], strict=False)]
     if len(years) == 2:
         return gaps[0]
     if gaps and len(set(gaps)) == 1:
