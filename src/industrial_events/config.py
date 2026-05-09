@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, replace
 from datetime import UTC, datetime
 from pathlib import Path
@@ -7,8 +8,26 @@ from typing import Any
 
 import yaml
 
+from industrial_events.url_utils import is_safe_external_url
+
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CONFIG_PATH = ROOT / "site.yaml"
+YAML_BOOL_TAG = "tag:yaml.org,2002:bool"
+
+
+class EventYamlLoader(yaml.SafeLoader):
+    pass
+
+
+EventYamlLoader.yaml_implicit_resolvers = {
+    key: [(tag, pattern) for tag, pattern in resolvers if tag != YAML_BOOL_TAG]
+    for key, resolvers in yaml.SafeLoader.yaml_implicit_resolvers.items()
+}
+EventYamlLoader.add_implicit_resolver(
+    YAML_BOOL_TAG,
+    re.compile(r"^(?:true|True|TRUE|false|False|FALSE)$"),
+    list("tTfF"),
+)
 
 
 class ConfigError(Exception):
@@ -42,8 +61,8 @@ def load_build_config(path: Path = DEFAULT_CONFIG_PATH) -> BuildConfig:
         readme_path=config_path(path, paths, "readme"),
         sources_dir=config_path(path, paths, "sources_dir"),
         site_title=required_str(site, "title", path),
-        site_url=site_url(required_str(site, "url", path)),
-        repository_url=required_str(site, "repository_url", path),
+        site_url=site_url(required_url(site, "url", path)),
+        repository_url=required_url(site, "repository_url", path),
         product_id=required_str(site, "product_id", path),
         uid_domain=required_str(site, "uid_domain", path),
         rss_updated_env=required_str(site, "rss_updated_env", path),
@@ -70,16 +89,27 @@ def config_with_overrides(
 
 
 def load_config_yaml(path: Path) -> dict[str, Any]:
+    return load_yaml_mapping(path, error_type=ConfigError, read_label="config file")
+
+
+def load_yaml_mapping(path: Path, *, error_type: type[Exception], read_label: str) -> dict[str, Any]:
     try:
         with path.open("r", encoding="utf-8") as file:
-            data = yaml.safe_load(file)
+            data = yaml.load(file, Loader=EventYamlLoader)
     except OSError as exc:
-        raise ConfigError(f"{path}: cannot read config file: {exc}") from exc
+        raise error_type(f"{path}: cannot read {read_label}: {exc}") from exc
     except yaml.YAMLError as exc:
-        raise ConfigError(f"{path}: invalid YAML: {exc}") from exc
+        raise error_type(f"{path}: invalid YAML: {exc}") from exc
     if not isinstance(data, dict):
-        raise ConfigError(f"{path}: expected a YAML object")
+        raise error_type(f"{path}: expected a YAML object")
     return data
+
+
+def repo_relative_path(path: Path, root: Path = ROOT) -> str:
+    try:
+        return path.relative_to(root).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 def required_mapping(data: dict[str, Any], key: str, path: Path) -> dict[str, Any]:
@@ -96,6 +126,13 @@ def required_str(data: dict[str, Any], key: str, path: Path) -> str:
     return value.strip()
 
 
+def required_url(data: dict[str, Any], key: str, path: Path) -> str:
+    value = required_str(data, key, path)
+    if not is_safe_external_url(value):
+        raise ConfigError(f"{path}: config field {key!r} must be an http(s) URL")
+    return value
+
+
 def config_path(config_file: Path, data: dict[str, Any], key: str) -> Path:
     raw_path = required_str(data, key, config_file)
     path = Path(raw_path)
@@ -110,11 +147,19 @@ def site_url(value: str) -> str:
     return value + "/"
 
 
-def parse_config_datetime(value: str, path: Path) -> datetime:
+def normalize_datetime(value: datetime) -> datetime:
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=UTC)
+    return value.astimezone(UTC)
+
+
+def parse_iso_datetime(value: str, label: str, error_type: type[Exception]) -> datetime:
     try:
         parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
     except ValueError as exc:
-        raise ConfigError(f"{path}: default_feed_updated must be an ISO 8601 date-time") from exc
-    if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=UTC)
-    return parsed.astimezone(UTC)
+        raise error_type(f"{label} must be an ISO 8601 date-time") from exc
+    return normalize_datetime(parsed)
+
+
+def parse_config_datetime(value: str, path: Path) -> datetime:
+    return parse_iso_datetime(value, f"{path}: default_feed_updated", ConfigError)
