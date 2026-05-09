@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sys
 import tempfile
 import unittest
 from datetime import UTC, datetime
@@ -8,10 +7,38 @@ from datetime import date as Date
 from pathlib import Path
 from xml.etree import ElementTree
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
+from industrial_events.builder import LOGGER, build_site, write_event_dataset, write_readme
+from industrial_events.config import BuildConfig, config_with_overrides, load_build_config
+from industrial_events.data import load_items, load_series_metadata, load_undated_events, load_yaml
+from industrial_events.dataset import load_event_dataset, read_event_dataset
+from industrial_events.event_pages import render_event_markdown
+from industrial_events.event_rows import submission_status_html_cell
+from industrial_events.feeds import render_calendar
+from industrial_events.models import CalendarItem, SeriesMetadata
+from industrial_events.readme import (
+    README_ONE_TIME_END,
+    README_ONE_TIME_START,
+    README_SERIES_END,
+    README_SERIES_START,
+    README_SINGLE_EVENT_END,
+    README_SINGLE_EVENT_START,
+    README_SOURCES_END,
+    README_SOURCES_START,
+    README_SUBMISSION_END,
+    README_SUBMISSION_START,
+    README_UPCOMING_END,
+    README_UPCOMING_START,
+    render_readme_one_time_events,
+    render_readme_overview_sources,
+    render_readme_series_overview,
+    render_readme_single_event_records,
+    render_readme_submission_opportunities,
+    render_readme_upcoming_events,
+)
+from industrial_events.render_utils import html_link, markdown_link
+from industrial_events.validation import CalendarBuildError
 
-from industrial_events import site as build_site  # noqa: E402
+ROOT = Path(__file__).resolve().parents[1]
 
 FIXTURES = ROOT / "tests" / "fixtures"
 TEST_SITE_ROOT = ROOT / "tests" / ".generated-site"
@@ -19,16 +46,50 @@ TEST_OUTPUT = TEST_SITE_ROOT / "calendars"
 TEST_UPDATED_AT = datetime(2026, 5, 4, tzinfo=UTC)
 
 
-def test_config(
+def build_test_config(
     source: Path = FIXTURES / "valid-events",
     output: Path = TEST_OUTPUT,
-) -> build_site.BuildConfig:
-    return build_site.config_with_overrides(
-        build_site.load_build_config(),
+) -> BuildConfig:
+    return config_with_overrides(
+        load_build_config(),
         source_dir=source,
         output_dir=output,
         readme_path=TEST_SITE_ROOT / "README.md",
     )
+
+
+def write_demo_event_source(tmp_dir: str, event_fields: list[str]) -> Path:
+    source = Path(tmp_dir) / "events"
+    series_dir = source / "software" / "demo-conf"
+    series_dir.mkdir(parents=True)
+    (series_dir / "metadata.yaml").write_text(
+        "\n".join(
+            [
+                "series: Demo Conference",
+                "slug: demo-conf",
+                "description: Demo series",
+                "categories:",
+                "  - software",
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    (series_dir / "demo-conf-2027.yaml").write_text(
+        "\n".join(
+            [
+                "name: Demo Conference 2027",
+                "event_types:",
+                "  - conference",
+                'start: "2027-03-10"',
+                'end: "2027-03-12"',
+                *event_fields,
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    return source
 
 
 def clean_test_output() -> None:
@@ -61,9 +122,9 @@ class BuildSiteTests(unittest.TestCase):
         source = FIXTURES / "valid-events"
         output = TEST_OUTPUT
 
-        with self.assertLogs(build_site.LOGGER, level="INFO") as logs:
-            feeds = build_site.build_site(
-                test_config(source, output),
+        with self.assertLogs(LOGGER, level="INFO") as logs:
+            feeds = build_site(
+                build_test_config(source, output),
                 updated_at=TEST_UPDATED_AT,
                 reference_date=Date(2026, 1, 1),
             )
@@ -124,7 +185,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn('<span class="status-badge status-tbd">TBD</span>', conference_html)
         self.assertIn(
             '<span class="status-badge status-closed">Closed</span>',
-            build_site.submission_status_html_cell((), (), Date(2025, 1, 1), Date(2026, 1, 1)),
+            submission_status_html_cell((), (), Date(2025, 1, 1), Date(2026, 1, 1)),
         )
         self.assertIn("# Events", conference_markdown)
         self.assertIn("## Submission Opportunities", conference_markdown)
@@ -182,22 +243,22 @@ class BuildSiteTests(unittest.TestCase):
             "[Source](<https://e.test/demo-2028>) | 2026-08-01 |",
             conference_markdown,
         )
-        config = test_config(source, output)
-        readme_items = build_site.load_items(source, config)
-        readme_opportunities = build_site.render_readme_submission_opportunities(
+        config = build_test_config(source, output)
+        readme_items = load_items(source, config)
+        readme_opportunities = render_readme_submission_opportunities(
             readme_items,
             config,
             reference_date=Date(2026, 1, 1),
         )
-        readme_upcoming = build_site.render_readme_upcoming_events(
+        readme_upcoming = render_readme_upcoming_events(
             readme_items,
             config,
             reference_date=Date(2026, 1, 1),
         )
-        readme_series = build_site.render_readme_series_overview(
-            build_site.load_series_metadata(source),
+        readme_series = render_readme_series_overview(
+            load_series_metadata(source),
             readme_items,
-            build_site.load_undated_events(source),
+            load_undated_events(source),
             config,
             reference_date=Date(2026, 1, 1),
         )
@@ -307,12 +368,12 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("Disclaimer: This calendar makes existing public event", unfolded_calendar)
 
     def test_event_dataset_round_trips_json(self) -> None:
-        dataset = build_site.load_event_dataset(test_config())
+        dataset = load_event_dataset(build_test_config())
 
         with tempfile.TemporaryDirectory() as tmp_dir:
             path = Path(tmp_dir) / "events-dataset.json"
-            build_site.write_event_dataset(path, dataset)
-            loaded = build_site.read_event_dataset(path)
+            write_event_dataset(path, dataset)
+            loaded = read_event_dataset(path)
 
         self.assertEqual(dataset.items, loaded.items)
         self.assertEqual(dataset.undated_events, loaded.undated_events)
@@ -320,15 +381,15 @@ class BuildSiteTests(unittest.TestCase):
         self.assertEqual(dataset.source_pages, loaded.source_pages)
 
     def test_readme_update_preserves_manual_content_and_rebuilds_all_generated_blocks(self) -> None:
-        config = test_config()
-        dataset = build_site.load_event_dataset(config)
+        config = build_test_config()
+        dataset = load_event_dataset(config)
         stale_sections = {
-            build_site.README_UPCOMING_START: build_site.README_UPCOMING_END,
-            build_site.README_SUBMISSION_START: build_site.README_SUBMISSION_END,
-            build_site.README_SERIES_START: build_site.README_SERIES_END,
-            build_site.README_ONE_TIME_START: build_site.README_ONE_TIME_END,
-            build_site.README_SINGLE_EVENT_START: build_site.README_SINGLE_EVENT_END,
-            build_site.README_SOURCES_START: build_site.README_SOURCES_END,
+            README_UPCOMING_START: README_UPCOMING_END,
+            README_SUBMISSION_START: README_SUBMISSION_END,
+            README_SERIES_START: README_SERIES_END,
+            README_ONE_TIME_START: README_ONE_TIME_END,
+            README_SINGLE_EVENT_START: README_SINGLE_EVENT_END,
+            README_SOURCES_START: README_SOURCES_END,
         }
         readme_parts = ["# Manual title", "", "Manual intro survives."]
         for index, (start_marker, end_marker) in enumerate(stale_sections.items(), start=1):
@@ -345,7 +406,7 @@ class BuildSiteTests(unittest.TestCase):
         config.readme_path.parent.mkdir(parents=True, exist_ok=True)
         config.readme_path.write_text("\n".join(readme_parts) + "\n", encoding="utf-8")
 
-        build_site.write_readme(config, dataset, reference_date=Date(2026, 1, 1))
+        write_readme(config, dataset, reference_date=Date(2026, 1, 1))
 
         updated = config.readme_path.read_text(encoding="utf-8")
         self.assertIn("# Manual title", updated)
@@ -382,7 +443,7 @@ class BuildSiteTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            section = build_site.render_readme_overview_sources(Path(tmp_dir))
+            section = render_readme_overview_sources(Path(tmp_dir))
 
         self.assertIn("Discovery sources help find and monitor events.", section)
         self.assertIn("- [Example Overview](<https://example.org/events>)", section)
@@ -395,7 +456,7 @@ class BuildSiteTests(unittest.TestCase):
 
     def test_readme_series_overview_sorts_by_series_name(self) -> None:
         metadata = (
-            build_site.SeriesMetadata(
+            SeriesMetadata(
                 path=Path("zeta/metadata.yaml"),
                 domain="software",
                 series="Zeta Events",
@@ -405,7 +466,7 @@ class BuildSiteTests(unittest.TestCase):
                 categories=("software",),
                 topics=(),
             ),
-            build_site.SeriesMetadata(
+            SeriesMetadata(
                 path=Path("alpha/metadata.yaml"),
                 domain="software",
                 series="Alpha Events",
@@ -416,7 +477,7 @@ class BuildSiteTests(unittest.TestCase):
                 topics=(),
                 sources=("https://example.org/discovery",),
             ),
-            build_site.SeriesMetadata(
+            SeriesMetadata(
                 path=Path("one/metadata.yaml"),
                 domain="software",
                 series="One-Time Summit",
@@ -426,7 +487,7 @@ class BuildSiteTests(unittest.TestCase):
                 categories=("software",),
                 topics=(),
             ),
-            build_site.SeriesMetadata(
+            SeriesMetadata(
                 path=Path("single/metadata.yaml"),
                 domain="software",
                 series="Singleton Conf",
@@ -436,7 +497,7 @@ class BuildSiteTests(unittest.TestCase):
                 categories=("software",),
                 topics=(),
             ),
-            build_site.SeriesMetadata(
+            SeriesMetadata(
                 path=Path("cadence/metadata.yaml"),
                 domain="software",
                 series="Cadence Conf",
@@ -448,7 +509,7 @@ class BuildSiteTests(unittest.TestCase):
             ),
         )
         items = (
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="alpha-2024@industrial-events",
                 summary="Alpha Events 2024",
                 start=Date(2024, 4, 1),
@@ -463,7 +524,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/alpha-2024",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="alpha-2026@industrial-events",
                 summary="Alpha Events 2026",
                 start=Date(2026, 4, 1),
@@ -478,7 +539,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/alpha-2026",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="zeta-2024@industrial-events",
                 summary="Zeta Events 2024",
                 start=Date(2024, 3, 1),
@@ -493,7 +554,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/zeta-2024",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="zeta-2026@industrial-events",
                 summary="Zeta Events 2026",
                 start=Date(2026, 3, 1),
@@ -508,7 +569,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/zeta-2026",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="one-time-2026@industrial-events",
                 summary="One-Time Summit 2026",
                 start=Date(2026, 6, 1),
@@ -523,7 +584,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/one-time",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="single-conf-2026@industrial-events",
                 summary="Singleton Conf 2026",
                 start=Date(2026, 7, 1),
@@ -538,7 +599,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/single",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="cadence-conf-2024@industrial-events",
                 summary="Cadence Conf 2024",
                 start=Date(2024, 5, 1),
@@ -553,7 +614,7 @@ class BuildSiteTests(unittest.TestCase):
                 status="CONFIRMED",
                 url="https://example.org/cadence-2024",
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="cadence-conf-2026@industrial-events",
                 summary="Cadence Conf 2026",
                 start=Date(2026, 5, 1),
@@ -570,32 +631,32 @@ class BuildSiteTests(unittest.TestCase):
             ),
         )
 
-        section = build_site.render_readme_series_overview(
+        section = render_readme_series_overview(
             metadata,
             items,
             (),
-            test_config(),
+            build_test_config(),
             reference_date=Date(2026, 1, 1),
         )
-        later_section = build_site.render_readme_series_overview(
+        later_section = render_readme_series_overview(
             metadata,
             items,
             (),
-            test_config(),
+            build_test_config(),
             reference_date=Date(2027, 1, 1),
         )
-        one_time_section = build_site.render_readme_one_time_events(
+        one_time_section = render_readme_one_time_events(
             metadata,
             items,
             (),
-            test_config(),
+            build_test_config(),
             reference_date=Date(2026, 1, 1),
         )
-        single_section = build_site.render_readme_single_event_records(
+        single_section = render_readme_single_event_records(
             metadata,
             items,
             (),
-            test_config(),
+            build_test_config(),
             reference_date=Date(2026, 1, 1),
         )
 
@@ -624,17 +685,76 @@ class BuildSiteTests(unittest.TestCase):
     def test_rejects_unknown_fields(self) -> None:
         source = FIXTURES / "invalid-unknown-field"
 
-        with self.assertRaisesRegex(build_site.CalendarBuildError, "unknown top level field"):
-            build_site.build_site(test_config(source, TEST_OUTPUT))
+        with self.assertRaisesRegex(CalendarBuildError, "unknown top level field"):
+            build_site(build_test_config(source, TEST_OUTPUT))
+
+    def test_rejects_unsafe_event_urls(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            source = write_demo_event_source(tmp_dir, ["url: javascript:alert(1)"])
+
+            with self.assertRaisesRegex(CalendarBuildError, "must be an http\\(s\\) URL"):
+                load_items(source, build_test_config(source))
+
+    def test_rejects_non_string_optional_event_fields(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            source = write_demo_event_source(tmp_dir, ["status: true"])
+
+            with self.assertRaisesRegex(CalendarBuildError, "status.*must be a string"):
+                load_items(source, build_test_config(source))
+
+    def test_rejects_non_string_optional_location_fields_with_event_context(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            source = write_demo_event_source(tmp_dir, ["country: true"])
+
+            with self.assertRaisesRegex(
+                CalendarBuildError, "demo-conf-2027.yaml.*event field 'country' must be a string"
+            ):
+                load_items(source, build_test_config(source))
+
+    def test_drops_unsafe_links_during_rendering(self) -> None:
+        self.assertEqual(markdown_link("Unsafe", "javascript:alert(1)"), "Unsafe")
+        self.assertEqual(html_link("Unsafe", "javascript:alert(1)"), "Unsafe")
+
+    def test_load_yaml_wraps_read_errors(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            with self.assertRaisesRegex(CalendarBuildError, "cannot read YAML file"):
+                load_yaml(Path(tmp_dir))
+
+    def test_load_yaml_keeps_no_country_code_as_string(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            yaml_path = Path(tmp_dir) / "event.yaml"
+            yaml_path.write_text("country: NO\nstatus: true\n", encoding="utf-8")
+
+            data = load_yaml(yaml_path)
+
+        self.assertEqual(data["country"], "NO")
+        self.assertIs(data["status"], True)
+
+    def test_rejects_output_dir_that_is_not_generated_calendars_dir(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            site_root = Path(tmp_dir) / "site"
+            output = site_root / "not-calendars"
+            stale_page = site_root / "events" / "stale.html"
+            stale_page.parent.mkdir(parents=True)
+            stale_page.write_text("manual content", encoding="utf-8")
+
+            with self.assertRaisesRegex(CalendarBuildError, "generated 'calendars' directory"):
+                build_site(
+                    build_test_config(FIXTURES / "valid-events", output),
+                    updated_at=TEST_UPDATED_AT,
+                    reference_date=Date(2026, 1, 1),
+                )
+
+            self.assertEqual(stale_page.read_text(encoding="utf-8"), "manual content")
 
     def test_rejects_missing_source_dir(self) -> None:
         source = FIXTURES / "missing-events"
 
-        with self.assertRaisesRegex(build_site.CalendarBuildError, "source directory does not exist"):
-            build_site.build_site(test_config(source, TEST_OUTPUT), updated_at=TEST_UPDATED_AT)
+        with self.assertRaisesRegex(CalendarBuildError, "source directory does not exist"):
+            build_site(build_test_config(source, TEST_OUTPUT), updated_at=TEST_UPDATED_AT)
 
     def test_calendar_categories_do_not_force_conference(self) -> None:
-        item = build_site.CalendarItem(
+        item = CalendarItem(
             uid="expo-2027@industrial-events",
             summary="Industrial Expo 2027",
             start=Date(2027, 5, 1),
@@ -650,7 +770,7 @@ class BuildSiteTests(unittest.TestCase):
             event_types=("exhibition",),
         )
 
-        calendar = build_site.render_calendar("Exhibitions", (item,), test_config(), TEST_UPDATED_AT)
+        calendar = render_calendar("Exhibitions", (item,), build_test_config(), TEST_UPDATED_AT)
         block = event_block(unfold_calendar(calendar), "expo-2027@industrial-events")
 
         self.assertIn("CATEGORIES:event,industrial-expo,de,exhibition,industry", block)
@@ -658,7 +778,7 @@ class BuildSiteTests(unittest.TestCase):
 
     def test_conference_markdown_collapses_co_located_conferences(self) -> None:
         items = (
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="main-2025-event@industrial-events",
                 summary="Main Conference 2025",
                 start=Date(2025, 1, 10),
@@ -681,7 +801,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_url="https://example.org/joint-2025",
                 co_location_series=("main", "side"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="side-2025-event@industrial-events",
                 summary="Side Conference 2025",
                 start=Date(2025, 1, 10),
@@ -704,7 +824,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_url="https://example.org/joint-2025",
                 co_location_series=("main", "side"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="old-2024-event@industrial-events",
                 summary="Old Conference 2024",
                 start=Date(2024, 2, 5),
@@ -722,7 +842,7 @@ class BuildSiteTests(unittest.TestCase):
             ),
         )
 
-        conference_markdown = build_site.render_event_markdown(items, reference_date=Date(2026, 1, 1))
+        conference_markdown = render_event_markdown(items, reference_date=Date(2026, 1, 1))
 
         self.assertLess(conference_markdown.index("### 2025"), conference_markdown.index("### 2024"))
         self.assertNotIn("Joint Event 2025", conference_markdown)
@@ -738,9 +858,43 @@ class BuildSiteTests(unittest.TestCase):
             conference_markdown,
         )
 
+    def test_in_progress_events_remain_upcoming_until_they_end(self) -> None:
+        items = (
+            CalendarItem(
+                uid="ongoing-2026@industrial-events",
+                summary="Ongoing Conference 2026",
+                start=Date(2026, 1, 1),
+                end_exclusive=Date(2026, 1, 4),
+                series="Ongoing Conference",
+                series_slug="ongoing",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="us",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/ongoing",
+            ),
+        )
+
+        conference_markdown = render_event_markdown(items, reference_date=Date(2026, 1, 2))
+        upcoming_section = conference_markdown[
+            conference_markdown.index("## Upcoming Events") : conference_markdown.index("## Announced / Date TBD")
+        ]
+        past_section = conference_markdown[conference_markdown.index("## Past Events") :]
+        readme_upcoming = render_readme_upcoming_events(
+            items,
+            build_test_config(),
+            reference_date=Date(2026, 1, 2),
+        )
+
+        self.assertIn("Ongoing Conference 2026", upcoming_section)
+        self.assertNotIn("Ongoing Conference 2026", past_section)
+        self.assertIn("Ongoing Conference 2026", readme_upcoming)
+
     def test_conference_markdown_adds_short_contained_conference_labels(self) -> None:
         items = (
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="extraction-2025-event@industrial-events",
                 summary="Extraction 2025 Meeting & Exhibition",
                 start=Date(2025, 11, 16),
@@ -761,7 +915,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_group="extraction-2025",
                 co_location_series=("extraction", "copper", "ni-co", "cross-cutting"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="copper-2025-event@industrial-events",
                 summary="12th International Copper Conference (Copper 2025)",
                 start=Date(2025, 11, 16),
@@ -782,7 +936,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_group="extraction-2025",
                 co_location_series=("extraction", "copper", "ni-co", "cross-cutting"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="nico-2025-event@industrial-events",
                 summary="6th International Symposium on Nickel and Cobalt (Ni-Co 2025)",
                 start=Date(2025, 11, 16),
@@ -803,7 +957,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_group="extraction-2025",
                 co_location_series=("extraction", "copper", "ni-co", "cross-cutting"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="cross-cutting-2025-event@industrial-events",
                 summary="Cross-Cutting Symposia at Extraction 2025",
                 start=Date(2025, 11, 16),
@@ -824,7 +978,7 @@ class BuildSiteTests(unittest.TestCase):
                 co_location_group="extraction-2025",
                 co_location_series=("extraction", "copper", "ni-co", "cross-cutting"),
             ),
-            build_site.CalendarItem(
+            CalendarItem(
                 uid="copper-2025-11-16-poster-submission-2025-06-01@industrial-events",
                 summary="International Copper Conference: Poster submission deadline",
                 start=Date(2025, 6, 1),
@@ -843,7 +997,7 @@ class BuildSiteTests(unittest.TestCase):
             ),
         )
 
-        conference_markdown = build_site.render_event_markdown(items, reference_date=Date(2025, 1, 1))
+        conference_markdown = render_event_markdown(items, reference_date=Date(2025, 1, 1))
 
         self.assertIn(
             "| 2025-11-16 to 2025-11-20 | "
