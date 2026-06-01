@@ -46,10 +46,6 @@ jobs:
       - run: uv run ruff check
       - run: uv run ruff format --check
       - run: uv run python -B -m unittest discover -s tests
-      - uses: actions/upload-pages-artifact@v5
-        if: vars.ENABLE_GITHUB_PAGES == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main'
-        with:
-          path: public
 
   update-readme:
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
@@ -92,17 +88,3 @@ jobs:
             git commit -m "Update generated README sections"
             git push
           fi
-
-  deploy:
-    if: vars.ENABLE_GITHUB_PAGES == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v5

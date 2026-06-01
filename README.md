@@ -1,24 +1,24 @@
 # Industrial Events
 
 [![Build site](https://github.com/welworx/industrial-events/actions/workflows/build-site.yml/badge.svg)](https://github.com/welworx/industrial-events/actions/workflows/build-site.yml)
-[![Static site](https://img.shields.io/badge/site-static-blue)](https://welworx.github.io/industrial-events/)
-[![RSS](https://img.shields.io/badge/feed-RSS-orange)](https://welworx.github.io/industrial-events/events.xml)
-[![iCalendar](https://img.shields.io/badge/calendar-iCalendar-green)](https://welworx.github.io/industrial-events/calendars/all.ics)
+[![Static site](https://img.shields.io/badge/site-static-blue)](https://industrial-events.pages.dev/)
+[![RSS](https://img.shields.io/badge/feed-RSS-orange)](https://industrial-events.pages.dev/events.xml)
+[![iCalendar](https://img.shields.io/badge/calendar-iCalendar-green)](https://industrial-events.pages.dev/calendars/all.ics)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Curated YAML data for selected industrial events across metallurgy, mining, materials, and process-engineering domains. Event records prefer official event pages when available; discovery and organizer pages are tracked separately to support maintenance. Static site outputs are generated during deployment from the source YAML files.
 
-**Best way to consume the data**: [open the reader-friendly event site](https://welworx.github.io/industrial-events/).
+**Best way to consume the data**: [open the reader-friendly event site](https://industrial-events.pages.dev/).
 
 **Something wrong/missing?** Please open a GitHub issue with a short note and links. 
 
 ## Feeds
 
-- [Reader-friendly event site](https://welworx.github.io/industrial-events/)
-- [Subscribe to all events calendar](https://welworx.github.io/industrial-events/calendars/all.ics)
-- [RSS update feed](https://welworx.github.io/industrial-events/events.xml)
-- [Machine-readable feed index](https://welworx.github.io/industrial-events/calendars/index.json)
-- [Full generated event list](https://welworx.github.io/industrial-events/events/all.html)
+- [Reader-friendly event site](https://industrial-events.pages.dev/)
+- [Subscribe to all events calendar](https://industrial-events.pages.dev/calendars/all.ics)
+- [RSS update feed](https://industrial-events.pages.dev/events.xml)
+- [Machine-readable feed index](https://industrial-events.pages.dev/calendars/index.json)
+- [Full generated event list](https://industrial-events.pages.dev/events/all.html)
 
 Filter feeds are generated for series, categories, event types, countries, domains, and co-located groups.
 
@@ -26,7 +26,7 @@ Filter feeds are generated for series, categories, event types, countries, domai
 
 <!-- generated:upcoming-events:start -->
 
-Full list: [All upcoming events](https://welworx.github.io/industrial-events/events/all.html#upcoming-events).
+Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.html#upcoming-events).
 
 ### 2026
 
@@ -138,7 +138,7 @@ Full list: [All upcoming events](https://welworx.github.io/industrial-events/eve
 
 <!-- generated:submission-opportunities:start -->
 
-Full list: [All submission opportunities](https://welworx.github.io/industrial-events/events/all.html#submission-opportunities).
+Full list: [All submission opportunities](https://industrial-events.pages.dev/events/all.html#submission-opportunities).
 
 | Deadline | Event | Event Dates | Scope / Co-located | Last Checked |
 | --- | --- | --- | --- | --- |
@@ -155,181 +155,181 @@ Full list: [All submission opportunities](https://welworx.github.io/industrial-e
 
 <!-- generated:series-overview:start -->
 
-- **[AISTech](<https://welworx.github.io/industrial-events/events/series/aistech.html>)** [↗](<https://www.aist.org/conference-expositions/aistech>)
+- **[AISTech](<https://industrial-events.pages.dev/events/series/aistech.html>)** [↗](<https://www.aist.org/conference-expositions/aistech>)
   Recurring Association for Iron & Steel Technology conference and exposition.
   ![span: 7 years](https://img.shields.io/badge/span-7%20years-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
-- **[ALTA Metallurgical Conference](<https://welworx.github.io/industrial-events/events/series/alta.html>)** [↗](<https://www.altamet.com.au/>)
+- **[ALTA Metallurgical Conference](<https://industrial-events.pages.dev/events/series/alta.html>)** [↗](<https://www.altamet.com.au/>)
   Annual mining and metallurgical processing conference series.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: May 25-27, 2027](https://img.shields.io/badge/next-May%2025--27%2C%202027-brightgreen) [ALTA 2027](<https://www.altamet.com.au/>)
 
-- **[APCOM](<https://welworx.github.io/industrial-events/events/series/apcom.html>)** [↗](<https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0>)
+- **[APCOM](<https://industrial-events.pages.dev/events/series/apcom.html>)** [↗](<https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0>)
   Recurring conference on applications of computers and operations research in the minerals industries.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
-- **[CALPHAD Conference](<https://welworx.github.io/industrial-events/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
+- **[CALPHAD Conference](<https://industrial-events.pages.dev/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
   Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Jun 7-12, 2026](https://img.shields.io/badge/next-Jun%207--12%2C%202026-brightgreen) [CALPHAD 2026](<https://calphad2026.org>)
 
-- **[Conference of Metallurgists](<https://welworx.github.io/industrial-events/events/series/com.html>)** [↗](<https://com.metsoc.org>)
+- **[Conference of Metallurgists](<https://industrial-events.pages.dev/events/series/com.html>)** [↗](<https://com.metsoc.org>)
   Recurring Annual Conference of Metallurgists organized by MetSoc.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Aug 17-20, 2026](https://img.shields.io/badge/next-Aug%2017--20%2C%202026-brightgreen) [COM 2026, 65th Annual Conference of Metallurgists](<https://com.metsoc.org>)
 
-- **[European Academic Symposium on EAF Steelmaking](<https://welworx.github.io/industrial-events/events/series/eases.html>)** [↗](<https://www.eases.rwth-aachen.de/>)
+- **[European Academic Symposium on EAF Steelmaking](<https://industrial-events.pages.dev/events/series/eases.html>)** [↗](<https://www.eases.rwth-aachen.de/>)
   Recurring European academic symposium on electric arc furnace steelmaking.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[European Electric Steelmaking Conference](<https://welworx.github.io/industrial-events/events/series/eec.html>)** [↗](<https://www.iom3.org>)
+- **[European Electric Steelmaking Conference](<https://industrial-events.pages.dev/events/series/eec.html>)** [↗](<https://www.iom3.org>)
   Recurring European Electric Steelmaking Conference series.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [1st European Electric Steelmaking Conference](<https://www.iom3.org>)
 
-- **[European Metallurgical Conference](<https://welworx.github.io/industrial-events/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
+- **[European Metallurgical Conference](<https://industrial-events.pages.dev/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
   Recurring European Metallurgical Conference series.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
-- **[European Mineral Processing and Recycling Congress](<https://welworx.github.io/industrial-events/events/series/emprc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
+- **[European Mineral Processing and Recycling Congress](<https://industrial-events.pages.dev/events/series/emprc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
   Recurring European congress on mineral processing and recycling.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
-- **[European Slag Conference](<https://welworx.github.io/industrial-events/events/series/euro-slag.html>)** [↗](<https://www.euroslag2026.eu/>)
+- **[European Slag Conference](<https://industrial-events.pages.dev/events/series/euro-slag.html>)** [↗](<https://www.euroslag2026.eu/>)
   Recurring European conference on slag and slag products.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 16-18, 2026](https://img.shields.io/badge/next-Jun%2016--18%2C%202026-brightgreen) [XIII European Slag Conference](<https://www.euroslag2026.eu>)
 
-- **[GlassBuild America](<https://welworx.github.io/industrial-events/events/series/glassbuild-america.html>)** [↗](<https://www.glassbuildamerica.com/>)
+- **[GlassBuild America](<https://industrial-events.pages.dev/events/series/glassbuild-america.html>)** [↗](<https://www.glassbuildamerica.com/>)
   North American glass, window, and door industry trade event.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: Sep 23-25, 2026](https://img.shields.io/badge/next-Sep%2023--25%2C%202026-brightgreen) [GlassBuild America 2026](<https://www.glassbuildamerica.com/>)
 
-- **[Glassman Events](<https://welworx.github.io/industrial-events/events/series/glassman.html>)** [↗](<https://www.glassmanevents.com/>)
+- **[Glassman Events](<https://industrial-events.pages.dev/events/series/glassman.html>)** [↗](<https://www.glassmanevents.com/>)
   Regional Glassman exhibitions and conferences for hollow and container glass manufacturing.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: Mar 17-18, 2027](https://img.shields.io/badge/next-Mar%2017--18%2C%202027-brightgreen) [Glassman Asia 2027](<https://www.glassmanevents.com/asia/>)
 
-- **[Global Slag Conference](<https://welworx.github.io/industrial-events/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
+- **[Global Slag Conference](<https://industrial-events.pages.dev/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
   Recurring global conference on slag production, use, and markets.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[International Conference on CFD in the Minerals and Process Industries](<https://welworx.github.io/industrial-events/events/series/cfd-minerals.html>)** [↗](<http://www.cfd.com.au/cfdconf/>)
+- **[International Conference on CFD in the Minerals and Process Industries](<https://industrial-events.pages.dev/events/series/cfd-minerals.html>)** [↗](<http://www.cfd.com.au/cfdconf/>)
   Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[International Conference on Molten Slags, Fluxes and Salts](<https://welworx.github.io/industrial-events/events/series/molten-slags.html>)**
+- **[International Conference on Molten Slags, Fluxes and Salts](<https://industrial-events.pages.dev/events/series/molten-slags.html>)**
   Recurring international conference on molten slags, fluxes, and salts.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 19-22, 2028](https://img.shields.io/badge/next-Jun%2019--22%2C%202028-brightgreen) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>)
 
-- **[International Copper Conference](<https://welworx.github.io/industrial-events/events/series/copper.html>)**
+- **[International Copper Conference](<https://industrial-events.pages.dev/events/series/copper.html>)**
   Recurring international conference series for copper extraction, processing, recycling, and related metallurgical operations.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Sep 3-7, 2028](https://img.shields.io/badge/next-Sep%203--7%2C%202028-brightgreen) 13th International Copper Conference (Copper 2028)
 
-- **[International Ferro-Alloys Congress](<https://welworx.github.io/industrial-events/events/series/infacon.html>)** [↗](<https://www.pyrometallurgy.co.za/Infacon/>)
+- **[International Ferro-Alloys Congress](<https://industrial-events.pages.dev/events/series/infacon.html>)** [↗](<https://www.pyrometallurgy.co.za/Infacon/>)
   Recurring International Ferro-Alloys Congress series.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: May 23-27, 2027](https://img.shields.io/badge/next-May%2023--27%2C%202027-brightgreen) [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>)
 
-- **[International Heavy Minerals Conference](<https://welworx.github.io/industrial-events/events/series/heavy-minerals.html>)**
+- **[International Heavy Minerals Conference](<https://industrial-events.pages.dev/events/series/heavy-minerals.html>)**
   Recurring international heavy minerals conference series.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) First International Heavy Minerals Conference 1997
 
-- **[International Mineral Processing Congress](<https://welworx.github.io/industrial-events/events/series/impc.html>)** [↗](<https://www.impc-council.com/>)
+- **[International Mineral Processing Congress](<https://industrial-events.pages.dev/events/series/impc.html>)** [↗](<https://www.impc-council.com/>)
   Recurring International Mineral Processing Congress series.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Oct 18-22, 2026](https://img.shields.io/badge/next-Oct%2018--22%2C%202026-brightgreen) [IMPC 2026, XXXII International Mineral Processing Congress](<https://impc2026.com/>)
 
-- **[International PGM Conference](<https://welworx.github.io/industrial-events/events/series/pgm.html>)**
+- **[International PGM Conference](<https://industrial-events.pages.dev/events/series/pgm.html>)**
   Recurring SAIMM international conference on platinum group metals.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[International Symposium on Lead and Zinc Processing](<https://welworx.github.io/industrial-events/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
+- **[International Symposium on Lead and Zinc Processing](<https://industrial-events.pages.dev/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
   Recurring international symposium on lead and zinc processing.
   ![frequency: 3 years](https://img.shields.io/badge/frequency-3%20years-blue)
   **Next:** ![next: Nov 1-6, 2026](https://img.shields.io/badge/next-Nov%201--6%2C%202026-brightgreen) [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>)
 
-- **[International Symposium on Nickel and Cobalt](<https://welworx.github.io/industrial-events/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
+- **[International Symposium on Nickel and Cobalt](<https://industrial-events.pages.dev/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
   International symposium focused on nickel and cobalt processing, metallurgy, recycling, and battery-material topics.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[Liquid Metal Processing and Casting Conference](<https://welworx.github.io/industrial-events/events/series/lmpc.html>)**
+- **[Liquid Metal Processing and Casting Conference](<https://industrial-events.pages.dev/events/series/lmpc.html>)**
   Recurring Liquid Metal Processing and Casting conference series.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Sep 20-24, 2026](https://img.shields.io/badge/next-Sep%2020--24%2C%202026-brightgreen) [LMPC 2026, Liquid Metal Processing and Casting Conference](<https://www.nmavs.org/lmpc2026/>)
 
-- **[METEC](<https://welworx.github.io/industrial-events/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
+- **[METEC](<https://industrial-events.pages.dev/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
   Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>)
 
-- **[MetPlant](<https://welworx.github.io/industrial-events/events/series/metplant.html>)** [↗](<https://www.ausimm.com>)
+- **[MetPlant](<https://industrial-events.pages.dev/events/series/metplant.html>)** [↗](<https://www.ausimm.com>)
   Recurring AusIMM metallurgical plant design and operating strategies conference.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
-- **[MinProc](<https://welworx.github.io/industrial-events/events/series/minproc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
+- **[MinProc](<https://industrial-events.pages.dev/events/series/minproc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
   Recurring Southern African mineral beneficiation and metallurgy conference.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
-- **[SAIMM Pyrometallurgy International Conference](<https://welworx.github.io/industrial-events/events/series/saimm-pyrometallurgy.html>)**
+- **[SAIMM Pyrometallurgy International Conference](<https://industrial-events.pages.dev/events/series/saimm-pyrometallurgy.html>)**
   Recurring SAIMM pyrometallurgy conference series.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)
 
-- **[Silicon for the Chemical and Solar Industry](<https://welworx.github.io/industrial-events/events/series/silicon.html>)** [↗](<https://www.ntnu.edu/si-conference/home>)
+- **[Silicon for the Chemical and Solar Industry](<https://industrial-events.pages.dev/events/series/silicon.html>)** [↗](<https://www.ntnu.edu/si-conference/home>)
   Recurring conference on silicon for the chemical and solar industry.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: Sep 7-10, 2026](https://img.shields.io/badge/next-Sep%207--10%2C%202026-brightgreen) [Silicon for the Chemical and Solar Industry XVIII](<https://www.ntnu.edu/si-conference>)
 
-- **[Slag Valorisation Symposium](<https://welworx.github.io/industrial-events/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
+- **[Slag Valorisation Symposium](<https://industrial-events.pages.dev/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
   Recurring symposium on slag valorisation.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Apr 13-16, 2027](https://img.shields.io/badge/next-Apr%2013--16%2C%202027-brightgreen) [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>)
 
-- **[SME Annual Conference & Expo](<https://welworx.github.io/industrial-events/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
+- **[SME Annual Conference & Expo](<https://industrial-events.pages.dev/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)
   Recurring Society for Mining, Metallurgy & Exploration annual conference and expo.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Feb 28-Mar 3, 2027](https://img.shields.io/badge/next-Feb%2028--Mar%203%2C%202027-brightgreen) [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>)
 
-- **[Southern African Base Metals Conference](<https://welworx.github.io/industrial-events/events/series/base-metals.html>)**
+- **[Southern African Base Metals Conference](<https://industrial-events.pages.dev/events/series/base-metals.html>)**
   Recurring SAIMM conference focused on base metals mining and metallurgy.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) 1st Southern African Base Metals Conference
 
-- **[SteelSim](<https://welworx.github.io/industrial-events/events/series/steelsim.html>)** [↗](<https://www.aist.org/conference-expositions/steelsim>)
+- **[SteelSim](<https://industrial-events.pages.dev/events/series/steelsim.html>)** [↗](<https://www.aist.org/conference-expositions/steelsim>)
   Recurring international conference on modelling and simulation of metallurgical processes in steelmaking.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [SteelSim 2027, 12th International Conference on Modelling and Simulation of Metallurgical Processes in Steelmaking](<https://www.steelsim2025.com/>)
 
-- **[Sulphur and Sulphuric Acid Conference](<https://welworx.github.io/industrial-events/events/series/sulphur-and-sulphuric-acid.html>)**
+- **[Sulphur and Sulphuric Acid Conference](<https://industrial-events.pages.dev/events/series/sulphur-and-sulphuric-acid.html>)**
   Recurring SAIMM conference on sulphur and sulphuric acid.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
-- **[Sustainable Industrial Processing Summit](<https://welworx.github.io/industrial-events/events/series/sips.html>)** [↗](<https://www.flogen.org/sips2026/>)
+- **[Sustainable Industrial Processing Summit](<https://industrial-events.pages.dev/events/series/sips.html>)** [↗](<https://www.flogen.org/sips2026/>)
   Recurring Sustainable Industrial Processing Summit and Exhibition covering materials, metals, and industrial processing.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
-- **[TMS Annual Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/>)
+- **[TMS Annual Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/>)
   TMS annual meeting and exhibition for minerals, metals, and materials science, including selected pyrometallurgy scopes.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Mar 14-18, 2027](https://img.shields.io/badge/next-Mar%2014--18%2C%202027-brightgreen) [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>)
 
-- **[Unified International Technical Conference on Refractories](<https://welworx.github.io/industrial-events/events/series/unitecr.html>)** [↗](<https://unitecr2027.org/>)
+- **[Unified International Technical Conference on Refractories](<https://industrial-events.pages.dev/events/series/unitecr.html>)** [↗](<https://unitecr2027.org/>)
   Recurring unified international technical conference on refractories.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Nov 7-10, 2027](https://img.shields.io/badge/next-Nov%207--10%2C%202027-brightgreen) [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>)
 
-- **[World Foundry Congress](<https://welworx.github.io/industrial-events/events/series/world-foundry-congress.html>)** [↗](<https://www.thewfo.com>)
+- **[World Foundry Congress](<https://industrial-events.pages.dev/events/series/world-foundry-congress.html>)** [↗](<https://www.thewfo.com>)
   Recurring World Foundry Organization congress for foundry and casting technology.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
@@ -347,81 +347,81 @@ No one-time events are tracked separately right now.
 
 <!-- generated:single-event-records:start -->
 
-- **[AfriGlass](<https://welworx.github.io/industrial-events/events/series/afriglass.html>)** [↗](<https://www.expoafriglass.com/>)
+- **[AfriGlass](<https://industrial-events.pages.dev/events/series/afriglass.html>)** [↗](<https://www.expoafriglass.com/>)
   African glass industry B2B exhibition.
   **Event:** ![next: Mar 3-5, 2027](https://img.shields.io/badge/next-Mar%203--5%2C%202027-brightgreen) [AfriGlass 2027](<https://www.expoafriglass.com/>)
 
-- **[ALUMINIUM Exhibition](<https://welworx.github.io/industrial-events/events/series/aluminium-exhibition.html>)** [↗](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
+- **[ALUMINIUM Exhibition](<https://industrial-events.pages.dev/events/series/aluminium-exhibition.html>)** [↗](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
   Trade fair for the aluminium industry and its value chain.
   **Event:** ![next: Oct 6-8, 2026](https://img.shields.io/badge/next-Oct%206--8%2C%202026-brightgreen) [ALUMINIUM 2026](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
 
-- **[ALUMINUM USA](<https://welworx.github.io/industrial-events/events/series/aluminum-usa.html>)** [↗](<https://www.aluminum-us.com/>)
+- **[ALUMINUM USA](<https://industrial-events.pages.dev/events/series/aluminum-usa.html>)** [↗](<https://www.aluminum-us.com/>)
   North American aluminium industry event covering the full aluminium value chain.
   **Event:** ![next: May 19-20, 2027](https://img.shields.io/badge/next-May%2019--20%2C%202027-brightgreen) [ALUMINUM USA 2027](<https://www.aluminum-us.com/>)
 
-- **[API Fall Refining and Equipment Standards Meeting](<https://welworx.github.io/industrial-events/events/series/api-fall-refining.html>)** [↗](<https://events.api.org/>)
+- **[API Fall Refining and Equipment Standards Meeting](<https://industrial-events.pages.dev/events/series/api-fall-refining.html>)** [↗](<https://events.api.org/>)
   American Petroleum Institute fall meeting for refining and equipment standards.
   **Event:** ![next: Nov 9-13, 2026](https://img.shields.io/badge/next-Nov%209--13%2C%202026-brightgreen) [API Fall Refining and Equipment Standards Meeting 2026](<https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/>)
 
-- **[ATIV Glass Days](<https://welworx.github.io/industrial-events/events/series/ativ-glass-days.html>)** [↗](<https://www.ativ-online.it/>)
+- **[ATIV Glass Days](<https://industrial-events.pages.dev/events/series/ativ-glass-days.html>)** [↗](<https://www.ativ-online.it/>)
   Italian glass industry technical conference organized by ATIV.
   **Event:** ![next: Nov 19-20, 2026](https://img.shields.io/badge/next-Nov%2019--20%2C%202026-brightgreen) [XXXIX ATIV Conference](<https://www.ativ-online.it/>)
 
-- **[Big 5 Construct South Africa](<https://welworx.github.io/industrial-events/events/series/big-5-construct-south-africa.html>)** [↗](<https://www.big5constructsouthafrica.com/>)
+- **[Big 5 Construct South Africa](<https://industrial-events.pages.dev/events/series/big-5-construct-south-africa.html>)** [↗](<https://www.big5constructsouthafrica.com/>)
   Construction trade event in South Africa, including building envelope, metal, steel, aluminium, and related materials sectors.
   **Event:** ![next: Jun 9-11, 2026](https://img.shields.io/badge/next-Jun%209--11%2C%202026-brightgreen) [Big 5 Construct South Africa 2026](<https://www.big5constructsouthafrica.com/>)
 
-- **[Challenging Glass Conference](<https://welworx.github.io/industrial-events/events/series/challenging-glass.html>)** [↗](<https://challengingglass.com/>)
+- **[Challenging Glass Conference](<https://industrial-events.pages.dev/events/series/challenging-glass.html>)** [↗](<https://challengingglass.com/>)
   International conference series on structural and architectural glass.
   **Event:** ![next: Jun 15-17, 2026](https://img.shields.io/badge/next-Jun%2015--17%2C%202026-brightgreen) [Challenging Glass Conference 10](<https://challengingglass.com/>) [📘](<https://proceedings.challengingglass.com/>)
 
-- **[Cross-Cutting Symposia at Extraction](<https://welworx.github.io/industrial-events/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
+- **[Cross-Cutting Symposia at Extraction](<https://industrial-events.pages.dev/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
 
-- **[Extraction Meeting & Exhibition](<https://welworx.github.io/industrial-events/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
+- **[Extraction Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
   TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
 
-- **[Furnace Solutions](<https://welworx.github.io/industrial-events/events/series/furnace-solutions.html>)** [↗](<https://sgt.org/>)
+- **[Furnace Solutions](<https://industrial-events.pages.dev/events/series/furnace-solutions.html>)** [↗](<https://sgt.org/>)
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.
   **Event:** ![next: Jun 3-4, 2026](https://img.shields.io/badge/next-Jun%203--4%2C%202026-brightgreen) [Furnace Solutions 20](<https://sgt.org/event/FS20June2026>)
 
-- **[Glass Problems Conference](<https://welworx.github.io/industrial-events/events/series/glass-problems-conference.html>)** [↗](<https://gmic.org/glass-problems-conference/>)
+- **[Glass Problems Conference](<https://industrial-events.pages.dev/events/series/glass-problems-conference.html>)** [↗](<https://gmic.org/glass-problems-conference/>)
   Annual conference on industrial glass manufacturing problems and solutions.
   **Event:** ![next: Sep 14-17, 2026](https://img.shields.io/badge/next-Sep%2014--17%2C%202026-brightgreen) [87th Glass Problems Conference and Symposium](<https://gmic.org/2026-glass-problems-conference/>)
 
-- **[Glass Technology Conference](<https://welworx.github.io/industrial-events/events/series/glass-technology-conference.html>)** [↗](<https://www.hvg-dgg.de/>)
+- **[Glass Technology Conference](<https://industrial-events.pages.dev/events/series/glass-technology-conference.html>)** [↗](<https://www.hvg-dgg.de/>)
   Annual glass science and technology conference organized by HVG-DGG.
   **Event:** ![next: Jun 2-3, 2026](https://img.shields.io/badge/next-Jun%202--3%2C%202026-brightgreen) [99th Glass Technology Conference](<https://hvg-dgg.de/99gtc/>)
 
-- **[glasspex INDIA](<https://welworx.github.io/industrial-events/events/series/glasspex-india.html>)** [↗](<https://www.glasspex.com/>)
+- **[glasspex INDIA](<https://industrial-events.pages.dev/events/series/glasspex-india.html>)** [↗](<https://www.glasspex.com/>)
   Indian trade fair for glass production technology and glass products.
   **Event:** ![next: Sep 23-25, 2027](https://img.shields.io/badge/next-Sep%2023--25%2C%202027-brightgreen) [glasspex INDIA 2027](<https://www.glasspex.com/>)
 
-- **[glasstec](<https://welworx.github.io/industrial-events/events/series/glasstec.html>)** [↗](<https://www.glasstec.de/>)
+- **[glasstec](<https://industrial-events.pages.dev/events/series/glasstec.html>)** [↗](<https://www.glasstec.de/>)
   International trade fair for glass production, processing, and products.
   **Event:** ![next: Oct 20-23, 2026](https://img.shields.io/badge/next-Oct%2020--23%2C%202026-brightgreen) [glasstec 2026](<https://www.glasstec.de/>)
 
-- **[ICG Annual Meeting](<https://welworx.github.io/industrial-events/events/series/icg-annual-meeting.html>)** [↗](<https://icglass.org/events-and-conferences/>)
+- **[ICG Annual Meeting](<https://industrial-events.pages.dev/events/series/icg-annual-meeting.html>)** [↗](<https://icglass.org/events-and-conferences/>)
   Annual meeting of the International Commission on Glass.
   **Event:** ![next: Sep 12-16, 2027](https://img.shields.io/badge/next-Sep%2012--16%2C%202027-brightgreen) [ICG 2027 Annual Meeting](<https://icglass.org/latest-from-icg/icg-2027-annual-meeting/>)
 
-- **[International Glass Manufacturing Show](<https://welworx.github.io/industrial-events/events/series/international-glass-manufacturing-show.html>)** [↗](<https://glass-show.com/>)
+- **[International Glass Manufacturing Show](<https://industrial-events.pages.dev/events/series/international-glass-manufacturing-show.html>)** [↗](<https://glass-show.com/>)
   Glass manufacturing exhibition series for Africa and the Middle East.
   **Event:** ![next: Jun 22-24, 2026](https://img.shields.io/badge/next-Jun%2022--24%2C%202026-brightgreen) [International Glass Manufacturing Show 2026](<https://glass-show.com/>)
 
-- **[NGA Glass Fabricator Conference](<https://welworx.github.io/industrial-events/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
+- **[NGA Glass Fabricator Conference](<https://industrial-events.pages.dev/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
   National Glass Association conference for glass fabricators.
   **Event:** ![next: Jun 14-17, 2026](https://img.shields.io/badge/next-Jun%2014--17%2C%202026-brightgreen) [NGA Glass Fabricator Conference 2026](<https://www.glass.org/nga-glass-fabricator-conference>)
 
-- **[Sisecam International Glass Conference](<https://welworx.github.io/industrial-events/events/series/sisecam-glass-conference.html>)** [↗](<https://glassconference.sisecam.com/en>)
+- **[Sisecam International Glass Conference](<https://industrial-events.pages.dev/events/series/sisecam-glass-conference.html>)** [↗](<https://glassconference.sisecam.com/en>)
   International glass conference organized by Sisecam.
   **Event:** ![next: Jun 18-19, 2026](https://img.shields.io/badge/next-Jun%2018--19%2C%202026-brightgreen) [40th Sisecam International Glass Conference](<https://glassconference.sisecam.com/en>)
 
-- **[VITRUM](<https://welworx.github.io/industrial-events/events/series/vitrum.html>)** [↗](<https://vitrumlife.it/>)
+- **[VITRUM](<https://industrial-events.pages.dev/events/series/vitrum.html>)** [↗](<https://vitrumlife.it/>)
   International trade show for glass processing machinery, equipment, and systems.
   **Event:** ![next: Nov 16-19, 2027](https://img.shields.io/badge/next-Nov%2016--19%2C%202027-brightgreen) [VITRUM 2027](<https://vitrumlife.it/>)
 
-- **[World of Glass](<https://welworx.github.io/industrial-events/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)
+- **[World of Glass](<https://industrial-events.pages.dev/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)
   International exhibition for glass products, manufacturing, processing, and finishing technology in Moscow.
   **Event:** ![next: Feb 24-26, 2027](https://img.shields.io/badge/next-Feb%2024--26%2C%202027-brightgreen) [World of Glass 2027](<https://www.mirstekla-expo.ru/en/>)
 

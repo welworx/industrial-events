@@ -12,8 +12,7 @@ The build validates YAML, writes static site outputs under `public/`, and refres
 
 ## Cloudflare Pages
 
-GitHub Actions builds and validates the site but does not deploy it to GitHub Pages by default.
-Cloudflare Pages should build the repo directly.
+GitHub Actions builds and validates the site. Cloudflare Pages builds and deploys the repo directly.
 
 Suggested Cloudflare Pages settings:
 
@@ -27,9 +26,8 @@ Suggested Cloudflare Pages settings:
 - **Build output directory**: `public`
 - **Environment variable**: set `INDUSTRIAL_EVENTS_SITE_URL` to the canonical Cloudflare Pages or custom-domain URL, including `https://`.
 
-`site.yaml` still contains the previous GitHub Pages URL as a fallback. That makes it possible
-to switch back later; re-enable GitHub Pages by setting the repository variable
-`ENABLE_GITHUB_PAGES` to `true`.
+The canonical site URL is configured in `site.yaml`. Cloudflare Pages can override it with
+`INDUSTRIAL_EVENTS_SITE_URL` when needed.
 
 ## Update Candidates
 

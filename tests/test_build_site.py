@@ -263,7 +263,7 @@ class BuildSiteTests(unittest.TestCase):
             reference_date=Date(2026, 1, 1),
         )
         self.assertIn(
-            "Full list: [All upcoming events](https://welworx.github.io/industrial-events/events/all.html#upcoming-events).",
+            "Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.html#upcoming-events).",
             readme_upcoming,
         )
         self.assertIn("### 2027", readme_upcoming)
@@ -289,7 +289,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("generated:submission-opportunities:start", readme_opportunities)
         self.assertIn(
             "Full list: [All submission opportunities]"
-            "(https://welworx.github.io/industrial-events/events/all.html#submission-opportunities).",
+            "(https://industrial-events.pages.dev/events/all.html#submission-opportunities).",
             readme_opportunities,
         )
         self.assertNotIn("Full list: [https://", readme_opportunities)
@@ -300,7 +300,7 @@ class BuildSiteTests(unittest.TestCase):
             readme_opportunities,
         )
         self.assertIn(
-            "- **[Demo Conference](<https://welworx.github.io/industrial-events/events/series/demo-conf.html>)**",
+            "- **[Demo Conference](<https://industrial-events.pages.dev/events/series/demo-conf.html>)**",
             readme_series,
         )
         self.assertNotIn("](<https://e.test/s>)", readme_series)

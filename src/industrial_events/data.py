@@ -30,8 +30,8 @@ from industrial_events.validation import (
     source_checked_dates,
     source_urls,
     validate_event_record,
-    validate_url_status,
     validate_unknown_keys,
+    validate_url_status,
 )
 
 LOGGER = logging.getLogger("build_site")

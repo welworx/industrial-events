@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
-import re
 
 from industrial_events import data
 from industrial_events.validation import CalendarBuildError, optional_date, optional_str, optional_url
