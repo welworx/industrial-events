@@ -13,6 +13,7 @@ SERIES_METADATA_KEYS = {
     "series",
     "slug",
     "website",
+    "website_status",
     "description",
     "recurrence",
     "categories",
@@ -32,6 +33,7 @@ EVENT_KEYS = {
     "latitude",
     "longitude",
     "url",
+    "url_status",
     "status",
     "co_located_with",
     "sources",
@@ -48,6 +50,7 @@ STATUS_MAP = {
     "estimated": "TENTATIVE",
     "cancelled": "CANCELLED",
 }
+URL_STATUS_VALUES = {"active", "inactive", "restricted", "intermittent"}
 RECURRENCE_VALUES = {"recurring", "one-off", "unknown"}
 SUBMISSION_DEADLINE_KEYWORDS = ("abstract", "manuscript", "paper", "papers", "poster", "proposal", "submission")
 
@@ -269,10 +272,22 @@ def normalize_status(path: Path, status: str, label: str) -> str:
     return STATUS_MAP[normalized]
 
 
+def validate_url_status(path: Path, value: str, label: str) -> str:
+    normalized = value.lower()
+    if normalized not in URL_STATUS_VALUES:
+        raise CalendarBuildError(
+            f"{path}: {label} must be one of {', '.join(sorted(URL_STATUS_VALUES))}"
+        )
+    return normalized
+
+
 def validate_event_record(event_path: Path, event: dict) -> None:
     validate_unknown_keys(event_path, event, EVENT_KEYS)
     require_slug_list(event_path, event, "event_types", "event")
     optional_url(event_path, event, "url", "event")
+    url_status = optional_str(event, "url_status", event_path, "event")
+    if url_status:
+        validate_url_status(event_path, url_status, "event url_status")
     optional_co_location(event_path, event, "event")
     for key in ("timezone", "city", "country", "venue", "address"):
         optional_str(event, key, event_path, "event")

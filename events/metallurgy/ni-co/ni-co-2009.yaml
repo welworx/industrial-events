@@ -6,16 +6,11 @@ end: '2009-08-26'
 timezone: America/Toronto
 city: Sudbury
 country: CA
-url: https://openlibrary.org/books/OL24883303M/Pyrometallurgy_of_nickel_and_cobalt_2009
 status: confirmed
 sources:
 - type: proceedings
   scope: event
   url: https://openlibrary.org/books/OL24883303M/Pyrometallurgy_of_nickel_and_cobalt_2009
-  last_checked: '2026-05-07'
-- type: proceedings
-  scope: event
-  url: https://ndlsearch.ndl.go.jp/books/R100000002-I000010928996
   last_checked: '2026-05-07'
 - type: event-site
   scope: event

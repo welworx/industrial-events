@@ -141,7 +141,7 @@ def render_readme_upcoming_events(
             )
             lines.append(
                 f"- {compact_date_range(row.start, row.end_exclusive)}: "
-                f"{event_cell(row.title, row.url, row.conferences)} {details}"
+                f"{event_cell(row.title, row.url, row.conferences)}{official_resource_icons(row.conferences)} {details}"
             )
     lines.extend(["", README_UPCOMING_END])
     return "\n".join(lines)
@@ -175,7 +175,7 @@ def render_readme_submission_opportunities(
             lines.append(
                 "| "
                 f"{markdown_link(deadline_label, opportunity.deadline.url)} | "
-                f"{markdown_link(row.title, row.url)} | "
+                f"{markdown_link(row.title, row.url)}{official_resource_icons(row.conferences)} | "
                 f"{escape_markdown_table(compact_date_range_with_year(row.start, row.end_exclusive))} | "
                 f"{event_scope_cell(row.title, row.conferences)} | "
                 f"{format_last_checked(row.last_checked)} |"
@@ -557,7 +557,7 @@ def next_series_event_cell(
         item = upcoming[0]
         return (
             f"{shield_badge('next', compact_date_range_with_year(item.start, item.end_exclusive), 'brightgreen')} "
-            f"{markdown_link(item.summary, item.url)}"
+            f"{markdown_link(item.summary, item.url)}{official_resource_icons((item,))}"
         )
     if undated_tuple:
         item = sorted(undated_tuple, key=lambda event: event.title.lower())[0]
@@ -594,6 +594,20 @@ def official_series_link(series: SeriesMetadata) -> str:
     if not series.website:
         return ""
     return f" {markdown_link('↗', series.website)}"
+
+
+def official_resource_icons(conferences: tuple[CalendarItem, ...]) -> str:
+    if not conferences:
+        return ""
+    primary = conferences[0]
+    icons: list[str] = []
+    if primary.proceedings_url:
+        icons.append(markdown_link("📘", primary.proceedings_url))
+    if primary.program_url:
+        icons.append(markdown_link("🗓", primary.program_url))
+    if not icons:
+        return ""
+    return " " + " ".join(icons)
 
 
 def series_records(

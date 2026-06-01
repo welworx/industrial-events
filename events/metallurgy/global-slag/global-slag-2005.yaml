@@ -6,7 +6,6 @@ end: '2005-11-15'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
-url: https://www.globalslag.com/conferences/global-slag/review
 status: confirmed
 sources:
 - type: overview

@@ -6,11 +6,10 @@ end: '2000-10-11'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
-url: https://www.mdpi.com/2075-163X/9/11/706
 status: confirmed
 sources:
-- type: proceedings
+- type: reference
   scope: event
-  url: https://www.mdpi.com/2075-163X/9/11/706
-  last_checked: '2026-05-07'
-  note: Reference list cites the 2nd European Slag Conference in Dusseldorf, Germany, 9-11 October 2000.
+  url: https://www.scirp.org/reference/referencespapers?referenceid=2045279
+  last_checked: '2026-05-11'
+  note: Reference page cites the 2nd European Slag Conference in Dusseldorf, Germany.

@@ -1,0 +1,20 @@
+name: 40th Sisecam International Glass Conference
+event_types:
+- conference
+start: '2026-06-18'
+end: '2026-06-19'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+url: https://glassconference.sisecam.com/en
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://glassconference.sisecam.com/en
+  last_checked: '2026-06-01'
+- type: overview
+  scope: event
+  url: https://www.glassonweb.com/event/40th-sisecam-international-glass-conference
+  last_checked: '2026-06-01'
+  note: Confirms the 18-19 June 2026 Istanbul hybrid event.

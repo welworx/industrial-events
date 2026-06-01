@@ -6,7 +6,6 @@ end: '2019-10-11'
 timezone: Europe/Athens
 city: Thessaloniki
 country: GR
-url: https://www.zkg.de/en/artikel/zkg_10th_European_Slag_Conference-3322744.html
 status: confirmed
 sources:
 - type: event-listing
@@ -15,5 +14,5 @@ sources:
   last_checked: '2026-05-07'
 - type: program
   scope: event
-  url: https://www.medevents.gr/Innet/UsersFiles/EUROSLAG2019ThessalonikiConferenceProgram.pdf
-  last_checked: '2026-05-07'
+  url: http://www.medevents.gr/Innet/UsersFiles/EUROSLAG2019ThessalonikiConferenceProgram.pdf
+  last_checked: '2026-05-11'

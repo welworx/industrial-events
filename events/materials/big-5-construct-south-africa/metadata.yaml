@@ -1,0 +1,19 @@
+series: Big 5 Construct South Africa
+slug: big-5-construct-south-africa
+website: https://www.big5constructsouthafrica.com/
+description: Construction trade event in South Africa, including building envelope, metal, steel, aluminium, and related materials sectors.
+recurrence: recurring
+categories:
+- construction
+- materials
+topics:
+- construction
+- glass
+- building-envelope
+- aluminium
+sources:
+- type: series-home
+  scope: series
+  url: https://www.big5constructsouthafrica.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

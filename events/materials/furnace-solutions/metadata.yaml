@@ -1,0 +1,19 @@
+series: Furnace Solutions
+slug: furnace-solutions
+website: https://sgt.org/
+description: Society of Glass Technology conference series on sustainable glass melting and furnace operations.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- furnaces
+- sustainability
+- melting
+sources:
+- type: series-home
+  scope: series
+  url: https://sgt.org/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

@@ -6,11 +6,10 @@ end: '2003-05-16'
 timezone: Africa/Johannesburg
 city: Cape Town
 country: ZA
-url: https://www.mdpi.com/2076-3417/14/24/11773
 status: confirmed
 sources:
-- type: reference
+- type: proceedings
   scope: event
-  url: https://www.mdpi.com/2076-3417/14/24/11773
-  last_checked: '2026-05-07'
-  note: Reference list cites APCOM 2003 as the 31st International Symposium in Cape Town, 14-16 May 2003.
+  url: https://www.saimm.co.za/Conferences/Apcom2003/
+  last_checked: '2026-05-11'
+  note: SAIMM proceedings page identifies APCOM 2003 as the 31st International Symposium in Cape Town, 14-16 May 2003.

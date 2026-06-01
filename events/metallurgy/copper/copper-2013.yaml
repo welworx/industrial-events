@@ -6,10 +6,10 @@ end: '2013-12-04'
 timezone: America/Santiago
 city: Santiago
 country: CL
-url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+url: https://www.iimch.cl/index.php/noticias2/conferencia-del-cobre/535-iimch-lanza-oficialmente-conferencia-internacional-copper-2013
 status: confirmed
 sources:
-- type: event-listing
+- type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-05-07'

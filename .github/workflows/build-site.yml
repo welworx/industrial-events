@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages
+  group: build-site
   cancel-in-progress: false
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           enable-cache: true
       - run: uv python install 3.12
       - run: mkdir -p build-artifacts
-      - run: uv run python scripts/build_dataset.py --output build-artifacts/events-dataset.json
+      - run: uv run industrial-events-build-dataset --output build-artifacts/events-dataset.json
       - uses: actions/upload-artifact@v4
         with:
           name: event-dataset
@@ -41,13 +41,13 @@ jobs:
         with:
           name: event-dataset
           path: build-artifacts
-      - run: uv run python scripts/build_site.py --dataset build-artifacts/events-dataset.json --skip-readme
-      - run: uv run python scripts/list_update_candidates.py --pretty
+      - run: uv run industrial-events-build-site --dataset build-artifacts/events-dataset.json --skip-readme
+      - run: uv run industrial-events-list-candidates --pretty
       - run: uv run ruff check
       - run: uv run ruff format --check
       - run: uv run python -B -m unittest discover -s tests
       - uses: actions/upload-pages-artifact@v5
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: vars.ENABLE_GITHUB_PAGES == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           path: public
 
@@ -81,7 +81,7 @@ jobs:
           fi
       - name: Update generated README sections
         if: steps.readme.outputs.needed == 'true'
-        run: uv run python scripts/update_readme.py --dataset build-artifacts/events-dataset.json
+        run: uv run industrial-events-update-readme --dataset build-artifacts/events-dataset.json
       - name: Commit generated README sections
         if: steps.readme.outputs.needed == 'true'
         run: |
@@ -94,7 +94,7 @@ jobs:
           fi
 
   deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: vars.ENABLE_GITHUB_PAGES == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:

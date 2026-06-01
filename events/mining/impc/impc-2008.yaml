@@ -6,7 +6,6 @@ end: '2008-09-28'
 timezone: Asia/Shanghai
 city: Beijing
 country: CN
-url: https://www.min-eng.com/pdf/impc2008review.pdf
 status: confirmed
 sources:
 - type: overview

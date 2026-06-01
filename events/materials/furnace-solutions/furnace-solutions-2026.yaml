@@ -1,0 +1,18 @@
+name: Furnace Solutions 20
+event_types:
+- conference
+start: '2026-06-03'
+end: '2026-06-04'
+timezone: Europe/London
+city: St Helens
+country: GB
+venue: Totally Wicked Stadium
+address: McManus Dr, Peasley Cross Ln, St Helens, Merseyside WA9 3AL, United Kingdom
+url: https://sgt.org/event/FS20June2026
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://sgt.org/event/FS20June2026
+  last_checked: '2026-06-01'
+  note: SGT page confirms 3-4 June 2026 at Totally Wicked Stadium, St Helens.

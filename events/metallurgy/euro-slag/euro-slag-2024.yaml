@@ -6,7 +6,6 @@ end: '2024-10-25'
 timezone: Europe/Madrid
 city: Bilbao
 country: ES
-url: https://www.islag.eu/events/xii-european-slag-conference-bilbao-spain/
 status: confirmed
 sources:
 - type: event-listing

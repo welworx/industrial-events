@@ -7,12 +7,13 @@ timezone: Europe/Vienna
 city: Linz
 country: AT
 url: http://ecic2016.org
+url_status: inactive
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: http://ecic2016.org
-  last_checked: '2026-05-07'
+  url: https://www.proceedings.com/37057.html
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

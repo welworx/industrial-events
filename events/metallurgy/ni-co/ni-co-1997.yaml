@@ -6,7 +6,6 @@ end: '1997-08-20'
 timezone: America/Toronto
 city: Sudbury
 country: CA
-url: https://openlibrary.org/books/OL11442027M/Hydrometallurgy_and_refining_of_nickel_and_cobalt
 status: confirmed
 sources:
 - type: proceedings

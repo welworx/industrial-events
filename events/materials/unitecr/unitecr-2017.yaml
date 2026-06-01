@@ -8,14 +8,10 @@ city: Santiago
 country: CL
 venue: CentroParque Convention & Conference Center
 url: http://unitecr2017.org/
+url_status: inactive
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://www.cemnet.com/Conference/Item/178519/unitecr-2017.html
   last_checked: '2026-05-07'
-- type: proceedings
-  scope: event
-  url: https://www.ghi.rwth-aachen.de/cms/ghi/forschung/publikationen/~swmb/details/?file=711072&lidx=1
-  last_checked: '2026-05-07'
-  note: RWTH proceedings entry identifies the 15th Biennial Worldwide Congress UNITECR 2017, 26-29 September, at CentroParque in Santiago.

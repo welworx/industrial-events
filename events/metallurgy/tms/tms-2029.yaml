@@ -5,13 +5,13 @@ timezone: America/New_York
 city: Orlando
 country: US
 venue: Orlando World Center Marriott
-url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+url: https://www.tms.org/AnnualMeeting/
 status: tentative
 sources:
 - type: event-site
   scope: event
-  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
-  last_checked: '2026-05-07'
+  url: https://www.tms.org/AnnualMeeting/
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

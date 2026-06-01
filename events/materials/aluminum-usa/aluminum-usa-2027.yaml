@@ -1,0 +1,19 @@
+name: ALUMINUM USA 2027
+event_types:
+- trade-fair
+- exhibition
+start: '2027-05-19'
+end: '2027-05-20'
+timezone: America/Kentucky/Louisville
+city: Louisville
+country: US
+venue: Kentucky International Convention Center
+address: 221 S 4th St, Louisville, KY 40202, United States
+url: https://www.aluminum-us.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aluminum-us.com/
+  last_checked: '2026-06-01'
+  note: Official site lists 19-20 May 2027 at the Kentucky International Convention Center.

@@ -1,0 +1,22 @@
+series: ALTA Metallurgical Conference
+slug: alta
+website: https://www.altamet.com.au/
+description: Annual mining and metallurgical processing conference series.
+recurrence: recurring
+categories:
+- mining
+- metallurgy
+topics:
+- hydrometallurgy
+- mineral-processing
+- nickel
+- cobalt
+- copper
+- lithium
+- rare-earths
+sources:
+- type: series-home
+  scope: series
+  url: https://www.altamet.com.au/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in NFM".

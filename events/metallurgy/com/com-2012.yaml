@@ -7,6 +7,7 @@ timezone: America/Toronto
 city: Niagara Falls
 country: CA
 url: http://web.cim.org/COM2012/
+url_status: inactive
 status: confirmed
 sources:
 - type: overview

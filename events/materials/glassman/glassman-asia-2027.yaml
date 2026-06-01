@@ -1,0 +1,17 @@
+name: Glassman Asia 2027
+event_types:
+- conference
+- exhibition
+start: '2027-03-17'
+end: '2027-03-18'
+timezone: Asia/Bangkok
+city: Bangkok
+country: TH
+url: https://www.glassmanevents.com/asia/
+status: tentative
+sources:
+- type: overview
+  scope: event
+  url: https://www.ntradeshows.com/glassman-asia-0/
+  last_checked: '2026-06-01'
+  note: Public listing gives 17-18 March 2027 in Bangkok; the ClickUp attachment listed May 2027, so this is marked tentative pending official confirmation.

@@ -892,6 +892,36 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("Ongoing Conference 2026", past_section)
         self.assertIn("Ongoing Conference 2026", readme_upcoming)
 
+    def test_readme_upcoming_shows_proceedings_and_program_icons_when_available(self) -> None:
+        items = (
+            CalendarItem(
+                uid="demo-2027@industrial-events",
+                summary="Demo Conference 2027",
+                start=Date(2027, 3, 10),
+                end_exclusive=Date(2027, 3, 13),
+                series="Demo Conference",
+                series_slug="demo-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="pt",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/demo-2027",
+                proceedings_url="https://example.org/demo-2027/proceedings",
+                program_url="https://example.org/demo-2027/program",
+            ),
+        )
+
+        readme_upcoming = render_readme_upcoming_events(
+            items,
+            build_test_config(),
+            reference_date=Date(2026, 1, 1),
+        )
+
+        self.assertIn("[📘](<https://example.org/demo-2027/proceedings>)", readme_upcoming)
+        self.assertIn("[🗓](<https://example.org/demo-2027/program>)", readme_upcoming)
+
     def test_conference_markdown_adds_short_contained_conference_labels(self) -> None:
         items = (
             CalendarItem(

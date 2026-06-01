@@ -1,0 +1,18 @@
+series: Glassman Events
+slug: glassman
+website: https://www.glassmanevents.com/
+description: Regional Glassman exhibitions and conferences for hollow and container glass manufacturing.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- manufacturing
+- container-glass
+sources:
+- type: series-home
+  scope: series
+  url: https://www.glassmanevents.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

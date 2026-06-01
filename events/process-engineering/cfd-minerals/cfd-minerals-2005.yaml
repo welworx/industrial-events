@@ -6,11 +6,10 @@ end: '2005-06-08'
 timezone: Europe/Oslo
 city: Trondheim
 country: NO
-url: https://www.flair.monash.edu.au/conferences/
 status: confirmed
 sources:
 - type: overview
   scope: event
-  url: https://www.flair.monash.edu.au/conferences/
-  last_checked: '2026-05-07'
-  note: FLAIR conference archive lists the fourth CSIRO CFD conference as 6-8 June 2005 in Trondheim.
+  url: https://research.tue.nl/en/activities/4th-international-conference-on-computational-fluid-dynamics-cfd-/
+  last_checked: '2026-05-11'
+  note: TU Eindhoven record identifies the 4th International Conference on CFD in the Oil & Gas, Metallurgical and Process Industries as 6-8 June 2005 in Trondheim.

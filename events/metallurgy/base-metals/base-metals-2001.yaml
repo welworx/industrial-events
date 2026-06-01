@@ -4,12 +4,11 @@ event_types:
 status: estimated
 city: Victoria Falls
 country: ZW
-url: https://saimm.org.za/Journal/v102n06p339.pdf
 sources:
 - type: overview
   scope: event
-  url: https://saimm.org.za/Journal/v102n06p339.pdf
-  last_checked: '2026-05-07'
+  url: https://www.saimm.co.za/Journal/v102n06p339.pdf
+  last_checked: '2026-05-11'
   note: SAIMM annual report says the first Southern African Base Metals Conference was held at Victoria Falls in Zimbabwe in July 2001; exact dates are not listed in this source.
 - type: overview
   scope: event

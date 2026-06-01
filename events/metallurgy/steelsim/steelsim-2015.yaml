@@ -7,12 +7,13 @@ timezone: Europe/Rome
 city: Bardolino
 country: IT
 url: http://www.aimnet.it/steelsim2015.htm
+url_status: inactive
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: http://www.aimnet.it/steelsim2015.htm
-  last_checked: '2026-05-07'
+  url: https://www.aimnet.it/eng/manifestazione.php?id=216&idc=4
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

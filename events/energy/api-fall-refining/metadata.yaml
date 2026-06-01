@@ -1,0 +1,18 @@
+series: API Fall Refining and Equipment Standards Meeting
+slug: api-fall-refining
+website: https://events.api.org/
+description: American Petroleum Institute fall meeting for refining and equipment standards.
+recurrence: recurring
+categories:
+- energy
+- refining
+topics:
+- refining
+- equipment-standards
+- petroleum
+sources:
+- type: series-home
+  scope: series
+  url: https://events.api.org/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in EEC" as "Spring and fall meeting API/US".

@@ -7,11 +7,12 @@ timezone: America/Toronto
 city: Quebec City
 country: CA
 url: http://www.metsoc.org/com2016/
+url_status: inactive
 status: confirmed
 co_located_with:
   group: com-impc-2016
   name: COM 2016 / IMPC 2016
-  url: http://www.impc2016.org
+  url: https://www.canadianminingjournal.com/event/impc-2016-xxvii-international-mineral-processors-congress/
   series:
   - com
   - impc

@@ -7,6 +7,7 @@ timezone: America/Toronto
 city: Sudbury
 country: CA
 url: http://www.metsoc.org/com2009/
+url_status: inactive
 status: confirmed
 sources:
 - type: overview

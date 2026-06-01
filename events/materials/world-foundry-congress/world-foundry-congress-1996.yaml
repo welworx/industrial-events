@@ -6,7 +6,6 @@ end: '1996-04-29'
 timezone: America/New_York
 city: Philadelphia
 country: US
-url: https://pubs.kist.re.kr/handle/201004/111420
 status: confirmed
 sources:
 - type: proceedings

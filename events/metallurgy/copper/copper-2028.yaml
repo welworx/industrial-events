@@ -4,7 +4,6 @@ end: '2028-09-07'
 timezone: Africa/Johannesburg
 city: Cape Town
 country: ZA
-url: https://www.pyrometallurgy.co.za/Conferences/
 status: tentative
 sources:
 - type: overview

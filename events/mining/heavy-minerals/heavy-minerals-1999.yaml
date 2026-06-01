@@ -6,16 +6,10 @@ end: '1999-11-17'
 timezone: Africa/Johannesburg
 city: Johannesburg
 country: ZA
-url: https://saimm.org.za/Journal/v085n05p231.pdf
 status: confirmed
 sources:
 - type: overview
   scope: event
-  url: https://saimm.org.za/Journal/v085n05p231.pdf
-  last_checked: '2026-05-07'
+  url: https://www.saimm.co.za/Journal/v085n05p231.pdf
+  last_checked: '2026-05-11'
   note: SAIMM annual report records planning for the second conference in 1999.
-- type: proceedings
-  scope: event
-  url: https://www.deutsche-rohstoffagentur.de/DE/Gemeinsames/Produkte/Downloads/DERA_Rohstoffinformationen/rohstoffinformationen-47-en.pdf?__blob=publicationFile&v=2
-  last_checked: '2026-05-07'
-  note: DERA bibliography identifies Heavy Minerals 1999 as the proceedings of the 2nd International Heavy Minerals Conference, 15-17 November 1999.

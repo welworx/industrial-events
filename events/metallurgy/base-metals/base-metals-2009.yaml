@@ -7,15 +7,14 @@ timezone: Africa/Gaborone
 city: Kasane
 country: BW
 venue: Mowana Safari Lodge
-url: https://www.saimm.co.za/Conferences/BM2009/
 status: confirmed
 sources:
 - type: proceedings
   scope: event
   url: https://www.saimm.co.za/Conferences/BM2009/
   last_checked: '2026-05-07'
-- type: event-site
+- type: proceedings
   scope: event
-  url: https://www.basemetals.org.za/Kasane2009/
-  last_checked: '2026-05-07'
-  note: Event page gives the 27-31 July 2009 dates and lists the preceding Base Metals events.
+  url: https://www.saimm.co.za/Conferences/BM2009/
+  last_checked: '2026-05-11'
+  note: Proceedings page gives the 27-31 July 2009 dates and lists the preceding Base Metals events.

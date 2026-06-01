@@ -6,13 +6,13 @@ end: '2013-09-06'
 timezone: Africa/Johannesburg
 city: White River
 country: ZA
-url: http://www.basemetals.org
+url: https://www.saimm.co.za/saimm-events/past-events/7th-base-metals-conference-2013?print=1&tmpl=component
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: http://www.basemetals.org
-  last_checked: '2026-05-07'
+  url: https://www.saimm.co.za/saimm-events/past-events/7th-base-metals-conference-2013?print=1&tmpl=component
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

@@ -1,0 +1,21 @@
+name: API Fall Refining and Equipment Standards Meeting 2026
+event_types:
+- conference
+start: '2026-11-09'
+end: '2026-11-13'
+timezone: America/Chicago
+city: New Orleans
+country: US
+venue: Hyatt Regency New Orleans
+url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  last_checked: '2026-06-01'
+- type: overview
+  scope: event
+  url: https://inspectioneering.com/events/2026-02-23/11950/2026-api-fall-refining-and-equipment-standards-meeting
+  last_checked: '2026-06-01'
+  note: Public listing identifies the API 2026 fall meeting in New Orleans from 9-13 November 2026.

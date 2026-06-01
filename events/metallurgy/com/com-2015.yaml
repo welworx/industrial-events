@@ -7,6 +7,7 @@ timezone: America/Toronto
 city: Toronto
 country: CA
 url: http://www.metsoc.org/metsoc/com2015.asp
+url_status: inactive
 status: confirmed
 sources:
 - type: overview

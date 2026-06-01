@@ -4,7 +4,6 @@ event_types:
 status: estimated
 city: Marseille
 country: FR
-url: https://afoco.org/wp-content/uploads/2023/08/06-motz-pdf.pdf
 sources:
 - type: overview
   scope: event

@@ -7,7 +7,6 @@ end: '1994-06-22'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
-url: https://www.tradefairdates.com/METEC-M4455/Duesseldorf.html
 status: confirmed
 sources:
 - type: event-listing

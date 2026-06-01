@@ -4,12 +4,11 @@ event_types:
 status: estimated
 city: Sun City
 country: ZA
-url: https://www.saimm.org.za/Journal/v103n07p433.pdf
 sources:
 - type: overview
   scope: event
-  url: https://www.saimm.org.za/Journal/v103n07p433.pdf
-  last_checked: '2026-05-07'
+  url: https://www.saimm.co.za/Journal/v103n07p433.pdf
+  last_checked: '2026-05-11'
   note: SAIMM annual report says the second Base Metals Conference was held at Sun City in July 2002; exact dates are not listed in this source.
 - type: overview
   scope: event

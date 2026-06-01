@@ -7,14 +7,14 @@ timezone: Europe/Berlin
 city: Essen
 country: DE
 venue: Philharmonie Essen
-url: https://s-x-aipi-project.eu/events/13th-european-electric-steelmaking-conference
+url: https://event.eec-2024.com/
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://s-x-aipi-project.eu/events/13th-european-electric-steelmaking-conference
-  last_checked: '2026-05-07'
-  note: s-X-AIPI event page identifies the 13th European Electric Steelmaking Conference in Essen, 3-7 June 2024.
+  url: https://event.eec-2024.com/
+  last_checked: '2026-05-11'
+  note: Official EEC 2024 site identifies the 13th European Electric Steelmaking Conference in Essen, 3-7 June 2024.
 - type: event-listing
   scope: event
   url: https://www.home-of-steel.de/termine/13th-eec-2024-286

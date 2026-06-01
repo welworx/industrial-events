@@ -6,7 +6,6 @@ end: '2007-08-30'
 timezone: America/Toronto
 city: Toronto
 country: CA
-url: https://search.worldcat.org/title/Proceedings-of-the-sixth-International-Copper-Cobre-Conference-August-25-30-2007-Toronto-Ontario-Canada/oclc/233786354
 status: confirmed
 sources:
 - type: proceedings

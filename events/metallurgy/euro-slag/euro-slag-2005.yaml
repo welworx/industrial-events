@@ -6,11 +6,10 @@ end: '2005-06-21'
 timezone: Europe/Helsinki
 city: Oulu
 country: FI
-url: https://www.mdpi.com/2075-4701/8/10/844
 status: confirmed
 sources:
-- type: proceedings
+- type: reference
   scope: event
-  url: https://www.mdpi.com/2075-4701/8/10/844
-  last_checked: '2026-05-07'
+  url: https://journals.agh.edu.pl/jcme/article/view/2677
+  last_checked: '2026-05-11'
   note: Reference list cites the 4th European Slag Conference in Oulu, Finland, 20-21 June 2005.

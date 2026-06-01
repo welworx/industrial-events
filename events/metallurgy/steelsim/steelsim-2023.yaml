@@ -6,11 +6,11 @@ end: '2023-09-13'
 timezone: Europe/London
 city: Warwick
 country: GB
-url: https://www.steelsim2025.com/
+url: https://www.aist.org/conference-expositions/steelsim-2023
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.steelsim2025.com/
-  last_checked: '2026-05-07'
-  note: Official SteelSim 2025 history table lists the 10th edition as SteelSim 2023, 11-13 September 2023 in Warwick.
+  url: https://www.aist.org/conference-expositions/steelsim-2023
+  last_checked: '2026-05-11'
+  note: Official SteelSim page lists the 10th edition as SteelSim 2023, 11-13 September 2023 in Warwick.

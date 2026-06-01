@@ -6,11 +6,11 @@ end: '2013-09-12'
 timezone: Europe/Prague
 city: Ostrava
 country: CZ
-url: https://www.steelsim2025.com/
+url: https://www.aist.org/conference-expositions/steelsim-2013
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.steelsim2025.com/
-  last_checked: '2026-05-07'
-  note: Official SteelSim 2025 history table lists the 5th edition as SteelSim 2013, 10-12 September 2013 in Ostrava.
+  url: https://www.aist.org/conference-expositions/steelsim-2013
+  last_checked: '2026-05-11'
+  note: Official SteelSim page lists the 5th edition as SteelSim 2013, 10-12 September 2013 in Ostrava.

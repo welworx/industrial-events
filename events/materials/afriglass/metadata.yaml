@@ -1,0 +1,20 @@
+series: AfriGlass
+slug: afriglass
+website: https://www.expoafriglass.com/
+description: African glass industry B2B exhibition.
+recurrence: recurring
+categories:
+- materials
+- glass
+- construction
+topics:
+- glass
+- windows
+- doors
+- manufacturing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.expoafriglass.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

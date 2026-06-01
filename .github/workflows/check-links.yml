@@ -1,0 +1,80 @@
+name: Check links
+
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: Links to check
+        type: choice
+        options:
+          - recent
+          - all
+        default: recent
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  recent-event-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - run: uv python install 3.12
+      - run: mkdir -p build-artifacts lychee
+      - name: Build link target list
+        run: |
+          if [ "${{ github.event.inputs.scope }}" = "all" ]; then
+            uv run industrial-events-link-targets --all --output build-artifacts/event-links.md
+          else
+            uv run industrial-events-link-targets --years-back 1 --output build-artifacts/event-links.md
+          fi
+      - uses: actions/cache/restore@v4
+        id: restore-cache
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.sha }}
+          restore-keys: lychee-
+      - name: Check recent event links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --root-dir "${{ github.workspace }}"
+            --cache
+            --max-cache-age 7d
+            --max-concurrency 4
+            --retry-wait-time 2
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+            --no-progress
+            --verbose
+            build-artifacts/event-links.md
+          fail: false
+          failIfEmpty: true
+          format: markdown
+          output: lychee/event-links.md
+      - uses: actions/cache/save@v4
+        if: always() && steps.restore-cache.outputs.cache-hit != 'true'
+        with:
+          path: .lycheecache
+          key: ${{ steps.restore-cache.outputs.cache-primary-key }}
+      - name: Find existing link checker issue
+        if: steps.lychee.outputs.exit_code != 0
+        id: link-issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number="$(gh issue list --state open --search 'Event link checker report in:title' --json number --jq '.[0].number // ""')"
+          echo "issue_number=$issue_number" >> "$GITHUB_OUTPUT"
+      - name: Create or update link checker issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          issue-number: ${{ steps.link-issue.outputs.issue_number }}
+          title: Event link checker report
+          content-filepath: ./lychee/event-links.md

@@ -1,6 +1,6 @@
 series: Extraction Meeting & Exhibition
 slug: extraction
-website: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+website: https://www.extractionmeeting.org/Extraction2025/default.aspx
 description: TMS extraction metallurgy meeting and exhibition covering minerals, metals,
   materials processing, and sustainability topics.
 recurrence: recurring
@@ -17,7 +17,7 @@ topics:
 sources:
 - type: event-site
   scope: series
-  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  url: https://www.extractionmeeting.org/Extraction2025/default.aspx
   note: Official Extraction 2025 site.
 - type: overview
   scope: series

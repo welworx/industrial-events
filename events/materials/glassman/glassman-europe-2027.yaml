@@ -1,0 +1,18 @@
+name: Glassman Europe 2027
+event_types:
+- conference
+- exhibition
+start: '2027-06-09'
+end: '2027-06-10'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+venue: CNR Expo Istanbul
+url: https://www.glassmanevents.com/europe/
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.showsbee.com/fairs/Glassman-Europe.html
+  last_checked: '2026-06-01'
+  note: Public listing gives Glassman Europe 2027 as 9-10 June 2027 in Istanbul and links the official event page.

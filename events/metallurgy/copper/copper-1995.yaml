@@ -6,15 +6,9 @@ end: '1995-11-29'
 timezone: America/Santiago
 city: Santiago
 country: CL
-url: https://cir.nii.ac.jp/crid/1970586434929225346
 status: confirmed
 sources:
 - type: proceedings
   scope: event
   url: https://cir.nii.ac.jp/crid/1970586434929225346
   last_checked: '2026-05-07'
-- type: overview
-  scope: event
-  url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
-  last_checked: '2026-05-07'
-  note: Copper 99 page places Copper 95/Cobre 95 after Copper 87 and Copper 91/Cobre 91 in the early sequence.

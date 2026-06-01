@@ -6,11 +6,11 @@ end: '2009-09-09'
 timezone: Europe/Vienna
 city: Leoben
 country: AT
-url: https://www.steelsim2025.com/
+url: https://www.aist.org/conference-expositions/steelsim-2009
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.steelsim2025.com/
-  last_checked: '2026-05-07'
-  note: Official SteelSim 2025 history table lists the 3rd edition as SteelSim 2009, 8-9 September 2009 in Leoben.
+  url: https://www.aist.org/conference-expositions/steelsim-2009
+  last_checked: '2026-05-11'
+  note: Official SteelSim page lists the 3rd edition as SteelSim 2009, 8-9 September 2009 in Leoben.

@@ -7,10 +7,11 @@ timezone: America/Santiago
 city: Santiago
 country: CL
 url: http://www.apcom2007.com
+url_status: inactive
 status: confirmed
 sources:
 - type: event-calendar
   scope: event
-  url: https://www.womp-int.com/2007vol1.htm
-  last_checked: '2026-05-07'
+  url: http://www.womp-int.com/2007vol1.htm
+  last_checked: '2026-05-11'
   note: World of Mining Professionals calendar lists APCOM 2007 as the 33rd International Symposium in Santiago, 24-27 April 2007.

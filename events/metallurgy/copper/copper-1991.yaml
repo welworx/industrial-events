@@ -6,15 +6,9 @@ end: '1991-08-21'
 timezone: America/Toronto
 city: Ottawa
 country: CA
-url: https://openlibrary.org/books/OL1147086M/Proceedings_of_the_Copper_91-Cobre_91_International_Symposium
 status: confirmed
 sources:
 - type: proceedings
   scope: event
   url: https://openlibrary.org/books/OL1147086M/Proceedings_of_the_Copper_91-Cobre_91_International_Symposium
   last_checked: '2026-05-07'
-- type: overview
-  scope: event
-  url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
-  last_checked: '2026-05-07'
-  note: Copper 99 page places Copper 91/Cobre 91 after Copper 87 and before Copper 95/Cobre 95 in the early sequence.

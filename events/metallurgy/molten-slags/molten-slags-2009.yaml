@@ -6,7 +6,6 @@ end: '2009-01-21'
 timezone: America/Santiago
 city: Santiago
 country: CL
-url: https://www.pyrometallurgy.co.za/MoltenSlags2009/0000-FrontPages.pdf
 status: confirmed
 sources:
 - type: proceedings

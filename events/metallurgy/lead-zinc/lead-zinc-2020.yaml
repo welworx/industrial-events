@@ -6,7 +6,7 @@ end: '2020-02-27'
 timezone: America/Los_Angeles
 city: San Diego
 country: US
-url: https://www.tms.org/TMS2020/TMS2020/Programming/PbZn_2020.aspx
+url: https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/E7B74C7967E029438525829D007173E3?OpenDocument=&ParentUNID=C5A3995985DE9638852580B400733949
 status: confirmed
 co_located_with:
   group: tms-2020
@@ -15,9 +15,9 @@ co_located_with:
 sources:
 - type: event-site
   scope: event
-  url: https://www.tms.org/TMS2020/TMS2020/Programming/PbZn_2020.aspx
-  last_checked: '2026-05-07'
-  note: TMS identifies PbZn 2020 as the 9th International Symposium on Lead and Zinc Processing, co-located with TMS 2020 in San Diego, 23-27 February 2020.
+  url: https://www.programmaster.org/PM/PM.nsf/UpcomingSymposia/E7B74C7967E029438525829D007173E3?OpenDocument=&ParentUNID=C5A3995985DE9638852580B400733949
+  last_checked: '2026-05-11'
+  note: ProgramMaster identifies PbZn 2020 as the 9th International Symposium on Lead and Zinc Processing, co-located with TMS 2020 in San Diego, 23-27 February 2020.
 - type: proceedings
   scope: event
   url: https://link.springer.com/book/10.1007/978-3-030-37070-1

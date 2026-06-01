@@ -8,12 +8,12 @@ venue: Sheraton Grand at Wild Horse Pass
 address: 5594 W Wild Horse Pass Blvd, Phoenix, Arizona, USA, 85226
 latitude: 33.2665969
 longitude: -111.9917321
-url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+url: https://www.extractionmeeting.org/Extraction2025/default.aspx
 status: confirmed
 co_located_with:
   group: extraction-2025
   name: Extraction 2025 + Copper 2025 + Ni-Co 2025
-  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  url: https://www.extractionmeeting.org/Extraction2025/default.aspx
   series:
   - extraction
   - copper
@@ -22,8 +22,8 @@ co_located_with:
 sources:
 - type: event-site
   scope: event
-  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
-  last_checked: '2026-05-07'
+  url: https://www.extractionmeeting.org/Extraction2025/default.aspx
+  last_checked: '2026-05-11'
 - type: venue
   scope: event
   url: https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/

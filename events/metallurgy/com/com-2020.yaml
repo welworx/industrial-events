@@ -5,7 +5,6 @@ start: '2020-10-14'
 end: '2020-10-15'
 timezone: America/Toronto
 venue: Virtual event
-url: https://com.metsoc.org/past-com-events/
 status: confirmed
 sources:
 - type: event-site

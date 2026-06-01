@@ -7,10 +7,11 @@ timezone: Australia/Sydney
 city: Wollongong
 country: AU
 url: https://digital.library.adelaide.edu.au/items/16a24bfb-6749-451e-8576-2b1072cf555e
+url_status: inactive
 status: confirmed
 sources:
 - type: proceedings
   scope: event
-  url: https://digital.library.adelaide.edu.au/items/16a24bfb-6749-451e-8576-2b1072cf555e
-  last_checked: '2026-05-07'
-  note: University of Adelaide record cites APCOM 2011 as the 35th International Symposium at the University of Wollongong, 24-30 September 2011.
+  url: https://www.proceedings.com/13152.html
+  last_checked: '2026-05-11'
+  note: Proceedings listing identifies APCOM 2011 as the 35th International Symposium at the University of Wollongong, 24-30 September 2011.

@@ -7,12 +7,13 @@ timezone: Europe/Vienna
 city: Salzburg
 country: AT
 url: http://www.emc.gdmb.de
+url_status: inactive
 status: confirmed
 sources:
-- type: event-site
+- type: overview
   scope: event
-  url: http://www.emc.gdmb.de
-  last_checked: '2026-05-07'
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

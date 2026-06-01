@@ -5,13 +5,12 @@ timezone: America/Los_Angeles
 city: San Diego
 country: US
 venue: San Diego Convention Center and Hilton San Diego Bayfront
-url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
 status: confirmed
 sources:
-- type: event-site
+- type: event-listing
   scope: event
-  url: https://www.tms.org/TMS2026/TMS2026/Default.aspx
-  last_checked: '2026-05-07'
+  url: https://aimehq.org/how-to-get-involved/events/tms-2026-155th-annual-meeting
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

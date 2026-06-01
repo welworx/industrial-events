@@ -8,6 +8,7 @@ city: Frankfurt
 country: DE
 venue: KAP Europa
 url: https://unitecr2023.org/
+url_status: inactive
 status: confirmed
 sources:
 - type: event-site

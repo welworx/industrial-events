@@ -6,14 +6,13 @@ end: '2010-10-22'
 timezone: Europe/Madrid
 city: Madrid
 country: ES
-url: https://www.zkg.de/en/issue/zkg_2010-12-1035461.html
 status: confirmed
 sources:
-- type: event-report
+- type: proceedings
   scope: event
-  url: https://www.zkg.de/en/issue/zkg_2010-12-1035461.html
-  last_checked: '2026-05-07'
-  note: ZKG issue listing identifies the 6th European Slag Conference EUROSLAG 2010 in Madrid, 20-22 October 2010.
+  url: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A478748
+  last_checked: '2026-05-11'
+  note: KTH record identifies the 6th European Slag Conference in Madrid, 20-22 October 2010.
 - type: proceedings
   scope: event
   url: https://crd.ndl.go.jp/reference/entry/index.php?id=1000108694&page=ref_view

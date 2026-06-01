@@ -6,7 +6,6 @@ end: '2003-12-03'
 timezone: America/Santiago
 city: Santiago
 country: CL
-url: https://openlibrary.org/books/OL22149823M/Proceedings_of_the_Copper_2003-Cobre_2003_the_5th_International_Conference
 status: confirmed
 sources:
 - type: proceedings

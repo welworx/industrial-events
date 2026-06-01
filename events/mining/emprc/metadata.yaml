@@ -1,6 +1,6 @@
 series: European Mineral Processing and Recycling Congress
 slug: emprc
-website: https://www.emprc.gdmb.de
+website: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
 description: Recurring European congress on mineral processing and recycling.
 recurrence: recurring
 categories:
@@ -12,10 +12,10 @@ topics:
 - recycling
 - circular-economy
 sources:
-- type: series-home
+- type: overview
   scope: series
-  url: https://www.emprc.gdmb.de
-  last_checked: '2026-05-07'
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-05-11'
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

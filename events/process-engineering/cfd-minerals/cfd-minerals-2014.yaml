@@ -7,7 +7,6 @@ timezone: Europe/Oslo
 city: Trondheim
 country: NO
 venue: RICA Nidelven Hotel
-url: http://www.sintef.no/cfd2014
 status: confirmed
 sources:
 - type: proceedings

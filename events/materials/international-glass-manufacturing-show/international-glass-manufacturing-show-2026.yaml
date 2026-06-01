@@ -1,0 +1,19 @@
+name: International Glass Manufacturing Show 2026
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2026-06-22'
+end: '2026-06-24'
+timezone: Asia/Dubai
+city: Dubai
+country: AE
+venue: Dubai World Trade Centre
+url: https://glass-show.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://glass-show.com/
+  last_checked: '2026-06-01'
+  note: Official site confirms 22-24 June 2026 at Dubai World Trade Centre.

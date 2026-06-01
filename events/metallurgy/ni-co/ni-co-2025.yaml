@@ -13,7 +13,7 @@ status: confirmed
 co_located_with:
   group: extraction-2025
   name: Extraction 2025 + Copper 2025 + Ni-Co 2025
-  url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/default.aspx
+  url: https://www.extractionmeeting.org/Extraction2025/default.aspx
   series:
   - extraction
   - copper

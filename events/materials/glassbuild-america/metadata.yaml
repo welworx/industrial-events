@@ -1,0 +1,19 @@
+series: GlassBuild America
+slug: glassbuild-america
+website: https://www.glassbuildamerica.com/
+description: North American glass, window, and door industry trade event.
+recurrence: recurring
+categories:
+- materials
+- glass
+- construction
+topics:
+- glass
+- fenestration
+- building-envelope
+sources:
+- type: series-home
+  scope: series
+  url: https://www.glassbuildamerica.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

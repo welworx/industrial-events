@@ -8,6 +8,7 @@ city: Chicago
 country: US
 venue: Hilton Chicago
 url: https://ceramics.org/meetings-events/acers-meetings
+url_status: inactive
 status: confirmed
 sources:
 - type: proceedings

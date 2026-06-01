@@ -1,0 +1,19 @@
+name: GlassBuild America 2026
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2026-09-23'
+end: '2026-09-25'
+timezone: America/Los_Angeles
+city: Las Vegas
+country: US
+venue: Las Vegas Convention Center
+url: https://www.glassbuildamerica.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.glassbuildamerica.com/
+  last_checked: '2026-06-01'
+  note: Official site confirms 23-25 September 2026 at Las Vegas Convention Center.

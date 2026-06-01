@@ -1,0 +1,22 @@
+name: ALUMINIUM 2026
+event_types:
+- trade-fair
+- exhibition
+start: '2026-10-06'
+end: '2026-10-08'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: Exhibition Centre Dusseldorf
+url: https://www.aluminium-exhibition.com/germany/en-gb.html
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aluminium-exhibition.com/germany/en-gb.html
+  last_checked: '2026-06-01'
+- type: overview
+  scope: event
+  url: https://www.messen.de/de/13654/duesseldorf/aluminium/info
+  last_checked: '2026-06-01'
+  note: Confirms the 6-8 October 2026 Dusseldorf dates.

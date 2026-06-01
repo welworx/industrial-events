@@ -6,11 +6,10 @@ end: '2007-09-21'
 timezone: Europe/Luxembourg
 city: Luxembourg
 country: LU
-url: https://www.mdpi.com/2075-163X/9/11/706
 status: confirmed
 sources:
-- type: proceedings
+- type: reference
   scope: event
-  url: https://www.mdpi.com/2075-163X/9/11/706
-  last_checked: '2026-05-07'
+  url: https://www.researchgate.net/publication/324791171_Processing_and_utilization_of_metallurgical_slag
+  last_checked: '2026-05-11'
   note: Reference list cites the 5th European Slag Conference in Luxembourg, 19-21 September 2007.

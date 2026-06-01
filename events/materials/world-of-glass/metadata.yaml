@@ -1,0 +1,18 @@
+series: World of Glass
+slug: world-of-glass
+website: https://www.mirstekla-expo.ru/en/
+description: International exhibition for glass products, manufacturing, processing, and finishing technology in Moscow.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- manufacturing
+- processing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.mirstekla-expo.ru/en/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".
