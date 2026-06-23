@@ -1,0 +1,16 @@
+name: 2024 ILA General Assembly & Symposium
+event_types:
+- conference
+start: '2024-10-08'
+end: '2024-10-11'
+timezone: Europe/Oslo
+city: Oslo
+country: 'NO'
+url: https://www.internationallime.org/events/ila-general-assembly-and-symposium/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.internationallime.org/events/ila-general-assembly-and-symposium/
+  last_checked: '2026-06-19'
+  note: Official ILA event page says the Annual General Assembly & Symposium took place in Oslo from 8-11 October 2024.

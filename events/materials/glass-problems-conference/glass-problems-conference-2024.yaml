@@ -1,0 +1,16 @@
+name: 85th Glass Problems Conference and Symposium
+event_types:
+- conference
+- exhibition
+start: '2024-09-16'
+end: '2024-09-19'
+timezone: America/New_York
+city: Toledo
+country: US
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://gmic.org/past-glass-problems-conferences/
+  last_checked: '2026-06-19'
+  note: Official GMIC past-conferences page lists 2024 as 85th GPC and Symposium, Sept. 16-19, Toledo, OH.

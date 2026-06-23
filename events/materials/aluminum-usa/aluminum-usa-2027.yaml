@@ -1,4 +1,4 @@
-name: ALUMINUM USA 2027
+name: Aluminum USA 2027
 event_types:
 - trade-fair
 - exhibition
@@ -16,4 +16,4 @@ sources:
   scope: event
   url: https://www.aluminum-us.com/
   last_checked: '2026-06-01'
-  note: Official site lists 19-20 May 2027 at the Kentucky International Convention Center.
+  note: Official site uses Aluminum USA 2027 in title text and ALUMINUM USA in brand text; it lists 19-20 May 2027 at the Kentucky International Convention Center.

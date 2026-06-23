@@ -1,0 +1,19 @@
+series: ALUMINIUM CHINA
+slug: aluminium-china
+website: https://www.aluminiumchina.com/
+description: Shanghai trade fair for the aluminium industry and aluminium value chain.
+recurrence: recurring
+categories:
+- materials
+- aluminium
+topics:
+- aluminium
+- manufacturing
+- recycling
+- trade-fair
+sources:
+- type: series-home
+  scope: series
+  url: https://www.aluminiumchina.com/
+  last_checked: '2026-06-19'
+  note: Contributed via ClickUp task "Important Conferences in Alu".

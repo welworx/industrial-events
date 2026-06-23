@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 8
+event_types:
+- conference
+start: '2022-06-23'
+end: '2022-06-24'
+timezone: Europe/Brussels
+city: Ghent
+country: BE
+venue: Ghent University
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-19'
+  note: Official series site lists CGC 8 as UGent, 2022, in the conference proceedings index.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/view/21
+  last_checked: '2026-06-19'
+  note: Official proceedings page says Challenging Glass Conference 8 was held 23 & 24 June 2022 at Ghent University.

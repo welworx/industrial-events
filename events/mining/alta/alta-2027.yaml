@@ -14,5 +14,5 @@ sources:
 - type: event-site
   scope: event
   url: https://www.altamet.com.au/
-  last_checked: '2026-06-01'
+  last_checked: '2026-06-19'
   note: Official site says ALTA will return to Perth from 25-27 May 2027.

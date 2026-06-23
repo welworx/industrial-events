@@ -1,0 +1,18 @@
+name: ALUMINIUM CHINA 2026
+event_types:
+- trade-fair
+- exhibition
+start: '2026-07-08'
+end: '2026-07-10'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+venue: Shanghai New International Expo Centre
+url: https://www.aluminiumchina.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aluminiumchina.com/
+  last_checked: '2026-06-19'
+  note: Official site lists 8-10 July 2026 at Shanghai New International Expo Centre.

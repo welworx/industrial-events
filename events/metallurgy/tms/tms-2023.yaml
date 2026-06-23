@@ -1,0 +1,17 @@
+name: TMS 2023 Annual Meeting & Exhibition
+start: '2023-03-19'
+end: '2023-03-23'
+timezone: America/Los_Angeles
+city: San Diego
+country: US
+venue: San Diego Convention Center & Hilton San Diego Bayfront
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tms.org/TMS2023
+  last_checked: '2026-06-19'
+  note: Official TMS page lists 19-23 March 2023 at San Diego Convention Center & Hilton San Diego Bayfront in San Diego, California, USA.
+event_types:
+- conference
+- exhibition

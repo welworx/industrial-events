@@ -1,0 +1,17 @@
+name: TMS 2022 Annual Meeting & Exhibition
+start: '2022-02-27'
+end: '2022-03-03'
+timezone: America/Los_Angeles
+city: Anaheim
+country: US
+venue: Anaheim Convention Center & Anaheim Marriott
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tms.org/TMS2022
+  last_checked: '2026-06-19'
+  note: Official TMS page lists 27 February-3 March 2022 at Anaheim Convention Center & Anaheim Marriott in Anaheim, California, USA.
+event_types:
+- conference
+- exhibition

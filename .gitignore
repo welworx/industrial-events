@@ -4,7 +4,7 @@ __pycache__/
 *.pyc.*
 .pytest_cache/
 .ruff_cache/
-.uv-cache/
+.uv_cache/
 .tmp-tests/
 .env
 .env.*
@@ -14,4 +14,8 @@ tests/.generated-site/
 .venv/
 dist/
 build/
+
+Agents.md
+graphify-out/cache/
+.graphifyignore
 graphify-out/

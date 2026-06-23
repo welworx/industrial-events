@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 5
+event_types:
+- conference
+start: '2016-06-16'
+end: '2016-06-17'
+timezone: Europe/Brussels
+city: Ghent
+country: BE
+venue: Ghent University
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-19'
+  note: Official series site links the Challenging Glass proceedings archive for this edition.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/view/20
+  last_checked: '2026-06-19'
+  note: Official proceedings archive says Challenging Glass Conference 5 was held 16 & 17 June 2016 at Ghent University in Belgium.

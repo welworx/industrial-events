@@ -6,15 +6,41 @@ end: '2026-08-20'
 timezone: America/Edmonton
 city: Calgary
 country: CA
+venue: Calgary TELUS Convention Centre
 url: https://com.metsoc.org
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://com.metsoc.org
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'
   note: Listed with Hydrogen in Metallurgy scope.
+deadlines:
+- type: abstracts
+  name: Extended abstract submission deadline
+  date: '2026-01-09'
+  url: https://com.metsoc.org
+  status: confirmed
+  history:
+  - date: '2025-12-17'
+    url: https://com.metsoc.org
+    note: Original abstract deadline before extension.
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://com.metsoc.org
+    last_checked: '2026-06-19'
+- type: final-papers
+  name: Final papers due
+  date: '2026-04-17'
+  url: https://com.metsoc.org
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://com.metsoc.org
+    last_checked: '2026-06-19'

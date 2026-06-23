@@ -1,0 +1,24 @@
+name: GIFA 2023
+event_types:
+- trade-fair
+- exhibition
+start: '2023-06-12'
+end: '2023-06-16'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.gifa.com/
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2023
+  name: GIFA / METEC / THERMPROCESS / NEWCAST
+  url: https://www.gifa.com/
+  series:
+  - gifa
+  - metec
+sources:
+- type: event-site
+  scope: event
+  url: https://www.gifa.com/en/Media_News/Press/Press_Material/Press_releases/The_date_for_the_Bright_World_of_Metals_2023_has_been_set
+  last_checked: '2026-06-19'
+  note: Official GIFA/Messe Dusseldorf announcement lists GIFA, METEC, THERMPROCESS, and NEWCAST in Dusseldorf from 12-16 June 2023.

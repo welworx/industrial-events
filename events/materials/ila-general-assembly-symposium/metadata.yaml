@@ -1,0 +1,18 @@
+series: ILA General Assembly & Symposium
+slug: ila-general-assembly-symposium
+website: https://www.internationallime.org/
+description: Annual International Lime Association member assembly and lime-industry symposium.
+recurrence: recurring
+categories:
+- materials
+- lime
+topics:
+- lime
+- calcination
+- sustainability
+sources:
+- type: series-home
+  scope: series
+  url: https://www.internationallime.org/
+  last_checked: '2026-06-19'
+  note: Contributed via ClickUp task "Important Conferences Cement & Lime".

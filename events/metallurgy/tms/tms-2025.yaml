@@ -1,0 +1,17 @@
+name: TMS 2025 Annual Meeting & Exhibition
+start: '2025-03-23'
+end: '2025-03-27'
+timezone: America/Los_Angeles
+city: Las Vegas
+country: US
+venue: MGM Grand Las Vegas Hotel & Casino
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tms.org/TMS2025
+  last_checked: '2026-06-19'
+  note: Official TMS page lists 23-27 March 2025 at MGM Grand Las Vegas Hotel & Casino in Las Vegas, Nevada, USA.
+event_types:
+- conference
+- exhibition

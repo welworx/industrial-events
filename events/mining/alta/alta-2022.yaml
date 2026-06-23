@@ -1,0 +1,17 @@
+name: ALTA 2022
+start: '2022-05-20'
+end: '2022-05-27'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Perth
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.altamet.com.au/conferences/alta-2022/
+  last_checked: '2026-06-19'
+  note: Official ALTA archive lists ALTA 2022 as 20-27 May, Perth and Online, and describes the return to Pan Pacific Hotel in Perth.
+event_types:
+- conference
+- exhibition

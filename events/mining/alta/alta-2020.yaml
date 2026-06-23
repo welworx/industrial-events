@@ -1,0 +1,15 @@
+name: ALTA 2020 Online
+start: '2020-11-09'
+end: '2020-11-27'
+timezone: Australia/Perth
+country: AU
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.altamet.com.au/conferences/alta-2020/
+  last_checked: '2026-06-19'
+  note: Official ALTA archive describes the 2020 online event and says it was held over three weeks from 9-27 November.
+event_types:
+- conference
+- exhibition
