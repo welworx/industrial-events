@@ -25,6 +25,9 @@ class CalendarItem:
     venue: str = ""
     address: str = ""
     url: str = ""
+    source_urls: tuple[str, ...] = ()
+    proceedings_url: str = ""
+    program_url: str = ""
     description: str = ""
     latitude: float | None = None
     longitude: float | None = None
@@ -45,6 +48,9 @@ class UndatedEvent:
     scope: str
     location: str
     source_url: str
+    source_urls: tuple[str, ...] = ()
+    proceedings_url: str = ""
+    program_url: str = ""
     last_checked: date | None = None
     co_location_group: str = ""
     event_types: tuple[str, ...] = ("conference",)

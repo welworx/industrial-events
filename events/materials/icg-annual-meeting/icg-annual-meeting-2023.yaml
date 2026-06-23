@@ -1,0 +1,15 @@
+name: ICG Annual Meeting 2023
+event_types:
+- conference
+start: '2023-11-12'
+end: '2023-11-15'
+timezone: Asia/Shanghai
+city: Hangzhou
+country: CN
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://icglass.org/events-and-conferences/
+  last_checked: '2026-06-19'
+  note: Official ICG past-events page lists ICG Annual Meeting Hangzhou, China, November 12-15, 2023.

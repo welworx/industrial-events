@@ -1,0 +1,19 @@
+series: Challenging Glass Conference
+slug: challenging-glass
+website: https://challengingglass.com/
+description: International conference series on structural and architectural glass.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- structural-glass
+- architecture
+- engineering
+sources:
+- type: series-home
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

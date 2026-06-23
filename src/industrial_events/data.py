@@ -31,6 +31,7 @@ from industrial_events.validation import (
     source_urls,
     validate_event_record,
     validate_unknown_keys,
+    validate_url_status,
 )
 
 LOGGER = logging.getLogger("build_site")
@@ -85,6 +86,8 @@ def load_undated_events(source_dir: Path) -> list[UndatedEvent]:
             event_sources = source_urls(event_path, event, f"event {event_index}")
             checked_dates = (*metadata.checked_dates, *source_checked_dates(event_path, event, f"event {event_index}"))
             source_url = first_value((*event_sources, *metadata.sources))
+            proceedings_url = source_link_by_type(event, "proceedings")
+            program_url = source_link_by_type(event, "program")
             undated.append(
                 UndatedEvent(
                     series_slug=metadata.slug,
@@ -95,6 +98,9 @@ def load_undated_events(source_dir: Path) -> list[UndatedEvent]:
                     scope=event_scope_label(title),
                     location=undated_location(event),
                     source_url=source_url,
+                    source_urls=event_sources,
+                    proceedings_url=proceedings_url,
+                    program_url=program_url,
                     last_checked=latest_date(checked_dates),
                     co_location_group=co_location.group,
                     event_types=event_types,
@@ -133,6 +139,9 @@ def load_series_metadata_file(source_dir: Path, path: Path) -> SeriesMetadata:
     recurrence = optional_str(data, "recurrence") or "unknown"
     if recurrence not in RECURRENCE_VALUES:
         raise CalendarBuildError(f"{path}: recurrence must be one of {', '.join(sorted(RECURRENCE_VALUES))}")
+    website_status = optional_str(data, "website_status", path, "top level")
+    if website_status:
+        validate_url_status(path, website_status, "top level website_status")
 
     return SeriesMetadata(
         path=path,
@@ -197,6 +206,8 @@ def items_for_event(
     url = optional_url(path, event, "url", f"event {event_index}") or metadata.website
     status = normalize_status(path, optional_str(event, "status") or "confirmed", f"event {event_index}")
     event_sources = unique_values((*metadata.sources, *source_urls(path, event, f"event {event_index}")))
+    proceedings_url = source_link_by_type(event, "proceedings")
+    program_url = source_link_by_type(event, "program")
     event_checked_dates = (*metadata.checked_dates, *source_checked_dates(path, event, f"event {event_index}"))
     event_last_checked = latest_date(event_checked_dates)
     description = build_description(
@@ -237,6 +248,9 @@ def items_for_event(
         venue=venue,
         address=address,
         url=url,
+        source_urls=event_sources,
+        proceedings_url=proceedings_url,
+        program_url=program_url,
         description=description,
         latitude=latitude,
         longitude=longitude,
@@ -320,6 +334,9 @@ def items_for_event(
                 event_types=event_types,
                 location="",
                 url=deadline_url,
+                source_urls=deadline_sources,
+                proceedings_url="",
+                program_url="",
                 description=deadline_description,
                 last_checked=deadline_last_checked,
                 co_location_group=co_location.group,
@@ -374,6 +391,19 @@ def unique_values(values: Iterable[str]) -> tuple[str, ...]:
         seen.add(value)
         result.append(value)
     return tuple(result)
+
+
+def source_link_by_type(data: dict, source_type: str) -> str:
+    sources = data.get("sources", [])
+    if not isinstance(sources, list):
+        return ""
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        if optional_str(source, "type").lower() != source_type:
+            continue
+        return optional_str(source, "url")
+    return ""
 
 
 def format_coordinates(latitude: float | None, longitude: float | None) -> str:

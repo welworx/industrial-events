@@ -1,6 +1,6 @@
 series: TMS Annual Meeting & Exhibition
 slug: tms
-website: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+website: https://www.tms.org/AnnualMeeting/
 description: TMS annual meeting and exhibition for minerals, metals, and materials
   science, including selected pyrometallurgy scopes.
 recurrence: recurring
@@ -16,8 +16,8 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
-  last_checked: '2026-05-07'
+  url: https://www.tms.org/AnnualMeeting/
+  last_checked: '2026-05-11'
   note: Official TMS Annual Meeting page with upcoming and past annual meetings.
 - type: overview
   scope: series

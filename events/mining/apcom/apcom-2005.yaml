@@ -6,7 +6,6 @@ end: '2005-04-01'
 timezone: America/Phoenix
 city: Tucson
 country: US
-url: https://publications.gc.ca/collections/collection_2007/nrcan-rncan/M38-2005E.pdf
 status: confirmed
 sources:
 - type: proceedings

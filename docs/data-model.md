@@ -60,6 +60,19 @@ Common optional fields:
 
 Edition-specific websites belong in the event file as `url`. The builder falls back to the series `website` only when the event has no `url`.
 
+## Regional Editions
+
+Some event brands run recurring regional editions. Prefer one series folder per stable
+recurring edition when that is the useful maintenance and filtering unit, for example
+`events/metallurgy/copper/` for Copper editions.
+
+Glassman is currently an exception. `events/materials/glassman/` groups Glassman Asia,
+Glassman Europe, and Glassman Latin America in one parent series folder. Research found
+that these are separate recurring regional editions with historical continuity, so a future
+cleanup may split them into `glassman-asia`, `glassman-europe`, and
+`glassman-latin-america`. Leave the current grouping in place until that migration is
+done deliberately.
+
 ## Event Types
 
 `event_types` is intentionally multi-valued because many events are both a conference and an exhibition or trade fair.

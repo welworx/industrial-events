@@ -6,7 +6,6 @@ end: '2013-06-26'
 timezone: Europe/Berlin
 city: Weimar
 country: DE
-url: https://doaj.org/article/8ac5a80b7d954607a8a407dbe6a5ca4c
 status: confirmed
 sources:
 - type: event-report

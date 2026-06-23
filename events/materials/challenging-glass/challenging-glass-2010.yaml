@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 2
+event_types:
+- conference
+start: '2010-05-20'
+end: '2010-05-21'
+timezone: Europe/Amsterdam
+city: Delft
+country: NL
+venue: Delft University of Technology
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-19'
+  note: Official series site links the Challenging Glass proceedings archive for this edition.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/view/2
+  last_checked: '2026-06-19'
+  note: Official proceedings archive says Challenging Glass Conference 2 was held 20 & 21 May 2010 at Delft University of Technology in the Netherlands.

@@ -6,7 +6,6 @@ end: '2015-06-17'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
-url: https://research.aalto.fi/en/publications/corrosion-and-wear-of-mixed-metal-oxide-anodes-in-electrowinning/
 status: confirmed
 sources:
 - type: proceedings

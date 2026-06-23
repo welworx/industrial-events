@@ -1,0 +1,19 @@
+series: Glass Problems Conference
+slug: glass-problems-conference
+website: https://gmic.org/glass-problems-conference/
+description: Annual conference on industrial glass manufacturing problems and solutions.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- manufacturing
+- furnaces
+- sustainability
+sources:
+- type: series-home
+  scope: series
+  url: https://gmic.org/glass-problems-conference/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

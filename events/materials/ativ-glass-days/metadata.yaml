@@ -1,0 +1,19 @@
+series: ATIV Glass Days
+slug: ativ-glass-days
+website: https://www.ativ-online.it/
+description: Italian glass industry technical conference organized by ATIV.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- furnaces
+- quality
+- defects
+sources:
+- type: series-home
+  scope: series
+  url: https://www.ativ-online.it/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

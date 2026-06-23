@@ -1,0 +1,18 @@
+name: ALUMINIUM CHINA 2022
+event_types:
+- trade-fair
+- exhibition
+start: '2022-08-10'
+end: '2022-08-12'
+timezone: Asia/Shanghai
+city: Foshan
+country: CN
+venue: Guangdong Tanzhou International Convention and Exhibition Center Halls 6-7
+url: https://www.aluminiumchina.com/
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.aluminiumchina.com/zh-cn/about/wjhg.html
+  last_checked: '2026-06-19'
+  note: Official past-review page lists ALUMINIUM CHINA 2022 on 10-12 August 2022 at Guangdong Tanzhou International Convention and Exhibition Center Halls 6-7.

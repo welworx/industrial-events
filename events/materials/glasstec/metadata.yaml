@@ -1,0 +1,19 @@
+series: glasstec
+slug: glasstec
+website: https://www.glasstec.de/
+description: International trade fair for glass production, processing, and products.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- manufacturing
+- processing
+- trade-fair
+sources:
+- type: series-home
+  scope: series
+  url: https://www.glasstec.de/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

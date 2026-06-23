@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 10
+event_types:
+- conference
+start: '2026-06-15'
+end: '2026-06-17'
+timezone: Europe/Amsterdam
+city: Delft
+country: NL
+venue: Delft University of Technology
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://challengingglass.com/
+  last_checked: '2026-06-01'
+  note: Official series site lists Challenging Glass 10 at TU Delft in June 2026.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/
+  last_checked: '2026-06-01'
+  note: Proceedings page confirms the 15-17 June 2026 dates and TU Delft venue.

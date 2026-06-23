@@ -1,0 +1,18 @@
+series: ALUMINIUM Exhibition
+slug: aluminium-exhibition
+website: https://www.aluminium-exhibition.com/germany/en-gb.html
+description: Trade fair for the aluminium industry and its value chain.
+recurrence: recurring
+categories:
+- materials
+- aluminium
+topics:
+- aluminium
+- recycling
+- manufacturing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.aluminium-exhibition.com/germany/en-gb.html
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Alu".

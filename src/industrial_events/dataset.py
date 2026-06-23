@@ -71,7 +71,7 @@ def calendar_item_to_json(item: CalendarItem) -> dict[str, object]:
     return _dataclass_to_json(
         item,
         date_fields={"start", "end_exclusive", "last_checked"},
-        tuple_fields={"categories", "topics", "event_types", "co_location_series"},
+        tuple_fields={"categories", "topics", "event_types", "co_location_series", "source_urls"},
     )
 
 
@@ -80,7 +80,7 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
         CalendarItem,
         value,
         date_fields={"start", "end_exclusive", "last_checked"},
-        tuple_fields={"categories", "topics", "event_types", "co_location_series"},
+        tuple_fields={"categories", "topics", "event_types", "co_location_series", "source_urls"},
         string_fields={
             "uid",
             "summary",
@@ -95,6 +95,8 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
             "venue",
             "address",
             "url",
+            "proceedings_url",
+            "program_url",
             "description",
             "co_location_group",
             "co_location_name",
@@ -103,6 +105,10 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
         number_fields={"latitude", "longitude"},
     )
     _validate_optional_url(item.url, "CalendarItem.url")
+    for source_url in item.source_urls:
+        _validate_required_url(source_url, "CalendarItem.source_urls")
+    _validate_optional_url(item.proceedings_url, "CalendarItem.proceedings_url")
+    _validate_optional_url(item.program_url, "CalendarItem.program_url")
     _validate_optional_url(item.co_location_url, "CalendarItem.co_location_url")
     _validate_slug(item.series_slug, "CalendarItem.series_slug")
     _validate_slug(item.domain, "CalendarItem.domain")
@@ -120,7 +126,7 @@ def undated_event_to_json(item: UndatedEvent) -> dict[str, object]:
     return _dataclass_to_json(
         item,
         date_fields={"last_checked"},
-        tuple_fields={"categories", "event_types"},
+        tuple_fields={"categories", "event_types", "source_urls"},
     )
 
 
@@ -129,7 +135,7 @@ def undated_event_from_json(value: dict) -> UndatedEvent:
         UndatedEvent,
         value,
         date_fields={"last_checked"},
-        tuple_fields={"categories", "event_types"},
+        tuple_fields={"categories", "event_types", "source_urls"},
         string_fields={
             "series_slug",
             "domain",
@@ -138,11 +144,17 @@ def undated_event_from_json(value: dict) -> UndatedEvent:
             "scope",
             "location",
             "source_url",
+            "proceedings_url",
+            "program_url",
             "co_location_group",
         },
     )
     _validate_optional_url(item.url, "UndatedEvent.url")
     _validate_optional_url(item.source_url, "UndatedEvent.source_url")
+    for source_url in item.source_urls:
+        _validate_required_url(source_url, "UndatedEvent.source_urls")
+    _validate_optional_url(item.proceedings_url, "UndatedEvent.proceedings_url")
+    _validate_optional_url(item.program_url, "UndatedEvent.program_url")
     _validate_slug(item.series_slug, "UndatedEvent.series_slug")
     _validate_slug(item.domain, "UndatedEvent.domain")
     _validate_optional_slug(item.co_location_group, "UndatedEvent.co_location_group")

@@ -1,0 +1,16 @@
+name: ICG Annual Meeting 2024
+event_types:
+- conference
+start: '2024-08-25'
+end: '2024-08-28'
+timezone: Asia/Seoul
+city: Incheon
+country: KR
+venue: Songdo Convensia
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://icglass.org/events-and-conferences/
+  last_checked: '2026-06-19'
+  note: Official ICG past-events page says the International Commission on Glass Annual Meeting 2024 was held at Songdo Convensia, Incheon, Korea, on August 25-28, 2024.

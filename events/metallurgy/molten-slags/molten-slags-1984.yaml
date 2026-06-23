@@ -6,7 +6,6 @@ end: '1984-11-14'
 timezone: America/Los_Angeles
 city: Lake Tahoe
 country: US
-url: https://ci.nii.ac.jp/ncid/BA44318215
 status: confirmed
 sources:
 - type: proceedings

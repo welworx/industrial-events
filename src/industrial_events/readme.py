@@ -105,7 +105,8 @@ def render_readme_upcoming_events(
     reference_date: date | None = None,
 ) -> str:
     today = reference_date or date.today()
-    rows = [row for row in event_rows(items) if row.end_exclusive > today]
+    window_start = today.replace(day=1)
+    rows = [row for row in event_rows(items) if row.end_exclusive > window_start]
     lines = [
         README_UPCOMING_START,
         "",
@@ -129,20 +130,19 @@ def render_readme_upcoming_events(
                     lines.append("")
                 current_month = row.start.month
                 lines.extend([f"#### {month_name[row.start.month]}", ""])
-            details = " ".join(
-                part
-                for part in (
-                    location_badge(row.conferences, row.location),
-                    venue_badge(row.conferences, today),
-                    readme_event_badges(row.conferences, row.deadlines, row.start, today),
-                    limited_tag_list(common_tags(row.conferences)),
-                )
-                if part
-            )
+            badges = readme_event_title_badges(row.conferences, row.deadlines, row.start, today)
+            detail = readme_event_detail(row.conferences, row.location, today)
+            tags = readme_tags_detail(row.conferences)
+            badge_suffix = f" {badges}" if badges else ""
             lines.append(
-                f"- {compact_date_range(row.start, row.end_exclusive)}: "
-                f"{event_cell(row.title, row.url, row.conferences)} {details}"
+                f"- **{compact_date_range(row.start, row.end_exclusive)}**: "
+                f"{event_cell(row.title, row.url, row.conferences)}{official_resource_icons(row.conferences)}"
+                f"{badge_suffix}"
             )
+            if detail:
+                lines.append(f"  - {detail}")
+            if tags:
+                lines.append(f"  - {tags}")
     lines.extend(["", README_UPCOMING_END])
     return "\n".join(lines)
 
@@ -175,7 +175,7 @@ def render_readme_submission_opportunities(
             lines.append(
                 "| "
                 f"{markdown_link(deadline_label, opportunity.deadline.url)} | "
-                f"{markdown_link(row.title, row.url)} | "
+                f"{markdown_link(row.title, row.url)}{official_resource_icons(row.conferences)} | "
                 f"{escape_markdown_table(compact_date_range_with_year(row.start, row.end_exclusive))} | "
                 f"{event_scope_cell(row.title, row.conferences)} | "
                 f"{format_last_checked(row.last_checked)} |"
@@ -360,6 +360,62 @@ def limited_tag_list(values: Iterable[str], limit: int = 6) -> str:
     return result or "TBD"
 
 
+def readme_event_detail(
+    conferences: tuple[CalendarItem, ...],
+    fallback_location: str,
+    reference_date: date,
+) -> str:
+    parts = [
+        readme_location_detail(conferences, fallback_location),
+        readme_venue_detail(conferences, reference_date),
+        readme_event_types_detail(conferences),
+    ]
+    return " | ".join(part for part in parts if part)
+
+
+def readme_location_detail(conferences: tuple[CalendarItem, ...], fallback_location: str) -> str:
+    label = compact_location(conferences, fallback_location)
+    flag = country_flag_icon(conferences)
+    flag_suffix = f" {flag}" if flag else ""
+    if fallback_location:
+        return f"**Location:**{flag_suffix} [{label}](<{google_maps_url(fallback_location, conferences)}>)"
+    return f"**Location:**{flag_suffix} {label}"
+
+
+def readme_venue_detail(conferences: tuple[CalendarItem, ...], reference_date: date) -> str:
+    venue = common_value(item.venue for item in conferences)
+    if venue:
+        return f"Venue: {markdown_text(venue)}"
+    if any(not item.venue and item.start >= reference_date for item in conferences):
+        return "Venue: TBD"
+    return ""
+
+
+def readme_event_types_detail(conferences: Iterable[CalendarItem]) -> str:
+    event_types = common_event_types(conferences)
+    label = "Type" if len(event_types) == 1 else "Types"
+    return f"{label}: {', '.join(event_types)}" if event_types else ""
+
+
+
+def readme_tags_detail(conferences: Iterable[CalendarItem]) -> str:
+    tags = limited_tag_list(common_tags(conferences))
+    return f"**Tags:** {tags}" if tags else ""
+
+
+def readme_event_title_badges(
+    conferences: tuple[CalendarItem, ...],
+    deadlines: tuple[CalendarItem, ...],
+    event_start: date,
+    reference_date: date,
+) -> str:
+    parts = [
+        venue_badge(conferences, reference_date),
+        readme_event_badges(conferences, deadlines, event_start, reference_date),
+    ]
+    return " ".join(part for part in parts if part)
+
+
 def readme_event_badges(
     conferences: tuple[CalendarItem, ...],
     deadlines: tuple[CalendarItem, ...],
@@ -380,8 +436,8 @@ def venue_badge(conferences: tuple[CalendarItem, ...], reference_date: date) -> 
 
 
 def event_type_badge(event_type: str) -> str:
-    colors = {"conference": "blue", "exhibition": "teal", "trade-fair": "orange"}
-    return shield_badge("type", event_type, colors.get(event_type, "lightgrey"))
+    colors = {"conference": "blueviolet", "exhibition": "ff69b4", "trade-fair": "red"}
+    return shield_badge("type", event_type, colors.get(event_type, "black"))
 
 
 def cfp_badge(deadlines: tuple[CalendarItem, ...], event_start: date, reference_date: date) -> str:
@@ -485,16 +541,15 @@ def shield_badge(label: str, message: str, color: str) -> str:
     )
 
 
-def location_badge(conferences: tuple[CalendarItem, ...], fallback_location: str) -> str:
-    label = compact_location(conferences, fallback_location)
-    badge = shield_badge("location", label, "informational")
-    if not fallback_location:
-        return badge
-    return f"[{badge}](<{google_maps_url(fallback_location, conferences)}>)"
-
 
 def shield_path_part(value: str) -> str:
     return quote(value.replace("-", "--"), safe="")
+
+def country_flag_icon(conferences: tuple[CalendarItem, ...]) -> str:
+    country = common_value(item.country.upper() for item in conferences if item.country)
+    if len(country) != 2 or not country.isalpha():
+        return ""
+    return f"![{country} flag](https://flagcdn.com/16x12/{country.lower()}.png)"
 
 
 def escape_markdown_image_alt(value: str) -> str:
@@ -557,7 +612,7 @@ def next_series_event_cell(
         item = upcoming[0]
         return (
             f"{shield_badge('next', compact_date_range_with_year(item.start, item.end_exclusive), 'brightgreen')} "
-            f"{markdown_link(item.summary, item.url)}"
+            f"{markdown_link(item.summary, item.url)}{official_resource_icons((item,))}"
         )
     if undated_tuple:
         item = sorted(undated_tuple, key=lambda event: event.title.lower())[0]
@@ -594,6 +649,20 @@ def official_series_link(series: SeriesMetadata) -> str:
     if not series.website:
         return ""
     return f" {markdown_link('↗', series.website)}"
+
+
+def official_resource_icons(conferences: tuple[CalendarItem, ...]) -> str:
+    if not conferences:
+        return ""
+    primary = conferences[0]
+    icons: list[str] = []
+    if primary.proceedings_url:
+        icons.append(markdown_link("📘", primary.proceedings_url))
+    if primary.program_url:
+        icons.append(markdown_link("🗓", primary.program_url))
+    if not icons:
+        return ""
+    return " " + " ".join(icons)
 
 
 def series_records(

@@ -6,7 +6,6 @@ end: '2014-10-24'
 timezone: America/Santiago
 city: Santiago
 country: CL
-url: https://books.google.com/books/about/XXVII_International_Mineral_Processing_C.html?id=xjNdnQAACAAJ
 status: confirmed
 sources:
 - type: overview

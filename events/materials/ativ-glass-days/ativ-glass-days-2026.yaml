@@ -1,0 +1,15 @@
+name: XXXIX ATIV Conference
+event_types:
+- conference
+start: '2026-11-19'
+end: '2026-11-20'
+timezone: Europe/Rome
+city: Parma
+country: IT
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.glass-international.com/events/xxxix-ativ-conference
+  last_checked: '2026-06-01'
+  note: Event listing confirms 19-20 November 2026 in Parma and the furnace efficiency, glass quality, and defects-control theme.

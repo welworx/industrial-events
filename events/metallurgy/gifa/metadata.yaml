@@ -1,0 +1,19 @@
+series: GIFA
+slug: gifa
+website: https://www.gifa.com/
+description: World's leading trade fair for foundry technology, co-located with the Bright World of Metals events.
+recurrence: recurring
+categories:
+- metallurgy
+- materials
+topics:
+- foundry
+- casting
+- metallurgy
+- trade-fair
+sources:
+- type: series-home
+  scope: series
+  url: https://www.gifa.com/
+  last_checked: '2026-06-19'
+  note: Contributed via ClickUp task "Important Conferences IM&RH".

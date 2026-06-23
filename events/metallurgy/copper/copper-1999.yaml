@@ -6,11 +6,11 @@ end: '1999-10-13'
 timezone: America/Phoenix
 city: Phoenix
 country: US
-url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
+url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-GeneralInfo.html
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-IndustrialTours.html
-  last_checked: '2026-05-07'
+  url: https://www.tms.org/Meetings/Specialty/Copper99/Copper99-GeneralInfo.html
+  last_checked: '2026-05-11'
   note: Page identifies Copper 99 as the fourth in the international copper conference series and gives 10-13 October 1999 in Phoenix.

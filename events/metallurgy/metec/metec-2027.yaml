@@ -7,6 +7,7 @@ end: '2027-06-25'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
+venue: Messe Dusseldorf
 url: https://www.metec-tradefair.com
 status: confirmed
 co_located_with:
@@ -15,12 +16,13 @@ co_located_with:
   url: https://www.metec-tradefair.com
   series:
   - metec
+  - gifa
 sources:
 - type: event-site
   scope: event
   url: https://www.metec-tradefair.com
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'

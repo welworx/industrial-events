@@ -7,7 +7,6 @@ end: '1984-06-28'
 timezone: Europe/Berlin
 city: Dusseldorf
 country: DE
-url: https://ci.nii.ac.jp/ncid/BB17139913
 status: confirmed
 sources:
 - type: proceedings

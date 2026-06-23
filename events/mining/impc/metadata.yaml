@@ -1,6 +1,6 @@
 series: International Mineral Processing Congress
 slug: impc
-website: https://www.impcouncil.com
+website: https://www.impc-council.com/
 description: Recurring International Mineral Processing Congress series.
 recurrence: recurring
 categories:
@@ -12,8 +12,8 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://www.impcouncil.com
-  last_checked: '2026-05-07'
+  url: https://www.impc-council.com/
+  last_checked: '2026-05-11'
 - type: overview
   scope: series
   url: https://impc-council.com/about-us/history/

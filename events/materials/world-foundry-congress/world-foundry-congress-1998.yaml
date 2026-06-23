@@ -6,7 +6,6 @@ end: '1998-09-18'
 timezone: Europe/Budapest
 city: Budapest
 country: HU
-url: https://w.bibliotece.pl/47293/63rd%2BWorld%2BFoundry%2BCongress%2B%22Fonderie%2BSans%2BFrontieres%2BCasting%2BWithout%2BBorders%2BGiessen%2BOhne%2BGrenzen%22
 status: confirmed
 sources:
 - type: proceedings

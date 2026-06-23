@@ -1,0 +1,17 @@
+name: 87th Glass Problems Conference and Symposium
+event_types:
+- conference
+- exhibition
+start: '2026-09-14'
+end: '2026-09-17'
+timezone: America/New_York
+city: Toledo
+country: US
+url: https://gmic.org/2026-glass-problems-conference/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://gmic.org/2026-glass-problems-conference/
+  last_checked: '2026-06-01'
+  note: GMIC page confirms 14-17 September 2026 in Toledo, Ohio.

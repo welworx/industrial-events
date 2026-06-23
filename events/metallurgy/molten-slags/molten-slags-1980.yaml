@@ -6,7 +6,6 @@ end: '1980-08-28'
 timezone: America/Halifax
 city: Halifax
 country: CA
-url: https://libris.kb.se/bib/4516431
 status: confirmed
 sources:
 - type: proceedings

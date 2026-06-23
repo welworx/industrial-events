@@ -1,0 +1,18 @@
+name: ALUMINIUM CHINA 2023
+event_types:
+- trade-fair
+- exhibition
+start: '2023-07-05'
+end: '2023-07-07'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+venue: Shanghai New International Expo Centre N1-N3
+url: https://www.aluminiumchina.com/
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.aluminiumchina.com/zh-cn/about/wjhg.html
+  last_checked: '2026-06-19'
+  note: Official past-review page lists ALUMINIUM CHINA 2023 on 5-7 July 2023 at Shanghai New International Expo Centre N1-N3.

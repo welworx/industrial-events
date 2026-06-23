@@ -1,0 +1,18 @@
+name: glasstec 2026
+event_types:
+- trade-fair
+- exhibition
+start: '2026-10-20'
+end: '2026-10-23'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: Messe Dusseldorf
+url: https://www.glasstec.de/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.glasstec.de/
+  last_checked: '2026-06-01'
+  note: Official site confirms 20-23 October 2026.

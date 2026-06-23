@@ -8,13 +8,14 @@ city: Birmingham
 country: GB
 venue: International Convention Centre
 url: https://obnb.uk/p13801399-the-eighth-european-electric-steelmaking-conference-9-11-may-2005-birmingham-uk
+url_status: inactive
 status: confirmed
 sources:
 - type: proceedings
   scope: event
-  url: https://obnb.uk/p13801399-the-eighth-european-electric-steelmaking-conference-9-11-may-2005-birmingham-uk
-  last_checked: '2026-05-07'
-  note: Open British National Bibliography record identifies the 8th European Electric Steelmaking Conference in Birmingham, 9-11 May 2005.
+  url: https://publications.rwth-aachen.de/record/112561
+  last_checked: '2026-05-11'
+  note: RWTH record identifies the 8th European Electric Steelmaking Conference in Birmingham, 9-11 May 2005.
 - type: journal-report
   scope: event
   url: https://www.tandfonline.com/doi/abs/10.1179/174328105X71281

@@ -1,0 +1,19 @@
+name: GlassBuild America 2027
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2027-10-26'
+end: '2027-10-28'
+timezone: America/Los_Angeles
+city: Las Vegas
+country: US
+venue: Las Vegas Convention Center
+url: https://www.glassbuildamerica.com/
+status: tentative
+sources:
+- type: contributed
+  scope: event
+  url: https://app.clickup.com/t/86c9nndg6
+  last_checked: '2026-06-01'
+  note: Date and location came from the ClickUp attachment; kept tentative until the organizer publishes the 2027 page.

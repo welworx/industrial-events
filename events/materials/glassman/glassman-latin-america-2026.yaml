@@ -1,0 +1,21 @@
+name: Glassman Latin America 2026
+event_types:
+- conference
+- exhibition
+start: '2026-05-20'
+end: '2026-05-21'
+timezone: America/Mexico_City
+city: Mexico City
+country: MX
+url: https://www.glassmanevents.com/latin-america/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.glassmanevents.com/latin-america/
+  last_checked: '2026-06-01'
+- type: overview
+  scope: event
+  url: https://www.glassonweb.com/event/glassman-latin-america-2026
+  last_checked: '2026-06-01'
+  note: Public event listing confirms Mexico City and 20-21 May 2026.

@@ -1,0 +1,24 @@
+name: GIFA 2019
+event_types:
+- trade-fair
+- exhibition
+start: '2019-06-25'
+end: '2019-06-29'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://www.gifa.com/
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2019
+  name: GIFA / METEC / THERMPROCESS / NEWCAST
+  url: https://www.gifa.com/
+  series:
+  - gifa
+  - metec
+sources:
+- type: event-site
+  scope: event
+  url: https://www.metec-tradefair.com/en/Media_News/Press/Press_Material/Press_releases/GIFA%2C_METEC%2C_THERMPROCESS_and_NEWCAST_%E2%80%93_%E2%80%9CThe_Bright_World_of_Metals%E2%80%9D_is_taking_place_in_D%C3%BCsseldorf_again_from_25._to_29._June_2019
+  last_checked: '2026-06-19'
+  note: Official Messe Dusseldorf press release lists GIFA, METEC, THERMPROCESS, and NEWCAST in Dusseldorf from 25-29 June 2019.

@@ -6,13 +6,12 @@ end: '2010-10-20'
 timezone: Asia/Shanghai
 city: Hangzhou
 country: CN
-url: http://www.wfc2010.com/en/292.html
 status: confirmed
 sources:
-- type: event-site
+- type: proceedings
   scope: event
-  url: http://www.wfc2010.com/en/292.html
-  last_checked: '2026-05-07'
+  url: https://www.proceedings.com/15815.html
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

@@ -3,12 +3,22 @@ repos:
     hooks:
       - id: build-site
         name: Build generated site outputs
-        entry: uv run python scripts/build_site.py
+        entry: uv run industrial-events-build-site
         language: system
         pass_filenames: false
       - id: update-candidates
         name: Check update candidate listing
-        entry: uv run python scripts/list_update_candidates.py
+        entry: uv run industrial-events-list-candidates
+        language: system
+        pass_filenames: false
+      - id: check-new-yaml-links
+        name: Check links in newly added YAML
+        entry: uv run industrial-events-check-yaml-links
+        language: system
+        pass_filenames: false
+      - id: check-duplicate-event-urls
+        name: Check duplicate top-level event URLs
+        entry: uv run industrial-events-check-duplicate-event-urls
         language: system
         pass_filenames: false
       - id: ruff-check

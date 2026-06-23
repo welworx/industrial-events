@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass, replace
 from datetime import UTC, datetime
@@ -55,13 +56,15 @@ def load_build_config(path: Path = DEFAULT_CONFIG_PATH) -> BuildConfig:
     site = required_mapping(data, "site", path)
     paths = required_mapping(data, "paths", path)
 
+    configured_site_url = env_url_override(site, "url", "INDUSTRIAL_EVENTS_SITE_URL", path)
+
     return BuildConfig(
         source_dir=config_path(path, paths, "source_dir"),
         output_dir=config_path(path, paths, "output_dir"),
         readme_path=config_path(path, paths, "readme"),
         sources_dir=config_path(path, paths, "sources_dir"),
         site_title=required_str(site, "title", path),
-        site_url=site_url(required_url(site, "url", path)),
+        site_url=site_url(configured_site_url),
         repository_url=required_url(site, "repository_url", path),
         product_id=required_str(site, "product_id", path),
         uid_domain=required_str(site, "uid_domain", path),
@@ -130,6 +133,13 @@ def required_url(data: dict[str, Any], key: str, path: Path) -> str:
     value = required_str(data, key, path)
     if not is_safe_external_url(value):
         raise ConfigError(f"{path}: config field {key!r} must be an http(s) URL")
+    return value
+
+
+def env_url_override(data: dict[str, Any], key: str, env_name: str, path: Path) -> str:
+    value = os.environ.get(env_name) or required_url(data, key, path)
+    if not is_safe_external_url(value):
+        raise ConfigError(f"{env_name} must be an http(s) URL")
     return value
 
 

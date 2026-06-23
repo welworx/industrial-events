@@ -1,0 +1,19 @@
+series: Sisecam International Glass Conference
+slug: sisecam-glass-conference
+website: https://glassconference.sisecam.com/en
+description: International glass conference organized by Sisecam.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- energy
+- innovation
+- sustainability
+sources:
+- type: series-home
+  scope: series
+  url: https://glassconference.sisecam.com/en
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".

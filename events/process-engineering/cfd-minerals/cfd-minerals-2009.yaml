@@ -7,14 +7,13 @@ timezone: Australia/Melbourne
 city: Melbourne
 country: AU
 venue: Rydges Hotel
-url: https://flair.monash.edu/intranet/proceedings/cfd2009/PDFs/221FEN.pdf
 status: confirmed
 sources:
 - type: proceedings
   scope: event
-  url: https://flair.monash.edu/intranet/proceedings/cfd2009/PDFs/221FEN.pdf
-  last_checked: '2026-05-07'
+  url: https://www.cfd.com.au/cfd_conf09/
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
-  url: https://www.flair.monash.edu.au/conferences/
-  last_checked: '2026-05-07'
+  url: https://people.csiro.au/W/P/peter-witt.aspx
+  last_checked: '2026-05-11'

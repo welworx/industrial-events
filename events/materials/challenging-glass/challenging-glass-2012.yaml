@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 3
+event_types:
+- conference
+start: '2012-06-28'
+end: '2012-06-29'
+timezone: Europe/Amsterdam
+city: Delft
+country: NL
+venue: TU Delft
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-19'
+  note: Official series site links the Challenging Glass proceedings archive for this edition.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/view/3
+  last_checked: '2026-06-19'
+  note: Official proceedings archive says Challenging Glass Conference 3 was held 28 & 29 June 2012 at TU Delft in Delft, the Netherlands.

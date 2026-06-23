@@ -26,10 +26,10 @@ sources:
   scope: series
   url: https://metsoc.org/events-posts/extraction-2025/
   note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.
-- type: event-site
+- type: event-listing
   scope: series
-  url: https://copper2022.cl/
-  note: Official COPPER-COBRE 2022 site.
+  url: https://www.showsbee.com/fairs/80336-Copper-International-Conference-2022.html
+  note: COPPER-COBRE 2022 listing.
 - type: event-site
   scope: series
   url: https://com.metsoc.org/past-com-events/

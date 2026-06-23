@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 import tempfile
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
@@ -17,6 +18,7 @@ from industrial_events.cli import list_candidates as candidates_tool
 from industrial_events.cli import update_event as update_event_tool
 from industrial_events.config import BuildConfig, config_with_overrides, load_build_config
 from industrial_events.dataset import event_dataset_to_json, load_event_dataset, read_event_dataset
+from industrial_events.link_checks import recent_event_link_targets, yaml_link_targets
 from industrial_events.readme import (
     README_ONE_TIME_END,
     README_ONE_TIME_START,
@@ -88,6 +90,159 @@ def run_update_event(args: list[str]) -> tuple[int, str]:
 
 
 class MaintenanceToolTests(unittest.TestCase):
+    def test_recent_event_link_targets_skip_old_event_links(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            source = Path(tmp_dir) / "events"
+            series_dir = source / "metallurgy" / "demo-series"
+            series_dir.mkdir(parents=True)
+            (series_dir / "metadata.yaml").write_text(
+                "\n".join(
+                    [
+                        "series: Demo Series",
+                        "slug: demo-series",
+                        "website: https://example.org/series",
+                        "description: Demo series",
+                        "categories:",
+                        "  - metallurgy",
+                        "sources:",
+                        "  - type: source",
+                        "    url: https://example.org/source",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            (series_dir / "demo-series-2024.yaml").write_text(
+                "\n".join(
+                    [
+                        "name: Demo 2024",
+                        "event_types:",
+                        "  - conference",
+                        'start: "2024-05-01"',
+                        'end: "2024-05-02"',
+                        "url: https://example.org/old",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            (series_dir / "demo-series-2025.yaml").write_text(
+                "\n".join(
+                    [
+                        "name: Demo 2025",
+                        "event_types:",
+                        "  - conference",
+                        'start: "2025-05-01"',
+                        'end: "2025-05-02"',
+                        "url: https://example.org/recent",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            (series_dir / "demo-series-2020.yaml").write_text(
+                "\n".join(
+                    [
+                        "name: Demo Undated 2020",
+                        "event_types:",
+                        "  - conference",
+                        "status: estimated",
+                        "url: https://example.org/undated-old",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            (series_dir / "demo-series-2027.yaml").write_text(
+                "\n".join(
+                    [
+                        "name: Demo Undated 2027",
+                        "event_types:",
+                        "  - conference",
+                        "status: tentative",
+                        "url: https://example.org/undated-recent",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            urls = {
+                target.url
+                for target in recent_event_link_targets(source, reference_date=Date(2026, 5, 11), years_back=1)
+            }
+            all_urls = {
+                target.url
+                for target in recent_event_link_targets(source, reference_date=Date(2026, 5, 11), years_back=None)
+            }
+
+        self.assertIn("https://example.org/recent", urls)
+        self.assertIn("https://example.org/undated-recent", urls)
+        self.assertIn("https://example.org/series", urls)
+        self.assertIn("https://example.org/source", urls)
+        self.assertNotIn("https://example.org/old", urls)
+        self.assertNotIn("https://example.org/undated-old", urls)
+        self.assertIn("https://example.org/old", all_urls)
+        self.assertIn("https://example.org/undated-old", all_urls)
+
+    def test_yaml_link_targets_extract_nested_urls(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            yaml_path = Path(tmp_dir) / "event.yaml"
+            yaml_path.write_text(
+                "\n".join(
+                    [
+                        "url: https://example.org/event",
+                        "sources:",
+                        "  - type: event-site",
+                        "    url: https://example.org/source",
+                        "note: not a url",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            urls = {target.url for target in yaml_link_targets(yaml_path)}
+
+        self.assertEqual(urls, {"https://example.org/event", "https://example.org/source"})
+
+    def test_yaml_link_targets_skip_inactive_top_level_urls(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            yaml_path = Path(tmp_dir) / "event.yaml"
+            yaml_path.write_text(
+                "\n".join(
+                    [
+                        "url: https://example.org/dead-official",
+                        "url_status: inactive",
+                        "sources:",
+                        "  - type: overview",
+                        "    url: https://example.org/archive",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            urls = {target.url for target in yaml_link_targets(yaml_path)}
+
+        self.assertEqual(urls, {"https://example.org/archive"})
+
+    def test_event_top_level_urls_do_not_duplicate_evidence_sources(self) -> None:
+        evidence_types = {"overview", "event-listing", "proceedings", "reference", "event-report"}
+        offenders = []
+        for event_path in (ROOT / "events").rglob("*.yaml"):
+            if event_path.name == "metadata.yaml":
+                continue
+            event = yaml.safe_load(event_path.read_text(encoding="utf-8"))
+            url = event.get("url")
+            if not url or event.get("url_status"):
+                continue
+            for source in event.get("sources", []) or []:
+                if source.get("url") == url and source.get("type") in evidence_types:
+                    offenders.append(event_path.relative_to(ROOT).as_posix())
+
+        self.assertEqual(offenders, [])
+
     def assert_update_event_rejected(self, args: list[str], message: str) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             event_path = Path(tmp_dir) / "demo.yaml"
@@ -137,6 +292,19 @@ class MaintenanceToolTests(unittest.TestCase):
             exit_code = build_site_tool.main(["--dataset", str(dataset_path), "--readme-only", "--log-level", "ERROR"])
 
         self.assertEqual(exit_code, 1)
+
+    def test_load_build_config_supports_site_url_env_override(self) -> None:
+        previous = os.environ.get("INDUSTRIAL_EVENTS_SITE_URL")
+        os.environ["INDUSTRIAL_EVENTS_SITE_URL"] = "https://events.example.com"
+        try:
+            config = load_build_config()
+        finally:
+            if previous is None:
+                os.environ.pop("INDUSTRIAL_EVENTS_SITE_URL", None)
+            else:
+                os.environ["INDUSTRIAL_EVENTS_SITE_URL"] = previous
+
+        self.assertEqual(config.site_url, "https://events.example.com/")
 
     def test_read_event_dataset_raises_calendar_build_error_for_invalid_structure(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:

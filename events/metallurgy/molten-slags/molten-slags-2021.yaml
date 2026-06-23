@@ -6,7 +6,6 @@ end: '2021-02-25'
 timezone: Asia/Seoul
 city: Seoul
 country: KR
-url: https://www.kim.or.kr/eng/pages_events/international.vm?tab=ICOMAT
 status: confirmed
 sources:
 - type: overview

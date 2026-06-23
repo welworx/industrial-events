@@ -1,0 +1,17 @@
+name: TMS 2024 Annual Meeting & Exhibition
+start: '2024-03-03'
+end: '2024-03-07'
+timezone: America/New_York
+city: Orlando
+country: US
+venue: Hyatt Regency Orlando
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tms.org/TMS2024
+  last_checked: '2026-06-19'
+  note: Official TMS page lists 3-7 March 2024 at Hyatt Regency Orlando in Orlando, Florida, USA.
+event_types:
+- conference
+- exhibition

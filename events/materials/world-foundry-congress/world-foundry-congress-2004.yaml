@@ -6,7 +6,6 @@ end: '2004-09-09'
 timezone: Europe/Istanbul
 city: Istanbul
 country: TR
-url: https://books.google.com/books/about/66th_World_Foundry_Congress.html?id=e_cvAAAACAAJ
 status: confirmed
 sources:
 - type: proceedings

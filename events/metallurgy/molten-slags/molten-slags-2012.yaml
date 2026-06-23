@@ -6,13 +6,12 @@ end: '2012-05-30'
 timezone: Asia/Shanghai
 city: Beijing
 country: CN
-url: http://hy.csm.org.cn/MOLTEN12/en/
 status: confirmed
 sources:
-- type: event-site
+- type: event-report
   scope: event
-  url: http://hy.csm.org.cn/MOLTEN12/en/
-  last_checked: '2026-05-07'
+  url: https://www.degruyterbrill.com/document/doi/10.1515/htmp-2013-0998/html
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

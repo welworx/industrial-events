@@ -6,7 +6,6 @@ end: '2018-02-28'
 timezone: Africa/Johannesburg
 city: Cape Town
 country: ZA
-url: https://www.pyrometallurgy.co.za/InfaconXV/
 status: confirmed
 sources:
 - type: series-home

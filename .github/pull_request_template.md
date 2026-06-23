@@ -20,7 +20,8 @@ List the official pages or overview pages used to verify the change:
 - [ ] I used a focused branch, not `main`.
 - [ ] I preserved deadline history for moved deadlines.
 - [ ] I did not commit generated `public/` files.
-- [ ] I ran `uv run python scripts/build_site.py`.
+- [ ] I ran `uv run industrial-events-build-site`.
+- [ ] I ran `uv run industrial-events-check-yaml-links` if I added YAML files with links.
 - [ ] I ran `uv run ruff check`.
 - [ ] I ran `uv run ruff format --check`.
 - [ ] I ran `uv run python -B -m unittest discover -s tests`.

@@ -1,0 +1,18 @@
+series: Aluminum USA
+slug: aluminum-usa
+website: https://www.aluminum-us.com/
+description: North American aluminum industry event covering the full aluminum value chain.
+recurrence: recurring
+categories:
+- materials
+- aluminium
+topics:
+- aluminium
+- manufacturing
+- processing
+sources:
+- type: series-home
+  scope: series
+  url: https://www.aluminum-us.com/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Alu".

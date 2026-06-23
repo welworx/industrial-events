@@ -1,0 +1,18 @@
+name: IGMS Saudi 2026
+event_types:
+- trade-fair
+- exhibition
+start: '2026-09-01'
+end: '2026-09-03'
+timezone: Asia/Riyadh
+city: Riyadh
+country: SA
+venue: Riyadh International Convention and Exhibition Center
+url: https://glass-show.com/saudi
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://glass-show.com/saudi
+  last_checked: '2026-06-01'
+  note: Official IGMS Saudi page confirms 1-3 September 2026 at Riyadh International Convention and Exhibition Center.

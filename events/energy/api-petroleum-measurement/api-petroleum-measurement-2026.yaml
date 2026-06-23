@@ -1,0 +1,17 @@
+name: 2026 Fall Committee on Petroleum Measurement Standards Meeting
+event_types:
+- conference
+start: '2026-10-12'
+end: '2026-10-16'
+timezone: America/Chicago
+city: Austin
+country: US
+venue: Hyatt Regency Austin
+url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  last_checked: '2026-06-19'
+  note: Official API page lists 12-16 October 2026 at Hyatt Regency Austin.

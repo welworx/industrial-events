@@ -1,0 +1,22 @@
+name: 86th Glass Problems Conference and Symposium
+event_types:
+- conference
+- exhibition
+start: '2025-10-06'
+end: '2025-10-09'
+timezone: America/New_York
+city: Toledo
+country: US
+url: https://gmic.org/glass-problems-conference/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://gmic.org/glass-problems-conference/
+  last_checked: '2026-06-19'
+  note: Official GMIC page lists the 86th Glass Problems Conference and Symposium on October 6-9, 2025, in Toledo, Ohio, USA.
+- type: event-listing
+  scope: event
+  url: https://gmic.org/past-glass-problems-conferences/
+  last_checked: '2026-06-19'
+  note: Official GMIC past-conferences page lists 2025 as 86th GPC and Symposium, Oct. 6-9, Toledo, OH.

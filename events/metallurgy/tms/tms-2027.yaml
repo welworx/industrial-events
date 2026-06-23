@@ -11,11 +11,11 @@ sources:
 - type: event-site
   scope: event
   url: https://www.tms.org/TMS2027
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-06-19'
   note: 'Pyrometallurgical listing scope: Sulfide Smelting (TMS).'
 deadlines:
 - type: symposium-proposal
@@ -27,7 +27,17 @@ deadlines:
   - type: event-site
     scope: deadline
     url: https://www.tms.org/TMS2027
-    last_checked: '2026-05-07'
+    last_checked: '2026-06-19'
+- type: abstracts
+  name: Abstracts due
+  date: '2026-07-01'
+  url: https://www.tms.org/TMS2027
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.tms.org/TMS2027
+    last_checked: '2026-06-19'
 event_types:
 - conference
 - exhibition

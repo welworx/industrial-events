@@ -6,7 +6,6 @@ end: '2006-09-08'
 timezone: Europe/Istanbul
 city: Istanbul
 country: TR
-url: https://research.itu.edu.tr/en/publications/forword/
 status: confirmed
 sources:
 - type: overview

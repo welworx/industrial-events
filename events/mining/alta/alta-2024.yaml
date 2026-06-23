@@ -1,0 +1,17 @@
+name: ALTA 2024
+start: '2024-05-27'
+end: '2024-05-31'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Hotel Perth
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.altamet.com.au/conferences/alta-2024/
+  last_checked: '2026-06-19'
+  note: Official ALTA archive says ALTA 2024 was held at the Pan Pacific Hotel, Perth, from Monday May 27 to Friday May 31.
+event_types:
+- conference
+- exhibition

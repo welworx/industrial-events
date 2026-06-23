@@ -18,7 +18,7 @@ from industrial_events.validation import CalendarBuildError
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Build GitHub Pages outputs from event YAML files.")
+    parser = argparse.ArgumentParser(description="Build static site outputs from event YAML files.")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG_PATH)
     parser.add_argument("--source", type=Path)
     parser.add_argument("--output", type=Path)

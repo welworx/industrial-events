@@ -1,0 +1,18 @@
+name: NGA Glass Fabricator Conference 2026
+event_types:
+- conference
+start: '2026-06-14'
+end: '2026-06-17'
+timezone: America/Chicago
+city: Chicago
+country: US
+venue: Radisson Blu Hotel
+address: 221 N Columbus Dr, Chicago, IL 60601, United States
+url: https://www.glass.org/nga-glass-fabricator-conference
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.glass.org/nga-glass-fabricator-conference
+  last_checked: '2026-06-01'
+  note: Official NGA page confirms 14-17 June 2026 at Radisson Blu Hotel, Chicago.

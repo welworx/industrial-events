@@ -14,8 +14,8 @@ sources:
   url: https://www.maptek.com/news/maptek-scheduler-streamlines-project-management/
   last_checked: '2026-05-07'
   note: Maptek identifies APCOM 2015 as the 37th International Symposium in Fairbanks, Alaska, 23-27 May 2015.
-- type: proceedings
+- type: publication-record
   scope: event
-  url: https://stacks.cdc.gov/view/cdc/228227
-  last_checked: '2026-05-07'
-  note: CDC/NIOSH proceedings record confirms APCOM 2015 dates and Fairbanks location.
+  url: https://scholars.uky.edu/en/publications/baseline-analysis-of-predicted-tracking-system-performance
+  last_checked: '2026-05-11'
+  note: University of Kentucky record confirms the paper was presented at APCOM 2015 in Fairbanks, Alaska.

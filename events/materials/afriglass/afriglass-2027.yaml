@@ -1,0 +1,17 @@
+name: AfriGlass 2027
+event_types:
+- trade-fair
+- exhibition
+start: '2027-03-03'
+end: '2027-03-05'
+timezone: Africa/Nairobi
+city: Nairobi
+country: KE
+url: https://www.expoafriglass.com/
+status: tentative
+sources:
+- type: overview
+  scope: event
+  url: https://www.glassglobal.com/news/upcoming-new-market-afriglass-march-03-05-2027-in-nairobi-kenya-34638.html
+  last_checked: '2026-06-01'
+  note: Announcement confirms 3-5 March 2027 in Nairobi and links the event website.

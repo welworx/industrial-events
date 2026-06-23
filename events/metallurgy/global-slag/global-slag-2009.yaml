@@ -6,7 +6,6 @@ end: '2009-11-24'
 timezone: Europe/Brussels
 city: Brussels
 country: BE
-url: https://www.globalslag.com/conferences/global-slag/review
 status: confirmed
 sources:
 - type: overview

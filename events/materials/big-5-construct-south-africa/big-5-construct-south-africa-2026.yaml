@@ -1,0 +1,19 @@
+name: Big 5 Construct South Africa 2026
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2026-06-09'
+end: '2026-06-11'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+venue: Gallagher Convention Centre
+url: https://www.big5constructsouthafrica.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.big5constructsouthafrica.com/
+  last_checked: '2026-06-01'
+  note: Official site confirms 9-11 June 2026 at Gallagher Convention Centre, Johannesburg.

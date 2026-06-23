@@ -1,0 +1,17 @@
+name: ALTA 2023
+start: '2023-05-01'
+end: '2023-05-05'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Hotel Perth
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.altamet.com.au/conferences/alta-2023/
+  last_checked: '2026-06-19'
+  note: Official ALTA archive says ALTA 2023 was held at the Pan Pacific Hotel, Perth, on May 1-5.
+event_types:
+- conference
+- exhibition

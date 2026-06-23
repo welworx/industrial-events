@@ -7,12 +7,13 @@ timezone: Atlantic/Reykjavik
 city: Reykjavik
 country: IS
 url: https://infacon18.com
+url_status: restricted
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://infacon18.com
-  last_checked: '2026-05-07'
+  url: http://www.ru.is/en/infacon18
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

@@ -6,7 +6,6 @@ end: '2003-09-19'
 timezone: Europe/Berlin
 city: Hannover
 country: DE
-url: https://www.bur.rwth-aachen.de/cms/bur/forschung/~jqey/publikationen/?page=40
 status: confirmed
 sources:
 - type: proceedings

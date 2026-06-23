@@ -22,8 +22,9 @@ Recommended branch names:
 ## Local Checks
 
 ```powershell
-uv run python scripts/build_site.py
-uv run python scripts/list_update_candidates.py --pretty
+uv run industrial-events-build-site
+uv run industrial-events-list-candidates --pretty
+uv run industrial-events-check-yaml-links
 uv run ruff check
 uv run ruff format --check
 uv run python -B -m unittest discover -s tests

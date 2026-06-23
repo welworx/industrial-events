@@ -6,11 +6,11 @@ end: '2017-08-18'
 timezone: Asia/Shanghai
 city: Qingdao
 country: CN
-url: https://www.steelsim2025.com/
+url: https://www.aist.org/conference-expositions/steelsim-2017
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.steelsim2025.com/
-  last_checked: '2026-05-07'
-  note: Official SteelSim 2025 history table lists the 7th edition as SteelSim 2017, 16-18 August 2017 in Qingdao.
+  url: https://www.aist.org/conference-expositions/steelsim-2017
+  last_checked: '2026-05-11'
+  note: Official SteelSim page lists the 7th edition as SteelSim 2017, 16-18 August 2017 in Qingdao.

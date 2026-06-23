@@ -6,7 +6,6 @@ end: '2002-10-04'
 timezone: Europe/London
 city: Keyworth
 country: GB
-url: https://books.google.com/books/about/Manufacturing_and_processing_of_iron_and.html?id=63cntwAACAAJ
 status: confirmed
 sources:
 - type: proceedings

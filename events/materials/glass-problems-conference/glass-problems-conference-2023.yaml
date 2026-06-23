@@ -1,0 +1,16 @@
+name: 84th Glass Problems Conference and Symposium
+event_types:
+- conference
+- exhibition
+start: '2023-11-06'
+end: '2023-11-09'
+timezone: America/New_York
+city: Columbus
+country: US
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://gmic.org/past-glass-problems-conferences/
+  last_checked: '2026-06-19'
+  note: Official GMIC past-conferences page lists 2023 as 84th GPC and Symposium, Nov. 6-9, Columbus, OH.

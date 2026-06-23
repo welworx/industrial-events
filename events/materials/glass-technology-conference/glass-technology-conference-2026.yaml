@@ -1,0 +1,21 @@
+name: 99th Glass Technology Conference
+event_types:
+- conference
+start: '2026-06-02'
+end: '2026-06-03'
+timezone: Europe/Berlin
+city: Wurzburg
+country: DE
+venue: Congress Centrum Wurzburg
+url: https://hvg-dgg.de/99gtc/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://hvg-dgg.de/99gtc/
+  last_checked: '2026-06-01'
+- type: overview
+  scope: event
+  url: https://www.isc.fraunhofer.de/en/fairs-and-events/Fairs-and-events-2026/glass-technology-conference-2026.html
+  last_checked: '2026-06-01'
+  note: Fraunhofer event page confirms 2-3 June 2026 at Congress Centrum Wurzburg.

@@ -6,7 +6,6 @@ end: '2011-06-23'
 timezone: Europe/Oslo
 city: Trondheim
 country: NO
-url: https://www.cfd-online.com/Events/list.php?event_application_areas=0&event_country_id=0&event_fields=0&event_softwares=0&event_type_id=1&page_no=4&passed=..&sortorder=event_start_date
 status: confirmed
 sources:
 - type: overview

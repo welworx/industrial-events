@@ -6,7 +6,6 @@ end: '2015-06-12'
 timezone: Europe/Berlin
 city: Aachen
 country: DE
-url: https://www.eases.rwth-aachen.de/previous-events/
 status: confirmed
 sources:
 - type: overview

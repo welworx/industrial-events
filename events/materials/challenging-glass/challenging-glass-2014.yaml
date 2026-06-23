@@ -1,0 +1,22 @@
+name: Challenging Glass Conference 4
+event_types:
+- conference
+start: '2014-02-06'
+end: '2014-02-07'
+timezone: Europe/Zurich
+city: Lausanne
+country: CH
+venue: EPFL
+url: https://challengingglass.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: series
+  url: https://challengingglass.com/
+  last_checked: '2026-06-19'
+  note: Official series site links the Challenging Glass proceedings archive for this edition.
+- type: proceedings
+  scope: event
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/view/4
+  last_checked: '2026-06-19'
+  note: Official proceedings archive says Challenging Glass Conference 4 was held with the COST Action TU0905 Final Conference on 6 & 7 February 2014 at EPFL in Lausanne, Switzerland.

@@ -7,11 +7,12 @@ timezone: America/New_York
 city: Columbus
 country: US
 url: http://www.metsoc.org/com2018-mst18/
+url_status: inactive
 status: confirmed
 co_located_with:
   group: com-mst-2018
   name: COM 2018 / MS&T 18
-  url: http://www.metsoc.org/com2018-mst18/
+  url: https://www.miningandenergy.ca/read/canadas-top-metallurgy-materials-engineers-2018-award-recipients-announced
   series:
   - com
 sources:

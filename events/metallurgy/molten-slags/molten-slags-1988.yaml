@@ -7,7 +7,6 @@ timezone: Europe/London
 city: Glasgow
 country: GB
 venue: University of Strathclyde
-url: https://ci.nii.ac.jp/ncid/BA10849629
 status: confirmed
 sources:
 - type: proceedings

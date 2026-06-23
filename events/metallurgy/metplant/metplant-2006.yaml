@@ -7,12 +7,13 @@ timezone: Australia/Perth
 city: Perth
 country: AU
 url: http://www.ausimm.com/metplant06/home.aspX
+url_status: inactive
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: http://www.ausimm.com/metplant06/home.aspX
-  last_checked: '2026-05-07'
+  url: https://www.ausimm.com/publications/conference-proceedings/metallurgical-plant-design-and-operating-strategies-metplant-2006/
+  last_checked: '2026-05-11'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

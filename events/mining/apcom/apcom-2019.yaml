@@ -6,13 +6,13 @@ end: '2019-06-06'
 timezone: Europe/Warsaw
 city: Wroclaw
 country: PL
-url: https://apcom.info/hello-world/
+url: http://apcom.info/hello-world/
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://apcom.info/hello-world/
-  last_checked: '2026-05-07'
+  url: http://apcom.info/hello-world/
+  last_checked: '2026-05-11'
   note: APCOM 2019 site identifies the Wroclaw event as the 39th APCOM conference, 4-6 June 2019.
 - type: event-calendar
   scope: event

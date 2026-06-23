@@ -6,7 +6,6 @@ end: '1992-06-11'
 timezone: Asia/Tokyo
 city: Sendai
 country: JP
-url: https://www.pyrometallurgy.co.za/MoltenSlags1992/
 status: confirmed
 sources:
 - type: proceedings

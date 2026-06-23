@@ -1,0 +1,15 @@
+name: TMS2021 Virtual
+start: '2021-03-15'
+end: '2021-03-18'
+timezone: America/New_York
+country: US
+status: confirmed
+sources:
+- type: event-listing
+  scope: event
+  url: https://www.tms.org/TMS2021
+  last_checked: '2026-06-19'
+  note: Official TMS page identifies TMS2021 Virtual and lists 15-18 March 2021.
+event_types:
+- conference
+- exhibition

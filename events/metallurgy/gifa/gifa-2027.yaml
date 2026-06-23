@@ -1,0 +1,30 @@
+name: GIFA 2027
+event_types:
+- trade-fair
+- exhibition
+start: '2027-06-21'
+end: '2027-06-25'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: Messe Dusseldorf
+url: https://www.gifa.com/
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2027
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.gifa.com/en/The_Bright_World_of_Metals/The_Bright_World_of_Metals
+  series:
+  - metec
+  - gifa
+sources:
+- type: event-site
+  scope: event
+  url: https://www.gifa.com/
+  last_checked: '2026-06-19'
+  note: Official site identifies GIFA 2027 as the foundry trade fair on 21-25 June 2027.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-06-19'
+  note: Pyrometallurgical Conferences lists GIFA with METEC, THERMPROCESS, and NEWCAST in Dusseldorf on 21-25 June 2027.

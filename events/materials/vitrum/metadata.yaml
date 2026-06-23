@@ -1,0 +1,18 @@
+series: VITRUM
+slug: vitrum
+website: https://vitrumlife.it/
+description: International trade show for glass processing machinery, equipment, and systems.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- machinery
+- processing
+sources:
+- type: series-home
+  scope: series
+  url: https://vitrumlife.it/
+  last_checked: '2026-06-01'
+  note: Contributed via ClickUp task "Important Conferences in Glass".
