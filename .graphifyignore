@@ -1,7 +1,7 @@
 .git/
 .pytest_cache/
 .ruff_cache/
-.uv-cache/
+.uv_cache/
 .venv/
 __pycache__/
 graphify-out/
