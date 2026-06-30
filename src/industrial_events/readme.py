@@ -397,7 +397,6 @@ def readme_event_types_detail(conferences: Iterable[CalendarItem]) -> str:
     return f"{label}: {', '.join(event_types)}" if event_types else ""
 
 
-
 def readme_tags_detail(conferences: Iterable[CalendarItem]) -> str:
     tags = limited_tag_list(common_tags(conferences))
     return f"**Tags:** {tags}" if tags else ""
@@ -541,9 +540,9 @@ def shield_badge(label: str, message: str, color: str) -> str:
     )
 
 
-
 def shield_path_part(value: str) -> str:
     return quote(value.replace("-", "--"), safe="")
+
 
 def country_flag_icon(conferences: tuple[CalendarItem, ...]) -> str:
     country = common_value(item.country.upper() for item in conferences if item.country)

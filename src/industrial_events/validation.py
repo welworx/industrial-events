@@ -275,9 +275,7 @@ def normalize_status(path: Path, status: str, label: str) -> str:
 def validate_url_status(path: Path, value: str, label: str) -> str:
     normalized = value.lower()
     if normalized not in URL_STATUS_VALUES:
-        raise CalendarBuildError(
-            f"{path}: {label} must be one of {', '.join(sorted(URL_STATUS_VALUES))}"
-        )
+        raise CalendarBuildError(f"{path}: {label} must be one of {', '.join(sorted(URL_STATUS_VALUES))}")
     return normalized
 
 
