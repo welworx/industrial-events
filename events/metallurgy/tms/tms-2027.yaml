@@ -11,7 +11,8 @@ sources:
 - type: event-site
   scope: event
   url: https://www.tms.org/TMS2027
-  last_checked: '2026-06-19'
+  last_checked: '2026-06-30'
+  note: User browser capture confirms March 14-18, 2027 at Orlando World Center Marriott, Orlando, Florida, USA.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
@@ -37,7 +38,7 @@ deadlines:
   - type: event-site
     scope: deadline
     url: https://www.tms.org/TMS2027
-    last_checked: '2026-06-19'
+    last_checked: '2026-06-30'
 event_types:
 - conference
 - exhibition

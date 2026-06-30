@@ -1,6 +1,6 @@
 series: VITRUM
 slug: vitrum
-website: https://vitrumlife.it/
+website: https://vitrumexpo.com/
 description: International trade show for glass processing machinery, equipment, and systems.
 recurrence: recurring
 categories:
@@ -13,6 +13,6 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://vitrumlife.it/
-  last_checked: '2026-06-01'
+  url: https://vitrumexpo.com/
+  last_checked: '2026-06-30'
   note: Contributed via ClickUp task "Important Conferences in Glass".

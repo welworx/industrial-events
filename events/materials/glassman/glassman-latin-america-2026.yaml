@@ -7,12 +7,12 @@ end: '2026-05-21'
 timezone: America/Mexico_City
 city: Mexico City
 country: MX
-url: https://www.glassmanevents.com/latin-america/
+url: https://glassmanevents.com/latin-america/
 status: confirmed
 sources:
 - type: event-site
   scope: event
-  url: https://www.glassmanevents.com/latin-america/
+  url: https://glassmanevents.com/latin-america/
   last_checked: '2026-06-01'
 - type: overview
   scope: event

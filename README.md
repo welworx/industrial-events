@@ -145,7 +145,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **14-18**: [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![CFP: due 2026-07-01](https://img.shields.io/badge/CFP-due%202026--07--01-brightgreen)
   - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Orlando, US](<https://www.google.com/maps/search/?api=1&query=Orlando%20World%20Center%20Marriott,%20Orlando,%20US>) | Venue: Orlando World Center Marriott | Types: conference, exhibition
   - **Tags:** `metallurgy` `materials` `pyrometallurgy` `materials-science` `minerals` `metals`
-- **17-18**: [Glassman Asia 2027](<https://www.glassmanevents.com/asia/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+- **17-18**: [Glassman Asia 2027](<https://glassmanevents.com/asia/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![TH flag](https://flagcdn.com/16x12/th.png) [Bangkok, TH](<https://www.google.com/maps/search/?api=1&query=Bangkok,%20TH>) | Venue: TBD | Types: conference, exhibition
   - **Tags:** `materials` `glass` `manufacturing` `container-glass`
 
@@ -169,7 +169,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### June
 
-- **9-10**: [Glassman Europe 2027](<https://www.glassmanevents.com/europe/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+- **9-10**: [Glassman Europe 2027](<https://glassmanevents.com/europe/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![TR flag](https://flagcdn.com/16x12/tr.png) [Istanbul, TR](<https://www.google.com/maps/search/?api=1&query=CNR%20Expo%20Istanbul,%20Istanbul,%20TR>) | Venue: CNR Expo Istanbul | Types: conference, exhibition
   - **Tags:** `materials` `glass` `manufacturing` `container-glass`
 - **21-25**: [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>) ([GIFA 2027](<https://www.gifa.com/>)) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
@@ -196,7 +196,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **7-10**: [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-12-18](https://img.shields.io/badge/CFP-due%202026--12--18-brightgreen)
   - **Location:** ![JP flag](https://flagcdn.com/16x12/jp.png) [Osaka, JP](<https://www.google.com/maps/search/?api=1&query=Osaka%20International%20Convention%20Center,%205-3-51%20Nakanoshima,%20Kita-ku,%20Osaka%20City,%20Osaka%20Prefecture,%20Japan,%20Osaka,%20JP>) | Venue: Osaka International Convention Center | Type: conference
   - **Tags:** `metallurgy` `refractories` `high-temperature-materials`
-- **16-19**: [VITRUM 2027](<https://vitrumlife.it/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+- **16-19**: [VITRUM 2027](<https://vitrumexpo.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![IT flag](https://flagcdn.com/16x12/it.png) [Milan, IT](<https://www.google.com/maps/search/?api=1&query=Fiera%20Milano,%20Milan,%20IT>) | Venue: Fiera Milano | Types: trade-fair, exhibition
   - **Tags:** `materials` `glass` `machinery` `processing`
 
@@ -256,7 +256,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 | Deadline | Event | Event Dates | Scope / Co-located | Last Checked |
 | --- | --- | --- | --- | --- |
-| [Abstracts due: 2026-07-01](<https://www.tms.org/TMS2027>) | [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>) | Mar 14-18, 2027 | Sulfide Smelting | 2026-06-19 |
+| [Abstracts due: 2026-07-01](<https://www.tms.org/TMS2027>) | [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>) | Mar 14-18, 2027 | Sulfide Smelting | 2026-06-30 |
 | [Abstract submission: 2026-09-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
 | [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-05-11 |
 | [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
@@ -348,10 +348,10 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Sep 23-25, 2026](https://img.shields.io/badge/next-Sep%2023--25%2C%202026-brightgreen) [GlassBuild America 2026](<https://www.glassbuildamerica.com/>)
 
-- **[Glassman Events](<https://industrial-events.pages.dev/events/series/glassman.html>)** [↗](<https://www.glassmanevents.com/>)
+- **[Glassman Events](<https://industrial-events.pages.dev/events/series/glassman.html>)** [↗](<https://glassmanevents.com/>)
   Regional Glassman exhibitions and conferences for hollow and container glass manufacturing.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
-  **Next:** ![next: Mar 17-18, 2027](https://img.shields.io/badge/next-Mar%2017--18%2C%202027-brightgreen) [Glassman Asia 2027](<https://www.glassmanevents.com/asia/>)
+  **Next:** ![next: Mar 17-18, 2027](https://img.shields.io/badge/next-Mar%2017--18%2C%202027-brightgreen) [Glassman Asia 2027](<https://glassmanevents.com/asia/>)
 
 - **[Global Slag Conference](<https://industrial-events.pages.dev/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
   Recurring global conference on slag production, use, and markets.
@@ -558,9 +558,9 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[Sisecam International Glass Conference](<https://industrial-events.pages.dev/events/series/sisecam-glass-conference.html>)** [↗](<https://glassconference.sisecam.com/en>)
   International glass conference organized by Sisecam.
 
-- **[VITRUM](<https://industrial-events.pages.dev/events/series/vitrum.html>)** [↗](<https://vitrumlife.it/>)
+- **[VITRUM](<https://industrial-events.pages.dev/events/series/vitrum.html>)** [↗](<https://vitrumexpo.com/>)
   International trade show for glass processing machinery, equipment, and systems.
-  **Event:** ![next: Nov 16-19, 2027](https://img.shields.io/badge/next-Nov%2016--19%2C%202027-brightgreen) [VITRUM 2027](<https://vitrumlife.it/>)
+  **Event:** ![next: Nov 16-19, 2027](https://img.shields.io/badge/next-Nov%2016--19%2C%202027-brightgreen) [VITRUM 2027](<https://vitrumexpo.com/>)
 
 - **[World of Glass](<https://industrial-events.pages.dev/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)
   International exhibition for glass products, manufacturing, processing, and finishing technology in Moscow.
@@ -576,6 +576,7 @@ Generated overview sections are updated with `uv run industrial-events-build-sit
 
 Discovery sources help find and monitor events. Event-specific verification dates are tracked with the event data.
 
+- [GlassGlobal News](<https://www.glassglobal.com/news/>)
 - [GDMB Conferences](<https://www.gdmb.de/en/events/>)
 - [MetSoc Events](<https://metsoc.org/>)
 - [Pyrometallurgical Conferences](<https://www.pyrometallurgy.co.za/Conferences/>)
