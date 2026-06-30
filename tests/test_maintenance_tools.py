@@ -9,11 +9,14 @@ from contextlib import redirect_stderr, redirect_stdout
 from datetime import UTC, datetime
 from datetime import date as Date
 from pathlib import Path
+from unittest.mock import patch
 
 import yaml
+from openpyxl import load_workbook
 
 from industrial_events.builder import build_site
 from industrial_events.cli import build_site as build_site_tool
+from industrial_events.cli import export_excel as export_excel_tool
 from industrial_events.cli import list_candidates as candidates_tool
 from industrial_events.cli import update_event as update_event_tool
 from industrial_events.config import BuildConfig, config_with_overrides, load_build_config
@@ -90,6 +93,52 @@ def run_update_event(args: list[str]) -> tuple[int, str]:
 
 
 class MaintenanceToolTests(unittest.TestCase):
+    def test_export_excel_filters_events_and_writes_xlsx(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            output = Path(tmp_dir) / "events.xlsx"
+
+            class FakeDate(Date):
+                @classmethod
+                def today(cls) -> Date:
+                    return Date(2028, 1, 1)
+
+            with patch.object(export_excel_tool, "date", FakeDate):
+                exit_code = export_excel_tool.main(
+                    [
+                        "--source",
+                        str(FIXTURES / "valid-events"),
+                        "--output",
+                        str(output),
+                        "--industry",
+                        "software",
+                        "--event-name",
+                        "demo",
+                    ]
+                )
+
+            self.assertEqual(exit_code, 0)
+            self.assertTrue(output.exists())
+            workbook = load_workbook(output)
+            sheet = workbook["Events"]
+            headers = [cell.value for cell in sheet[1]]
+            values = [cell.value for cell in sheet[2]]
+            cfp_deadlines = values[headers.index("CFP Deadline(s)")]
+            workbook.close()
+
+        self.assertNotIn("Source URLs", headers)
+        self.assertNotIn("Demo Conference 2027", values)
+        self.assertIn("Demo Conference 2029", values)
+        self.assertIn("https://example.org/demo-2029", values)
+        self.assertEqual("TBD", values[headers.index("CFP Status")])
+        self.assertEqual(None, cfp_deadlines)
+        dataset = load_event_dataset(build_test_config())
+        row_2027 = next(
+            row for row in export_excel_tool.event_rows(dataset.items) if row.title == "Demo Conference 2027"
+        )
+        cfp_2027 = export_excel_tool.excel_row(row_2027, Date(2026, 1, 1))[headers.index("CFP Deadline(s)")]
+        self.assertIn("Paper submission: 2026-11-15", cfp_2027)
+        self.assertNotIn("\n", cfp_2027)
+
     def test_recent_event_link_targets_skip_old_event_links(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             source = Path(tmp_dir) / "events"

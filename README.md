@@ -570,6 +570,8 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 Generated overview sections are updated with `uv run industrial-events-build-site`.
 
+Export filtered event tables to Excel with `uv run industrial-events-export-excel --output events.xlsx`, optionally adding filters such as `--industry metallurgy`, `--event-name slag`, `--from 2026-01-01`, `--to 2027-12-31`, or `--active-cfp`.
+
 ## Discovery Sources
 
 <!-- generated:overview-sources:start -->
