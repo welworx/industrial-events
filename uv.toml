@@ -1,0 +1,2 @@
+# Keep uv cache inside each checkout/worktree instead of the user-local AppData cache.
+cache-dir = ".uv-cache"

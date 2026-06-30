@@ -1,0 +1,19 @@
+series: Carbon Black World
+slug: carbon-black-world
+website: https://www.carbonblackworld.com/carbon-black-world
+description: Global forum for the carbon black value chain, including manufacturers, end users, equipment suppliers, and solution providers.
+recurrence: recurring
+categories:
+- materials
+- chemicals
+topics:
+- carbon-black
+- rubber
+- plastics
+- circularity
+sources:
+- type: series-home
+  scope: series
+  url: https://www.carbonblackworld.com/carbon-black-world
+  last_checked: '2026-06-30'
+  note: Contributed via ClickUp task "Important Conferences in EEC" as "CarbonBlack Annual conference".

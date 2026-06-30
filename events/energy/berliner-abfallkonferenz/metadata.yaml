@@ -1,0 +1,19 @@
+series: Berliner Konferenz Abfallwirtschaft und Energie
+slug: berliner-abfallkonferenz
+website: https://vivis.de/bkawe/
+description: German-language conference on waste management, waste-to-energy, and related energy-industry topics.
+recurrence: recurring
+categories:
+- energy
+- waste-management
+topics:
+- waste-to-energy
+- waste-incineration
+- circular-economy
+- carbon-capture
+sources:
+- type: series-home
+  scope: series
+  url: https://vivis.de/bkawe/
+  last_checked: '2026-06-30'
+  note: Contributed via ClickUp task "Important Conferences in EEC" as "Annual Berliner Abfallkonferenz".

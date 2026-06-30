@@ -122,6 +122,12 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 ### 2027
 
+#### January
+
+- **25-26**: [Berliner Konferenz Abfallwirtschaft und Energie 2027](<https://vivis.de/bkawe/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Berlin, DE](<https://www.google.com/maps/search/?api=1&query=Maritim%20proArte%20Hotel%20Berlin,%20Friedrichstra%C3%9Fe%20151%2FDorotheenstra%C3%9Fe%2065,%2010117%20Berlin,%20Germany,%20Berlin,%20DE>) | Venue: Maritim proArte Hotel Berlin | Type: conference
+  - **Tags:** `energy` `waste-management` `waste-to-energy` `waste-incineration` `circular-economy` `carbon-capture`
+
 #### February
 
 - **24-26**: [World of Glass 2027](<https://www.mirstekla-expo.ru/en/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
@@ -512,8 +518,15 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   Italian glass industry technical conference organized by ATIV.
   **Event:** ![next: Nov 19-20, 2026](https://img.shields.io/badge/next-Nov%2019--20%2C%202026-brightgreen) [XXXIX ATIV Conference](<https://www.ativ-online.it/>)
 
+- **[Berliner Konferenz Abfallwirtschaft und Energie](<https://industrial-events.pages.dev/events/series/berliner-abfallkonferenz.html>)** [↗](<https://vivis.de/bkawe/>)
+  German-language conference on waste management, waste-to-energy, and related energy-industry topics.
+  **Event:** ![next: Jan 25-26, 2027](https://img.shields.io/badge/next-Jan%2025--26%2C%202027-brightgreen) [Berliner Konferenz Abfallwirtschaft und Energie 2027](<https://vivis.de/bkawe/>)
+
 - **[Big 5 Construct South Africa](<https://industrial-events.pages.dev/events/series/big-5-construct-south-africa.html>)** [↗](<https://www.big5constructsouthafrica.com/>)
   Construction trade event in South Africa, including building envelope, metal, steel, aluminium, and related materials sectors.
+
+- **[Carbon Black World](<https://industrial-events.pages.dev/events/series/carbon-black-world.html>)** [↗](<https://www.carbonblackworld.com/carbon-black-world>)
+  Global forum for the carbon black value chain, including manufacturers, end users, equipment suppliers, and solution providers.
 
 - **[Cross-Cutting Symposia at Extraction](<https://industrial-events.pages.dev/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
@@ -537,7 +550,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[International Glass Manufacturing Show](<https://industrial-events.pages.dev/events/series/international-glass-manufacturing-show.html>)** [↗](<https://glass-show.com/>)
   Glass manufacturing exhibition series for Africa and the Middle East.
-  **Event:** ![next: Jun 22-24, 2026](https://img.shields.io/badge/next-Jun%2022--24%2C%202026-brightgreen) [International Glass Manufacturing Show 2026](<https://glass-show.com/>)
+  **Event:** ![next: Sep 1-3, 2026](https://img.shields.io/badge/next-Sep%201--3%2C%202026-brightgreen) [IGMS Saudi 2026](<https://glass-show.com/saudi>)
 
 - **[NGA Glass Fabricator Conference](<https://industrial-events.pages.dev/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
   National Glass Association conference for glass fabricators.

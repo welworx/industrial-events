@@ -1,0 +1,16 @@
+name: Carbon Black World 2026
+event_types:
+- conference
+start: '2026-04-22'
+end: '2026-04-23'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+url: https://www.carbonblackworld.com/carbon-black-world
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.carbonblackworld.com/carbon-black-world
+  last_checked: '2026-06-30'
+  note: Official Carbon Black World page lists 22-23 April 2026 in Shanghai, China as a hybrid event.

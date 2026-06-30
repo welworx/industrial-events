@@ -4,6 +4,7 @@ __pycache__/
 *.pyc.*
 .pytest_cache/
 .ruff_cache/
+.uv-cache/
 .uv_cache/
 .tmp-tests/
 .env
