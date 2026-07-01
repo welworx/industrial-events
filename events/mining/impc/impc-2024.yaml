@@ -1,0 +1,21 @@
+name: IMPC 2024, XXXI International Mineral Processing Congress
+event_types:
+- conference
+start: '2024-09-29'
+end: '2024-10-03'
+timezone: America/New_York
+city: Washington, DC
+country: US
+url: https://smeimpc.org/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://smeimpc.org/
+  last_checked: '2026-07-01'
+  note: Official IMPC 2024 site identifies the XXXI International Mineral Processing Congress in Washington, DC, 29 September-3 October 2024.
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-07-01'
+  note: Official IMPC history identifies congress XXXI in 2024 at Washington, DC.

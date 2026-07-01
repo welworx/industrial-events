@@ -273,7 +273,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Oct 6-8, 2026](https://img.shields.io/badge/next-Oct%206--8%2C%202026-brightgreen) [ALUMINIUM 2026](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
 
 - **[APCOM](<https://industrial-events.pages.dev/events/series/apcom.html>)** [↗](<https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0>)
-  Recurring conference on applications of computers and operations research in the minerals industries.
+  International APCOM conference series on applications of computers and operations research in the minerals industries.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
@@ -361,7 +361,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Oct 6-9, 2026](https://img.shields.io/badge/next-Oct%206--9%2C%202026-brightgreen) [2026 ILA General Assembly & Symposium](<https://www.internationallime.org/events/2026-ila-general-assembly-symposium/>)
 
 - **[International Conference on CFD in the Minerals and Process Industries](<https://industrial-events.pages.dev/events/series/cfd-minerals.html>)** [↗](<http://www.cfd.com.au/cfdconf/>)
-  Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
+  Recurring CSIRO/SINTEF conference series on industrial applications of computational fluid dynamics across minerals, metallurgical, oil and gas, power generation, chemical, and related process industries.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[International Conference on Molten Slags, Fluxes and Salts](<https://industrial-events.pages.dev/events/series/molten-slags.html>)**
@@ -385,7 +385,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) First International Heavy Minerals Conference 1997
 
 - **[International Mineral Processing Congress](<https://industrial-events.pages.dev/events/series/impc.html>)** [↗](<https://www.impc-council.com/>)
-  Recurring International Mineral Processing Congress series.
+  International Mineral Processing Congress series, a global forum for mineral processing research, technology, and industry practice.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Oct 18-22, 2026](https://img.shields.io/badge/next-Oct%2018--22%2C%202026-brightgreen) [IMPC 2026, XXXII International Mineral Processing Congress](<https://impc2026.com/>)
 
@@ -419,8 +419,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[MinProc](<https://industrial-events.pages.dev/events/series/minproc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
   Recurring Southern African mineral beneficiation and metallurgy conference.
-  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
-  **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[PREWIN European Network General Meetings](<https://industrial-events.pages.dev/events/series/prewin.html>)** [↗](<https://www.prewin.eu/activities>)
   European network meetings for waste-to-energy plant operators and suppliers focused on performance, reliability, emissions reduction, plant visits, and operating experience exchange.

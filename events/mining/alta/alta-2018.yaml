@@ -1,0 +1,17 @@
+name: ALTA 2018
+event_types:
+- conference
+- exhibition
+start: '2018-05-19'
+end: '2018-05-26'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Hotel Perth
+status: confirmed
+sources:
+- type: programme
+  scope: event
+  url: https://www.altamet.com.au/wp-content/uploads/2018/04/ALTA-2018-Program.pdf
+  last_checked: '2026-07-01'
+  note: Official programme lists ALTA 2018 as the 23rd annual event, 19-26 May 2018, at Pan Pacific Hotel, Perth.

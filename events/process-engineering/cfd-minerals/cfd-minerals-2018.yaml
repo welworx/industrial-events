@@ -1,0 +1,15 @@
+name: Thirteenth International Conference on CFD in the Minerals and Process Industries
+event_types:
+- conference
+start: '2018-12-04'
+end: '2018-12-08'
+timezone: Australia/Melbourne
+city: Melbourne
+country: AU
+status: confirmed
+sources:
+- type: proceedings
+  scope: event
+  url: https://www.cfd.com.au/cfd_conf18/2nd%20CPT%20and%2013th%20CFD-Booklet.pdf
+  last_checked: '2026-07-01'
+  note: Official abstract booklet gives 4-8 December 2018 in Melbourne, Australia.

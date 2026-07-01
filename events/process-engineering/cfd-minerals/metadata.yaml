@@ -1,7 +1,7 @@
 series: International Conference on CFD in the Minerals and Process Industries
 slug: cfd-minerals
 website: http://www.cfd.com.au/cfdconf/
-description: Recurring conference on computational fluid dynamics in minerals, metallurgical, oil and gas, and process industries.
+description: Recurring CSIRO/SINTEF conference series on industrial applications of computational fluid dynamics across minerals, metallurgical, oil and gas, power generation, chemical, and related process industries.
 recurrence: recurring
 categories:
 - process-engineering
@@ -15,7 +15,13 @@ sources:
 - type: series-home
   scope: series
   url: http://www.cfd.com.au/cfdconf/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+  note: Official CSIRO archive links proceedings and websites for 1997-2024 editions and notes the 2025 cancellation.
+- type: series-home
+  scope: series
+  url: https://www.sintef.no/projectweb/cfd2024/
+  last_checked: '2026-07-01'
+  note: SINTEF 2024 page describes the renamed 15th event and previous Melbourne/Trondheim hosts.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

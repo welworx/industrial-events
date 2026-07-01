@@ -1,7 +1,7 @@
 series: APCOM
 slug: apcom
 website: https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0
-description: Recurring conference on applications of computers and operations research in the minerals industries.
+description: International APCOM conference series on applications of computers and operations research in the minerals industries.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,7 +14,8 @@ sources:
 - type: event-site
   scope: series
   url: https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0
-  last_checked: '2026-05-11'
+  last_checked: '2026-07-01'
+  note: SAIMM describes APCOM as a conference on applications of computers and operations research in the minerals industries, first organised in 1961.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
