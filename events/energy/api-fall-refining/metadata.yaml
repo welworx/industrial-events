@@ -1,7 +1,7 @@
 series: API Fall Refining and Equipment Standards Meeting
 slug: api-fall-refining
 website: https://events.api.org/
-description: American Petroleum Institute fall meeting for refining and equipment standards.
+description: American Petroleum Institute meeting for downstream refining and equipment standards work.
 recurrence: recurring
 categories:
 - energy
@@ -14,5 +14,10 @@ sources:
 - type: series-home
   scope: series
   url: https://events.api.org/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in EEC" as "Spring and fall meeting API/US".
+  last_checked: '2026-07-01'
+  note: Official API events hub for past, present, and future industry events.
+- type: event-site
+  scope: series
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  last_checked: '2026-07-01'
+  note: Official 2026 page confirms the Fall Refining and Equipment Standards Meeting title and downstream/industry standards classification.

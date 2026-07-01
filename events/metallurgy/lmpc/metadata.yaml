@@ -1,6 +1,6 @@
 series: Liquid Metal Processing and Casting Conference
 slug: lmpc
-description: Recurring Liquid Metal Processing and Casting conference series.
+description: TMS conference series on liquid metal processing, casting, and solidification of metals and alloys.
 recurrence: recurring
 categories:
 - metallurgy
@@ -13,7 +13,12 @@ sources:
 - type: organizer
   scope: series
   url: https://www.tms.org
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+- type: event-listing
+  scope: series
+  url: https://www.tms.org/portal/MEETINGS___EVENTS/TMS_Meetings___Events/Past_TMS_Meetings/portal/Meetings___Events/TMS_Meetings___Events/Past_TMS_Meetings.aspx?hkey=41892bc3-e228-42b3-83eb-9e0264636fc5
+  last_checked: '2026-07-01'
+  note: TMS past meetings page lists the 2022 Liquid Metal Processing & Casting Conference.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

@@ -1,7 +1,7 @@
 series: glasstec
 slug: glasstec
 website: https://www.glasstec.de/
-description: International trade fair for glass production, processing, and products.
+description: Dusseldorf trade fair for the international glass industry, covering glass production, processing, products, and applications.
 recurrence: recurring
 categories:
 - materials
@@ -15,5 +15,5 @@ sources:
 - type: series-home
   scope: series
   url: https://www.glasstec.de/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official glasstec page title identifies glasstec 2026 as the world's leading trade fair for the glass industry.

@@ -1,6 +1,6 @@
 series: International Heavy Minerals Conference
 slug: heavy-minerals
-description: Recurring international heavy minerals conference series.
+description: International technical conference series for heavy-mineral exploration, mining, processing, and products.
 recurrence: recurring
 categories:
 - metallurgy
@@ -9,12 +9,13 @@ topics:
 - heavy-minerals
 - mineral-processing
 sources:
-- type: organizer
+- type: event-site
   scope: series
-  url: https://www.saimm.co.za
-  last_checked: '2026-05-07'
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/hmc-2025-thirteenth-international-heavy-minerals-conference
+  last_checked: '2026-07-01'
+  note: Official SAIMM page identifies the 2025 edition as the 13th International Heavy Minerals Conference.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-  last_checked: '2026-05-07'
-  note: Archive lists HMC 2016 and HMC 2019.
+  last_checked: '2026-07-01'
+  note: Archive lists historical Heavy Minerals Conference editions, including 2005, 2007, 2009, 2013, 2016, and 2019 entries.

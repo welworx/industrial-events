@@ -1,7 +1,7 @@
 series: European Academic Symposium on EAF Steelmaking
 slug: eases
 website: https://www.eases.rwth-aachen.de/
-description: Recurring European academic symposium on electric arc furnace steelmaking.
+description: European academic symposium for research on electric arc furnace steelmaking, aimed at researchers, doctoral candidates, and industry professionals.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,7 +14,8 @@ sources:
 - type: series-home
   scope: series
   url: https://www.eases.rwth-aachen.de/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+  note: Official EASES page lists previous editions and summarizes the 2025 symposium.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

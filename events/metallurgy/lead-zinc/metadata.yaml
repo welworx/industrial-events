@@ -1,7 +1,7 @@
 series: International Symposium on Lead and Zinc Processing
 slug: lead-zinc
 website: https://j-lppf2.jp/lead-zinc2026/
-description: Recurring international symposium on lead and zinc processing.
+description: International symposium series on lead and zinc processing, including plant operations, extractive metallurgy, recycling, and sustainability.
 recurrence: recurring
 categories:
 - metallurgy
@@ -15,7 +15,8 @@ sources:
 - type: event-site
   scope: series
   url: https://j-lppf2.jp/lead-zinc2026/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+  note: Official Lead-Zinc 2026 page for the 11th International Symposium on Lead and Zinc Processing.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/

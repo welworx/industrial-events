@@ -1,7 +1,7 @@
 series: International Glass Manufacturing Show
 slug: international-glass-manufacturing-show
 website: https://glass-show.com/
-description: Glass manufacturing exhibition series for Africa and the Middle East.
+description: Africa and Middle East glass-industry exhibition covering glass products, production technologies, manufacturing, processing, and finishing machinery.
 recurrence: recurring
 categories:
 - materials
@@ -14,5 +14,5 @@ sources:
 - type: series-home
   scope: series
   url: https://glass-show.com/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official IGMS page describes the show as a premier Africa and Middle East event for the glass industry value chain, including products, production technologies, manufacturing, processing, and finishing machinery.

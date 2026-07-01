@@ -1,7 +1,7 @@
 series: Challenging Glass Conference
 slug: challenging-glass
 website: https://challengingglass.com/
-description: International conference series on structural and architectural glass.
+description: Biennial international conference on architectural and structural applications of glass.
 recurrence: recurring
 categories:
 - materials
@@ -16,7 +16,7 @@ sources:
   scope: series
   url: https://challengingglass.com/
   last_checked: '2026-07-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  note: Official page describes Challenging Glass as an international bi-annual conference for designers, engineers, researchers, and industry partners working on architectural and structural glass.
 - type: proceedings
   scope: series
   url: https://proceedings.challengingglass.com/index.php/cgc/issue/archive

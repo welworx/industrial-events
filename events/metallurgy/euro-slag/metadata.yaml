@@ -1,7 +1,7 @@
 series: European Slag Conference
 slug: euro-slag
 website: https://www.euroslag2026.eu/
-description: Recurring European conference on slag and slag products.
+description: European conference series on ferrous slags, slag treatment, standards, circular economy, and industrial slag applications.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,7 +14,8 @@ sources:
 - type: series-home
   scope: series
   url: https://www.euroslag2026.eu/
-  last_checked: '2026-05-11'
+  last_checked: '2026-07-01'
+  note: Official XIII European Slag Conference page summarizes the 2026 Lulea edition and names the next-series announcement process.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

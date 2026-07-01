@@ -1,7 +1,7 @@
 series: Sisecam International Glass Conference
 slug: sisecam-glass-conference
 website: https://glassconference.sisecam.com/en
-description: International glass conference organized by Sisecam.
+description: Sisecam international glass conference for industry and academia, evolved from the Sisecam Glass Symposium launched in 1985.
 recurrence: recurring
 categories:
 - materials
@@ -15,5 +15,5 @@ sources:
 - type: series-home
   scope: series
   url: https://glassconference.sisecam.com/en
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official conference page states Sisecam launched the Glass Symposium in 1985 and that it evolved into an international event attracting industry and academic participants.

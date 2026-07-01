@@ -1,7 +1,7 @@
 series: Global Slag Conference
 slug: global-slag
 website: https://www.globalslag.com/conferences/global-slag/
-description: Recurring global conference on slag production, use, and markets.
+description: Global conference series on slag production, handling, valorisation, cement use, and market development.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,9 +14,10 @@ sources:
 - type: series-home
   scope: series
   url: https://www.globalslag.com/conferences/global-slag/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+  note: Official Global Slag page presents the conference series for slag-related industry topics and markets.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
   note: Archive lists Global Slag 2021.

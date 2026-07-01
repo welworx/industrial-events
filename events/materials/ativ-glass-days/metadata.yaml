@@ -1,7 +1,7 @@
 series: ATIV Glass Days
 slug: ativ-glass-days
 website: https://www.ativ-online.it/
-description: Italian glass industry technical conference organized by ATIV.
+description: ATIV-organized Italian glass conference focused on glass science, art, and technology.
 recurrence: recurring
 categories:
 - materials
@@ -15,5 +15,5 @@ sources:
 - type: series-home
   scope: series
   url: https://www.ativ-online.it/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official ATIV page presents the 34th ATIV International Conference as "Where Glass Science, Art and Technology Meet Together" at the University Campus in Parma.

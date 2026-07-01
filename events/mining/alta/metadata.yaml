@@ -1,7 +1,7 @@
 series: ALTA Metallurgical Conference
 slug: alta
 website: https://www.altamet.com.au/
-description: Annual mining and metallurgical processing conference series.
+description: Annual mining and metallurgical processing conference covering battery, base, precious, and critical minerals.
 recurrence: recurring
 categories:
 - mining
@@ -19,4 +19,4 @@ sources:
   scope: series
   url: https://www.altamet.com.au/
   last_checked: '2026-07-01'
-  note: Official site and archive pages identify ALTA as an annual metallurgical conference series.
+  note: Official site describes ALTA as an annual mining and metallurgical processing conference and lists nickel-cobalt-copper, rare earths, uranium, lithium, sustainable mining, gold, and precious metals programs.

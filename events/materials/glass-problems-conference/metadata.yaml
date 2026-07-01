@@ -1,7 +1,7 @@
 series: Glass Problems Conference
 slug: glass-problems-conference
 website: https://gmic.org/glass-problems-conference/
-description: Annual conference on industrial glass manufacturing problems and solutions.
+description: Annual GMIC and Alfred University conference on industrial glass manufacturing problems, plant operations, and process improvement.
 recurrence: recurring
 categories:
 - materials
@@ -15,5 +15,5 @@ sources:
 - type: series-home
   scope: series
   url: https://gmic.org/glass-problems-conference/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official GMIC page identifies the 86th Glass Problems Conference and Symposium, with education tracks including melting, refractory, decarbonization, and machine learning.

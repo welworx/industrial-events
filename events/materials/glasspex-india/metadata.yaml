@@ -1,7 +1,7 @@
 series: glasspex INDIA
 slug: glasspex-india
 website: https://www.glasspex.com/
-description: Indian trade fair for glass production technology and glass products.
+description: Mumbai trade fair for glass production, processing, finishing, packaging, automation, measurement, and related glass-sector technology.
 recurrence: recurring
 categories:
 - materials
@@ -14,5 +14,5 @@ sources:
 - type: series-home
   scope: series
   url: https://www.glasspex.com/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official glasspex INDIA page lists exhibitor profiles covering glass production, processing, finishing, packaging, automation, measurement, control, tools, engineering, and R&D.

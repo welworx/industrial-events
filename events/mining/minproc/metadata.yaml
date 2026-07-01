@@ -1,7 +1,7 @@
 series: MinProc
 slug: minproc
 website: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-description: Recurring Southern African mineral beneficiation and metallurgy conference.
+description: Southern African mineral processing, beneficiation, and metallurgy conference series held in Cape Town.
 recurrence: recurring
 categories:
 - mining
@@ -12,8 +12,8 @@ topics:
 - beneficiation
 - extractive-metallurgy
 sources:
-- type: overview
+- type: archive
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
   last_checked: '2026-07-01'
-  note: Archive lists dated MinProc or Mineral Processing editions in 2005-2010 and 2012-2015.
+  note: Archive lists Mineral Processing editions for 2005-2010 and MinProc Southern African Mineral Beneficiation and Metallurgy Conference editions for 2012-2015.
