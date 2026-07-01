@@ -1,19 +1,20 @@
 name: Southern African Sustainable Pyrometallurgy 2024
 event_types:
 - conference
-start: '2024-09-18'
-end: '2024-09-21'
-timezone: Asia/Shanghai
-city: Beijing
-country: CN
+start: '2024-03-12'
+end: '2024-03-14'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+venue: Misty Hills
 status: confirmed
 sources:
 - type: organizer
   scope: event
   url: https://www.saimm.co.za
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-  last_checked: '2026-05-07'
-  note: Listed as Southern African Sustainable Pyrometallurgy.
+  last_checked: '2026-07-01'
+  note: Archive lists Southern African Sustainable Pyrometallurgy, 12-14 March 2024 at Misty Hills, Johannesburg.

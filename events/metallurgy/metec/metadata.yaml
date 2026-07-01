@@ -1,7 +1,8 @@
 series: METEC
 slug: metec
 website: https://www.metec-tradefair.com
-description: Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
+description: Recurring international trade fair for metallurgy, steel casting,
+  and steelmaking, held with GIFA, THERMPROCESS, and NEWCAST.
 recurrence: recurring
 categories:
 - metallurgy
@@ -13,9 +14,9 @@ sources:
 - type: series-home
   scope: series
   url: https://www.metec-tradefair.com
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
   note: Lists METEC 2027 as the 12th International Metallurgy Trade Fair.

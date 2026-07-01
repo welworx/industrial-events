@@ -1,0 +1,16 @@
+name: TMS 2018 Annual Meeting & Exhibition
+event_types:
+- conference
+- exhibition
+start: '2018-03-11'
+end: '2018-03-15'
+timezone: America/Phoenix
+city: Phoenix
+country: US
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-07-01'
+  note: Official TMS Annual Meeting page lists the 2018 meeting in Phoenix, Arizona, USA from March 11-15, 2018.

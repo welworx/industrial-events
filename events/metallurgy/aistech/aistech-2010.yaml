@@ -1,0 +1,16 @@
+name: AISTech 2010 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2010-05-03'
+end: '2010-05-06'
+timezone: America/New_York
+city: Pittsburgh
+country: US
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2010 in Pittsburgh, Pennsylvania, USA from May 3-6, 2010.

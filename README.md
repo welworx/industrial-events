@@ -212,8 +212,8 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### March
 
-- **18-22**: [TMS 2029 Annual Meeting & Exhibition (NiCo scope)](<https://www.tms.org/AnnualMeeting/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
-  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Orlando, US](<https://www.google.com/maps/search/?api=1&query=Orlando%20World%20Center%20Marriott,%20Orlando,%20US>) | Venue: Orlando World Center Marriott | Types: conference, exhibition
+- **18-22**: [TMS 2029 Annual Meeting & Exhibition (NiCo scope)](<https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [National Harbor, US](<https://www.google.com/maps/search/?api=1&query=Gaylord%20National%20Resort%20%26%20Convention%20Center,%20National%20Harbor,%20US>) | Venue: Gaylord National Resort & Convention Center | Types: conference, exhibition
   - **Tags:** `metallurgy` `materials` `pyrometallurgy` `materials-science` `minerals` `metals`
 
 #### September
@@ -221,6 +221,14 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **12-14**: [GlassBuild America 2029](<https://www.glassbuildamerica.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
   - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Atlanta, US](<https://www.google.com/maps/search/?api=1&query=Georgia%20World%20Congress%20Center,%20Atlanta,%20US>) | Venue: Georgia World Congress Center | Types: trade-fair, exhibition, conference
   - **Tags:** `materials` `glass` `construction` `fenestration` `building-envelope`
+
+### 2030
+
+#### March
+
+- **3-7**: [TMS 2030 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Phoenix, US](<https://www.google.com/maps/search/?api=1&query=Phoenix%20Convention%20Center,%20Phoenix,%20US>) | Venue: Phoenix Convention Center | Types: conference, exhibition
+  - **Tags:** `metallurgy` `materials` `pyrometallurgy` `materials-science` `minerals` `metals`
 
 <!-- generated:upcoming-events:end -->
 
@@ -233,9 +241,9 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 | Deadline | Event | Event Dates | Scope / Co-located | Last Checked |
 | --- | --- | --- | --- | --- |
 | [Abstracts due: 2026-07-01](<https://www.tms.org/TMS2027>) | [TMS 2027 Annual Meeting & Exhibition (Sulfide Smelting)](<https://www.tms.org/TMS2027>) | Mar 14-18, 2027 | Sulfide Smelting | 2026-06-30 |
-| [Abstract submission: 2026-09-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
+| [Abstract submission: 2026-09-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-05-11 |
-| [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-05-07 |
+| [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-11 |
 | [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-05-11 |
 
@@ -247,8 +255,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[AISTech](<https://industrial-events.pages.dev/events/series/aistech.html>)** [↗](<https://www.aist.org/conference-expositions/aistech>)
   Recurring Association for Iron & Steel Technology conference and exposition.
-  ![span: 7 years](https://img.shields.io/badge/span-7%20years-blue)
-  **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[ALTA Metallurgical Conference](<https://industrial-events.pages.dev/events/series/alta.html>)** [↗](<https://www.altamet.com.au/>)
   Annual mining and metallurgical processing conference series.
@@ -358,7 +365,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[International Conference on Molten Slags, Fluxes and Salts](<https://industrial-events.pages.dev/events/series/molten-slags.html>)**
-  Recurring international conference on molten slags, fluxes, and salts.
+  Recurring international conference series on molten slags, fluxes, and salts for pyrometallurgical processing.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 19-22, 2028](https://img.shields.io/badge/next-Jun%2019--22%2C%202028-brightgreen) [MOLTEN2028, 13th International Conference on Molten Slags, Fluxes and Salts](<https://metsoc.org/events-posts/the-13th-international-conference-on-molten-slags-fluxes-and-salts-molten-2028/>)
 
@@ -368,7 +375,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Sep 3-7, 2028](https://img.shields.io/badge/next-Sep%203--7%2C%202028-brightgreen) 13th International Copper Conference (Copper 2028)
 
 - **[International Ferro-Alloys Congress](<https://industrial-events.pages.dev/events/series/infacon.html>)** [↗](<https://www.pyrometallurgy.co.za/Infacon/>)
-  Recurring International Ferro-Alloys Congress series.
+  Recurring International Ferro-Alloys Congress series for technical exchange on ferro-alloy production.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: May 23-27, 2027](https://img.shields.io/badge/next-May%2023--27%2C%202027-brightgreen) [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>)
 
@@ -388,7 +395,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[International Symposium on Lead and Zinc Processing](<https://industrial-events.pages.dev/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
   Recurring international symposium on lead and zinc processing.
-  ![frequency: 3 years](https://img.shields.io/badge/frequency-3%20years-blue)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Nov 1-6, 2026](https://img.shields.io/badge/next-Nov%201--6%2C%202026-brightgreen) [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>)
 
 - **[International Symposium on Nickel and Cobalt](<https://industrial-events.pages.dev/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
@@ -401,7 +408,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Sep 20-24, 2026](https://img.shields.io/badge/next-Sep%2020--24%2C%202026-brightgreen) [LMPC 2026, Liquid Metal Processing and Casting Conference](<https://www.nmavs.org/lmpc2026/>)
 
 - **[METEC](<https://industrial-events.pages.dev/events/series/metec.html>)** [↗](<https://www.metec-tradefair.com>)
-  Recurring international metallurgy trade fair held with GIFA, THERMPROCESS, and NEWCAST.
+  Recurring international trade fair for metallurgy, steel casting, and steelmaking, held with GIFA, THERMPROCESS, and NEWCAST.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>)
 
@@ -422,8 +429,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[SAIMM Pyrometallurgy International Conference](<https://industrial-events.pages.dev/events/series/saimm-pyrometallurgy.html>)**
   Recurring SAIMM pyrometallurgy conference series.
-  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
-  **Next:** ![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[Silicon for the Chemical and Solar Industry](<https://industrial-events.pages.dev/events/series/silicon.html>)** [↗](<https://www.ntnu.edu/si-conference/home>)
   Recurring conference on silicon for the chemical and solar industry.
@@ -431,8 +437,8 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Sep 7-10, 2026](https://img.shields.io/badge/next-Sep%207--10%2C%202026-brightgreen) [Silicon for the Chemical and Solar Industry XVIII](<https://www.ntnu.edu/si-conference>)
 
 - **[Slag Valorisation Symposium](<https://industrial-events.pages.dev/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
-  Recurring symposium on slag valorisation.
-  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  Recurring symposium on valorisation of high-temperature process residues and other industrial by-products.
+  ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: Apr 13-16, 2027](https://img.shields.io/badge/next-Apr%2013--16%2C%202027-brightgreen) [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>)
 
 - **[SME Annual Conference & Expo](<https://industrial-events.pages.dev/events/series/sme-annual.html>)** [↗](<https://www.smeannualconference.org>)

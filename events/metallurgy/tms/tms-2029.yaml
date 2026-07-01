@@ -2,16 +2,17 @@ name: TMS 2029 Annual Meeting & Exhibition (NiCo scope)
 start: '2029-03-18'
 end: '2029-03-22'
 timezone: America/New_York
-city: Orlando
+city: National Harbor
 country: US
-venue: Orlando World Center Marriott
-url: https://www.tms.org/AnnualMeeting/
+venue: Gaylord National Resort & Convention Center
+url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
 status: tentative
 sources:
 - type: event-site
   scope: event
-  url: https://www.tms.org/AnnualMeeting/
-  last_checked: '2026-05-11'
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-07-01'
+  note: Official TMS Annual Meeting page lists March 18-22, 2029 at Gaylord National Resort & Convention Center in National Harbor, Maryland, USA.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

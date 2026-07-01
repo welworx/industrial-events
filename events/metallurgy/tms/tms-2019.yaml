@@ -1,0 +1,16 @@
+name: TMS 2019 Annual Meeting & Exhibition
+event_types:
+- conference
+- exhibition
+start: '2019-03-10'
+end: '2019-03-14'
+timezone: America/Chicago
+city: San Antonio
+country: US
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-07-01'
+  note: Official TMS Annual Meeting page lists the 2019 meeting in San Antonio, Texas, USA from March 10-14, 2019.

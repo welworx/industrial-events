@@ -1,0 +1,17 @@
+name: AISTech 2017 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2017-05-08'
+end: '2017-05-11'
+timezone: America/Chicago
+city: Nashville
+country: US
+url: http://www.aist.org/convexpo/2017_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2017 in Nashville, Tennessee, USA from May 8-11, 2017.

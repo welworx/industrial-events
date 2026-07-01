@@ -1,0 +1,17 @@
+name: AISTech 2009 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2009-05-04'
+end: '2009-05-07'
+timezone: America/Chicago
+city: St. Louis
+country: US
+url: http://www.aist.org/convexpo/2009_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2009 in St. Louis, Missouri, USA from May 4-7, 2009.

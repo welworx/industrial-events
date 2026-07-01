@@ -1,0 +1,16 @@
+name: AISTech 2006 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2006-05-01'
+end: '2006-05-04'
+timezone: America/New_York
+city: Cleveland
+country: US
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2006 in Cleveland, Ohio, USA from May 1-4, 2006.

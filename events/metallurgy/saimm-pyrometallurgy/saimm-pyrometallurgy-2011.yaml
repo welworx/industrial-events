@@ -1,0 +1,19 @@
+name: Southern African Pyrometallurgy 2011 International Conference
+event_types:
+- conference
+start: '2011-03-06'
+end: '2011-03-09'
+timezone: Africa/Johannesburg
+city: Cradle of Humankind
+country: ZA
+url: http://www.pyro.co.za/Pyro2011/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: http://www.pyro.co.za/Pyro2011/
+  last_checked: '2026-07-01'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'

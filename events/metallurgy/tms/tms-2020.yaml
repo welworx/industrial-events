@@ -1,0 +1,16 @@
+name: TMS 2020 Annual Meeting & Exhibition
+event_types:
+- conference
+- exhibition
+start: '2020-02-23'
+end: '2020-02-27'
+timezone: America/Los_Angeles
+city: San Diego
+country: US
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-07-01'
+  note: Official TMS Annual Meeting page lists the 2020 meeting in San Diego, California, USA from February 23-27, 2020.

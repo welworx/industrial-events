@@ -1,0 +1,17 @@
+name: AISTech 2018 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2018-05-07'
+end: '2018-05-10'
+timezone: America/New_York
+city: Philadelphia
+country: US
+url: http://www.aist.org/convexpo/2018_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2018 in Philadelphia, Pennsylvania, USA from May 7-10, 2018.
