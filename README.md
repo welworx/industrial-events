@@ -33,7 +33,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 #### July
 
 - **8-10**: [ALUMINIUM CHINA 2026](<https://www.aluminiumchina.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
-  - **Location:** ![CN flag](https://flagcdn.com/16x12/cn.png) [Shanghai, CN](<https://www.google.com/maps/search/?api=1&query=Shanghai%20New%20International%20Expo%20Centre,%20Shanghai,%20CN>) | Venue: Shanghai New International Expo Centre | Types: trade-fair, exhibition
+  - **Location:** ![CN flag](https://flagcdn.com/16x12/cn.png) [Shanghai, CN](<https://www.google.com/maps/search/?api=1&query=Shanghai%20New%20International%20Expo%20Centre%20N1-N5,%20Shanghai,%20CN>) | Venue: Shanghai New International Expo Centre N1-N5 | Types: trade-fair, exhibition
   - **Tags:** `materials` `aluminium` `manufacturing` `recycling` `trade-fair`
 
 #### August
@@ -164,7 +164,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 #### October
 
 - **26-28**: [GlassBuild America 2027](<https://www.glassbuildamerica.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
-  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Las Vegas, US](<https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Convention%20Center,%20Las%20Vegas,%20US>) | Venue: Las Vegas Convention Center | Types: trade-fair, exhibition, conference
+  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Orlando, US](<https://www.google.com/maps/search/?api=1&query=Orange%20County%20Convention%20Center,%20South%2FNorth%20Halls,%20Orlando,%20US>) | Venue: Orange County Convention Center, South/North Halls | Types: trade-fair, exhibition, conference
   - **Tags:** `materials` `glass` `construction` `fenestration` `building-envelope`
 
 #### November
@@ -256,12 +256,12 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: May 25-27, 2027](https://img.shields.io/badge/next-May%2025--27%2C%202027-brightgreen) [ALTA 2027](<https://www.altamet.com.au/>)
 
 - **[ALUMINIUM CHINA](<https://industrial-events.pages.dev/events/series/aluminium-china.html>)** [↗](<https://www.aluminiumchina.com/>)
-  Shanghai trade fair for the aluminium industry and aluminium value chain.
+  Shanghai trade fair presenting aluminium value-chain technologies and products, including end-use applications, recycling, and sustainable industry development.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jul 8-10, 2026](https://img.shields.io/badge/next-Jul%208--10%2C%202026-brightgreen) [ALUMINIUM CHINA 2026](<https://www.aluminiumchina.com/>)
 
 - **[ALUMINIUM Exhibition](<https://industrial-events.pages.dev/events/series/aluminium-exhibition.html>)** [↗](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
-  Trade fair for the aluminium industry and its value chain.
+  Global aluminium-industry meeting place covering the value chain from primary production and recycling to semi-finished products, surface technology, end-use applications, and conference programming.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Oct 6-8, 2026](https://img.shields.io/badge/next-Oct%206--8%2C%202026-brightgreen) [ALUMINIUM 2026](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
 
@@ -281,7 +281,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Jun 8-10, 2027](https://img.shields.io/badge/next-Jun%208--10%2C%202027-brightgreen) [Big 5 Construct South Africa 2027](<https://www.big5constructsouthafrica.com/>)
 
 - **[CALPHAD Conference](<https://industrial-events.pages.dev/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
-  Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
+  International conference series on computer coupling of phase diagrams and thermochemistry for computational thermodynamics and materials design.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [CALPHAD 2027](<https://calphad.org/future-conferences>)
 
@@ -330,7 +330,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Sep 14-17, 2026](https://img.shields.io/badge/next-Sep%2014--17%2C%202026-brightgreen) [87th Glass Problems Conference and Symposium](<https://gmic.org/2026-glass-problems-conference/>)
 
 - **[GlassBuild America](<https://industrial-events.pages.dev/events/series/glassbuild-america.html>)** [↗](<https://www.glassbuildamerica.com/>)
-  North American glass, window, and door industry trade event.
+  Annual North American trade and networking event for the commercial and residential glass, window, door, glazing, fabrication, and fenestration industries.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: Sep 23-25, 2026](https://img.shields.io/badge/next-Sep%2023--25%2C%202026-brightgreen) [GlassBuild America 2026](<https://www.glassbuildamerica.com/>)
 
@@ -344,7 +344,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[ICG Annual Meeting](<https://industrial-events.pages.dev/events/series/icg-annual-meeting.html>)** [↗](<https://icglass.org/events-and-conferences/>)
-  Annual meeting of the International Commission on Glass.
+  Annual conference of the International Commission on Glass, held between ICG International Congresses on Glass.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Sep 12-16, 2027](https://img.shields.io/badge/next-Sep%2012--16%2C%202027-brightgreen) [ICG 2027 Annual Meeting](<https://icglass.org/latest-from-icg/icg-2027-annual-meeting/>)
 
@@ -543,7 +543,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   International glass conference organized by Sisecam.
 
 - **[VITRUM](<https://industrial-events.pages.dev/events/series/vitrum.html>)** [↗](<https://vitrumexpo.com/>)
-  International trade show for glass processing machinery, equipment, and systems.
+  International trade fair dedicated to technologies and processes for glass processing and the wider glass economy.
   **Event:** ![next: Nov 16-19, 2027](https://img.shields.io/badge/next-Nov%2016--19%2C%202027-brightgreen) [VITRUM 2027](<https://vitrumexpo.com/>)
 
 - **[World of Glass](<https://industrial-events.pages.dev/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)

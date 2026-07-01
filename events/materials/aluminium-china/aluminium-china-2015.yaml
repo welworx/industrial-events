@@ -1,0 +1,17 @@
+name: ALUMINIUM CHINA 2015
+event_types:
+- trade-fair
+- exhibition
+start: '2015-07-08'
+end: '2015-07-10'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+venue: Shanghai New International Expo Centre N1-N3
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.aluminiumchina.com/zh-cn/about/more.html
+  last_checked: '2026-07-01'
+  note: Official past-review page lists ALUMINIUM CHINA 2015 on 8-10 July 2015 at Shanghai New International Expo Centre N1-N3.

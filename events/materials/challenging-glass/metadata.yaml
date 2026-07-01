@@ -15,5 +15,10 @@ sources:
 - type: series-home
   scope: series
   url: https://challengingglass.com/
-  last_checked: '2026-06-01'
+  last_checked: '2026-07-01'
   note: Contributed via ClickUp task "Important Conferences in Glass".
+- type: proceedings
+  scope: series
+  url: https://proceedings.challengingglass.com/index.php/cgc/issue/archive
+  last_checked: '2026-07-01'
+  note: Official proceedings archive lists Challenging Glass 1 through 10 with dates and host locations.

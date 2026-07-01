@@ -7,12 +7,12 @@ end: '2026-07-10'
 timezone: Asia/Shanghai
 city: Shanghai
 country: CN
-venue: Shanghai New International Expo Centre
+venue: Shanghai New International Expo Centre N1-N5
 url: https://www.aluminiumchina.com/
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://www.aluminiumchina.com/
-  last_checked: '2026-06-30'
-  note: Official site/browser text confirms 8-10 July 2026 at Shanghai New International Expo Centre; Chinese page text also references SNIEC N5 Hall for the Asia Automotive Lightweight Exhibition.
+  last_checked: '2026-07-01'
+  note: Official site confirms 8-10 July 2026 at Shanghai New International Expo Centre N1-N5.
