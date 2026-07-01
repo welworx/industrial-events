@@ -1,0 +1,17 @@
+name: SIPS 2025 Sustainable Industrial Processing Summit and Exhibition
+event_types:
+- conference
+- exhibition
+start: '2025-11-17'
+end: '2025-11-20'
+timezone: Asia/Manila
+city: Cebu
+country: PH
+url: https://www.flogen.org/sips2025/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.flogen.org/sips2025/
+  last_checked: '2026-07-01'
+  note: Official SIPS important-dates page lists 17-20 November 2025, and the official SIPS overview page identifies Cebu, Philippines.

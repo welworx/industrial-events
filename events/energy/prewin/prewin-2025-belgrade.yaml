@@ -1,0 +1,17 @@
+name: 49th PREWIN Meeting
+event_types:
+- conference
+start: '2025-11-06'
+end: '2025-11-07'
+timezone: Europe/Belgrade
+city: Belgrade
+country: RS
+venue: Metropol Palace
+url: https://www.prewin.eu/images/algemeen/Agenda_Prewin_meeting_Belgrade.pdf
+status: confirmed
+sources:
+- type: program
+  scope: event
+  url: https://www.prewin.eu/images/algemeen/Agenda_Prewin_meeting_Belgrade.pdf
+  last_checked: '2026-07-01'
+  note: Official PREWIN agenda identifies the 49th PREWIN meeting in Belgrade on 6-7 November 2025 at Metropol Palace.

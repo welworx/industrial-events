@@ -30,36 +30,6 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 ### 2026
 
-#### June
-
-- **2-3**: [99th Glass Technology Conference](<https://hvg-dgg.de/99gtc/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Wurzburg, DE](<https://www.google.com/maps/search/?api=1&query=Congress%20Centrum%20Wurzburg,%20Wurzburg,%20DE>) | Venue: Congress Centrum Wurzburg | Type: conference
-  - **Tags:** `materials` `glass` `glass-science` `glass-technology`
-- **3-4**: [Furnace Solutions 20](<https://sgt.org/event/FS20June2026>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![GB flag](https://flagcdn.com/16x12/gb.png) [St Helens, GB](<https://www.google.com/maps/search/?api=1&query=Totally%20Wicked%20Stadium,%20McManus%20Dr,%20Peasley%20Cross%20Ln,%20St%20Helens,%20Merseyside%20WA9%203AL,%20United%20Kingdom,%20St%20Helens,%20GB>) | Venue: Totally Wicked Stadium | Type: conference
-  - **Tags:** `materials` `glass` `furnaces` `sustainability` `melting`
-- **7-12**: [CALPHAD 2026](<https://calphad2026.org>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Quebec City, CA](<https://www.google.com/maps/search/?api=1&query=Quebec%20City,%20CA>) | Type: conference
-  - **Tags:** `metallurgy` `materials` `thermodynamics` `phase-diagrams` `materials-science`
-- **9-11**: [Big 5 Construct South Africa 2026](<https://www.big5constructsouthafrica.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![ZA flag](https://flagcdn.com/16x12/za.png) [Johannesburg, ZA](<https://www.google.com/maps/search/?api=1&query=Gallagher%20Convention%20Centre,%20Johannesburg,%20ZA>) | Venue: Gallagher Convention Centre | Types: trade-fair, exhibition, conference
-  - **Tags:** `construction` `materials` `glass` `building-envelope` `aluminium`
-- **14-17**: [NGA Glass Fabricator Conference 2026](<https://www.glass.org/nga-glass-fabricator-conference>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Chicago, US](<https://www.google.com/maps/search/?api=1&query=Radisson%20Blu%20Hotel,%20221%20N%20Columbus%20Dr,%20Chicago,%20IL%2060601,%20United%20States,%20Chicago,%20US>) | Venue: Radisson Blu Hotel | Type: conference
-  - **Tags:** `materials` `glass` `fabrication` `processing`
-- **15-17**: [Challenging Glass Conference 10](<https://challengingglass.com/>) [📘](<https://proceedings.challengingglass.com/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![NL flag](https://flagcdn.com/16x12/nl.png) [Delft, NL](<https://www.google.com/maps/search/?api=1&query=Delft%20University%20of%20Technology,%20Delft,%20NL>) | Venue: Delft University of Technology | Type: conference
-  - **Tags:** `materials` `glass` `structural-glass` `architecture` `engineering`
-- **16-18**: [XIII European Slag Conference](<https://www.euroslag2026.eu>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![SE flag](https://flagcdn.com/16x12/se.png) [Lulea, SE](<https://www.google.com/maps/search/?api=1&query=Kulturens%20Hus,%20Skeppsbrogatan%2017,%20972%2031%20Lulea,%20Sweden,%20Lulea,%20SE>) | Venue: Kulturens Hus | Type: conference
-  - **Tags:** `metallurgy` `slag` `recycling` `circular-economy`
-- **18-19**: [40th Sisecam International Glass Conference](<https://glassconference.sisecam.com/en>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![TR flag](https://flagcdn.com/16x12/tr.png) [Istanbul, TR](<https://www.google.com/maps/search/?api=1&query=Istanbul,%20TR>) | Type: conference
-  - **Tags:** `materials` `glass` `energy` `innovation` `sustainability`
-- **22-24**: [International Glass Manufacturing Show 2026](<https://glass-show.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed](https://img.shields.io/badge/CFP-closed-lightgrey)
-  - **Location:** ![AE flag](https://flagcdn.com/16x12/ae.png) [Dubai, AE](<https://www.google.com/maps/search/?api=1&query=Dubai%20World%20Trade%20Centre,%20Dubai,%20AE>) | Venue: Dubai World Trade Centre | Types: trade-fair, exhibition, conference
-  - **Tags:** `materials` `glass` `manufacturing` `processing`
-
 #### July
 
 - **8-10**: [ALUMINIUM CHINA 2026](<https://www.aluminiumchina.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
@@ -119,6 +89,9 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **19-20**: [XXXIX ATIV Conference](<https://www.ativ-online.it/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
   - **Location:** ![IT flag](https://flagcdn.com/16x12/it.png) [Parma, IT](<https://www.google.com/maps/search/?api=1&query=Parma,%20IT>) | Venue: TBD | Type: conference
   - **Tags:** `materials` `glass` `furnaces` `quality` `defects`
+- **Nov 30-Dec 3**: [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
+  - **Location:** ![BR flag](https://flagcdn.com/16x12/br.png) [Rio de Janeiro, BR](<https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro,%20BR>) | Venue: TBD | Types: conference, exhibition
+  - **Tags:** `materials` `metallurgy` `sustainability` `sustainable-processing` `industrial-processing` `recycling`
 
 ### 2027
 
@@ -169,6 +142,9 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### June
 
+- **8-10**: [Big 5 Construct South Africa 2027](<https://www.big5constructsouthafrica.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![ZA flag](https://flagcdn.com/16x12/za.png) [Johannesburg, ZA](<https://www.google.com/maps/search/?api=1&query=Gallagher%20Convention%20Centre,%20Johannesburg,%20ZA>) | Venue: Gallagher Convention Centre | Types: trade-fair, exhibition, conference
+  - **Tags:** `construction` `materials` `glass` `building-envelope` `aluminium`
 - **9-10**: [Glassman Europe 2027](<https://glassmanevents.com/europe/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![TR flag](https://flagcdn.com/16x12/tr.png) [Istanbul, TR](<https://www.google.com/maps/search/?api=1&query=CNR%20Expo%20Istanbul,%20Istanbul,%20TR>) | Venue: CNR Expo Istanbul | Types: conference, exhibition
   - **Tags:** `materials` `glass` `manufacturing` `container-glass`
@@ -294,6 +270,16 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
 
+- **[Berliner Konferenz Abfallwirtschaft und Energie](<https://industrial-events.pages.dev/events/series/berliner-abfallkonferenz.html>)** [↗](<https://vivis.de/bkawe/>)
+  German-language annual conference on waste management, energy-industry questions, waste incineration technology, downstream processes, and carbon capture and use.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: Jan 25-26, 2027](https://img.shields.io/badge/next-Jan%2025--26%2C%202027-brightgreen) [Berliner Konferenz Abfallwirtschaft und Energie 2027](<https://vivis.de/bkawe/>)
+
+- **[Big 5 Construct South Africa](<https://industrial-events.pages.dev/events/series/big-5-construct-south-africa.html>)** [↗](<https://www.big5constructsouthafrica.com/>)
+  Construction trade event in South Africa, including building envelope, metal, steel, aluminium, and related materials sectors.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: Jun 8-10, 2027](https://img.shields.io/badge/next-Jun%208--10%2C%202027-brightgreen) [Big 5 Construct South Africa 2027](<https://www.big5constructsouthafrica.com/>)
+
 - **[CALPHAD Conference](<https://industrial-events.pages.dev/events/series/calphad.html>)** [↗](<https://calphad.org/future-conferences>)
   Recurring international CALPHAD conference on phase diagram calculation and computational thermodynamics.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
@@ -349,7 +335,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Next:** ![next: Sep 23-25, 2026](https://img.shields.io/badge/next-Sep%2023--25%2C%202026-brightgreen) [GlassBuild America 2026](<https://www.glassbuildamerica.com/>)
 
 - **[Glassman Events](<https://industrial-events.pages.dev/events/series/glassman.html>)** [↗](<https://glassmanevents.com/>)
-  Regional Glassman exhibitions and conferences for hollow and container glass manufacturing.
+  Regional Glassman exhibitions and conferences for container and hollow glass manufacturing, combining supplier exhibits with technical conference sessions.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: Mar 17-18, 2027](https://img.shields.io/badge/next-Mar%2017--18%2C%202027-brightgreen) [Glassman Asia 2027](<https://glassmanevents.com/asia/>)
 
@@ -429,6 +415,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
   **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
 
+- **[PREWIN European Network General Meetings](<https://industrial-events.pages.dev/events/series/prewin.html>)** [↗](<https://www.prewin.eu/activities>)
+  European network meetings for waste-to-energy plant operators and suppliers focused on performance, reliability, emissions reduction, plant visits, and operating experience exchange.
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
+  **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
+
 - **[SAIMM Pyrometallurgy International Conference](<https://industrial-events.pages.dev/events/series/saimm-pyrometallurgy.html>)**
   Recurring SAIMM pyrometallurgy conference series.
   ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
@@ -464,9 +455,9 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[Sustainable Industrial Processing Summit](<https://industrial-events.pages.dev/events/series/sips.html>)** [↗](<https://www.flogen.org/sips2026/>)
-  Recurring Sustainable Industrial Processing Summit and Exhibition covering materials, metals, and industrial processing.
-  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
-  **Next:** ![next: probably 2026](https://img.shields.io/badge/next-probably%202026-yellow)
+  FLOGEN Sustainable Industrial Processing Summit and Exhibition covering sustainability through science, technology, industry, governance, education, and materials, metals, minerals, recycling, energy, and glass symposia.
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Nov 30-Dec 3, 2026](https://img.shields.io/badge/next-Nov%2030--Dec%203%2C%202026-brightgreen) [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>)
 
 - **[TMS Annual Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/tms.html>)** [↗](<https://www.tms.org/AnnualMeeting/>)
   TMS annual meeting and exhibition for minerals, metals, and materials science, including selected pyrometallurgy scopes.
@@ -503,7 +494,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   **Event:** ![next: Mar 3-5, 2027](https://img.shields.io/badge/next-Mar%203--5%2C%202027-brightgreen) [AfriGlass 2027](<https://www.expoafriglass.com/>)
 
 - **[Aluminum USA](<https://industrial-events.pages.dev/events/series/aluminum-usa.html>)** [↗](<https://www.aluminum-us.com/>)
-  North American aluminum industry event covering the full aluminum value chain.
+  North American aluminum industry event covering the value chain from mining and smelting through casting, rolling, extrusions, finishing, and fabrication.
   **Event:** ![next: May 19-20, 2027](https://img.shields.io/badge/next-May%2019--20%2C%202027-brightgreen) [Aluminum USA 2027](<https://www.aluminum-us.com/>)
 
 - **[API Committee on Petroleum Measurement Standards Meeting](<https://industrial-events.pages.dev/events/series/api-petroleum-measurement.html>)** [↗](<https://events.api.org/>)
@@ -518,15 +509,8 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   Italian glass industry technical conference organized by ATIV.
   **Event:** ![next: Nov 19-20, 2026](https://img.shields.io/badge/next-Nov%2019--20%2C%202026-brightgreen) [XXXIX ATIV Conference](<https://www.ativ-online.it/>)
 
-- **[Berliner Konferenz Abfallwirtschaft und Energie](<https://industrial-events.pages.dev/events/series/berliner-abfallkonferenz.html>)** [↗](<https://vivis.de/bkawe/>)
-  German-language conference on waste management, waste-to-energy, and related energy-industry topics.
-  **Event:** ![next: Jan 25-26, 2027](https://img.shields.io/badge/next-Jan%2025--26%2C%202027-brightgreen) [Berliner Konferenz Abfallwirtschaft und Energie 2027](<https://vivis.de/bkawe/>)
-
-- **[Big 5 Construct South Africa](<https://industrial-events.pages.dev/events/series/big-5-construct-south-africa.html>)** [↗](<https://www.big5constructsouthafrica.com/>)
-  Construction trade event in South Africa, including building envelope, metal, steel, aluminium, and related materials sectors.
-
 - **[Carbon Black World](<https://industrial-events.pages.dev/events/series/carbon-black-world.html>)** [↗](<https://www.carbonblackworld.com/carbon-black-world>)
-  Global forum for the carbon black value chain, including manufacturers, end users, equipment suppliers, and solution providers.
+  Smithers-organized global forum for the carbon black value chain, including tire, rubber, plastics, compounds, ink, equipment, and solution-provider sectors.
 
 - **[Cross-Cutting Symposia at Extraction](<https://industrial-events.pages.dev/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
@@ -538,7 +522,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.
 
 - **[Glass Technology Conference](<https://industrial-events.pages.dev/events/series/glass-technology-conference.html>)** [↗](<https://www.hvg-dgg.de/>)
-  Annual glass science and technology conference organized by HVG-DGG.
+  Annual German Society of Glass Technology conference for glass science, glass technology, research, and industrial glassmaking practice.
 
 - **[glasspex INDIA](<https://industrial-events.pages.dev/events/series/glasspex-india.html>)** [↗](<https://www.glasspex.com/>)
   Indian trade fair for glass production technology and glass products.

@@ -1,0 +1,19 @@
+name: Big 5 Construct South Africa 2027
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2027-06-08'
+end: '2027-06-10'
+timezone: Africa/Johannesburg
+city: Johannesburg
+country: ZA
+venue: Gallagher Convention Centre
+url: https://www.big5constructsouthafrica.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.big5constructsouthafrica.com/
+  last_checked: '2026-07-01'
+  note: Official site lists 8-10 June 2027 at Gallagher Convention Centre in Johannesburg.

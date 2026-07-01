@@ -1,7 +1,7 @@
 series: PREWIN European Network General Meetings
 slug: prewin
 website: https://www.prewin.eu/activities
-description: European network meetings for performance, reliability, and emissions reduction in waste incinerators and waste-to-energy plants.
+description: European network meetings for waste-to-energy plant operators and suppliers focused on performance, reliability, emissions reduction, plant visits, and operating experience exchange.
 recurrence: recurring
 categories:
 - energy
@@ -15,5 +15,5 @@ sources:
 - type: series-home
   scope: series
   url: https://www.prewin.eu/activities
-  last_checked: '2026-06-30'
-  note: Official PREWIN activities page says general meetings are held twice a year at European locations with a plant visit.
+  last_checked: '2026-07-01'
+  note: Official PREWIN activities page lists recent European general meetings and associated plant visits.

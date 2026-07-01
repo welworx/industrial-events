@@ -1,0 +1,17 @@
+name: SIPS 2026 Sustainable Industrial Processing Summit and Exhibition
+event_types:
+- conference
+- exhibition
+start: '2026-11-30'
+end: '2026-12-03'
+timezone: America/Sao_Paulo
+city: Rio de Janeiro
+country: BR
+url: https://www.flogen.org/sips2026/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.flogen.org/sips2026/
+  last_checked: '2026-07-01'
+  note: Official SIPS 2026 page identifies the summit, and its important-dates page lists 30 November-3 December 2026.
