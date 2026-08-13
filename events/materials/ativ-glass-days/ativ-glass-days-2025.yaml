@@ -1,0 +1,16 @@
+name: XXXVIII ATIV Conference
+event_types:
+- conference
+start: '2025-06-12'
+end: '2025-06-13'
+timezone: Europe/Rome
+city: Parma
+country: IT
+url: https://www.ativ.eu/eventi/qwhere-glass-science-art-and-technology-come-togetherq
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.ativ.eu/eventi/qwhere-glass-science-art-and-technology-come-togetherq
+  last_checked: '2026-08-13'
+  note: Official ATIV event page lists 12-13 June 2025 for the XXXVIII ATIV Conference.

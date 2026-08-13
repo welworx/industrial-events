@@ -1,0 +1,17 @@
+name: China Glass 2026, 35th China International Glass Industrial Technical Exhibition
+event_types:
+- trade-fair
+- exhibition
+start: '2026-04-07'
+end: '2026-04-10'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+url: https://www.chinaglass-expo.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.chinaglass-expo.com/
+  last_checked: '2026-08-13'
+  note: Official homepage states the 35th China Glass was held 7-10 April 2026 in Shanghai.

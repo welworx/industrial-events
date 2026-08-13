@@ -1,0 +1,19 @@
+name: International Glass Manufacturing Show 2027
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2027-04-06'
+end: '2027-04-08'
+timezone: Asia/Dubai
+city: Dubai
+country: AE
+venue: Dubai World Trade Centre
+url: https://glass-show.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://glass-show.com/
+  last_checked: '2026-08-13'
+  note: Official IGMS homepage lists 6-8 April 2027 at Dubai World Trade Centre.
