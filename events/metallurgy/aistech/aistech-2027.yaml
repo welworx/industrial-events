@@ -1,0 +1,23 @@
+name: AISTech 2027 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2027-05-03'
+end: '2027-05-05'
+timezone: America/Chicago
+city: Nashville
+country: US
+venue: Music City Center
+url: https://www.aist.org/Conferences-Expositions/AISTech/Home
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aist.org/Conferences-Expositions/AISTech/Home
+  last_checked: '2026-08-13'
+  note: Official AISTech page lists AISTech 2027 in Nashville, Tennessee, USA from May 3-5, 2027.
+- type: event-site
+  scope: event
+  url: https://www.aist.org/Conferences-Expositions/AISTech/Why-Attend
+  last_checked: '2026-08-13'
+  note: Why Attend page confirms AISTech 2027 dates and location.
