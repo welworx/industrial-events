@@ -7,7 +7,7 @@ end: '2027-03-18'
 timezone: Asia/Bangkok
 city: Bangkok
 country: TH
-url: https://www.glassmanevents.com/asia/
+url: https://glassmanevents.com/asia/
 status: tentative
 sources:
 - type: overview

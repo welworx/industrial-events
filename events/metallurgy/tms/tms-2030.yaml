@@ -1,8 +1,18 @@
 name: TMS 2030 Annual Meeting & Exhibition (Sulfide Smelting)
-url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+start: '2030-03-03'
+end: '2030-03-07'
+timezone: America/Phoenix
+city: Phoenix
 country: US
+venue: Phoenix Convention Center
+url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
 status: tentative
 sources:
+- type: event-site
+  scope: event
+  url: https://www.tms.org/AnnualMeeting/AnnualMeeting/Home.aspx
+  last_checked: '2026-07-01'
+  note: Official TMS Annual Meeting page lists March 3-7, 2030 at Phoenix Convention Center in Phoenix, Arizona, USA.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

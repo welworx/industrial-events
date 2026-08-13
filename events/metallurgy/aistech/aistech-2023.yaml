@@ -1,0 +1,17 @@
+name: AISTech 2023 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2023-05-08'
+end: '2023-05-11'
+timezone: America/Detroit
+city: Detroit
+country: US
+url: http://www.aist.org/convexpo/2023_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2023 in Detroit, Michigan, USA from May 8-11, 2023.

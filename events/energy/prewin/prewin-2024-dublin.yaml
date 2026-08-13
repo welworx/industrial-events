@@ -1,0 +1,17 @@
+name: 47th PREWIN Meeting
+event_types:
+- conference
+start: '2024-11-14'
+end: '2024-11-15'
+timezone: Europe/Dublin
+city: Dublin
+country: IE
+venue: The Gibson Hotel
+url: https://www.prewin.eu/activities
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.prewin.eu/activities
+  last_checked: '2026-07-01'
+  note: Official PREWIN activities page identifies the 47th PREWIN meeting in Dublin on 14-15 November 2024 at The Gibson Hotel.

@@ -29,7 +29,7 @@ deadlines:
   - type: event-site
     scope: deadline
     url: https://unitecr2027.org/call-for-papers/
-    last_checked: '2026-05-07'
+    last_checked: '2026-07-01'
 - type: paper
   name: Paper submission deadline
   date: '2027-05-28'
@@ -39,4 +39,4 @@ deadlines:
   - type: event-site
     scope: deadline
     url: https://unitecr2027.org/important-dates/
-    last_checked: '2026-05-07'
+    last_checked: '2026-07-01'

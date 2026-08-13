@@ -2,7 +2,7 @@ name: LMPC 2026, Liquid Metal Processing and Casting Conference
 event_types:
 - conference
 start: '2026-09-20'
-end: '2026-09-24'
+end: '2026-09-23'
 timezone: America/Denver
 city: Santa Fe
 country: US
@@ -13,7 +13,7 @@ sources:
 - type: event-site
   scope: event
   url: https://www.nmavs.org/lmpc2026/
-  last_checked: '2026-05-07'
+  last_checked: '2026-08-13'
 deadlines:
 - type: manuscript
   name: Manuscript submission deadline

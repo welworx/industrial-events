@@ -1,0 +1,17 @@
+name: ALUMINIUM CHINA 2016
+event_types:
+- trade-fair
+- exhibition
+start: '2016-07-12'
+end: '2016-07-14'
+timezone: Asia/Shanghai
+city: Shanghai
+country: CN
+venue: Shanghai New International Expo Centre W1-W3
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.aluminiumchina.com/zh-cn/about/more.html
+  last_checked: '2026-07-01'
+  note: Official past-review page lists ALUMINIUM CHINA 2016 on 12-14 July 2016 at Shanghai New International Expo Centre W1-W3.

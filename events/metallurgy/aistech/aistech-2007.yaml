@@ -1,0 +1,17 @@
+name: AISTech 2007 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2007-05-07'
+end: '2007-05-10'
+timezone: America/Indiana/Indianapolis
+city: Indianapolis
+country: US
+url: http://www.aist.org/convexpo/2007_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2007 in Indianapolis, Indiana, USA from May 7-10, 2007.

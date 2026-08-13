@@ -1,0 +1,15 @@
+name: International Symposium on Lead and Zinc Processing 2005
+event_types:
+- conference
+start: '2005-10-17'
+end: '2005-10-19'
+timezone: Asia/Tokyo
+city: Kyoto
+country: JP
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'
+  note: Archive lists the International Symposium on Lead and Zinc Processing 2005, 17-19 October 2005 in Kyoto.

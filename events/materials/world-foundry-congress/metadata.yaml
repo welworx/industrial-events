@@ -14,10 +14,11 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://www.thewfo.com
-  last_checked: '2026-05-07'
+  url: https://thewfo.com/wfo-congress
+  last_checked: '2026-08-13'
+  note: Official WFO congress page tracks World Foundry Congress editions and links to the current congress site.
 - type: overview
   scope: series
-  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-  last_checked: '2026-05-07'
-  note: Archive lists World Foundry Congress 2010.
+  url: https://76wfc.com/
+  last_checked: '2026-08-13'
+  note: Official 76th World Foundry Congress site confirms upcoming 2026 edition details.

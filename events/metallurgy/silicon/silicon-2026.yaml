@@ -13,5 +13,26 @@ sources:
 - type: event-site
   scope: event
   url: https://www.ntnu.edu/si-conference
-  last_checked: '2026-05-07'
+  last_checked: '2026-08-13'
   note: NTNU conference page welcomes attendees to the 18th Si-Conference, part of Silicon Market Forum, 7-10 September 2026 at Caledonien Hotel in Kristiansand.
+deadlines:
+- type: abstracts
+  name: Abstract submission deadline
+  date: '2026-03-01'
+  url: https://www.ntnu.edu/si-conference
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ntnu.edu/si-conference
+    last_checked: '2026-08-13'
+- type: manuscript
+  name: Full paper submission deadline
+  date: '2026-06-01'
+  url: https://www.ntnu.edu/si-conference
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ntnu.edu/si-conference
+    last_checked: '2026-08-13'

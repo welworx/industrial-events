@@ -8,9 +8,14 @@ timezone: Europe/Istanbul
 city: Istanbul
 country: TR
 venue: CNR Expo Istanbul
-url: https://www.glassmanevents.com/europe/
+url: https://glassmanevents.com/europe/
 status: confirmed
 sources:
+- type: event-site
+  scope: event
+  url: https://glassmanevents.com/europe/
+  last_checked: '2026-06-30'
+  note: Official page lists 09-10 June 2027 in Istanbul, Turkey.
 - type: overview
   scope: event
   url: https://www.showsbee.com/fairs/Glassman-Europe.html

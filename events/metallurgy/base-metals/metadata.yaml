@@ -1,6 +1,6 @@
 series: Southern African Base Metals Conference
 slug: base-metals
-description: Recurring SAIMM conference focused on base metals mining and metallurgy.
+description: SAIMM Southern African conference series on copper, cobalt, nickel, and related base-metals mining, processing, and metallurgy.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,7 +14,12 @@ sources:
 - type: organizer
   scope: series
   url: https://www.saimm.co.za
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+- type: event-site
+  scope: series
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/copper-cobalt-africa-9th-base-metals-conference-2018
+  last_checked: '2026-07-01'
+  note: SAIMM page for Copper Cobalt Africa in association with the 9th Southern African Base Metals Conference.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

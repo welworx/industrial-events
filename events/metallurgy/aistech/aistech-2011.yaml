@@ -1,0 +1,17 @@
+name: AISTech 2011 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2011-05-02'
+end: '2011-05-05'
+timezone: America/Indiana/Indianapolis
+city: Indianapolis
+country: US
+url: http://www.aist.org/convexpo/2011_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2011 in Indianapolis, Indiana, USA from May 2-5, 2011.

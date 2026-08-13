@@ -1,0 +1,17 @@
+name: AISTech 2015 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2015-05-04'
+end: '2015-05-07'
+timezone: America/New_York
+city: Cleveland
+country: US
+url: http://www.aist.org/convexpo/2015_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2015 in Cleveland, Ohio, USA from May 4-7, 2015.

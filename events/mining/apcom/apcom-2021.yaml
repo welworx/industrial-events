@@ -1,18 +1,16 @@
 name: APCOM 2021, 40th Conference on Applications of Computers and Operations Research in the Minerals Industries
 event_types:
 - conference
-start: '2021-08-29'
-end: '2021-09-02'
-timezone: Africa/Johannesburg
-city: Johannesburg
-country: ZA
+start: '2021-08-30'
+end: '2021-09-01'
 url: https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0
-  last_checked: '2026-05-11'
+  last_checked: '2026-07-01'
+  note: SAIMM event page lists APCOM 2021 as an online event from 30 August to 1 September 2021.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

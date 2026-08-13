@@ -1,0 +1,22 @@
+name: 76th World Foundry Congress
+event_types:
+- conference
+start: '2026-10-18'
+end: '2026-10-24'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+venue: Hilton Istanbul Bomonti Hotel & Conference Center
+url: https://76wfc.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://76wfc.com/
+  last_checked: '2026-08-13'
+  note: Official congress website lists the 76th World Foundry Congress in Istanbul on 18-24 October 2026.
+- type: event-site
+  scope: event
+  url: https://thewfo.com/wfo-congress
+  last_checked: '2026-08-13'
+  note: World Foundry Organization congress page links to the 76th World Foundry Congress details.

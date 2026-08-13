@@ -1,0 +1,17 @@
+name: 44th PREWIN Meeting
+event_types:
+- conference
+start: '2023-06-22'
+end: '2023-06-23'
+timezone: Europe/Warsaw
+city: Warsaw
+country: PL
+venue: InterContinental Hotel
+url: https://www.prewin.eu/images/nieuwsbrief/Agenda_Prewin_meeting_Warsaw_June_2023.pdf
+status: confirmed
+sources:
+- type: program
+  scope: event
+  url: https://www.prewin.eu/images/nieuwsbrief/Agenda_Prewin_meeting_Warsaw_June_2023.pdf
+  last_checked: '2026-07-01'
+  note: Official PREWIN agenda identifies the 44th PREWIN meeting in Warsaw on 22-23 June 2023 at the InterContinental Hotel.

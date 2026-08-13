@@ -1,0 +1,17 @@
+name: ALTA 2019
+event_types:
+- conference
+- exhibition
+start: '2019-05-18'
+end: '2019-05-25'
+timezone: Australia/Perth
+city: Perth
+country: AU
+venue: Pan Pacific Hotel Perth
+status: confirmed
+sources:
+- type: programme
+  scope: event
+  url: https://www.altamet.com.au/wp-content/uploads/2019/04/ALTA-2019-Program.pdf
+  last_checked: '2026-07-01'
+  note: Official programme lists ALTA 2019 as the 24th annual event, 18-25 May 2019, at Pan Pacific Hotel, Perth.

@@ -1,7 +1,7 @@
 series: Slag Valorisation Symposium
 slug: slag-valorisation
 website: http://slag-valorisation-symposium.eu
-description: Recurring symposium on slag valorisation.
+description: Recurring symposium on valorisation of high-temperature process residues and other industrial by-products.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,7 +14,12 @@ sources:
 - type: series-home
   scope: series
   url: http://slag-valorisation-symposium.eu
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+- type: series-home
+  scope: series
+  url: https://slag-valorisation-symposium.eu/
+  last_checked: '2026-07-01'
+  note: Official page describes the symposium scope and lists previous editions from 2009 through 2025.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

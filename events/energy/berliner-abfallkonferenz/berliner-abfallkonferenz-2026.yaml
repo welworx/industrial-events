@@ -1,0 +1,18 @@
+name: Berliner Konferenz Abfallwirtschaft und Energie 2026
+event_types:
+- conference
+start: '2026-01-28'
+end: '2026-01-29'
+timezone: Europe/Berlin
+city: Berlin
+country: DE
+venue: Maritim proArte Hotel Berlin
+address: Friedrichstraße 151/Dorotheenstraße 65, 10117 Berlin, Germany
+url: https://vivis.de/bkawe/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://vivis.de/bkawe/
+  last_checked: '2026-07-01'
+  note: Official BKAWE page contains the 2026 programme for 28-29 January and lists Maritim proArte Hotel Berlin as the conference venue.

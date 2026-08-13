@@ -1,7 +1,7 @@
 series: NGA Glass Fabricator Conference
 slug: nga-glass-fabricator
 website: https://www.glass.org/nga-glass-fabricator-conference
-description: National Glass Association conference for glass fabricators.
+description: National Glass Association fabricator conference combining executive, technical, and workshop programming for North American glass fabrication businesses.
 recurrence: recurring
 categories:
 - materials
@@ -14,5 +14,5 @@ sources:
 - type: series-home
   scope: series
   url: https://www.glass.org/nga-glass-fabricator-conference
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  last_checked: '2026-07-01'
+  note: Official NGA page says GFAB combines NGA Glass Conference and GPAD elements, with executive, NGA Glass Conference, and workshop tracks for fabricators.

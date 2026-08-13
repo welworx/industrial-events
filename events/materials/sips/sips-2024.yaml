@@ -1,0 +1,16 @@
+name: SIPS 2024 Sustainable Industrial Processing Summit and Exhibition
+event_types:
+- conference
+- exhibition
+start: '2024-10-20'
+end: '2024-10-24'
+timezone: Europe/Athens
+country: GR
+url: https://www.flogen.org/sips2024/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.flogen.org/sips2024/
+  last_checked: '2026-07-01'
+  note: Official SIPS important-dates page lists 20-24 October 2024, and the official SIPS overview page identifies Crete, Greece.

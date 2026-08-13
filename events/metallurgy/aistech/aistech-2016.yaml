@@ -1,0 +1,17 @@
+name: AISTech 2016 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2016-05-16'
+end: '2016-05-19'
+timezone: America/New_York
+city: Pittsburgh
+country: US
+url: http://www.aist.org/convexpo/2016_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2016 in Pittsburgh, Pennsylvania, USA from May 16-19, 2016.

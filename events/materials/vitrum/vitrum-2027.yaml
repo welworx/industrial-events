@@ -8,11 +8,11 @@ timezone: Europe/Rome
 city: Milan
 country: IT
 venue: Fiera Milano
-url: https://vitrumlife.it/
+url: https://vitrumexpo.com/
 status: confirmed
 sources:
-- type: overview
+- type: event-site
   scope: event
-  url: https://www.vitrumlife.it/wp-content/uploads/VITRUM25_dati-2025-e-highlights-2027-ENG.pdf
-  last_checked: '2026-06-01'
-  note: Organizer PDF says the next VITRUM is set for 16-19 November 2027 at Fiera Milano.
+  url: https://vitrumexpo.com/
+  last_checked: '2026-07-01'
+  note: Official site says 16-19 November 2027 at Milano Rho Fiera.

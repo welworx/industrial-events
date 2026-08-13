@@ -1,0 +1,23 @@
+name: GlassBuild America 2025
+event_types:
+- trade-fair
+- exhibition
+- conference
+start: '2025-11-04'
+end: '2025-11-06'
+timezone: America/New_York
+city: Orlando
+country: US
+venue: Orange County Convention Center
+status: confirmed
+sources:
+- type: event-report
+  scope: event
+  url: https://www.glassbuildamerica.com/news/glassbuild-america-2025-breaks-records
+  last_checked: '2026-07-01'
+  note: Official GlassBuild news report says the 2025 edition was held for the first time in Orlando, Florida; an official preview identifies Orange County Convention Center and 4-6 November.
+- type: event-preview
+  scope: event
+  url: https://www.glassbuildamerica.com/news/glassbuild-america-comes-orlando-november
+  last_checked: '2026-07-01'
+  note: Official preview says GlassBuild America came to Orange County Convention Center in Orlando, FL, on 4-6 November.

@@ -19,4 +19,5 @@ sources:
 - type: event-site
   scope: series
   url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx
+  last_checked: '2026-07-01'
   note: Official Cross-Cutting Symposia at Extraction 2025 site.

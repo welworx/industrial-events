@@ -1,0 +1,17 @@
+name: SIPS 2023 Sustainable Industrial Processing Summit and Exhibition
+event_types:
+- conference
+- exhibition
+start: '2023-11-27'
+end: '2023-12-01'
+timezone: America/Panama
+city: Panama City
+country: PA
+url: https://www.flogen.org/sips2023/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.flogen.org/sips2023/
+  last_checked: '2026-07-01'
+  note: Official SIPS 2023 page identifies the summit and Panama City; its important-dates page lists 27 November-1 December 2023.

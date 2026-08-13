@@ -1,0 +1,17 @@
+name: 48th PREWIN Meeting
+event_types:
+- conference
+start: '2025-06-19'
+end: '2025-06-20'
+timezone: Europe/Amsterdam
+city: Rotterdam
+country: NL
+venue: ss Rotterdam
+url: https://www.prewin.eu/activities
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.prewin.eu/activities
+  last_checked: '2026-07-01'
+  note: Official PREWIN activities page identifies the 48th PREWIN meeting in Rotterdam on 19-20 June 2025 at ss Rotterdam.

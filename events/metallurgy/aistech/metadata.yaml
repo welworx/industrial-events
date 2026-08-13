@@ -1,7 +1,7 @@
 series: AISTech
 slug: aistech
-website: https://www.aist.org/conference-expositions/aistech
-description: Recurring Association for Iron & Steel Technology conference and exposition.
+website: https://www.aist.org/Conferences-Expositions/AISTech/Home
+description: Annual AIST iron and steel technology conference and exposition covering steelmaking, processing, and plant operations.
 recurrence: recurring
 categories:
 - metallurgy
@@ -13,10 +13,11 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://www.aist.org/conference-expositions/aistech
-  last_checked: '2026-05-07'
+  url: https://www.aist.org/Conferences-Expositions/AISTech/Home
+  last_checked: '2026-08-13'
+  note: Official AISTech page lists the annual iron and steel technology conference and exposition.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
-  last_checked: '2026-05-07'
+  last_checked: '2026-08-13'
   note: Archive lists AISTech editions including 2005 and 2012.

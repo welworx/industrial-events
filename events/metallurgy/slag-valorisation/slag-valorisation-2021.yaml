@@ -1,0 +1,22 @@
+name: 7th International Slag Valorisation Symposium
+event_types:
+- conference
+start: '2021-04-27'
+end: '2021-04-29'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+venue: Virtual conference
+url: https://slag-valorisation-symposium.eu/2021/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2021/
+  last_checked: '2026-07-01'
+  note: Official archived page identifies the 7th International Slag Valorisation Symposium as a virtual conference, 27-29 April 2021.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'
+  note: Pyrometallurgy archive lists the 7th International Slag Valorisation Symposium, 27-29 April 2021, as a virtual event.

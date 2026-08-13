@@ -1,0 +1,17 @@
+name: AISTech 2004 Association for Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2004-09-15'
+end: '2004-09-17'
+timezone: America/Chicago
+city: Nashville
+country: US
+url: http://www.aist.org/convexpo/aistech2004.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2004 in Nashville, Tennessee, USA from September 15-17, 2004.

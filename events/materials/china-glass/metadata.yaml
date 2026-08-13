@@ -1,0 +1,19 @@
+series: China Glass
+slug: china-glass
+website: https://www.chinaglass-expo.com/
+description: China International Glass Industrial Technical Exhibition for glass manufacturing, processing technology, and industrial applications.
+recurrence: recurring
+categories:
+- materials
+- glass
+topics:
+- glass
+- manufacturing
+- processing
+- trade-fair
+sources:
+- type: series-home
+  scope: series
+  url: https://www.chinaglass-expo.com/
+  last_checked: '2026-08-13'
+  note: Official event homepage publishes recurring China Glass exhibition details including the 2027 edition.

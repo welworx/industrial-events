@@ -1,7 +1,7 @@
 series: Silicon for the Chemical and Solar Industry
 slug: silicon
-website: https://www.ntnu.edu/si-conference/home
-description: Recurring conference on silicon for the chemical and solar industry.
+website: https://www.ntnu.edu/si-conference
+description: NTNU-hosted conference series on silicon for chemical and solar industry applications.
 recurrence: recurring
 categories:
 - metallurgy
@@ -13,8 +13,9 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://www.ntnu.edu/si-conference/home
-  last_checked: '2026-05-07'
+  url: https://www.ntnu.edu/si-conference
+  last_checked: '2026-07-01'
+  note: Official NTNU page lists the 2026 Si-Conference and proceedings from prior editions.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm

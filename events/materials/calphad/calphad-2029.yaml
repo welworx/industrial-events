@@ -1,16 +1,12 @@
 name: CALPHAD 2029
 event_types:
 - conference
-country: RU
+country: US
 url: https://calphad.org/future-conferences
 status: tentative
 sources:
 - type: event-site
   scope: event
   url: https://calphad.org/future-conferences
-  last_checked: '2026-05-07'
-- type: overview
-  scope: event
-  url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
-  note: Lists 2029 in Russia without exact dates.
+  last_checked: '2026-07-01'
+  note: Official CALPHAD future-conferences page lists CALPHAD 2029 in the United States without exact dates.

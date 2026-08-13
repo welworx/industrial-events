@@ -1,0 +1,12 @@
+name: ICG Annual Meeting 2026
+event_types:
+- conference
+city: Lyon
+country: FR
+status: tentative
+sources:
+- type: event-listing
+  scope: event
+  url: https://icglass.org/past-events-and-conferences/
+  last_checked: '2026-07-01'
+  note: Official ICG Annual Meetings table lists Lyon, France, for 2026 without exact dates.

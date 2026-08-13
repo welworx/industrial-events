@@ -12,9 +12,21 @@ sources:
 - type: event-site
   scope: event
   url: https://glassconference.sisecam.com/en
-  last_checked: '2026-06-01'
+  last_checked: '2026-08-13'
+  note: Official event page states deadline for presentation submission is 12 June 2026, confirms 18-19 June 2026 in Istanbul, Turkiye and online, and lists the theme "United to Innovate - A Future-Focused Transformation of Energy & Glass".
 - type: overview
   scope: event
   url: https://www.glassonweb.com/event/40th-sisecam-international-glass-conference
   last_checked: '2026-06-01'
   note: Confirms the 18-19 June 2026 Istanbul hybrid event.
+deadlines:
+- type: presentation-submission
+  name: Deadline for presentation submission
+  date: '2026-06-12'
+  url: https://glassconference.sisecam.com/en
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://glassconference.sisecam.com/en
+    last_checked: '2026-08-13'

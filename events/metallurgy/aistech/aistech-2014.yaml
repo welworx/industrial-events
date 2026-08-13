@@ -1,0 +1,17 @@
+name: AISTech 2014 Iron and Steel Technology Conference and Exposition
+event_types:
+- conference
+- exhibition
+start: '2014-05-05'
+end: '2014-05-08'
+timezone: America/Indiana/Indianapolis
+city: Indianapolis
+country: US
+url: http://www.aist.org/convexpo/2014_aistech.htm
+status: confirmed
+sources:
+- type: series-archive
+  scope: event
+  url: https://www.aist.org/conference-expositions
+  last_checked: '2026-07-01'
+  note: Official AIST conference-expositions archive lists AISTech 2014 in Indianapolis, Indiana, USA from May 5-8, 2014.

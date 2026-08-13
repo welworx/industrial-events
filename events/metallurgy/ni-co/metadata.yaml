@@ -19,8 +19,10 @@ sources:
 - type: event-site
   scope: series
   url: https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx
+  last_checked: '2026-07-01'
   note: Official Ni-Co 2025 site; the series uses event-specific pages.
 - type: overview
   scope: series
   url: https://metsoc.org/events-posts/extraction-2025/
+  last_checked: '2026-07-01'
   note: MetSoc overview for Extraction 2025, Copper 2025, and Ni-Co 2025.

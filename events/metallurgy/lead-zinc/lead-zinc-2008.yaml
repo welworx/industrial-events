@@ -1,0 +1,15 @@
+name: International Symposium on Lead and Zinc Processing
+event_types:
+- conference
+start: '2008-02-25'
+end: '2008-02-29'
+timezone: Africa/Johannesburg
+city: Durban
+country: ZA
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'
+  note: Archive lists the International Symposium on Lead and Zinc Processing, 25-29 February 2008 in Durban.

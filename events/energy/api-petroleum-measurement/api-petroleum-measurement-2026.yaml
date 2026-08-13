@@ -13,5 +13,56 @@ sources:
 - type: event-site
   scope: event
   url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
-  last_checked: '2026-06-19'
+  last_checked: '2026-08-13'
   note: Official API page lists 12-16 October 2026 at Hyatt Regency Austin.
+deadlines:
+- type: discount-registration
+  name: Early RSVP deadline
+  date: '2026-09-04'
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+    last_checked: '2026-08-13'
+- type: registration-refund
+  name: Registration refund cutoff
+  date: '2026-09-11'
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+    last_checked: '2026-08-13'
+- type: sponsorship-cancellation
+  name: Sponsor and exhibitor cancellation/refund deadline
+  date: '2026-08-14'
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+    last_checked: '2026-08-13'
+- type: sponsorship-materials
+  name: Sponsor application materials deadline
+  date: '2026-08-14'
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+    last_checked: '2026-08-13'
+- type: housing
+  name: Hotel reservations deadline
+  date: '2026-09-17'
+  url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/
+    last_checked: '2026-08-13'

@@ -1,0 +1,17 @@
+name: 46th PREWIN Meeting
+event_types:
+- conference
+start: '2024-06-06'
+end: '2024-06-07'
+timezone: Europe/London
+city: Birmingham
+country: GB
+venue: Aston University Conference Centre
+url: https://www.prewin.eu/activities
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.prewin.eu/activities
+  last_checked: '2026-07-01'
+  note: Official PREWIN activities page identifies the 46th PREWIN meeting in Birmingham on 6-7 June 2024 at Aston University Conference Centre.

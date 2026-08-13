@@ -1,0 +1,16 @@
+name: 9th International Slag Valorisation Symposium
+event_types:
+- conference
+start: '2025-04-08'
+end: '2025-04-11'
+timezone: Europe/Brussels
+city: Leuven
+country: BE
+url: https://slag-valorisation-symposium.eu/2025/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://slag-valorisation-symposium.eu/2025/
+  last_checked: '2026-07-01'
+  note: Official archived page identifies the 9th International Slag Valorisation Symposium in Leuven, Belgium, 8-11 April 2025.

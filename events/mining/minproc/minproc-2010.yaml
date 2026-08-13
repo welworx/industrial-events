@@ -1,0 +1,17 @@
+name: Mineral Processing 2010
+event_types:
+- conference
+start: '2010-08-05'
+end: '2010-08-06'
+timezone: Africa/Johannesburg
+city: Cape Town
+country: ZA
+url: http://www.minproc-wcape.org.za
+url_status: inactive
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'
+  note: Pyrometallurgy archive lists Mineral Processing 2010 for 5-6 August 2010 in Cape Town.

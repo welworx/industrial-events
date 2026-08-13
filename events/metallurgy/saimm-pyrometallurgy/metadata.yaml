@@ -1,6 +1,6 @@
 series: SAIMM Pyrometallurgy International Conference
 slug: saimm-pyrometallurgy
-description: Recurring SAIMM pyrometallurgy conference series.
+description: SAIMM international conference series on pyrometallurgy, furnace tapping, refractories, competitiveness, and sustainability.
 recurrence: recurring
 categories:
 - metallurgy
@@ -13,11 +13,16 @@ sources:
 - type: organizer
   scope: series
   url: https://www.saimm.co.za
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
+- type: event-site
+  scope: series
+  url: https://www.saimm.co.za/saimm-events/upcoming-events/saimm-pyrometallurgy-international-conference-2026
+  last_checked: '2026-07-01'
+  note: Official SAIMM 2026 page frames the conference around pyrometallurgy, furnace tapping, and refractories.
 - type: overview
   scope: series
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-07-01'
   note: Lists the 2026 SAIMM Pyrometallurgy International Conference.
 - type: overview
   scope: series

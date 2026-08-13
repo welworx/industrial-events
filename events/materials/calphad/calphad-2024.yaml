@@ -1,0 +1,20 @@
+name: CALPHAD 2024
+event_types:
+- conference
+start: '2024-05-26'
+end: '2024-05-31'
+timezone: Europe/Berlin
+city: Mannheim
+country: DE
+url: https://www.calphad2024.kit.edu/index.php
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.calphad2024.kit.edu/index.php
+  last_checked: '2026-07-01'
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/Previous.htm
+  last_checked: '2026-07-01'
+  note: Archive lists CALPHAD 2024, the 51st conference, on May 26-31 in Mannheim, Germany.

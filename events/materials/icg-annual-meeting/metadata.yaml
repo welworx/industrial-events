@@ -1,7 +1,7 @@
 series: ICG Annual Meeting
 slug: icg-annual-meeting
 website: https://icglass.org/events-and-conferences/
-description: Annual meeting of the International Commission on Glass.
+description: Annual conference of the International Commission on Glass, held between ICG International Congresses on Glass.
 recurrence: recurring
 categories:
 - materials
@@ -13,6 +13,6 @@ topics:
 sources:
 - type: series-home
   scope: series
-  url: https://icglass.org/events-and-conferences/
-  last_checked: '2026-06-01'
-  note: Contributed via ClickUp task "Important Conferences in Glass".
+  url: https://icglass.org/past-events-and-conferences/
+  last_checked: '2026-07-01'
+  note: Official ICG page lists annual meetings for 2023, 2024, 2026, and 2027, and states annual conferences are organized between congresses.

@@ -1,0 +1,21 @@
+name: 14th International Conference on Computational Fluid Dynamics in the Oil & Gas, Metallurgical and Process Industries
+event_types:
+- conference
+start: '2020-10-12'
+end: '2020-10-14'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.sintef.no/projectweb/cfd2020/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.sintef.no/projectweb/cfd2020/
+  last_checked: '2026-07-01'
+  note: Official SINTEF page gives Trondheim, Norway, 12-14 October 2020 and notes the virtual arrangement.
+- type: proceedings
+  scope: event
+  url: https://www.sintef.no/projectweb/cfd2020/proceedings/
+  last_checked: '2026-07-01'
+  note: Official proceedings page links the published 14th conference proceedings.

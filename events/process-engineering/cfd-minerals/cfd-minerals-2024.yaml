@@ -1,0 +1,21 @@
+name: 15th International Conference on Industrial Applications of Computational Fluid Dynamics
+event_types:
+- conference
+start: '2024-06-11'
+end: '2024-06-13'
+timezone: Europe/Oslo
+city: Trondheim
+country: NO
+url: https://www.sintef.no/projectweb/cfd2024/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.sintef.no/projectweb/cfd2024/
+  last_checked: '2026-07-01'
+  note: Official SINTEF page gives the 15th event name and 11-13 June 2024 in Trondheim, Norway.
+- type: program
+  scope: event
+  url: https://www.sintef.no/projectweb/cfd2024/program/
+  last_checked: '2026-07-01'
+  note: Official program page confirms the Trondheim host and links program and abstract PDFs.
