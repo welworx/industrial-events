@@ -1,0 +1,18 @@
+name: China Glass 2027, 36th China International Glass Industrial Technical Exhibition
+event_types:
+- trade-fair
+- exhibition
+start: '2027-05-24'
+end: '2027-05-27'
+timezone: Asia/Shanghai
+city: Beijing
+country: CN
+venue: China International Exhibition Center (Shunyi Hall)
+url: https://www.chinaglass-expo.com/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.chinaglass-expo.com/
+  last_checked: '2026-08-13'
+  note: Official homepage lists 24-27 May 2027 in Beijing at China International Exhibition Center (Shunyi Hall).

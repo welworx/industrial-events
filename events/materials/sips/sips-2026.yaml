@@ -7,11 +7,93 @@ end: '2026-12-03'
 timezone: America/Sao_Paulo
 city: Rio de Janeiro
 country: BR
+venue: Rio Othon Palace Hotel
 url: https://www.flogen.org/sips2026/
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://www.flogen.org/sips2026/
-  last_checked: '2026-07-01'
+  last_checked: '2026-08-13'
   note: Official SIPS 2026 page identifies the summit, and its important-dates page lists 30 November-3 December 2026.
+deadlines:
+- type: abstracts
+  name: Abstract submission deadline
+  date: '2026-08-17'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: early-bird
+  name: Early bird registration deadline
+  date: '2026-08-17'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: award-application
+  name: Award application deadline
+  date: '2026-08-31'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: discount-registration
+  name: Discounted registration deadline
+  date: '2026-09-15'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: manuscript
+  name: Full manuscript submission deadline
+  date: '2026-10-05'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: revised-manuscript
+  name: Revised final submission deadline
+  date: '2026-10-28'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: advanced-registration
+  name: Advanced registration deadline
+  date: '2026-11-03'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'
+- type: presentation-upload
+  name: Presentation file submission deadline
+  date: '2026-11-23'
+  url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.flogen.org/sips2026/important_dates.php?p=28#content_top
+    last_checked: '2026-08-13'

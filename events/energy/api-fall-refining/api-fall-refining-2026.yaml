@@ -13,9 +13,50 @@ sources:
 - type: event-site
   scope: event
   url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
-  last_checked: '2026-06-01'
+  last_checked: '2026-08-13'
 - type: overview
   scope: event
   url: https://inspectioneering.com/events/2026-02-23/11950/2026-api-fall-refining-and-equipment-standards-meeting
   last_checked: '2026-06-01'
   note: Public listing identifies the API 2026 fall meeting in New Orleans from 9-13 November 2026.
+deadlines:
+- type: sponsorship-cancellation
+  name: Sponsor and exhibitor cancellation/refund deadline
+  date: '2026-09-11'
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+    last_checked: '2026-08-13'
+- type: sponsorship-materials
+  name: Sponsorship items application deadline
+  date: '2026-10-09'
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+    last_checked: '2026-08-13'
+- type: housing
+  name: Hotel reservation deadline
+  date: '2026-10-16'
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+    last_checked: '2026-08-13'
+- type: registration-refund
+  name: Registration refund deadline
+  date: '2026-10-16'
+  url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/
+    last_checked: '2026-08-13'

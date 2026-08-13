@@ -1,16 +1,16 @@
 name: 2026 ILA General Assembly & Symposium
 event_types:
 - conference
-start: '2026-10-06'
-end: '2026-10-09'
-timezone: Europe/Madrid
-city: Barcelona
-country: ES
+start: '2026-10-13'
+end: '2026-10-16'
+timezone: Asia/Dubai
+city: Dubai
+country: AE
 url: https://www.internationallime.org/events/2026-ila-general-assembly-symposium/
 status: confirmed
 sources:
 - type: event-site
   scope: event
   url: https://www.internationallime.org/events/2026-ila-general-assembly-symposium/
-  last_checked: '2026-06-19'
-  note: Official page lists Barcelona and 6-9 October 2026 for the ILA lime-industry symposium.
+  last_checked: '2026-08-13'
+  note: Official page lists Dubai, United Arab Emirates and 13-16 October 2026 for the ILA lime-industry symposium.

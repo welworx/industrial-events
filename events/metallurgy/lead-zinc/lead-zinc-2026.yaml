@@ -13,8 +13,89 @@ sources:
 - type: event-site
   scope: event
   url: https://j-lppf2.jp/lead-zinc2026/
-  last_checked: '2026-06-19'
+  last_checked: '2026-08-13'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
   last_checked: '2026-06-19'
+deadlines:
+- type: abstracts
+  name: Abstract submission deadline (final extended)
+  date: '2025-12-31'
+  url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+    last_checked: '2026-08-13'
+- type: manuscript
+  name: First draft manuscript submission deadline (final extended)
+  date: '2026-03-31'
+  url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+    last_checked: '2026-08-13'
+- type: review
+  name: Expected review completion
+  date: '2026-04-30'
+  url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+    last_checked: '2026-08-13'
+- type: final-manuscript
+  name: Final manuscript submission deadline (final extended)
+  date: '2026-05-31'
+  url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+    last_checked: '2026-08-13'
+- type: author-registration
+  name: Author registration deadline (final extended)
+  date: '2026-06-30'
+  url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/call_for_papers/
+    last_checked: '2026-08-13'
+- type: tour-registration
+  name: Industrial tours registration deadline
+  date: '2026-08-31'
+  url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+    last_checked: '2026-08-13'
+- type: lunch-registration
+  name: Lunch registration deadline
+  date: '2026-09-30'
+  url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+    last_checked: '2026-08-13'
+- type: banquet-registration
+  name: Banquet registration deadline
+  date: '2026-09-30'
+  url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://j-lppf2.jp/lead-zinc2026/registration_travel/registration/
+    last_checked: '2026-08-13'

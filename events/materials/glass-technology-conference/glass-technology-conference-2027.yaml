@@ -1,0 +1,16 @@
+name: 100th Glass Technology Conference
+event_types:
+- conference
+start: '2027-05-24'
+end: '2027-05-26'
+timezone: Europe/Berlin
+city: Bremerhaven
+country: DE
+url: https://hvg-dgg.de/100gtc
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://hvg-dgg.de/100gtc
+  last_checked: '2026-08-13'
+  note: Official HVG-DGG event page publishes the 100th Glass Technology Conference in Bremerhaven for 24-26 May 2027.

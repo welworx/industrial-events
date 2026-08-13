@@ -6,6 +6,7 @@ end: '2027-05-27'
 timezone: Atlantic/Reykjavik
 city: Reykjavik
 country: IS
+venue: Reykjavik University
 url: https://infacon18.com
 url_status: restricted
 status: confirmed
@@ -13,8 +14,69 @@ sources:
 - type: event-site
   scope: event
   url: http://www.ru.is/en/infacon18
-  last_checked: '2026-05-11'
+  last_checked: '2026-08-13'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
   last_checked: '2026-05-07'
+deadlines:
+- type: abstracts
+  name: Abstract submission deadline
+  date: '2026-06-30'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
+- type: abstract-notification
+  name: Abstract acceptance notification
+  date: '2026-07-15'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
+- type: manuscript
+  name: Full paper submission deadline
+  date: '2026-09-30'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
+- type: manuscript-notification
+  name: Paper acceptance notification
+  date: '2026-12-01'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
+- type: revised-manuscript
+  name: Corrected paper submission deadline
+  date: '2027-02-01'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
+- type: early-bird
+  name: Early bird registration deadline
+  date: '2027-02-01'
+  url: https://www.ru.is/en/infacon18/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.ru.is/en/infacon18/
+    last_checked: '2026-08-13'
