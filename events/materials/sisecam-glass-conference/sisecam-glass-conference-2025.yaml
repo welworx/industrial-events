@@ -1,0 +1,16 @@
+name: 39th Sisecam International Glass Conference
+event_types:
+- conference
+start: '2025-04-10'
+end: '2025-04-11'
+timezone: Europe/Rome
+city: Venice
+country: IT
+url: https://www.sisecam.com/en/press-releases/sisecam-glass-conference-to-bring-together-global-glass-industry-representatives-in-italy
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.sisecam.com/en/press-releases/sisecam-glass-conference-to-bring-together-global-glass-industry-representatives-in-italy
+  last_checked: '2026-08-13'
+  note: Official Sisecam release confirms 10-11 April 2025 in Venice, Italy.

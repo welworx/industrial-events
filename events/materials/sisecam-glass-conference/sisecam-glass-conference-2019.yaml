@@ -1,0 +1,16 @@
+name: Sisecam International Glass Conference 2019
+event_types:
+- conference
+start: '2019-11-21'
+end: '2019-11-22'
+timezone: Europe/Istanbul
+city: Istanbul
+country: TR
+url: https://www.sisecam.com/en/press-releases/sisecam-international-glass-conference-discussed-the-future-of-glass-industry-with-500-participants-from-26-different-countries
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.sisecam.com/en/press-releases/sisecam-international-glass-conference-discussed-the-future-of-glass-industry-with-500-participants-from-26-different-countries
+  last_checked: '2026-08-13'
+  note: Official Sisecam release states the conference was held in Istanbul on 21-22 November 2019.

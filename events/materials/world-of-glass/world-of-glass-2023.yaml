@@ -1,0 +1,18 @@
+name: Mir Stekla 2023, 26th International Exhibition for Glass Products, Manufacturing, Processing and Finishing Technology
+event_types:
+- trade-fair
+- exhibition
+start: '2023-02-28'
+end: '2023-03-03'
+timezone: Europe/Moscow
+city: Moscow
+country: RU
+venue: EXPOCENTRE Fairgrounds, Pavilion No.3
+url: https://www.mirstekla-expo.ru/en/media/news/index.php?id4=18140
+status: confirmed
+sources:
+- type: post-show-report
+  scope: event
+  url: https://www.mirstekla-expo.ru/en/media/news/index.php?id4=18140
+  last_checked: '2026-08-13'
+  note: Official post-show report states dates 28 February-3 March 2023 and venue EXPOCENTRE Fairgrounds, Pavilion No.3, Moscow.

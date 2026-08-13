@@ -1,0 +1,18 @@
+name: glasstec 2024
+event_types:
+- trade-fair
+- exhibition
+start: '2024-10-22'
+end: '2024-10-25'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: Messe Dusseldorf
+url: https://www.glasstec-online.com/en/Media_News/Press/Press_material/Press_releases/glasstec_2024_World%E2%80%99s_leading_trade_fair_meets_high_expectations
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.glasstec-online.com/en/Media_News/Press/Press_material/Press_releases/glasstec_2024_World%E2%80%99s_leading_trade_fair_meets_high_expectations
+  last_checked: '2026-08-13'
+  note: Official glasstec press release confirms 22-25 October 2024 in Dusseldorf.
