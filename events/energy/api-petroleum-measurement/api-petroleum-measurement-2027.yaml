@@ -1,0 +1,17 @@
+name: 2027 Fall Committee on Petroleum Measurement Standards Meeting
+event_types:
+- conference
+start: '2027-10-11'
+end: '2027-10-15'
+timezone: America/New_York
+city: Fort Lauderdale
+country: US
+venue: Westin Fort Lauderdale
+url: https://events.api.org/2027-fall-committee-on-petroleum-measurement-standards-meeting/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.api.org/2027-fall-committee-on-petroleum-measurement-standards-meeting/
+  last_checked: '2026-08-13'
+  note: Official API page lists 11-15 October 2027 in Fort Lauderdale, Florida at Westin Fort Lauderdale.

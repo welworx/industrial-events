@@ -121,9 +121,15 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### April
 
+- **6-8**: [International Glass Manufacturing Show 2027](<https://glass-show.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![AE flag](https://flagcdn.com/16x12/ae.png) [Dubai, AE](<https://www.google.com/maps/search/?api=1&query=Dubai%20World%20Trade%20Centre,%20Dubai,%20AE>) | Venue: Dubai World Trade Centre | Types: trade-fair, exhibition, conference
+  - **Tags:** `materials` `glass` `manufacturing` `processing`
 - **13-16**: [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-09-15](https://img.shields.io/badge/CFP-due%202026--09--15-brightgreen)
   - **Location:** ![BE flag](https://flagcdn.com/16x12/be.png) [Leuven, BE](<https://www.google.com/maps/search/?api=1&query=Leuven,%20BE>) | Venue: TBD | Type: conference
   - **Tags:** `metallurgy` `slag` `recycling` `circular-economy`
+- **26-28**: [Carbon Black World 2027](<https://www.carbonblackworld.com/carbon-black-world>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Berlin, DE](<https://www.google.com/maps/search/?api=1&query=Berlin,%20DE>) | Venue: TBD | Type: conference
+  - **Tags:** `materials` `chemicals` `carbon-black` `rubber` `plastics` `circularity`
 - **28-29**: [19th Global Slag Conference, Exhibition & Awards](<https://www.globalslag.com/conferences/global-slag/introduction>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
   - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Aachen, DE](<https://www.google.com/maps/search/?api=1&query=Parkhotel%20Quellenhof%20Aachen,%20Aachen,%20DE>) | Venue: Parkhotel Quellenhof Aachen | Type: conference
   - **Tags:** `metallurgy` `slag` `recycling` `cement`
@@ -172,6 +178,9 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### October
 
+- **11-15**: [2027 Fall Committee on Petroleum Measurement Standards Meeting](<https://events.api.org/2027-fall-committee-on-petroleum-measurement-standards-meeting/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Fort Lauderdale, US](<https://www.google.com/maps/search/?api=1&query=Westin%20Fort%20Lauderdale,%20Fort%20Lauderdale,%20US>) | Venue: Westin Fort Lauderdale | Type: conference
+  - **Tags:** `energy` `petroleum` `measurement-standards` `standards`
 - **26-28**: [GlassBuild America 2027](<https://www.glassbuildamerica.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
   - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Orlando, US](<https://www.google.com/maps/search/?api=1&query=Orange%20County%20Convention%20Center,%20South%2FNorth%20Halls,%20Orlando,%20US>) | Venue: Orange County Convention Center, South/North Halls | Types: trade-fair, exhibition, conference
   - **Tags:** `materials` `glass` `construction` `fenestration` `building-envelope`
@@ -181,6 +190,9 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **7-10**: [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-12-18](https://img.shields.io/badge/CFP-due%202026--12--18-brightgreen)
   - **Location:** ![JP flag](https://flagcdn.com/16x12/jp.png) [Osaka, JP](<https://www.google.com/maps/search/?api=1&query=Osaka%20International%20Convention%20Center,%205-3-51%20Nakanoshima,%20Kita-ku,%20Osaka%20City,%20Osaka%20Prefecture,%20Japan,%20Osaka,%20JP>) | Venue: Osaka International Convention Center | Type: conference
   - **Tags:** `metallurgy` `refractories` `high-temperature-materials`
+- **15-19**: [API Fall Refining and Equipment Standards Meeting 2027](<https://events.api.org/2027-fall-refining-and-equipment-standards-meeting/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Phoenix, US](<https://www.google.com/maps/search/?api=1&query=Sheraton%20Phoenix,%20Phoenix,%20US>) | Venue: Sheraton Phoenix | Type: conference
+  - **Tags:** `energy` `refining` `equipment-standards` `petroleum`
 - **16-19**: [VITRUM 2027](<https://vitrumexpo.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![IT flag](https://flagcdn.com/16x12/it.png) [Milan, IT](<https://www.google.com/maps/search/?api=1&query=Fiera%20Milano,%20Milan,%20IT>) | Venue: Fiera Milano | Types: trade-fair, exhibition
   - **Tags:** `materials` `glass` `machinery` `processing`
@@ -287,10 +299,30 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Oct 6-8, 2026](https://img.shields.io/badge/next-Oct%206--8%2C%202026-brightgreen) [ALUMINIUM 2026](<https://www.aluminium-exhibition.com/germany/en-gb.html>)
 
+- **[Aluminum USA](<https://industrial-events.pages.dev/events/series/aluminum-usa.html>)** [↗](<https://www.aluminum-us.com/>)
+  North American aluminum industry event covering the value chain from mining and smelting through casting, rolling, extrusions, finishing, and fabrication.
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: May 19-20, 2027](https://img.shields.io/badge/next-May%2019--20%2C%202027-brightgreen) [Aluminum USA 2027](<https://www.aluminum-us.com/>)
+
 - **[APCOM](<https://industrial-events.pages.dev/events/series/apcom.html>)** [↗](<https://www.saimm.co.za/saimm-events/upcoming-events/apcom-2021-minerals-industry-4-0>)
   International APCOM conference series on applications of computers and operations research in the minerals industries.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+
+- **[API Committee on Petroleum Measurement Standards Meeting](<https://industrial-events.pages.dev/events/series/api-petroleum-measurement.html>)** [↗](<https://events.api.org/>)
+  American Petroleum Institute committee meeting for petroleum measurement standards.
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
+  **Next:** ![next: Oct 12-16, 2026](https://img.shields.io/badge/next-Oct%2012--16%2C%202026-brightgreen) [2026 Fall Committee on Petroleum Measurement Standards Meeting](<https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/>)
+
+- **[API Fall Refining and Equipment Standards Meeting](<https://industrial-events.pages.dev/events/series/api-fall-refining.html>)** [↗](<https://events.api.org/>)
+  American Petroleum Institute meeting for downstream refining and equipment standards work.
+  ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
+  **Next:** ![next: Nov 9-13, 2026](https://img.shields.io/badge/next-Nov%209--13%2C%202026-brightgreen) [API Fall Refining and Equipment Standards Meeting 2026](<https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/>)
+
+- **[ATIV Glass Days](<https://industrial-events.pages.dev/events/series/ativ-glass-days.html>)** [↗](<https://www.ativ-online.it/>)
+  ATIV-organized Italian glass conference focused on glass science, art, and technology.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: Nov 19-20, 2026](https://img.shields.io/badge/next-Nov%2019--20%2C%202026-brightgreen) [XXXIX ATIV Conference](<https://www.ativ.eu/>)
 
 - **[Berliner Konferenz Abfallwirtschaft und Energie](<https://industrial-events.pages.dev/events/series/berliner-abfallkonferenz.html>)** [↗](<https://vivis.de/bkawe/>)
   German-language annual conference on waste management, energy-industry questions, waste incineration technology, downstream processes, and carbon capture and use.
@@ -307,10 +339,20 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [CALPHAD 2027](<https://calphad.org/future-conferences>)
 
+- **[Carbon Black World](<https://industrial-events.pages.dev/events/series/carbon-black-world.html>)** [↗](<https://www.carbonblackworld.com/carbon-black-world>)
+  Smithers-organized global forum for the carbon black value chain, including tire, rubber, plastics, compounds, ink, equipment, and solution-provider sectors.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: Apr 26-28, 2027](https://img.shields.io/badge/next-Apr%2026--28%2C%202027-brightgreen) [Carbon Black World 2027](<https://www.carbonblackworld.com/carbon-black-world>)
+
 - **[Challenging Glass Conference](<https://industrial-events.pages.dev/events/series/challenging-glass.html>)** [↗](<https://challengingglass.com/>)
   Biennial international conference on architectural and structural applications of glass.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: probably 2028](https://img.shields.io/badge/next-probably%202028-yellow)
+
+- **[China Glass](<https://industrial-events.pages.dev/events/series/china-glass.html>)** [↗](<https://www.chinaglass-expo.com/>)
+  China International Glass Industrial Technical Exhibition for glass manufacturing, processing technology, and industrial applications.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: May 24-27, 2027](https://img.shields.io/badge/next-May%2024--27%2C%202027-brightgreen) [China Glass 2027, 36th China International Glass Industrial Technical Exhibition](<https://www.chinaglass-expo.com/>)
 
 - **[Conference of Metallurgists](<https://industrial-events.pages.dev/events/series/com.html>)** [↗](<https://com.metsoc.org>)
   MetSoc's annual Conference of Metallurgists for metallurgy, materials, and processing topics.
@@ -341,6 +383,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [1st European Slag Conference](<https://www.euroslag2026.eu/>)
 
+- **[Extraction Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
+  TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
+  ![span: 7 years](https://img.shields.io/badge/span-7%20years-blue)
+  **Next:** ![next: probably 2032](https://img.shields.io/badge/next-probably%202032-yellow)
+
 - **[GIFA](<https://industrial-events.pages.dev/events/series/gifa.html>)** [↗](<https://www.gifa.com/>)
   World's leading trade fair for foundry technology, co-located with the Bright World of Metals events.
   ![frequency: 4 years](https://img.shields.io/badge/frequency-4%20years-blue)
@@ -365,6 +412,16 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   Regional Glassman exhibitions and conferences for container and hollow glass manufacturing, combining supplier exhibits with technical conference sessions.
   ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
   **Next:** ![next: Mar 17-18, 2027](https://img.shields.io/badge/next-Mar%2017--18%2C%202027-brightgreen) [Glassman Asia 2027](<https://glassmanevents.com/asia/>)
+
+- **[glasspex INDIA](<https://industrial-events.pages.dev/events/series/glasspex-india.html>)** [↗](<https://www.glasspex.com/>)
+  Mumbai trade fair for glass production, processing, finishing, packaging, automation, measurement, and related glass-sector technology.
+  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
+  **Next:** ![next: Sep 23-25, 2027](https://img.shields.io/badge/next-Sep%2023--25%2C%202027-brightgreen) [glasspex INDIA 2027](<https://www.glasspex.com/>)
+
+- **[glasstec](<https://industrial-events.pages.dev/events/series/glasstec.html>)** [↗](<https://www.glasstec.de/>)
+  Dusseldorf trade fair for the international glass industry, covering glass production, processing, products, and applications.
+  ![span: 2 years](https://img.shields.io/badge/span-2%20years-blue)
+  **Next:** ![next: Oct 20-23, 2026](https://img.shields.io/badge/next-Oct%2020--23%2C%202026-brightgreen) [glasstec 2026](<https://www.glasstec.de/>)
 
 - **[Global Slag Conference](<https://industrial-events.pages.dev/events/series/global-slag.html>)** [↗](<https://www.globalslag.com/conferences/global-slag/>)
   Global conference series on slag production, handling, valorisation, cement use, and market development.
@@ -399,6 +456,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   International Ferro-Alloys Congress series for pyrometallurgy, smelting, and ferro-alloy production practice.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: May 23-27, 2027](https://img.shields.io/badge/next-May%2023--27%2C%202027-brightgreen) [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>)
+
+- **[International Glass Manufacturing Show](<https://industrial-events.pages.dev/events/series/international-glass-manufacturing-show.html>)** [↗](<https://glass-show.com/>)
+  Africa and Middle East glass-industry exhibition covering glass products, production technologies, manufacturing, processing, and finishing machinery.
+  ![span: 1 year](https://img.shields.io/badge/span-1%20year-blue)
+  **Next:** ![next: Sep 1-3, 2026](https://img.shields.io/badge/next-Sep%201--3%2C%202026-brightgreen) [IGMS Saudi 2026](<https://glass-show.com/saudi>)
 
 - **[International Heavy Minerals Conference](<https://industrial-events.pages.dev/events/series/heavy-minerals.html>)**
   International technical conference series for heavy-mineral exploration, mining, processing, and products.
@@ -456,6 +518,10 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
   **Next:** ![next: Sep 7-10, 2026](https://img.shields.io/badge/next-Sep%207--10%2C%202026-brightgreen) [Silicon for the Chemical and Solar Industry XVIII](<https://www.ntnu.edu/si-conference>)
 
+- **[Sisecam International Glass Conference](<https://industrial-events.pages.dev/events/series/sisecam-glass-conference.html>)** [↗](<https://glassconference.sisecam.com/en>)
+  Sisecam international glass conference for industry and academia, evolved from the Sisecam Glass Symposium launched in 1985.
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+
 - **[Slag Valorisation Symposium](<https://industrial-events.pages.dev/events/series/slag-valorisation.html>)** [↗](<http://slag-valorisation-symposium.eu>)
   Recurring symposium on valorisation of high-temperature process residues and other industrial by-products.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
@@ -500,6 +566,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Oct 18-24, 2026](https://img.shields.io/badge/next-Oct%2018--24%2C%202026-brightgreen) [76th World Foundry Congress](<https://76wfc.com/>)
 
+- **[World of Glass](<https://industrial-events.pages.dev/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)
+  International exhibition for glass products, manufacturing, processing, and finishing technology in Moscow.
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Feb 24-26, 2027](https://img.shields.io/badge/next-Feb%2024--26%2C%202027-brightgreen) [World of Glass 2027](<https://www.mirstekla-expo.ru/en/>)
+
 <!-- generated:series-overview:end -->
 
 ## Covered One-Time Events
@@ -520,63 +591,18 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   African glass industry B2B exhibition for glass, windows, doors, and related suppliers.
   **Event:** ![next: Mar 3-5, 2027](https://img.shields.io/badge/next-Mar%203--5%2C%202027-brightgreen) [AfriGlass 2027](<https://www.expoafriglass.com/>)
 
-- **[Aluminum USA](<https://industrial-events.pages.dev/events/series/aluminum-usa.html>)** [↗](<https://www.aluminum-us.com/>)
-  North American aluminum industry event covering the value chain from mining and smelting through casting, rolling, extrusions, finishing, and fabrication.
-  **Event:** ![next: May 19-20, 2027](https://img.shields.io/badge/next-May%2019--20%2C%202027-brightgreen) [Aluminum USA 2027](<https://www.aluminum-us.com/>)
-
-- **[API Committee on Petroleum Measurement Standards Meeting](<https://industrial-events.pages.dev/events/series/api-petroleum-measurement.html>)** [↗](<https://events.api.org/>)
-  American Petroleum Institute committee meeting for petroleum measurement standards.
-  **Event:** ![next: Oct 12-16, 2026](https://img.shields.io/badge/next-Oct%2012--16%2C%202026-brightgreen) [2026 Fall Committee on Petroleum Measurement Standards Meeting](<https://events.api.org/2026-fall-committee-on-petroleum-measurement-standards-meeting/>)
-
-- **[API Fall Refining and Equipment Standards Meeting](<https://industrial-events.pages.dev/events/series/api-fall-refining.html>)** [↗](<https://events.api.org/>)
-  American Petroleum Institute meeting for downstream refining and equipment standards work.
-  **Event:** ![next: Nov 9-13, 2026](https://img.shields.io/badge/next-Nov%209--13%2C%202026-brightgreen) [API Fall Refining and Equipment Standards Meeting 2026](<https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/>)
-
-- **[ATIV Glass Days](<https://industrial-events.pages.dev/events/series/ativ-glass-days.html>)** [↗](<https://www.ativ-online.it/>)
-  ATIV-organized Italian glass conference focused on glass science, art, and technology.
-  **Event:** ![next: Nov 19-20, 2026](https://img.shields.io/badge/next-Nov%2019--20%2C%202026-brightgreen) [XXXIX ATIV Conference](<https://www.ativ.eu/>)
-
-- **[Carbon Black World](<https://industrial-events.pages.dev/events/series/carbon-black-world.html>)** [↗](<https://www.carbonblackworld.com/carbon-black-world>)
-  Smithers-organized global forum for the carbon black value chain, including tire, rubber, plastics, compounds, ink, equipment, and solution-provider sectors.
-
-- **[China Glass](<https://industrial-events.pages.dev/events/series/china-glass.html>)** [↗](<https://www.chinaglass-expo.com/>)
-  China International Glass Industrial Technical Exhibition for glass manufacturing, processing technology, and industrial applications.
-  **Event:** ![next: May 24-27, 2027](https://img.shields.io/badge/next-May%2024--27%2C%202027-brightgreen) [China Glass 2027, 36th China International Glass Industrial Technical Exhibition](<https://www.chinaglass-expo.com/>)
-
 - **[Cross-Cutting Symposia at Extraction](<https://industrial-events.pages.dev/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
-
-- **[Extraction Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
-  TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
 
 - **[Furnace Solutions](<https://industrial-events.pages.dev/events/series/furnace-solutions.html>)** [↗](<https://sgt.org/>)
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.
 
-- **[glasspex INDIA](<https://industrial-events.pages.dev/events/series/glasspex-india.html>)** [↗](<https://www.glasspex.com/>)
-  Mumbai trade fair for glass production, processing, finishing, packaging, automation, measurement, and related glass-sector technology.
-  **Event:** ![next: Sep 23-25, 2027](https://img.shields.io/badge/next-Sep%2023--25%2C%202027-brightgreen) [glasspex INDIA 2027](<https://www.glasspex.com/>)
-
-- **[glasstec](<https://industrial-events.pages.dev/events/series/glasstec.html>)** [↗](<https://www.glasstec.de/>)
-  Dusseldorf trade fair for the international glass industry, covering glass production, processing, products, and applications.
-  **Event:** ![next: Oct 20-23, 2026](https://img.shields.io/badge/next-Oct%2020--23%2C%202026-brightgreen) [glasstec 2026](<https://www.glasstec.de/>)
-
-- **[International Glass Manufacturing Show](<https://industrial-events.pages.dev/events/series/international-glass-manufacturing-show.html>)** [↗](<https://glass-show.com/>)
-  Africa and Middle East glass-industry exhibition covering glass products, production technologies, manufacturing, processing, and finishing machinery.
-  **Event:** ![next: Sep 1-3, 2026](https://img.shields.io/badge/next-Sep%201--3%2C%202026-brightgreen) [IGMS Saudi 2026](<https://glass-show.com/saudi>)
-
 - **[NGA Glass Fabricator Conference](<https://industrial-events.pages.dev/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
   National Glass Association fabricator conference combining executive, technical, and workshop programming for North American glass fabrication businesses.
-
-- **[Sisecam International Glass Conference](<https://industrial-events.pages.dev/events/series/sisecam-glass-conference.html>)** [↗](<https://glassconference.sisecam.com/en>)
-  Sisecam international glass conference for industry and academia, evolved from the Sisecam Glass Symposium launched in 1985.
 
 - **[VITRUM](<https://industrial-events.pages.dev/events/series/vitrum.html>)** [↗](<https://vitrumexpo.com/>)
   International trade fair dedicated to technologies and processes for glass processing and the wider glass economy.
   **Event:** ![next: Nov 16-19, 2027](https://img.shields.io/badge/next-Nov%2016--19%2C%202027-brightgreen) [VITRUM 2027](<https://vitrumexpo.com/>)
-
-- **[World of Glass](<https://industrial-events.pages.dev/events/series/world-of-glass.html>)** [↗](<https://www.mirstekla-expo.ru/en/>)
-  International exhibition for glass products, manufacturing, processing, and finishing technology in Moscow.
-  **Event:** ![next: Feb 24-26, 2027](https://img.shields.io/badge/next-Feb%2024--26%2C%202027-brightgreen) [World of Glass 2027](<https://www.mirstekla-expo.ru/en/>)
 
 <!-- generated:single-event-records:end -->
 

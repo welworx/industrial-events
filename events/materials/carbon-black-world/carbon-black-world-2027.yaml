@@ -1,0 +1,16 @@
+name: Carbon Black World 2027
+event_types:
+- conference
+start: '2027-04-26'
+end: '2027-04-28'
+timezone: Europe/Berlin
+city: Berlin
+country: DE
+url: https://www.carbonblackworld.com/carbon-black-world
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.carbonblackworld.com/carbon-black-world
+  last_checked: '2026-08-13'
+  note: Official Carbon Black World page lists 26-28 April 2027 in Berlin, Germany.

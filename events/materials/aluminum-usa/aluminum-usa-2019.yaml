@@ -1,0 +1,18 @@
+name: Aluminum USA 2019
+event_types:
+- trade-fair
+- exhibition
+start: '2019-09-12'
+end: '2019-09-13'
+timezone: America/Chicago
+city: Nashville
+country: US
+venue: Music City Center
+url: https://www.aluminum-us.com/en-us/For-Attendees/Media/Press-releases/ALUMINUM-USA-ANNOUNCES-2019-ENHANCED-TECHNICAL-CONFERENCE.html
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.aluminum-us.com/en-us/For-Attendees/Media/Press-releases/ALUMINUM-USA-ANNOUNCES-2019-ENHANCED-TECHNICAL-CONFERENCE.html
+  last_checked: '2026-08-13'
+  note: Official organizer press release confirms 12-13 September 2019 in Nashville at Music City Center.

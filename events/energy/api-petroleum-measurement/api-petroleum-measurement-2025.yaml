@@ -1,0 +1,17 @@
+name: 2025 Fall Committee on Petroleum Measurement Standards Meeting
+event_types:
+- conference
+start: '2025-10-13'
+end: '2025-10-17'
+timezone: America/Phoenix
+city: Phoenix
+country: US
+venue: Sheraton Phoenix
+url: https://events.api.org/2025-fall-committee-on-petroleum-measurement-standards-meeting/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.api.org/2025-fall-committee-on-petroleum-measurement-standards-meeting/
+  last_checked: '2026-08-13'
+  note: Official API page lists 13-17 October 2025 in Phoenix, Arizona at Sheraton Phoenix.

@@ -1,0 +1,17 @@
+name: API Fall Refining and Equipment Standards Meeting 2025
+event_types:
+- conference
+start: '2025-11-10'
+end: '2025-11-14'
+timezone: America/Los_Angeles
+city: Anaheim
+country: US
+venue: Anaheim Marriott
+url: https://events.api.org/2025-fall-refining-and-equipment-standards-meeting/
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://events.api.org/2025-fall-refining-and-equipment-standards-meeting/
+  last_checked: '2026-08-13'
+  note: Official API page lists 10-14 November 2025 in Anaheim, California at Anaheim Marriott.

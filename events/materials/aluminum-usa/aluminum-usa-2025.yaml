@@ -1,0 +1,18 @@
+name: Aluminum USA 2025
+event_types:
+- trade-fair
+- exhibition
+start: '2025-05-28'
+end: '2025-05-29'
+timezone: America/Chicago
+city: Nashville
+country: US
+venue: Music City Center
+url: https://www.aluminum-us.com/en-us/For-Attendees/Media/Press-releases/aluminum-usa-wraps-2023-event-with-impressive-attendance-growth-and-sold-out-show-floor.html
+status: confirmed
+sources:
+- type: press-release
+  scope: event
+  url: https://www.aluminum-us.com/en-us/For-Attendees/Media/Press-releases/aluminum-usa-wraps-2023-event-with-impressive-attendance-growth-and-sold-out-show-floor.html
+  last_checked: '2026-08-13'
+  note: Official organizer release announces Aluminum USA 2025 for 28-29 May 2025 at Music City Center, Nashville.
