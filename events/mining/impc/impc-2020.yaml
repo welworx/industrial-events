@@ -6,8 +6,10 @@ end: '2021-04-22'
 timezone: Africa/Johannesburg
 city: Cape Town
 country: ZA
+venue: Virtual event
 url: https://www.impc2020.com/
-status: confirmed
+url_status: inactive
+status: tentative
 sources:
 - type: overview
   scope: event
@@ -18,4 +20,4 @@ sources:
   scope: event
   url: https://www.impc2020.com/
   last_checked: '2026-11-03'
-  note: Congress logo on a conference presentation slide reads "XXX International Mineral Processing Congress, 18-22 April 2021, Cape Town, South Africa"; the originally planned 18-22 October 2020 dates were postponed. The website itself could not be opened when checked.
+  note: Congress logo on a conference presentation slide reads "XXX International Mineral Processing Congress, 18-22 April 2021, Cape Town, South Africa"; the originally planned 18-22 October 2020 dates were postponed. The website itself could not be opened when checked. Per the IMPC (and reported by the organisers), the planned in-person Cape Town congress was cancelled because of COVID-19 and held virtually; the dates above are the rescheduled April 2021 dates, and the actual virtual dates are not verified, hence status tentative.
