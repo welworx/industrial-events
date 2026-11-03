@@ -234,10 +234,8 @@ sessions:
       - Department of Chemistry and Polymer Science, Stellenbosch University, Stellenbosch, Western Cape, South Africa
     - name: Anton Lopis
       affiliations:
-      - Centre for High Performance Computing, CSIR, 15 Lower Hope Street, Rosebank 7700, Cape Town, South Africa, Stellenbosch
-    - name: Western Cape
-      affiliations:
-      - South Africa
+      - Centre for High Performance Computing, CSIR, 15 Lower Hope Street, Rosebank 7700, Cape Town, South Africa
+      - Stellenbosch, Western Cape, South Africa
     keywords:
     - Extractive Metallurgy
   - title: Fluidized Reduction Behaviors of Boron-bearing Iron Concentrate Using Hydrogen as Reductant
@@ -1797,7 +1795,7 @@ sessions:
     authors:
     - name: Michael L. Free
       affiliations:
-      - Professor and Chair, Department of Materials Science and Engineering, University of Utah
+      - Department of Materials Science and Engineering, University of Utah
   - title: 'Water Management Keynote: The World of Water in Mining'
     start: "09:30"
     end: "10:00"
@@ -5601,7 +5599,8 @@ sessions:
       - Dept. of Chemical and Environmental Eng., Universidad Técnica Federico Santa María, Chile
     - name: Carolina Jara
       affiliations:
-      - Compañía Minera Doña Inés de Collahuasi (CMDIC), Chile., BHP Minerals Americas, Chile
+      - Compañía Minera Doña Inés de Collahuasi (CMDIC), Chile
+      - BHP Minerals Americas, Chile
     - name: Felipe Ruiz
       affiliations:
       - Compañía Minera Doña Inés de Collahuasi (CMDIC), Chile
