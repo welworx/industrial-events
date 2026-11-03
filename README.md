@@ -60,7 +60,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **24-26**: [World of Glass 2027](<https://www.mirstekla-expo.ru/en/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![RU flag](https://flagcdn.com/16x12/ru.png) [Moscow, RU](<https://www.google.com/maps/search/?api=1&query=Timiryazev%20Center,%20Moscow,%20RU>) | Venue: Timiryazev Center | Types: trade-fair, exhibition
   - **Tags:** `materials` `glass` `manufacturing` `processing`
-- **Feb 28-Mar 3**: [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![CFP: due 2026-11-15](https://img.shields.io/badge/CFP-due%202026--11--15-brightgreen)
+- **Feb 28-Mar 3**: [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Denver, US](<https://www.google.com/maps/search/?api=1&query=Denver,%20US>) | Venue: TBD | Types: conference, exhibition
   - **Tags:** `metallurgy` `mining` `mineral-processing` `extractive-metallurgy`
 
@@ -93,7 +93,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### May
 
-- **3-5**: [AISTech 2027 Iron and Steel Technology Conference and Exposition](<https://www.aist.org/Conferences-Expositions/AISTech/Home>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![CFP: closed 2026-08-15](https://img.shields.io/badge/CFP-closed%202026--08--15-lightgrey)
+- **3-5**: [AISTech 2027 Iron and Steel Technology Conference and Exposition](<https://www.aist.org/Conferences-Expositions/AISTech/Home>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![US flag](https://flagcdn.com/16x12/us.png) [Nashville, US](<https://www.google.com/maps/search/?api=1&query=Music%20City%20Center,%20Nashville,%20US>) | Venue: Music City Center | Types: conference, exhibition
   - **Tags:** `metallurgy` `steel` `iron` `steelmaking`
 - **19-20**: [Aluminum USA 2027](<https://www.aluminum-us.com/>) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
@@ -230,17 +230,16 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 | Deadline | Event | Event Dates | Scope / Co-located | Last Checked |
 | --- | --- | --- | --- | --- |
-| [Final manuscripts due (optional; presentation of accepted abstracts is mandatory): 2026-11-15](<https://smeannualconference.org/authors-overview>) | [SME Annual Conference & Expo 2027](<https://www.smeannualconference.org>) | Feb 28-Mar 3, 2027 | TBD | 2026-11-03 |
 | [Presentation file submission: 2026-11-23](<https://www.flogen.org/sips2026/important_dates.php?p=28#content_top>) | [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>) | Nov 30-Dec 3, 2026 | TBD | 2026-08-13 |
-| [Paper acceptance notification: 2026-12-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-11-03 |
+| [Paper acceptance notification: 2026-12-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
 | [COM 2027, 66th Conference of Metallurgy and Materials: Call for abstracts: 2026-12-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
-| [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-11-03 |
-| [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-11-03 |
+| [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
+| [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-11 |
-| [Corrected paper submission: 2027-02-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-11-03 |
+| [Corrected paper submission: 2027-02-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
 | [COM 2027, 66th Conference of Metallurgy and Materials: Draft papers due: 2027-03-01](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
 | [COM 2027, 66th Conference of Metallurgy and Materials: Final papers due: 2027-04-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
-| [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-11-03 |
+| [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 
 <!-- generated:submission-opportunities:end -->
 

@@ -19,12 +19,16 @@ deadlines:
   date: '2026-09-30'
   url: https://slag-valorisation-symposium.eu/
   status: confirmed
+  history:
+  - date: '2026-09-15'
+    url: https://slag-valorisation-symposium.eu/
+    note: Original abstract deadline before extension.
   sources:
   - type: event-site
     scope: deadline
-    url: https://slag-valorisation-symposium.eu/
+    url: https://slag-valorisation-symposium.eu/abstract-submission/
     last_checked: '2026-11-03'
-    note: Official page now gives September 30, 2026 (previously recorded as September 15, 2026); acceptance notices from November 15, 2026.
+    note: Official page gives extended abstract deadline September 30, 2026; acceptance notices from November 15, 2026.
 - type: paper
   name: Paper submission deadline
   date: '2027-01-15'
