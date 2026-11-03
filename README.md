@@ -126,9 +126,9 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### August
 
-- **23-26**: [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-12-15](https://img.shields.io/badge/CFP-due%202026--12--15-brightgreen)
-  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Montreal, CA](<https://www.google.com/maps/search/?api=1&query=Hotel%20Bonaventure%20Montr%C3%A9al,%20900%20Rue%20De%20la%20Gaucheti%C3%A8re%20O,%20Montr%C3%A9al,%20QC%20H5A%201E4,%20Canada,%20Montreal,%20CA>) | Venue: Hotel Bonaventure Montréal | Type: conference
-  - **Tags:** `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability`
+- **23-27**: [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) ([3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>)) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-12-15](https://img.shields.io/badge/CFP-due%202026--12--15-brightgreen)
+  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Montreal, CA](<https://www.google.com/maps/search/?api=1&query=Hotel%20Bonaventure%20Montr%C3%A9al,%20900%20Rue%20De%20la%20Gaucheti%C3%A8re%20O,%20Montr%C3%A9al,%20QC%20H5A%201E4,%20Canada,%20Montreal,%20CA%3B%20Montreal,%20CA>) | Venue: Hotel Bonaventure Montréal | Type: conference
+  - **Tags:** `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability` `zinc` +4 more
 
 #### September
 
@@ -232,13 +232,13 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 | --- | --- | --- | --- | --- |
 | [Presentation file submission: 2026-11-23](<https://www.flogen.org/sips2026/important_dates.php?p=28#content_top>) | [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>) | Nov 30-Dec 3, 2026 | TBD | 2026-08-13 |
 | [Paper acceptance notification: 2026-12-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
-| [Call for abstracts: 2026-12-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
+| [COM 2027, 66th Conference of Metallurgy and Materials: Call for abstracts: 2026-12-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
 | [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 | [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-11 |
 | [Corrected paper submission: 2027-02-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
-| [Draft papers due: 2027-03-01](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
-| [Final papers due: 2027-04-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
+| [COM 2027, 66th Conference of Metallurgy and Materials: Draft papers due: 2027-03-01](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
+| [COM 2027, 66th Conference of Metallurgy and Materials: Final papers due: 2027-04-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-27, 2027 | [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>) | 2026-11-03 |
 | [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 
 <!-- generated:submission-opportunities:end -->
@@ -557,6 +557,10 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[Furnace Solutions](<https://industrial-events.pages.dev/events/series/furnace-solutions.html>)** [↗](<https://sgt.org/>)
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.
+
+- **[International Zinc Recycling Conference](<https://industrial-events.pages.dev/events/series/zinc-recycling.html>)** [↗](<https://com.metsoc.org/zinc-recycling-conference/>)
+  Conference series on zinc circularity and secondary raw material recovery from scrap, industrial residues, and steel mill dust, organized by MetSoc of CIM and the International Zinc Association.
+  **Event:** ![next: Aug 26-27, 2027](https://img.shields.io/badge/next-Aug%2026--27%2C%202027-brightgreen) [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>)
 
 - **[NGA Glass Fabricator Conference](<https://industrial-events.pages.dev/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
   National Glass Association fabricator conference combining executive, technical, and workshop programming for North American glass fabrication businesses.

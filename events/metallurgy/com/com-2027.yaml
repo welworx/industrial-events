@@ -10,6 +10,13 @@ venue: Hotel Bonaventure Montréal
 address: 900 Rue De la Gauchetière O, Montréal, QC H5A 1E4, Canada
 url: https://com.metsoc.org
 status: confirmed
+co_located_with:
+  group: com-2027
+  name: COM 2027 / International Zinc Recycling Conference
+  url: https://com.metsoc.org/
+  series:
+  - com
+  - zinc-recycling
 sources:
 - type: event-site
   scope: event

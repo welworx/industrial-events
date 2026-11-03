@@ -1,0 +1,28 @@
+name: 3rd International Zinc Recycling Conference
+event_types:
+- conference
+start: '2027-08-26'
+end: '2027-08-27'
+timezone: America/Toronto
+city: Montreal
+country: CA
+url: https://com.metsoc.org/zinc-recycling-conference/
+status: confirmed
+co_located_with:
+  group: com-2027
+  name: COM 2027 / International Zinc Recycling Conference
+  url: https://com.metsoc.org/
+  series:
+  - com
+  - zinc-recycling
+sources:
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/zinc-recycling-conference/
+  last_checked: '2026-11-03'
+  note: One-day conference plus a technical visit to the CEZinc smelter (Glencore); held back-to-back with COM 2027 and organized by MetSoc of CIM and the International Zinc Association. Separate venue not listed; Montreal assumed from COM 2027.
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/about-com-2027/
+  last_checked: '2026-11-03'
+  note: COM 2027 chair welcome states the conference is co-hosted on 26-27 August.
