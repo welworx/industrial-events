@@ -13,8 +13,39 @@ sources:
 - type: event-site
   scope: event
   url: https://www.smeannualconference.org
-  last_checked: '2026-05-07'
+  last_checked: '2026-11-03'
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
-  last_checked: '2026-05-07'
+  last_checked: '2026-11-03'
+deadlines:
+- type: abstracts
+  name: Abstracts submission deadline
+  date: '2026-08-01'
+  url: https://smeannualconference.org/authors-overview
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://smeannualconference.org/authors-overview
+    last_checked: '2026-11-03'
+- type: abstract-notification
+  name: Authors notified of acceptance
+  date: '2026-09-30'
+  url: https://smeannualconference.org/authors-overview
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://smeannualconference.org/authors-overview
+    last_checked: '2026-11-03'
+- type: manuscript
+  name: Final manuscripts due (optional; presentation of accepted abstracts is mandatory)
+  date: '2026-11-15'
+  url: https://smeannualconference.org/authors-overview
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://smeannualconference.org/authors-overview
+    last_checked: '2026-11-03'

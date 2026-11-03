@@ -20,3 +20,24 @@ sources:
   url: https://www.globalslag.com/conferences/global-slag/
   last_checked: '2026-08-13'
   note: Series page links the 19th Global Slag Conference details.
+deadlines:
+- type: award-nomination
+  name: Global Slag Awards 2027 nominations close
+  date: '2027-03-21'
+  url: https://www.globalslag.com/conferences/global-slag/introduction
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.globalslag.com/conferences/global-slag/introduction
+    last_checked: '2026-11-03'
+- type: early-bird
+  name: Super-early-bird registration ends (EUR 795; early-bird EUR 925 from 1 Dec 2026)
+  date: '2026-11-30'
+  url: https://www.globalslag.com/conferences/global-slag/introduction
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.globalslag.com/conferences/global-slag/introduction
+    last_checked: '2026-11-03'
