@@ -1,0 +1,2609 @@
+# Generated from the organiser's program overview PDFs; see sources. Abstracts are not in these PDFs.
+series: lead-zinc
+edition: lead-zinc-2026
+timezone: Asia/Tokyo
+sources:
+- type: program
+  scope: event
+  url: https://j-lppf2.jp/lead-zinc2026/assets/document/program_overview_1102.pdf
+  last_checked: '2026-11-03'
+  note: Program overview PDF, Day 1 (Nov 2).
+- type: program
+  scope: event
+  url: https://j-lppf2.jp/lead-zinc2026/assets/document/program_overview_1103.pdf
+  last_checked: '2026-11-03'
+  note: Program overview PDF, Day 2 (Nov 3).
+- type: program
+  scope: event
+  url: https://j-lppf2.jp/lead-zinc2026/assets/document/program_overview_1104.pdf
+  last_checked: '2026-11-03'
+  note: Program overview PDF, Day 3 (Nov 4).
+sessions:
+- id: 2026-11-02-main-hall-plenary-1
+  title: Plenary 1
+  type: plenary
+  date: '2026-11-02'
+  start: "09:15"
+  end: "09:55"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Industry
+  talks:
+  - paper_id: C000136
+    title: Sustainable Operation of Zinc Smelters with Regards to Energy, Water and Air
+    start: "09:15"
+    end: "09:55"
+    authors:
+    - name: Guido Janssen
+      presenting: true
+      affiliations:
+      - Nyrstar (Netherlands)
+- id: 2026-11-02-main-hall-plenary-2
+  title: Plenary 2
+  type: plenary
+  date: '2026-11-02'
+  start: "09:55"
+  end: "10:35"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Industry
+  talks:
+  - paper_id: C000130
+    title: 'Integrated Multi-metal Smelting as a Platform for a Resource-Circulating Society: The DOWA Experience'
+    start: "09:55"
+    end: "10:35"
+    authors:
+    - name: Shigeki Satoh
+      presenting: true
+      affiliations:
+      - DOWA METALS&MINING CO.,LTD (Japan)
+- id: 2026-11-02-main-hall-plenary-3
+  title: Plenary 3
+  type: plenary
+  date: '2026-11-02'
+  start: "10:35"
+  end: "11:15"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Academic
+  talks:
+  - paper_id: C000129
+    title: Electrochemical Deposition of Metals Using Hydrate Melt-Based Electrolytes
+    start: "10:35"
+    end: "11:15"
+    authors:
+    - name: Kuniaki MURASE
+      presenting: true
+      affiliations:
+      - Kyoto University (Japan)
+- id: 2026-11-02-main-hall-pyrometallurgy-i
+  title: Pyrometallurgy I
+  type: oral
+  date: '2026-11-02'
+  start: "11:40"
+  end: "12:30"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Takashi Murata
+    affiliation: AIST
+  - name: Osamu Inoue
+    affiliation: Mitsubishi Materials
+  talks:
+  - paper_id: C000016
+    title: Operational Analysis using the ISF Simulation Model
+    start: "11:40"
+    end: "12:05"
+    authors:
+    - name: Kenji Matsuzaki
+      presenting: true
+      affiliations:
+      - Mitsui Kinzoku Company, Limited (Japan)
+    - name: Fumio Tanno
+      presenting: false
+      affiliations:
+      - Mitsui Kinzoku Company, Limited (Japan)
+    - name: Akio Fuwa
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+  - paper_id: C000037
+    title: The effect of water vapor on the reoxidation of zinc vapor in ISP
+    start: "12:05"
+    end: "12:30"
+    authors:
+    - name: Takumi Kai
+      presenting: true
+      affiliations:
+      - Mitsui Kinzoku Co., Ltd. (Japan)
+    - name: Masashi Tottori
+      presenting: false
+      affiliations:
+      - Hachinohe Smelting Co., Ltd. (Japan)
+    - name: Koji Taniguchi
+      presenting: false
+      affiliations:
+      - Mitsui Kinzoku Co., Ltd. (Japan)
+    - name: Kazuhiko Nishina
+      presenting: false
+      affiliations:
+      - Mitsui Kinzoku Co., Ltd. (Japan)
+- id: 2026-11-02-room-a-sustainability-i
+  title: Sustainability I
+  type: oral
+  date: '2026-11-02'
+  start: "11:40"
+  end: "12:30"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: Sustainability
+  chairs:
+  - name: Hiroaki Nakano
+    affiliation: Kyushu Univ.
+  - name: Nobuyuki Yamamoto
+    affiliation: JMIA
+  talks:
+  - paper_id: C000065
+    title: Selective Separation and Recovery of Mn and Zn from Acid Mine Drainage by Carbonation Treatment
+    start: "11:40"
+    end: "12:05"
+    authors:
+    - name: Ryosuke Iwata
+      presenting: true
+      affiliations:
+      - Waseda University (Japan)
+    - name: Hisanori Iwai
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+    - name: Chiharu Tokoro
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+      - University of Tokyo (Japan)
+  - paper_id: C000063
+    title: The Nyrstar Virtual Battery
+    start: "12:05"
+    end: "12:30"
+    authors:
+    - name: Ruben Boeree
+      presenting: true
+      affiliations:
+      - Nyrstar (Netherlands)
+    - name: Paul Hamers
+      presenting: false
+      affiliations:
+      - Nyrstar (Netherlands)
+- id: 2026-11-02-room-b-mineral-processing-i
+  title: Mineral Processing I
+  type: oral
+  date: '2026-11-02'
+  start: "11:40"
+  end: "12:30"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Mineral Processing
+  chairs:
+  - name: Atsushi Shibayama
+    affiliation: Akita Univ.
+  - name: Yutaka Shibachi
+    affiliation: DOWA Metals &
+  chairs_truncated: true
+  talks:
+  - paper_id: C000045
+    title: IMPROVEMENTS IN MINING EFFICIENCY AT THE LOS GATOS MINE
+    start: "11:40"
+    end: "12:05"
+    authors:
+    - name: Kei Wakamatsu
+      presenting: true
+      affiliations:
+      - DOWA METALS & MINING CO., LTD. (Japan)
+  - paper_id: C000046
+    title: A Web-Based System for Automated Rock Segmentation Using Hyperspectral Imaging
+    start: "12:05"
+    end: "12:30"
+    authors:
+    - name: natsuo okada
+      presenting: true
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Kaito Takizawa
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Seishin Nakagawa
+      presenting: false
+      affiliations:
+      - Chi-ken Sogo Consultants Co., Ltd (Japan)
+    - name: Utsuki Shinji
+      presenting: false
+      affiliations:
+      - UGS (Japan)
+    - name: Yoko Ohtomo
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Youhei Kawamura
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+- id: 2026-11-02-main-hall-pyrometallurgy-ii
+  title: Pyrometallurgy II
+  type: oral
+  date: '2026-11-02'
+  start: "14:00"
+  end: "15:40"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Nobuyasu Nishioka
+    affiliation: Ehime Univ.
+  - name: Kensaku Nakamura
+    affiliation: JX Advanced
+  chairs_truncated: true
+  talks:
+  - paper_id: C000029
+    title: High-temperature purification of zinc chloride for chlorination-based recycling of electric arc furnace dust
+    start: "14:00"
+    end: "14:25"
+    authors:
+    - name: Gen Kamimura
+      presenting: true
+      affiliations:
+      - Institute of Multidisciplinary Research for Advanced Materials, Tohoku University (Japan)
+    - name: Hiroyuki Matsuura
+      presenting: false
+      affiliations:
+      - The University of Tokyo (Japan)
+  - paper_id: C000061
+    title: Evaluation of iron based reducing agent for carbon neutrality of MF process
+    start: "14:25"
+    end: "14:50"
+    authors:
+    - name: Taichi Murakami
+      presenting: true
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Shuka Kato
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Ryota Higashi
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Kosuke Sato
+      presenting: false
+      affiliations:
+      - Miike Smelting Co. Ltd. (Japan)
+    - name: Fumihiro Nishiyama
+      presenting: false
+      affiliations:
+      - Miike Smelting Co. Ltd. (Japan)
+    - name: Hirobumi Ota
+      presenting: false
+      affiliations:
+      - Mitsui Kinzoku Co., Ltd. (Japan)
+  - paper_id: C000079
+    title: Initiatives to improve plant availability in the Waelz Kiln Processat Shisaka Smelting Co., Ltd.
+    start: "14:50"
+    end: "15:15"
+    authors:
+    - name: Osamu Miura
+      presenting: true
+      affiliations:
+      - Shisaka Smelting Co., Ltd. (Japan)
+    - name: Satoru Takaya
+      presenting: false
+      affiliations:
+      - Shisaka Smelting Co., Ltd. (Japan)
+    - name: Akihiro Tanabe
+      presenting: false
+      affiliations:
+      - Shisaka Smelting Co., Ltd. (Japan)
+    - name: Hajime Fujiyama
+      presenting: false
+      affiliations:
+      - Shisaka Smelting Co., Ltd. (Japan)
+  - paper_id: C000108
+    title: Dust2Value ‒ Developing a H based alternative for Waelz kiln 2 operations
+    start: "15:15"
+    end: "15:40"
+    authors:
+    - name: Els Nagels
+      presenting: true
+      affiliations:
+      - InsPyro (Belgium)
+    - name: Andrea Kotze
+      presenting: false
+      affiliations:
+      - InsPyro (Belgium)
+    - name: Gille Wittevrongel
+      presenting: false
+      affiliations:
+      - InsPyro (Belgium)
+- id: 2026-11-02-room-a-sustainability-ii
+  title: Sustainability II
+  type: oral
+  date: '2026-11-02'
+  start: "14:00"
+  end: "15:40"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: Sustainability
+  chairs:
+  - name: Hidehiro Sekimoto
+    affiliation: Iwate Univ.
+  - name: Taro Kamiya
+    affiliation: JOGMEC
+  talks:
+  - paper_id: C000064
+    title: Selective volatilization of PbO from Zn‒Pb Oxide Mixtures using brominated plastics by optimizing thermal conditions
+    start: "14:00"
+    end: "14:25"
+    authors:
+    - name: Yutaro Takaya
+      presenting: true
+      affiliations:
+      - The University of Tokyo (Japan)
+    - name: Yuji Takasaki
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+    - name: Yusuf Olalekan Zubair
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+    - name: Chiharu Tokoro
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+  - paper_id: C000088
+    title: 'From Waste to Resource: Mineralogical Insights and Evaluation of Lead-Slag Deposits'
+    start: "14:25"
+    end: "14:50"
+    authors:
+    - name: Gustav Hanke
+      presenting: true
+      affiliations:
+      - Technical University of Leoben (Austria)
+  - paper_id: C000089
+    title: 'Impurity Recovery in E-Scrap Processing: A Multi-Site Approach to Sustainable Smelting'
+    start: "14:50"
+    end: "15:15"
+    authors:
+    - name: Masashi Yokota
+      presenting: true
+      affiliations:
+      - Assistant General Manager, Planning Sect., Business Development Dept., Resources Circulation Div., Materials Business
+        Area, Mitsubishi Materials Corporation (Japan)
+    - name: Tatsuya Hirosawa
+      presenting: false
+      affiliations:
+      - Manager, Ikuno Tin Division, Hosokura Metal Mining Co., Ltd. (Japan)
+    - name: Shunichi Yoshitake
+      presenting: false
+      affiliations:
+      - Division Manager, Ikuno Tin Division, Hosokura Metal Mining Co., Ltd. (Japan)
+    - name: Shinji Abe
+      presenting: false
+      affiliations:
+      - President, Hosokura Metal Mining Co., Ltd. (Japan)
+  - paper_id: C000102
+    title: Strengthening Lead‒Zinc Sustainability Through Circular Processing and Midstream Risk Reduction
+    start: "15:15"
+    end: "15:40"
+    authors:
+    - name: Arun M Vijayan
+      presenting: true
+      affiliations:
+      - Beroe Inc. (India)
+- id: 2026-11-02-room-b-mineral-processing-ii
+  title: Mineral Processing II
+  type: oral
+  date: '2026-11-02'
+  start: "14:00"
+  end: "15:40"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Mineral Processing
+  chairs:
+  - name: Kazutoshi Haga
+    affiliation: Akita Univ.
+  - name: Yutaka Shibachi
+    affiliation: DOWA Metals & Mining
+  talks:
+  - paper_id: C000119
+    title: Recovery of zinc and manganese values from alkaline batteries
+    start: "14:00"
+    end: "14:25"
+    authors:
+    - name: Shruti Dhiman
+      presenting: false
+      affiliations:
+      - Indian Institute of Technology, IIT-Roorkee (India)
+    - name: NIKHIL DHAWAN
+      presenting: true
+      affiliations:
+      - Indian Institute of Technology, IIT-Roorkee (India)
+  - paper_id: C000122
+    title: Enhanced Recovery of Zinc from Metallurgical Slags by Chemical Breakdown of Fayalite and Spinel Phases
+    start: "14:25"
+    end: "14:50"
+    authors:
+    - name: Shafiq Alam
+      presenting: true
+      affiliations:
+      - University of Saskatchewan (Canada)
+    - name: Madat Akhmedov
+      presenting: false
+      affiliations:
+      - Navoi State University of Mining and Technologies (Uzbekistan)
+    - name: Behzod Tolibov
+      presenting: false
+      affiliations:
+      - Agency of Innovative Development under the Ministry of Higher Education, Science and Innovation (Uzbekistan)
+  - paper_id: C000033
+    title: The effect of amino acids on selective flotation of Pb-Zn.
+    start: "14:50"
+    end: "15:15"
+    authors:
+    - name: Sohei Shirai
+      presenting: true
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Gde Pandhe Wisnu Suyantara
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Hajime Miki
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Naoko Okibe
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+  - paper_id: C000077
+    title: Enhanced Chalcopyrite-Pyrite Separation via Selective Depression of Copper-Activated Pyrite by Oxalic Acid
+    start: "15:15"
+    end: "15:40"
+    authors:
+    - name: Akbarshokh Ulmaszoda
+      presenting: true
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Gde Pandhe Wisnu Suyantara
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Hajime Miki
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Doaa Ashraf Eladl
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Keiko Sasaki
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+    - name: Naoko Okibe
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+- id: 2026-11-02-room-c-plant-operations-i
+  title: Plant Operations I
+  type: oral
+  date: '2026-11-02'
+  start: "14:00"
+  end: "15:40"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Plant Operations
+  chairs:
+  - name: Kuniaki Murase
+    affiliation: Kyoto Univ.
+  - name: Kengo Umemura
+    affiliation: Toho Zinc
+  talks:
+  - paper_id: C000050
+    title: Recent improvements in upstream process of lead smelting at Hosokura Metal Mining Co., Ltd.
+    start: "14:00"
+    end: "14:25"
+    authors:
+    - name: Naoki Kanno
+      presenting: true
+      affiliations:
+      - Hosokura metal mining Co.,Ltd. (Japan)
+    - name: Shigehiro Arakawa
+      presenting: false
+      affiliations:
+      - Hosokura metal mining Co.,Ltd. (Japan)
+  - paper_id: C000017
+    title: Improvements in Equipment for Increasing Lead Byproduct Recovery at Takehara Refinery
+    start: "14:25"
+    end: "14:50"
+    authors:
+    - name: SHOHEI MAKIYAMA
+      presenting: true
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+    - name: TOSHIAKI ONO
+      presenting: false
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+    - name: YUSUKE TANIUCHI
+      presenting: false
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+    - name: MASAKAZU FUJIHARA
+      presenting: false
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+    - name: YUKI YOSHIMOTO
+      presenting: false
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+    - name: AKIMASA TAKENAGA
+      presenting: false
+      affiliations:
+      - MITSUI KINZOKU CO.,LTD. (Japan)
+  - paper_id: C000044
+    title: Improvements in the lead electrolysis process at Hosokura Metal Mining Co., Ltd.
+    start: "14:50"
+    end: "15:15"
+    authors:
+    - name: Hideaki Tsuji
+      presenting: true
+      affiliations:
+      - Hosokura Metal Mining Co., LTD (Japan)
+    - name: Kenji Takahashi
+      presenting: false
+      affiliations:
+      - Hosokura Metal Mining Co., LTD (Japan)
+    - name: Shinji Abe
+      presenting: false
+      affiliations:
+      - Hosokura Metal Mining Co., LTD (Japan)
+  - paper_id: C000043
+    title: Improvements in the Roasting and Sulfuric Acid Process at Hikoshima Smelting
+    start: "15:15"
+    end: "15:40"
+    authors:
+    - name: Tetsuya YAMAKAWA
+      presenting: true
+      affiliations:
+      - HIKOSHIMA SMELTING CO., LTD. (Japan)
+    - name: Hiroyuki WAKASA
+      presenting: false
+      affiliations:
+      - HIKOSHIMA SMELTING CO., LTD. (Japan)
+    - name: Hiromitsu SUGANO
+      presenting: false
+      affiliations:
+      - HIKOSHIMA SMELTING CO., LTD. (Japan)
+    - name: Hiromichi INADA
+      presenting: false
+      affiliations:
+      - HIKOSHIMA SMELTING CO., LTD. (Japan)
+- id: 2026-11-02-main-hall-pyrometallurgy-iii
+  title: Pyrometallurgy III
+  type: oral
+  date: '2026-11-02'
+  start: "16:05"
+  end: "17:45"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Nobuyasu Nishioka
+    affiliation: Ehime Univ.
+  - name: Masafumi Yamashita
+    affiliation: JX Advanced
+  chairs_truncated: true
+  talks:
+  - paper_id: C000035
+    title: Development of a thermodynamic database for antimony-containing slag systems
+    start: "16:05"
+    end: "16:30"
+    authors:
+    - name: Maksym Shevchenko
+      presenting: true
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+    - name: Evgueni Jak
+      presenting: false
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+  - paper_id: C000049
+    title: Experimental and thermodynamic modelling study of the Na-Fe-Si-O-Pb-Sb-Sn-As-S system for recovery of critical
+      metals via slag fuming
+    start: "16:30"
+    end: "16:55"
+    authors:
+    - name: Hamed Abdeyazdan
+      presenting: false
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+    - name: Joseph Grogan
+      presenting: false
+      affiliations:
+      - Gopher Resource (USA)
+    - name: Daniel Graf
+      presenting: false
+      affiliations:
+      - Gopher Resource (USA)
+    - name: Denis Shishin
+      presenting: false
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+    - name: Maksym Shevchenko
+      presenting: true
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+    - name: Evgueni Jak
+      presenting: false
+      affiliations:
+      - PYROSEARCH Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, The University of Queensland (Australia)
+  - paper_id: C000036
+    title: Experimental and Thermodynamic Modelling Research for Complex Lead Extraction and Metal Recycling Process Optimisation
+    start: "16:55"
+    end: "17:20"
+    authors:
+    - name: Evgueni Jak
+      presenting: true
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+    - name: Denis Shishin
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+    - name: Jiang Chen
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+    - name: Maksym Shevchenko
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+  - paper_id: C000066
+    title: Improving the accuracy of thermodynamic predictions for industrial Pb smelting slags
+    start: "17:20"
+    end: "17:45"
+    authors:
+    - name: Georgii Khartcyzov
+      presenting: true
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, the University of Queensland (Australia)
+    - name: Denis Shishin
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, the University of Queensland (Australia)
+    - name: Maksym Shevchenko
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, the University of Queensland (Australia)
+    - name: Evgueni Jak
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory, School of Chemical Engineering, the University of Queensland (Australia)
+- id: 2026-11-02-room-a-sustainability-iii
+  title: Sustainability III
+  type: oral
+  date: '2026-11-02'
+  start: "16:05"
+  end: "17:20"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: Sustainability
+  chairs:
+  - name: Hidehiro Sekimoto
+    affiliation: Iwate Univ.
+  - name: Taro Kamiya
+    affiliation: JOGMEC
+  talks:
+  - paper_id: C000009
+    title: Low Energy and Environmental Impact Process (LEEP) for Zinc Production
+    start: "16:05"
+    end: "16:30"
+    authors:
+    - name: Masatsugu Morimitsu
+      presenting: true
+      affiliations:
+      - Doshisha University (Japan)
+    - name: Tian Zhang
+      presenting: false
+      affiliations:
+      - Doshisha University (Japan)
+    - name: Masashi Ueda
+      presenting: false
+      affiliations:
+      - Doshisha University (Japan)
+    - name: Yuki Yoshida
+      presenting: false
+      affiliations:
+      - Doshisha University (Japan)
+    - name: Aya Okazaki
+      presenting: false
+      affiliations:
+      - Doshisha University (Japan)
+  - paper_id: C000071
+    title: Large-scale test for Zn, Cu, Pb and Cd removal via passive treatment system using concrete waste materials at an
+      abandoned metal mine site in Japan to investigate its applicability and sustainability
+    start: "16:30"
+    end: "16:55"
+    authors:
+    - name: YUSEI MASAKI
+      presenting: true
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Takaya Hamai
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Naoki Ikegami
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Hisatoshi Furuya
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Takayuki Ichinohe
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Kaito Yamagata
+      presenting: false
+      affiliations:
+      - Faculty of Science and Engineering, Waseda University (Japan)
+    - name: Hisanori Iwai
+      presenting: false
+      affiliations:
+      - Faculty of Science and Engineering, Waseda University (Japan)
+    - name: Chiharu Tokoro
+      presenting: false
+      affiliations:
+      - Faculty of Science and Engineering, Waseda University (Japan)
+      - Facult of Engineering, The University of Tokyo (Japan)
+  - paper_id: C000076
+    title: Annual treatment performances of passive treatment process for zinc containing AMD in Japan
+    start: "16:55"
+    end: "17:20"
+    authors:
+    - name: Masataka Kondo
+      presenting: true
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Yusei Masaki
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Kana Hagihara
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Koki Iguchi
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Takaya Hamai
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Nobuaki Ishikawa
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Hisatoshi Furuya
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+    - name: Naoki Sato
+      presenting: false
+      affiliations:
+      - Japan Organization for Metals and Energy Security (Japan)
+- id: 2026-11-02-room-b-mineral-processing-iii
+  title: Mineral Processing III
+  type: oral
+  date: '2026-11-02'
+  start: "16:05"
+  end: "17:20"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Mineral Processing
+  chairs:
+  - name: Kazutoshi Haga
+    affiliation: Akita Univ.
+  - name: Yutaka Shibachi
+    affiliation: DOWA Metals & Mining
+  talks:
+  - paper_id: C000078
+    title: 'Towards Sustainable Pb-Zn Flotation: Recent Advances in Organic Alternatives for Selective Galena and Sphalerite
+      Separation'
+    start: "16:05"
+    end: "16:30"
+    authors:
+    - name: Gde Pandhe Wisnu Suyantara
+      presenting: true
+      affiliations:
+      - Department of Earth Resources Engineering, Kyushu University (Japan)
+    - name: Doaa Ashraf Eladl
+      presenting: false
+      affiliations:
+      - Department of Earth Resources Engineering, Kyushu University (Japan)
+    - name: Hajime Miki
+      presenting: false
+      affiliations:
+      - Department of Earth Resources Engineering, Kyushu University (Japan)
+    - name: Naoko Okibe
+      presenting: false
+      affiliations:
+      - Department of Earth Resources Engineering, Kyushu University (Japan)
+  - paper_id: C000125
+    title: Influence of Particle Size and Depressants on the Selective Flotation of Cu-Zn-Pb Polymetallic Ores
+    start: "16:30"
+    end: "16:55"
+    authors:
+    - name: Bekhzod Gayratov
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+    - name: Bobur Gayratov
+      presenting: true
+      affiliations:
+      - Akita University (Japan)
+    - name: Labone Lorraine Godirilwe
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+    - name: Abduqahhor Saynazarov
+      presenting: false
+      affiliations:
+      - Almalyk Mining and Metallurgical Complex (Uzbekistan)
+    - name: Atsushi Shibayama
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+  - paper_id: C000123
+    title: 'Optimization of Pb‒Zn Flotation Under High Pyrrhotite Association: Influence of pH, Reagent Scheme, and Regrinding
+      on Selectivity'
+    start: "16:55"
+    end: "17:20"
+    authors:
+    - name: Abu Huraira
+      presenting: true
+      affiliations:
+      - Metso Finland Oy (Finland)
+    - name: Danish Bilal
+      presenting: false
+      affiliations:
+      - Metso Finland Oy (Finland)
+- id: 2026-11-02-room-c-plant-operations-ii
+  title: Plant Operations II
+  type: oral
+  date: '2026-11-02'
+  start: "16:05"
+  end: "17:20"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Plant Operations
+  chairs:
+  - name: Kuniaki Murase
+    affiliation: Kyoto Univ.
+  - name: Kengo Umemura
+    affiliation: Toho Zinc
+  talks:
+  - paper_id: C000032
+    title: Renewal of Mist Cottrell at the sulfuric acid plant of Akita Zinc Co., Ltd.
+    start: "16:05"
+    end: "16:30"
+    authors:
+    - name: Daiki Watanabe
+      presenting: true
+      affiliations:
+      - Akita Znic Co., Ltd. (Japan)
+  - paper_id: C000110
+    title: Evolution of the electrolyte cooling at zinc plants
+    start: "16:30"
+    end: "16:55"
+    authors:
+    - name: Marko Lahtinen
+      presenting: true
+      affiliations:
+      - Metso Finland Oy (Finland)
+    - name: Enrique Ortea
+      presenting: false
+      affiliations:
+      - Metso España, S.A (Spain)
+    - name: Teemu Ritasalo
+      presenting: false
+      affiliations:
+      - Metso Finland Oy (Finland)
+    - name: Valter Mangs
+      presenting: false
+      affiliations:
+      - Metso Finland Oy (Finland)
+    - name: sankar karuppannan
+      presenting: false
+      affiliations:
+      - Metso Finland Oy (Finland)
+  - paper_id: C000128
+    title: Hydraulic Tapping Solutions for Enhanced Safety and Efficiency in Modern Metallurgical Production
+    start: "16:55"
+    end: "17:20"
+    authors:
+    - name: Yevheniia Polishkevych
+      presenting: true
+      affiliations:
+      - Deputy CEO of DHM GROUP (Slovakia)
+- id: 2026-11-03-main-hall-plenary-4
+  title: Plenary 4
+  type: plenary
+  date: '2026-11-03'
+  start: "09:00"
+  end: "09:40"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Industry
+  talks:
+  - paper_id: C000135
+    title: Facing Base Metals Smelting and Refining Challenges in the 2020s
+    start: "09:00"
+    end: "09:40"
+    authors:
+    - name: Pascal Coursol
+      presenting: true
+      affiliations:
+      - Glencore Custom Metallurgical Assets
+- id: 2026-11-03-main-hall-plenary-5
+  title: Plenary 5
+  type: plenary
+  date: '2026-11-03'
+  start: "09:40"
+  end: "10:20"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Academic
+  talks:
+  - paper_id: C000012
+    title: Fundamental study on the development of a new steelmaking dust recycling process for zinc production through pyrometallurgical
+      route
+    start: "09:40"
+    end: "10:20"
+    authors:
+    - name: Hiroyuki Matsuura
+      presenting: true
+      affiliations:
+      - The University of Tokyo (Japan)
+- id: 2026-11-03-main-hall-plenary-6
+  title: Plenary 6
+  type: plenary
+  date: '2026-11-03'
+  start: "10:20"
+  end: "11:00"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Academic
+  talks:
+  - paper_id: C000131
+    title: Technological challenges in mineral processing for sustainable mineral recovery
+    start: "10:20"
+    end: "11:00"
+    authors:
+    - name: Atsushi SHIBAYAMA
+      presenting: true
+      affiliations:
+      - Akita University (Japan)
+- id: 2026-11-03-main-hall-pyrometallurgy-iv
+  title: Pyrometallurgy IV
+  type: oral
+  date: '2026-11-03'
+  start: "11:25"
+  end: "12:15"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Takashi Murata
+    affiliation: AIST
+  - name: Junichi Kobayashi
+    affiliation: Sumitomo Metal Mining
+  talks:
+  - paper_id: C000107
+    title: Phase Equilibrium Study of Lead Slag in Lead-acid Battery Recycling
+    start: "11:25"
+    end: "11:50"
+    authors:
+    - name: Xi Ling
+      presenting: true
+      affiliations:
+      - University of Toronto (Canada)
+    - name: Hamed Abdeyazdan
+      presenting: false
+      affiliations:
+      - Pyrosearch Pyrometallurgy Innovation Centre (Australia)
+    - name: Maksym Shevchenko
+      presenting: false
+      affiliations:
+      - Pyrosearch Pyrometallurgy Innovation Centre (Australia)
+    - name: Joseph Grogan
+      presenting: false
+      affiliations:
+      - Gopher Resource (USA)
+    - name: Elmira Moosavi-Khoonsar
+      presenting: false
+      affiliations:
+      - École de technologie supérieure (ÉTS) (Canada)
+      - University of Toronto (Canada)
+    - name: Mansoor Barati
+      presenting: false
+      affiliations:
+      - University of Toronto (Canada)
+  - paper_id: C000115
+    title: Making Advanced Thermochemical Process Modelling for Pb-Zn Metallurgy Accessible Using FactSage and ChemApp for
+      Python
+    start: "11:50"
+    end: "12:15"
+    authors:
+    - name: Shivani Gonde
+      presenting: false
+      affiliations:
+      - GTT-Technologies (Germany)
+    - name: Takahiro Sasaki
+      presenting: false
+      affiliations:
+      - Research Center of Computational Mechanics, Inc. (Japan)
+    - name: Stephan Petersen
+      presenting: true
+      affiliations:
+      - GTT-Technologies (Germany)
+- id: 2026-11-03-room-a-sustainability-iv
+  title: Sustainability IV
+  type: oral
+  date: '2026-11-03'
+  start: "11:25"
+  end: "12:15"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: Sustainability
+  chairs:
+  - name: Yutaro Takaya
+    affiliation: Univ. of Tokyo
+  - name: Yasuhiro Sakurai
+    affiliation: JMIA
+  talks:
+  - paper_id: C000014
+    title: STRUCTURE OF CORROSION PRODUCT FORMED ON HOT-STAMPED ZINC-COATED STEEL SHEET WITH A COATING LAYER OF THE α-(Fe,
+      Zn) PHASE
+    start: "11:25"
+    end: "11:50"
+    authors:
+    - name: Shota Hayashida
+      presenting: true
+      affiliations:
+      - Nippon Steel Corporation (Japan)
+    - name: Hiroaki Nakano
+      presenting: false
+      affiliations:
+      - Kyushu Univ. (Japan)
+  - paper_id: C000062
+    title: Development of multi-functional chromate-free coating on galvanized steel sheet
+    start: "11:50"
+    end: "12:15"
+    authors:
+    - name: Kazuaki Tsuchimoto
+      presenting: true
+      affiliations:
+      - JFE Steel Corporation (Japan)
+    - name: Takeshi Matsuda
+      presenting: false
+      affiliations:
+      - JFE Steel Corporation (Japan)
+    - name: Akira Matsuzaki
+      presenting: false
+      affiliations:
+      - JFE Techno-Research Corporation (Japan)
+    - name: Kazuhisa Okai
+      presenting: false
+      affiliations:
+      - JFE Steel Corporation (Japan)
+- id: 2026-11-03-room-b-secondary-lead-zinc-i
+  title: Secondary Lead-Zinc I
+  type: oral
+  date: '2026-11-03'
+  start: "11:25"
+  end: "12:15"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Tetsuya Uda
+    affiliation: Kyoto Univ.
+  - name: Kengo Umemura
+    affiliation: Toho Zinc
+  talks:
+  - paper_id: C000041
+    title: 'Advances and Challenges in Secondary Lead Smelting: Technologies, Future Demand, and Thermodynamic Data Status'
+    start: "11:25"
+    end: "11:50"
+    authors:
+    - name: Elmira Moosavi-Khoonsari
+      presenting: true
+      affiliations:
+      - École de technologie supérieure (ÉTS) (Canada)
+    - name: Andreas Siegmund
+      presenting: false
+      affiliations:
+      - LanMetCon LLC (USA)
+    - name: Reza Farshidi
+      presenting: false
+      affiliations:
+      - AtkinsRéalis (Canada)
+    - name: Sina Mostaghel
+      presenting: false
+      affiliations:
+      - AtkinsRéalis (Canada)
+  - paper_id: C000075
+    title: Recent Operations at Kamioka Lead-Recycling Plant
+    start: "11:50"
+    end: "12:15"
+    authors:
+    - name: Kazuma Kanesaka
+      presenting: true
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Kazuki Kumamoto
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Kunihiro Fujioka
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Haruki Nobuoka
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Osamu Nishinaga
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Ryohei Takase
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+    - name: Nobutaka Tanabe
+      presenting: false
+      affiliations:
+      - Kamioka Mining & Smelting Company Limited 1-1 Shikama, Kamioka-cho, Hida City, Gifu, Japan, 506-1196. (Japan)
+- id: 2026-11-03-room-c-hydrometallurgy-i
+  title: Hydrometallurgy I
+  type: oral
+  date: '2026-11-03'
+  start: "11:25"
+  end: "12:15"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Hydrometallurgy
+  chairs:
+  - name: Atsushi Kitada
+    affiliation: Univ. of Tokyo
+  - name: Hideki Yatsuzuka
+    affiliation: DOWA Metals &
+  chairs_truncated: true
+  talks:
+  - paper_id: C000028
+    title: Fundamental study on electrodeposition of tin and antimony from alkaline sulfide solutions
+    start: "11:25"
+    end: "11:50"
+    authors:
+    - name: Koyo Tanaka
+      presenting: true
+      affiliations:
+      - Kyushu university (Japan)
+    - name: Yu-ki Taninouchi
+      presenting: false
+      affiliations:
+      - Kyushu university (Japan)
+    - name: Hiroki Ogawa
+      presenting: false
+      affiliations:
+      - Kyushu university (Japan)
+    - name: Hiroaki Nakano
+      presenting: false
+      affiliations:
+      - Kyushu university (Japan)
+  - paper_id: C000118
+    title: Electrodeposition of tin from alkaline stannate baths containing dissolved species
+    start: "11:50"
+    end: "12:15"
+    authors:
+    - name: Jonghwan Choi
+      presenting: true
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Yu-ki Taninouchi
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Hiroki Ogawa
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Hiroaki Nakano
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+- id: 2026-11-03-main-hall-pyrometallurgy-v
+  title: Pyrometallurgy V
+  type: oral
+  date: '2026-11-03'
+  start: "13:45"
+  end: "15:00"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Katsunori Yamaguchi
+    affiliation: Waseda Univ.
+  - name: Osamu Inoue
+    affiliation: Mitsubishi
+  chairs_truncated: true
+  talks:
+  - paper_id: C000047
+    title: Experimental investigation of the roasting behaviour and phase transformations in a zinc sulfide concentrate
+    start: "13:45"
+    end: "14:10"
+    authors:
+    - name: Xi Rui Wen
+      presenting: true
+      affiliations:
+      - The University of Queensland (Australia)
+    - name: Jiang Chen
+      presenting: false
+      affiliations:
+      - The University of Queensland (Australia)
+    - name: Leonid Ushkov
+      presenting: false
+      affiliations:
+      - Kazzinc (Kazakhstan)
+    - name: Turarbek Azekenov
+      presenting: false
+      affiliations:
+      - Kazzinc (Kazakhstan)
+    - name: Timur Tokzhigitov
+      presenting: false
+      affiliations:
+      - Kazzinc (Kazakhstan)
+    - name: Evguenii Jak
+      presenting: false
+      affiliations:
+      - The University of Queensland (Australia)
+  - paper_id: C000052
+    title: ENHANCING IMPURITY REMOVAL CAPABILITIES TO ACCOMMODATE INCREASED PROCESSING OF RECYCLED RAW MATERIALS AT TAMANO
+      SMELTER
+    start: "14:10"
+    end: "14:35"
+    authors:
+    - name: Kenta Nakakado
+      presenting: true
+      affiliations:
+      - Hibi Smelting Co., Ltd., Hibi Smelter (Japan)
+    - name: Shinji Aoki
+      presenting: false
+      affiliations:
+      - Hibi Kyodo Smelting Co., Ltd., Tamano Smelter & Refinery (Japan)
+  - paper_id: C000034
+    title: Recycling of Iridium Using Composite Oxides with Strontium
+    start: "14:35"
+    end: "15:00"
+    authors:
+    - name: Kaito Torii
+      presenting: true
+      affiliations:
+      - Chiba Institute of Technology (Japan)
+    - name: Takashi Nagai
+      presenting: false
+      affiliations:
+      - Chiba Institute of Technology (Japan)
+- id: 2026-11-03-room-a-sustainability-v
+  title: Sustainability V
+  type: oral
+  date: '2026-11-03'
+  start: "13:45"
+  end: "15:00"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: Sustainability
+  chairs:
+  - name: Kouji Yasuda
+    affiliation: Kyoto Univ.
+  - name: Kenji Matsuzaki
+    affiliation: Mitsui Kinzoku
+  talks:
+  - paper_id: C000051
+    title: 'Global antimony flow in the context of energy transition: A scenario-based assessment with implications for lead-acid
+      batteries'
+    start: "13:45"
+    end: "14:10"
+    authors:
+    - name: Linting Xu
+      presenting: true
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Zhengyang Zhang
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Isah Mohammed Engha
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Kazuyo Matsubae
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+  - paper_id: C000103
+    title: Importance of Product Carbon Footprint (PCF) Guidance for metal commodities
+    start: "14:10"
+    end: "14:35"
+    authors:
+    - name: Johannes Gediga
+      presenting: true
+      affiliations:
+      - Sphera Solution GmbH (Germany)
+    - name: Steve Binks
+      presenting: false
+      affiliations:
+      - International Lead Association (UK)
+  - paper_id: C000105
+    title: 'Decarbonization Roadmap for the Global Zinc Value Chain: Impact Opportunities and Recycling Trade-Offs'
+    start: "14:35"
+    end: "15:00"
+    authors:
+    - name: Sabina Grund
+      presenting: true
+      affiliations:
+      - International Zinc Association (USA)
+    - name: Martin Van Leeuwen
+      presenting: false
+      affiliations:
+      - International Zinc Association (USA)
+    - name: Eric Van Genderen
+      presenting: false
+      affiliations:
+      - International Zinc Association (USA)
+    - name: Leon Rostek
+      presenting: false
+      affiliations:
+      - Fraunhofer Institute for Systems and Innovation Research ISI (Germany)
+    - name: Antonia Loibl
+      presenting: false
+      affiliations:
+      - Fraunhofer Institute for Systems and Innovation Research ISI (Germany)
+    - name: John Anderson
+      presenting: false
+      affiliations:
+      - Skarn (UK)
+- id: 2026-11-03-room-b-secondary-lead-zinc-ii
+  title: Secondary Lead-Zinc II
+  type: oral
+  date: '2026-11-03'
+  start: "13:45"
+  end: "15:00"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Hiroyuki Matsuura
+    affiliation: Univ. of Tokyo
+  - name: Nobuyuki Yamamoto
+    affiliation: JMIA
+  talks:
+  - paper_id: C000048
+    title: Initiatives to increase the processing volume of lead recycled materials at Toho Chigirishima Refinery Co., Ltd.
+    start: "13:45"
+    end: "14:10"
+    authors:
+    - name: Ryuji Oinuma
+      presenting: true
+      affiliations:
+      - Toho Chigirishima Refinery Co., Ltd. (Japan)
+    - name: Takuma Itou
+      presenting: false
+      affiliations:
+      - Toho Chigirishima Refinery Co., Ltd. (Japan)
+    - name: Junichi Tagawa
+      presenting: false
+      affiliations:
+      - Toho Zinc Co., Ltd. (Japan)
+  - paper_id: C000023
+    title: Zinc oxide production from EAF dust using electrothermic furnace at Onahama Refinery
+    start: "14:35"
+    end: "15:00"
+    authors:
+    - name: Junichi Tagawa
+      presenting: true
+      affiliations:
+      - Toho Zinc Co.,Ltd. (Japan)
+    - name: Kenji Numata
+      presenting: false
+      affiliations:
+      - Toho Zinc Co.,Ltd. (Japan)
+    - name: Katsuyuki Ishibashi
+      presenting: false
+      affiliations:
+      - Toho Zinc Co.,Ltd. (Japan)
+- id: 2026-11-03-room-c-hydrometallurgy-ii
+  title: Hydrometallurgy II
+  type: oral
+  date: '2026-11-03'
+  start: "13:45"
+  end: "15:00"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Hydrometallurgy
+  chairs:
+  - name: Masayuki Miyamoto
+    affiliation: Hokkaido Univ.
+  - name: Hideki Yatsuzuka
+    affiliation: DOWA Metals
+  chairs_truncated: true
+  talks:
+  - paper_id: C000060
+    title: Basal-Plane Orientation of Zn Electrodeposits Induced by Loss of Free Water in Concentrated Aqueous Solutions
+    start: "13:45"
+    end: "14:10"
+    authors:
+    - name: Atsushi Kitada
+      presenting: true
+      affiliations:
+      - The University of Tokyo (Japan)
+    - name: Shota Inoguchi
+      presenting: false
+    - name: Kazuhiro Fukami
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Kuniaki Murase
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+  - paper_id: C000013
+    title: Towards Sustainable Hydrometallurgical Pathways for Selective Recovery of Cu, Zn, and Pb from Seafloor Hydrothermal
+      Deposits
+    start: "14:10"
+    end: "14:35"
+    authors:
+    - name: Naoko Okibe
+      presenting: true
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Gowthaman Sivakumar
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Keishi Oyama
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+  - paper_id: C000024
+    title: Research on Efficient Fluoride Removal from Strongly Acidic Leaching Solutions in Zinc Hydrometallurgical Processing
+    start: "14:35"
+    end: "15:00"
+    authors:
+    - name: Haisheng Han
+      presenting: true
+      affiliations:
+      - Central South University (China)
+    - name: Wei Sun
+      presenting: false
+      affiliations:
+      - Central South University (China)
+    - name: Zongke Zhou
+      presenting: false
+      affiliations:
+      - Central South University (China)
+    - name: Xuan Wang
+      presenting: false
+      affiliations:
+      - Central South University (China)
+    - name: Yufeng Wang
+      presenting: false
+      affiliations:
+      - Central South University (China)
+- id: 2026-11-03-main-hall-pyrometallurgy-vi
+  title: Pyrometallurgy VI
+  type: oral
+  date: '2026-11-03'
+  start: "15:25"
+  end: "16:40"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Katsunori Yamaguchi
+    affiliation: Waseda Univ.
+  - name: Osamu Inoue
+    affiliation: Mitsubishi
+  chairs_truncated: true
+  talks:
+  - paper_id: C000074
+    title: Flowsheet selection for the high-temperature treatment of Pb and Zn bearing feeds
+    start: "15:25"
+    end: "15:50"
+    authors:
+    - name: Jacob Wood
+      presenting: true
+      affiliations:
+      - Metso Australia (Australia)
+    - name: James Coveney
+      presenting: false
+    - name: Ross Andrews
+      presenting: false
+  - paper_id: C000083
+    title: A Case Study on the Impact of Feed Chemistry on Off-Gas System Performance During Industrial Lead Smelting
+    start: "15:50"
+    end: "16:15"
+    authors:
+    - name: SUVAM MUKHERJEE
+      presenting: true
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: NANDITA DAS
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: SHEEBA MASHRUWALA
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: ROHIT VIJAY
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+  - paper_id: C000092
+    title: Reduction kinetics and the zinc content effect on the operating parameters of industrial lead smelting slags
+    start: "16:15"
+    end: "16:40"
+    authors:
+    - name: Alejandro Abadias Llamas
+      presenting: true
+      affiliations:
+      - Glencore Nordenham (Germany)
+    - name: Avinash Kandalam
+      presenting: false
+      affiliations:
+      - Glencore Nordenham (Germany)
+    - name: Alistair Burrows
+      presenting: false
+      affiliations:
+      - Glencore Nordenham (Germany)
+    - name: Christoph Zschiesche
+      presenting: false
+      affiliations:
+      - Glencore Nordenham (Germany)
+- id: 2026-11-03-room-a-by-products-i
+  title: By-products I
+  type: oral
+  date: '2026-11-03'
+  start: "15:25"
+  end: "16:40"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: By-products
+  chairs:
+  - name: Akihiro Yoshimura
+    affiliation: Chiba Univ.
+  - name: Ikunobu Sumida
+    affiliation: Mitsui Kinzoku
+  talks:
+  - paper_id: C000019
+    title: RECOVERY OF ANTIMONY VOLATILIZATION FROM LEAD ELECTROLYTIC SLIME
+    start: "15:25"
+    end: "15:50"
+    authors:
+    - name: Akito Kumachi
+      presenting: true
+      affiliations:
+      - DOWA METALS & MINING CO.,LTD. (Japan)
+    - name: Hiromitsu Watanabe
+      presenting: false
+      affiliations:
+      - DOWA METALS & MINING CO.,LTD. (Japan)
+    - name: Satoshi Nakagawara
+      presenting: false
+      affiliations:
+      - DOWA METALS & MINING CO.,LTD. (Japan)
+  - paper_id: C000025
+    title: Antimony Treatment in Kosaka Lead Smelting
+    start: "15:50"
+    end: "16:15"
+    authors:
+    - name: Nagomu Fukushi
+      presenting: true
+      affiliations:
+      - KOSAKA SMELTING & REFINING CO., LTD. (Japan)
+    - name: Shugo Wakayanagi
+      presenting: false
+      affiliations:
+      - KOSAKA SMELTING & REFINING CO., LTD. (Japan)
+    - name: Akiyoshi Horiuchi
+      presenting: false
+      affiliations:
+      - KOSAKA SMELTING & REFINING CO., LTD. (Japan)
+  - paper_id: C000042
+    title: Innovative Process to Recover Valuable Metals from Granulated Slag-Matte in Lead Smelting Processes by Magnetic
+      Separation
+    start: "16:15"
+    end: "16:40"
+    authors:
+    - name: Kaito Teruya
+      presenting: true
+      affiliations:
+      - Mitsubishi Materials Corporation (Japan)
+    - name: Hajime Kijitani
+      presenting: false
+      affiliations:
+      - Mitsubishi Materials Corporation (Japan)
+    - name: Kifu Matsuura
+      presenting: false
+      affiliations:
+      - Mitsubishi Materials Corporation (Japan)
+    - name: Fumito Tanaka
+      presenting: false
+      affiliations:
+      - Mitsubishi Materials Corporation (Japan)
+- id: 2026-11-03-room-b-secondary-lead-zinc-iii
+  title: Secondary Lead-Zinc III
+  type: oral
+  date: '2026-11-03'
+  start: "15:25"
+  end: "16:40"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Hiroyuki Matsuura
+    affiliation: Univ. of Tokyo
+  - name: Nobuyuki Yamamoto
+    affiliation: JMIA
+  talks:
+  - paper_id: C000027
+    title: Recent improvements at the Miike Smelter
+    start: "15:25"
+    end: "15:50"
+    authors:
+    - name: Tomoki Imatani
+      presenting: true
+      affiliations:
+      - Miike Smelting Co.,Ltd (Japan)
+    - name: Yoshiyuki Handa
+      presenting: false
+      affiliations:
+      - Miike Smelting Co.,Ltd (Japan)
+    - name: Fumihiro Nishiyama
+      presenting: false
+      affiliations:
+      - Miike Smelting Co.,Ltd (Japan)
+  - paper_id: C000054
+    title: RECENT OPERATIONS AT HACHINOHE SMELTER
+    start: "15:50"
+    end: "16:15"
+    authors:
+    - name: Kakeru Ijima
+      presenting: true
+      affiliations:
+      - Mitsui Mining & Smelting Co., Ltd. (Japan)
+    - name: Kazuya HATCHO
+      presenting: false
+      affiliations:
+      - Mitsui Mining & Smelting Co., Ltd. (Japan)
+    - name: Masashi TOTTORI
+      presenting: false
+      affiliations:
+      - Mitsui Mining & Smelting Co., Ltd. (Japan)
+  - paper_id: C000090
+    title: Lead and Other Valuable Metals Recovery from Copper Smelting Intermediates in Hitachi Works
+    start: "16:15"
+    end: "16:40"
+    authors:
+    - name: Takuya Yokota
+      presenting: true
+      affiliations:
+      - HMC Department, Hitachi Works, JX Metals Smelting Co.,Ltd. (Japan)
+    - name: Atsuhiro Suzuki
+      presenting: false
+      affiliations:
+      - HMC Department, Hitachi Works, JX Metals Smelting Co.,Ltd. (Japan)
+    - name: Daisuke Kurai
+      presenting: false
+      affiliations:
+      - HMC Department, Hitachi Works, JX Metals Smelting Co.,Ltd. (Japan)
+- id: 2026-11-03-room-c-hydrometallurgy-iii
+  title: Hydrometallurgy III
+  type: oral
+  date: '2026-11-03'
+  start: "15:25"
+  end: "16:15"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Hydrometallurgy
+  chairs:
+  - name: Masayuki Miyamoto
+    affiliation: Hokkaido Univ.
+  - name: Hideki Yatsuzuka
+    affiliation: DOWA Metals
+  chairs_truncated: true
+  talks:
+  - paper_id: C000022
+    title: Development of Zinc-separating Process of Blast Furnace Dust using Hydrometallurgical System
+    start: "15:25"
+    end: "15:50"
+    authors:
+    - name: Mariko Shinoda
+      presenting: true
+      affiliations:
+      - JFE Steel Corporation (Japan)
+    - name: Toyoshi Yamaguchi
+      presenting: false
+      affiliations:
+      - JFE Steel Corporation (Japan)
+    - name: Masayasu Ueno
+      presenting: false
+      affiliations:
+      - JFE Steel Corporation (Japan)
+  - paper_id: C000080
+    title: 'Lead Paste Desulfurization with U4Lead: a revolutionizing and profitable approach'
+    start: "15:50"
+    end: "16:15"
+    authors:
+    - name: Alberto Bergamaschini
+      presenting: false
+      affiliations:
+      - STC S.r.l. (Italy)
+    - name: Giorgio La Sala
+      presenting: false
+      affiliations:
+      - STC S.r.l. (Italy)
+    - name: Francesco Scura
+      presenting: false
+      affiliations:
+      - STC S.r.l. (Italy)
+    - name: Amedeo Barbarulo
+      presenting: true
+      affiliations:
+      - STC S.r.l. (Italy)
+    - name: Sabrina Urgese
+      presenting: false
+      affiliations:
+      - STC S.r.l. (Italy)
+- id: 2026-11-04-main-hall-plenary-7
+  title: Plenary 7
+  type: plenary
+  date: '2026-11-04'
+  start: "09:00"
+  end: "09:40"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Industry
+  talks:
+  - paper_id: C000137
+    title: 'European Smelting and Refining at a Crossroads: Competitiveness, Sustainability, and Resilience'
+    start: "09:00"
+    end: "09:40"
+    authors:
+    - name: Christoph ZSCHIESCHE
+      presenting: true
+      affiliations:
+      - CTO at Glencore Nordenham (Germany)
+- id: 2026-11-04-main-hall-plenary-8
+  title: Plenary 8
+  type: plenary
+  date: '2026-11-04'
+  start: "09:40"
+  end: "10:20"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  note: Academic
+  talks:
+  - paper_id: C000132
+    title: 'Physical Chemistry Lecture: Recommended Introduction to Electromotive Force Calculation'
+    start: "09:40"
+    end: "10:20"
+    authors:
+    - name: Tetsuya Uda
+      presenting: true
+      affiliations:
+      - Kyoto University (Japan)
+- id: 2026-11-04-main-hall-pyrometallurgy-vii
+  title: Pyrometallurgy VII
+  type: oral
+  date: '2026-11-04'
+  start: "10:45"
+  end: "12:25"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Shungo Natsui
+    affiliation: Tohoku Univ.
+  - name: Itsuki Iwamoto
+    affiliation: JX Advanced Metals
+  talks:
+  - paper_id: C000094
+    title: Selection of a Secondary Lead Smelting Flowsheet and Technology
+    start: "10:45"
+    end: "11:10"
+    authors:
+    - name: Stuart Nicol
+      presenting: true
+      affiliations:
+      - Glencore Technology (Australia)
+    - name: Neil Viviers
+      presenting: false
+      affiliations:
+      - Glencore Technology (Australia)
+    - name: Ben Hogg
+      presenting: false
+      affiliations:
+      - Glencore Technology (Australia)
+  - paper_id: C000095
+    title: Lead Blast Furnace Replacement for Emissions Reduction and Operating Cost Savings using ISASMELT Technology
+    start: "11:10"
+    end: "11:35"
+    authors:
+    - name: Stuart Nicol
+      presenting: true
+      affiliations:
+      - Glencore Technology (Australia)
+    - name: Neil Viviers
+      presenting: false
+      affiliations:
+      - Glencore Technology (Australia)
+    - name: Ben Hogg
+      presenting: false
+      affiliations:
+      - Glencore Technology (Australia)
+  - paper_id: C000113
+    title: Human Expertise, Structured Data, AI Support. A Transition Framework for Refractory Selection in Lead Smelting
+    start: "11:35"
+    end: "12:00"
+    authors:
+    - name: Werner Liemberger
+      presenting: true
+      affiliations:
+      - RHI Magnesita GmbH (Austria)
+    - name: Jürgen Schmidl
+      presenting: false
+      affiliations:
+      - RHI Magnesita GmbH (Austria)
+  - paper_id: C000126
+    title: Process intensification of secondary lead recovery in a pyrometallurgical furnace
+    start: "12:00"
+    end: "12:25"
+    authors:
+    - name: Vivek Rao
+      presenting: true
+      affiliations:
+      - Oak Ridge National Laboratory (USA)
+    - name: Vineet Kumar
+      presenting: false
+      affiliations:
+      - Oak Ridge National Laboratory (USA)
+    - name: Jason Schirck
+      presenting: false
+      affiliations:
+      - Gopher Resource LLC, Eagan, Minnesota (USA)
+    - name: Joseph Trouba
+      presenting: false
+      affiliations:
+      - Gopher Resource LLC, Eagan, Minnesota (USA)
+    - name: Joseph Grogan
+      presenting: false
+      affiliations:
+      - Gopher Resource LLC, Eagan, Minnesota (USA)
+- id: 2026-11-04-room-a-by-products-ii
+  title: By-products II
+  type: oral
+  date: '2026-11-04'
+  start: "10:45"
+  end: "12:25"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: By-products
+  chairs:
+  - name: Akihiro Yoshimura
+    affiliation: Chiba Univ.
+  - name: Yasuhiro Sakurai
+    affiliation: JMIA
+  talks:
+  - paper_id: C000053
+    title: Immobilisation of Toxic Elements in Pb-Refining Residues via Pyrometallurgical Treatment
+    start: "10:45"
+    end: "11:10"
+    authors:
+    - name: Jeff Chen
+      presenting: true
+      affiliations:
+      - University of Queensland (Australia)
+    - name: Georgii Khartcyzov
+      presenting: false
+      affiliations:
+      - University of Queensland (Australia)
+    - name: Igor Babaian
+      presenting: false
+      affiliations:
+      - University of Queensland (Australia)
+    - name: Terence Crawford
+      presenting: false
+      affiliations:
+      - Nyrstar Por Pirie (Australia)
+    - name: Evgueni Jak
+      presenting: false
+      affiliations:
+      - University of Queensland (Australia)
+  - paper_id: C000085
+    title: Development of Solidification Technology for Sulfurized Waste Mercury using Epoxy Resin
+    start: "11:10"
+    end: "11:35"
+    authors:
+    - name: Masaki Takaoka
+      presenting: true
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Ryuta Uenishi
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Taketoshi Kusakabe
+      presenting: false
+      affiliations:
+      - Osaka Institute of Technology (Japan)
+  - paper_id: C000084
+    title: The 2sDR-Process ‒ an environmentally friendly process to recover metals from steel mill dust
+    start: "11:35"
+    end: "12:00"
+    authors:
+    - name: Juergen Antrekowitsch
+      presenting: true
+      affiliations:
+      - University of Leoben (Austria)
+  - paper_id: C000059
+    title: 'Microwave Metallurgy: A New Approach for Distributed Lead-Acid Battery Recycling'
+    start: "12:00"
+    end: "12:25"
+    authors:
+    - name: Eiji Yamasue
+      presenting: true
+      affiliations:
+      - Ritsumeikan University (Japan)
+    - name: Shoki Kosai
+      presenting: false
+      affiliations:
+      - Ritsumeikan University (Japan)
+    - name: Shunsuke Kashiwakura
+      presenting: false
+      affiliations:
+      - Ritsumeikan University (Japan)
+- id: 2026-11-04-room-b-secondary-lead-zinc-iv
+  title: Secondary Lead-Zinc IV
+  type: oral
+  date: '2026-11-04'
+  start: "10:45"
+  end: "12:25"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Kouji Yasuda
+    affiliation: Kyoto Univ.
+  - name: Kengo Umemura
+    affiliation: Toho Zinc
+  talks:
+  - paper_id: C000073
+    title: A Closed-Loop Caustic leaching and Regeneration Flowsheet for Enhanced Recovery of Lead, Silver, and Byproducts
+      from Siliceous Zinc Residues
+    start: "10:45"
+    end: "11:10"
+    authors:
+    - name: KiranKumar Rokkam
+      presenting: true
+      affiliations:
+      - Hindustan Zinc Limited (India)
+      - National Institute of Technology (India)
+      - Master in Chemical Engineering (India)
+    - name: Sheeba Masruwala
+      presenting: false
+      affiliations:
+      - Hindustan Zinc Limited (India)
+    - name: Manas Tyagi
+      presenting: false
+      affiliations:
+      - Hindustan Zinc Limited (India)
+    - name: Saumya Sehgal
+      presenting: false
+      affiliations:
+      - Hindustan Zinc Limited (India)
+  - paper_id: C000082
+    title: 'Effect of Feed Basicity on Metal Fumability During Treatment of Zinc-Based Hydrometallurgical Residues: Experimental
+      Insights and Industrial Validation'
+    start: "11:10"
+    end: "11:35"
+    authors:
+    - name: SUVAM MUKHERJEE
+      presenting: true
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: NANDITA DAS
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: SHEEBA MASHRUWALA
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+    - name: K MAHESH KANNAN
+      presenting: false
+      affiliations:
+      - HINDUSTAN ZINC LIMITED (India)
+  - paper_id: C000121
+    title: Hydrometallurgical Recovery of Lead from Metallurgical Smelter Wastes
+    start: "11:35"
+    end: "12:00"
+    authors:
+    - name: Shafiq Alam
+      presenting: true
+      affiliations:
+      - University of Saskatchewan (Canada)
+    - name: Aktam Saidakhmedov
+      presenting: false
+      affiliations:
+      - Navoi State University of Mining and Technologies (Uzbekistan)
+    - name: Mirdodojon Babaev
+      presenting: false
+      affiliations:
+      - Navoi State University of Mining and Technologies (Uzbekistan)
+    - name: Bakhriddin Vokhidov
+      presenting: false
+      affiliations:
+      - Navoi State University of Mining and Technologies (Uzbekistan)
+  - paper_id: C000026
+    title: Optimaization of Flotation Condition for Lead Sulfate from Zinc Smelting Residue
+    start: "12:00"
+    end: "12:25"
+    authors:
+    - name: Kazutoshi Haga
+      presenting: true
+      affiliations:
+      - Akita University (Japan)
+    - name: Kenta Sugawara
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+- id: 2026-11-04-room-c-electrometallurgy-i
+  title: Electrometallurgy I
+  type: oral
+  date: '2026-11-04'
+  start: "10:45"
+  end: "12:25"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Electrometallurgy
+  chairs:
+  - name: Tetsuya Uda
+    affiliation: Kyoto Univ.
+  - name: Taro Kamiya
+    affiliation: JOGMEC
+  talks:
+  - paper_id: C000015
+    title: Fundamental development of technology of simultaneous observation and analysis for anode reaction in zinc electrolysis
+    start: "10:45"
+    end: "11:10"
+    authors:
+    - name: Osamu Takeda
+      presenting: true
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Yuji Sutou
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Naoto Todoroki
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Shingo Kato
+      presenting: false
+      affiliations:
+      - DOWA Metals & Minig Co., LTD. (Japan)
+    - name: Satoshi Nakagawara
+      presenting: false
+      affiliations:
+      - DOWA Metals & Minig Co., LTD. (Japan)
+    - name: Tetsuro Tokumoto
+      presenting: false
+      affiliations:
+      - DOWA Holdings Co., Ltd. (Japan)
+  - paper_id: C000038
+    title: IMPROVING THE MECHANICAL PERFORMANCE OF SILVER-LEAD ANODES THROUGH THERMO-MECHANICAL CONTROLLED ROLLING PROCESS
+    start: "11:10"
+    end: "11:35"
+    authors:
+    - name: Md Shahin Mia
+      presenting: true
+      affiliations:
+      - Quality & Technical Manager, CAGROUP PTY LTD, Melbourne, Australia (Australia)
+    - name: Sebastian Ortega Galli
+      presenting: false
+      affiliations:
+      - Business Manager, CAGROUP PTY LTD, Melbourne, Australia (Australia)
+    - name: Nicholas Hardcastle
+      presenting: false
+      affiliations:
+      - Managing Director, CAGROUP PTY LTD, Melbourne, Australia (Australia)
+  - paper_id: C000068
+    title: Study on intermittent electrolysis of Pb-Ag anodes in sulfuric acid electrolyte for reducing bath voltage in zinc
+      electrowinning
+    start: "11:35"
+    end: "12:00"
+    authors:
+    - name: Yasushi Takasaki
+      presenting: true
+      affiliations:
+      - Akita University (Japan)
+    - name: Shingo Kato
+      presenting: false
+      affiliations:
+      - DOWA METALS & MINING CO., LTD. (Japan)
+    - name: Satoshi Nakagawara
+      presenting: false
+      affiliations:
+      - DOWA METALS & MINING CO., LTD. (Japan)
+    - name: Kazutoshi Haga
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+    - name: Atsushi Shibayama
+      presenting: false
+      affiliations:
+      - Akita University (Japan)
+  - paper_id: C000081
+    title: The effect of metallic impurities on the hydrogen evolution at the cathode in zinc electrowinning
+    start: "12:00"
+    end: "12:25"
+    authors:
+    - name: Kaito Abe
+      presenting: true
+      affiliations:
+      - Ehime Univ. (Japan)
+    - name: Hideaki Sasaki
+      presenting: false
+      affiliations:
+      - Ehime Univ. (Japan)
+- id: 2026-11-04-main-hall-pyrometallurgy-viii
+  title: Pyrometallurgy VIII
+  type: oral
+  date: '2026-11-04'
+  start: "13:55"
+  end: "14:45"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Yasushi Takasaki
+    affiliation: Akita Univ.
+  - name: Junichi Kobayashi
+    affiliation: Sumitomo Metal
+  chairs_truncated: true
+  talks:
+  - paper_id: C000020
+    title: 'From Non-Newtonian Flow to Imaging: Advanced Characterization of Solid-Containing Molten Slags'
+    start: "13:55"
+    end: "14:20"
+    authors:
+    - name: Masato OGAWA
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Takehiro SUMITA
+      presenting: true
+      affiliations:
+      - Kyushu University (Japan)
+    - name: Noritaka SAITO
+      presenting: false
+      affiliations:
+      - Kyushu University (Japan)
+  - paper_id: C000093
+    title: SPH Simulations of Interfacial Flow of the Two Immiscible Melts
+    start: "14:20"
+    end: "14:45"
+    authors:
+    - name: Shungo Natsui
+      presenting: true
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Hiroshi Nogami
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+- id: 2026-11-04-room-a-by-products-iii
+  title: By-products III
+  type: oral
+  date: '2026-11-04'
+  start: "13:55"
+  end: "14:45"
+  room: Room A
+  room_detail: Meeting Room 2
+  track: By-products
+  chairs:
+  - name: Ken Adachi
+    affiliation: Tohoku Univ.
+  - name: Kengo Umemura
+    affiliation: Toho Zinc
+  talks:
+  - paper_id: C000030
+    title: Analysis of Substance Flow and the Transition of Industrial Structure of Indium in Japan
+    start: "13:55"
+    end: "14:20"
+    authors:
+    - name: Akihiro Yoshimura
+      presenting: true
+      affiliations:
+      - Chiba University (Japan)
+    - name: Yasunari Matsuno
+      presenting: false
+      affiliations:
+      - Chiba University (Japan)
+  - paper_id: C000086
+    title: Evaluation of Hidden Environmental Impacts of Gallium Production and Reduction Potential
+    start: "14:20"
+    end: "14:45"
+    authors:
+    - name: Kenshin Hayakawa
+      presenting: true
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Wang Binze
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Zhengyang Zhang
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Kazuyo Matsubae
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+- id: 2026-11-04-room-b-secondary-lead-zinc-v
+  title: Secondary Lead-Zinc V
+  type: oral
+  date: '2026-11-04'
+  start: "13:55"
+  end: "15:10"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Hideaki Sasaki
+    affiliation: Ehime Univ.
+  - name: Kensaku Nakamura
+    affiliation: JX Advanced Metals
+  talks:
+  - paper_id: C000087
+    title: COMPARATIVE MORPHOLOGICAL AND ENVIRONMENTAL ASSESSMENT OF SLOWLY AIR-COOLED AND WATER-GRANULATED 2SDR STEEL MILL
+      DUST SLAG FOR SUSTAINABLE CONSTRUCTION APPLICATIONS
+    start: "13:55"
+    end: "14:20"
+    authors:
+    - name: Ehab Tara
+      presenting: true
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Gustav Hanke
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Jürgen Antrekowitsch
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Tendai Nyangadzayi
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+  - paper_id: C000091
+    title: Utilization of biochar in the reduction of zinc and lead from lead slag.
+    start: "14:20"
+    end: "14:45"
+    authors:
+    - name: Tendai Valerie Nyangadzayi
+      presenting: true
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Ehab Tara
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Gustav Hanke
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+    - name: Jürgen Antrekowitsch
+      presenting: false
+      affiliations:
+      - Technical University of Leoben (Austria)
+  - paper_id: C000097
+    title: Valorization of Lead-Zinc Smelting Slag from Kabwe, Zambia by Hydrometallurgical Recovery of Vanadium
+    start: "14:45"
+    end: "15:10"
+    authors:
+    - name: Melito Salvador Oculares
+      presenting: true
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Sayaka Fujita
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Ilhwan Park
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Mayumi Ito
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+- id: 2026-11-04-room-c-electrometallurgy-ii
+  title: Electrometallurgy II
+  type: oral
+  date: '2026-11-04'
+  start: "13:55"
+  end: "15:10"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Electrometallurgy
+  chairs:
+  - name: Osamu Takeda
+    affiliation: Tohoku Univ.
+  - name: Koji Taniguchi
+    affiliation: Mitsui Kinzoku
+  talks:
+  - paper_id: C000011
+    title: BEHAVIOR OF GLUE AND LIGNOSULFONATE IN THE BETTS ELECTROLYTIC PROCESS
+    start: "13:55"
+    end: "14:20"
+    authors:
+    - name: Hidehiro Sekimoto
+      presenting: true
+      affiliations:
+      - Iwate University (Japan)
+    - name: Toshiki Okudera
+      presenting: false
+      affiliations:
+      - Iwate University (Japan)
+    - name: Yoto Karamura
+      presenting: false
+      affiliations:
+      - Iwate University (Japan)
+    - name: Tomoki Kurihara
+      presenting: false
+      affiliations:
+      - Iwate University (Japan)
+    - name: Hayato Ishiguro
+      presenting: false
+      affiliations:
+      - Iwate University (Japan)
+  - paper_id: C000067
+    title: Lead Electrodeposition Behavior in Highly Concentrated Calcium Chloride Solutions
+    start: "14:20"
+    end: "14:45"
+    authors:
+    - name: Masayuki Miyamoto
+      presenting: true
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Atsushi Kitada
+      presenting: false
+      affiliations:
+      - The University of Tokyo (Japan)
+    - name: Ken Adachi
+      presenting: false
+      affiliations:
+      - Tohoku University (Japan)
+    - name: Kazuhiro Fukami
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Kuniaki Murase
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+  - paper_id: C000008
+    title: Three-Layer Electrorefining of Molten Zinc on Porous Holding Material of Carbon or Silica Sheets in Molten LiCl‒KCl‒ZnCl
+      2
+    start: "14:45"
+    end: "15:10"
+    authors:
+    - name: Kouji Yasuda
+      presenting: true
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Shoya Yamada
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+    - name: Tetsuya Uda
+      presenting: false
+      affiliations:
+      - Kyoto University (Japan)
+- id: 2026-11-04-main-hall-pyrometallurgy-ix
+  title: Pyrometallurgy IX
+  type: oral
+  date: '2026-11-04'
+  start: "15:35"
+  end: "16:25"
+  room: Main Hall
+  room_detail: Exhibition Bldg, Exhibition Hall 1
+  track: Pyrometallurgy
+  chairs:
+  - name: Yasushi Takasaki
+    affiliation: Akita Univ.
+  - name: Junichi Kobayashi
+    affiliation: Sumitomo Metal
+  chairs_truncated: true
+  talks:
+  - paper_id: C000040
+    title: Distribution Behavior of Precious Metals between PbO-Based Slags and Molten Pb or Ag at 1523 K
+    start: "15:35"
+    end: "16:00"
+    authors:
+    - name: Takashi Murata
+      presenting: true
+      affiliations:
+      - National Institute of Advanced Industrial Science and Technology (AIST) (Japan)
+    - name: Katsunori Yamaguchi
+      presenting: false
+      affiliations:
+      - Waseda University (Japan)
+  - paper_id: C000021
+    title: EFFECT OF STRAIN ON BEHAVIOR OF SI, MN EXTERNAL OXIDATION IN 1SI-2MN STEEL
+    start: "16:00"
+    end: "16:25"
+    authors:
+    - name: Naoto Kirekawa
+      presenting: true
+      affiliations:
+      - Nippon Steel (Japan)
+    - name: Takuya Mitsunobu
+      presenting: false
+      affiliations:
+      - Nippon Steel (Japan)
+- id: 2026-11-04-room-b-secondary-lead-zinc-vi
+  title: Secondary Lead-Zinc VI
+  type: oral
+  date: '2026-11-04'
+  start: "15:35"
+  end: "16:50"
+  room: Room B
+  room_detail: Meeting Room 3
+  track: Secondary Lead-Zinc
+  chairs:
+  - name: Hideaki Sasaki
+    affiliation: Ehime Univ.
+  - name: Yasuhiro Sakurai
+    affiliation: JMIA
+  talks:
+  - paper_id: C000039
+    title: Thermodynamics of Flexible Operation of Pb-Zn Smelting Furnace Processing Antimony-containing Concentrates
+    start: "15:35"
+    end: "16:00"
+    authors:
+    - name: Denis Shishin
+      presenting: true
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+    - name: Maksym Shevchenko
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+    - name: Terence Crawford
+      presenting: false
+      affiliations:
+      - Nyrstar Port Pirie (Australia)
+    - name: James Kasonteka
+      presenting: false
+      affiliations:
+      - Nyrstar Port Pirie (Australia)
+    - name: Evgueni Jak
+      presenting: false
+      affiliations:
+      - Pyrometallurgy Innovation Laboratory of the University of Queensland (Australia)
+  - paper_id: C000070
+    title: Metallic Lead Extraction from Waste PbO-bearing Glass by Redox Reaction in Hydrothermal Treatment using Subcritical
+      Water
+    start: "16:00"
+    end: "16:25"
+    authors:
+    - name: Masanori Suzuki
+      presenting: true
+      affiliations:
+      - The University of Osaka (Japan)
+    - name: Yuma Ukisu
+      presenting: false
+      affiliations:
+      - The University of Osaka (Japan)
+    - name: Norihiro Murayama
+      presenting: false
+      affiliations:
+      - Kansai University (Japan)
+  - paper_id: C000098
+    title: Recovery of Copper and Zinc from Simulated Acid Mine Drainage using Scrap-based Aluminum-Iron (Al-Fe) Bimetallic
+      Particles
+    start: "16:25"
+    end: "16:50"
+    authors:
+    - name: Dayle Tranz Dano
+      presenting: true
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Ilhwan Park
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Mayumi Ito
+      presenting: false
+      affiliations:
+      - Hokkaido University (Japan)
+    - name: Carlito Tabelin
+      presenting: false
+      affiliations:
+      - Mindanao State University-Iligan Institute of Technology (Philippines)
+    - name: Vannie Joy Resabal
+      presenting: false
+      affiliations:
+      - Mindanao State University-Iligan Institute of Technology (Philippines)
+- id: 2026-11-04-room-c-electrometallurgy-iii
+  title: Electrometallurgy III
+  type: oral
+  date: '2026-11-04'
+  start: "15:35"
+  end: "16:25"
+  room: Room C
+  room_detail: Meeting Room 4
+  track: Electrometallurgy
+  chairs:
+  - name: Osamu Takeda
+    affiliation: Tohoku Univ.
+  - name: Shuichi Hatae
+    affiliation: Mitsui Kinzoku
+  talks:
+  - paper_id: C000056
+    title: 'Executing a Complex Modernization within an Operating Refinery: The CEZinc Electrolytic Cellhouse Upgrade'
+    start: "15:35"
+    end: "16:00"
+    authors:
+    - name: Ricardo Sánchez
+      presenting: true
+      affiliations:
+      - Asturiana de Zinc División Tecnología (AdZ Tecnología) (Spain)
+  - paper_id: C000100
+    title: An Electrically Insulated System for Safe Removal of Severely Degraded Electrolytic Cells in Zinc Refineries
+    start: "16:00"
+    end: "16:25"
+    authors:
+    - name: Hamid Arabzadeh
+      presenting: true
+      affiliations:
+      - Pultrusion Technique Inc., R&D Director (Canada)
+    - name: Robert Dufresne
+      presenting: false
+      affiliations:
+      - Pultrusion Technique Inc. (Canada)

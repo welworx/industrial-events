@@ -8,6 +8,8 @@
 
 Curated YAML data for selected industrial events across metallurgy, mining, materials, and process-engineering domains. Event records prefer official event pages when available; discovery and organizer pages are tracked separately to support maintenance. Static site outputs are generated during deployment from the source YAML files.
 
+**Conference programs** are included where available: editions with a structured session and talk schedule (rooms, chairs, paper IDs, titles, authors, affiliations) are marked with 📋 and link to the program file stored next to the event record (`*.program.yaml`). Other icons next to an event: 📘 official proceedings, 🗓 official program page (external).
+
 **Best way to consume the data**: [open the reader-friendly event site](https://industrial-events.pages.dev/).
 
 **Something wrong/missing?** Please open a GitHub issue with a short note and links. 
@@ -77,7 +79,7 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### November
 
-- **1-6**: [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed 2026-05-31](https://img.shields.io/badge/CFP-closed%202026--05--31-lightgrey)
+- **1-6**: [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>) [📋](<https://github.com/welworx/industrial-events/blob/main/events/metallurgy/lead-zinc/lead-zinc-2026.program.yaml>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: closed 2026-05-31](https://img.shields.io/badge/CFP-closed%202026--05--31-lightgrey)
   - **Location:** ![JP flag](https://flagcdn.com/16x12/jp.png) [Sendai, JP](<https://www.google.com/maps/search/?api=1&query=Sendai%20International%20Center,%20Sendai,%20JP>) | Venue: Sendai International Center | Type: conference
   - **Tags:** `metallurgy` `lead` `zinc` `pyrometallurgy` `hydrometallurgy` `mineral-processing`
 - **9-13**: [API Fall Refining and Equipment Standards Meeting 2026](<https://events.api.org/2026-fall-refining-and-equipment-standards-meeting/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
@@ -479,7 +481,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[International Symposium on Lead and Zinc Processing](<https://industrial-events.pages.dev/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
   International symposium series on lead and zinc processing, including plant operations, extractive metallurgy, recycling, and sustainability.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: Nov 1-6, 2026](https://img.shields.io/badge/next-Nov%201--6%2C%202026-brightgreen) [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>)
+  **Next:** ![next: Nov 1-6, 2026](https://img.shields.io/badge/next-Nov%201--6%2C%202026-brightgreen) [Lead-Zinc 2026, 11th International Symposium on Lead and Zinc Processing](<https://j-lppf2.jp/lead-zinc2026/>) [📋](<https://github.com/welworx/industrial-events/blob/main/events/metallurgy/lead-zinc/lead-zinc-2026.program.yaml>)
 
 - **[International Symposium on Nickel and Cobalt](<https://industrial-events.pages.dev/events/series/ni-co.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/NiCo2025/default.aspx>)
   International symposium focused on nickel and cobalt processing, metallurgy, recycling, and battery-material topics.

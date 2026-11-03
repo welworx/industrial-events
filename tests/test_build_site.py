@@ -9,7 +9,12 @@ from xml.etree import ElementTree
 
 from industrial_events.builder import LOGGER, build_site, write_event_dataset, write_readme
 from industrial_events.config import BuildConfig, config_with_overrides, load_build_config
-from industrial_events.data import load_items, load_series_metadata, load_undated_events, load_yaml
+from industrial_events.data import (
+    load_items,
+    load_series_metadata,
+    load_undated_events,
+    load_yaml,
+)
 from industrial_events.dataset import load_event_dataset, read_event_dataset
 from industrial_events.event_pages import render_event_markdown
 from industrial_events.event_rows import submission_status_html_cell
@@ -970,6 +975,30 @@ class BuildSiteTests(unittest.TestCase):
 
         self.assertIn("[📘](<https://example.org/demo-2027/proceedings>)", readme_upcoming)
         self.assertIn("[🗓](<https://example.org/demo-2027/program>)", readme_upcoming)
+
+    def test_readme_upcoming_shows_program_data_icon_when_program_file_exists(self) -> None:
+        items = (
+            CalendarItem(
+                uid="demo-2027@industrial-events",
+                summary="Demo Conference 2027",
+                start=Date(2027, 3, 10),
+                end_exclusive=Date(2027, 3, 13),
+                series="Demo Conference",
+                series_slug="demo-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="pt",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/demo-2027",
+                program_data_url="https://github.com/example/repo/blob/main/programs/software/demo-conf/demo-conf-2027.yaml",
+            ),
+        )
+
+        readme_upcoming = render_readme_upcoming_events(items, build_test_config(), reference_date=Date(2026, 1, 1))
+
+        self.assertIn("[📋](<https://github.com/example/repo/blob/main/programs/software/demo-conf/", readme_upcoming)
 
     def test_conference_markdown_adds_short_contained_conference_labels(self) -> None:
         items = (

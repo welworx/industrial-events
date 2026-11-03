@@ -6,8 +6,9 @@ from collections.abc import Iterable
 from datetime import timedelta
 from pathlib import Path
 
-from industrial_events.config import BuildConfig, load_build_config, load_yaml_mapping
+from industrial_events.config import BuildConfig, load_build_config, load_yaml_mapping, repo_relative_path
 from industrial_events.models import CalendarItem, SeriesMetadata, UndatedEvent
+from industrial_events.programs import PROGRAM_SUFFIX, load_program_file, program_file_for, program_files
 from industrial_events.validation import (
     DEADLINE_KEYS,
     RECURRENCE_VALUES,
@@ -62,6 +63,7 @@ def load_items(source_dir: Path, config: BuildConfig | None = None) -> list[Cale
         for index, event_path in enumerate(event_paths, start=1):
             event = load_event_file(event_path)
             items.extend(items_for_event(metadata, index, event_path, event, config))
+        check_program_files_have_events(metadata_path, event_paths)
 
     return sorted(items, key=lambda item: (item.start, item.series_slug, item.kind, item.summary))
 
@@ -158,8 +160,27 @@ def load_series_metadata_file(source_dir: Path, path: Path) -> SeriesMetadata:
     )
 
 
+def program_data_link(config: BuildConfig, event_path: Path) -> str:
+    """Repository URL of the program file stored next to an event file, or "" when there is none."""
+    path = program_file_for(event_path)
+    if not path.is_file():
+        return ""
+    return f"{config.repository_url.rstrip('/')}/blob/main/{repo_relative_path(path)}"
+
+
+def check_program_files_have_events(metadata_path: Path, event_paths: list[Path]) -> None:
+    event_stems = {path.stem for path in event_paths}
+    for program_path in program_files(metadata_path.parent):
+        if program_path.name.removesuffix(PROGRAM_SUFFIX) not in event_stems:
+            raise CalendarBuildError(f"{program_path}: program file has no matching event file")
+
+
 def event_files(metadata_path: Path) -> list[Path]:
-    return sorted(path for path in metadata_path.parent.glob("*.yaml") if path.name != "metadata.yaml")
+    return sorted(
+        path
+        for path in metadata_path.parent.glob("*.yaml")
+        if path.name != "metadata.yaml" and not path.name.endswith(PROGRAM_SUFFIX)
+    )
 
 
 def load_event_file(path: Path) -> dict:
@@ -208,6 +229,9 @@ def items_for_event(
     event_sources = unique_values((*metadata.sources, *source_urls(path, event, f"event {event_index}")))
     proceedings_url = source_link_by_type(event, "proceedings")
     program_url = source_link_by_type(event, "program")
+    program_data_url = program_data_link(config, path)
+    if program_data_url:
+        load_program_file(program_file_for(path), metadata, start, end)
     event_checked_dates = (*metadata.checked_dates, *source_checked_dates(path, event, f"event {event_index}"))
     event_last_checked = latest_date(event_checked_dates)
     description = build_description(
@@ -251,6 +275,7 @@ def items_for_event(
         source_urls=event_sources,
         proceedings_url=proceedings_url,
         program_url=program_url,
+        program_data_url=program_data_url,
         description=description,
         latitude=latitude,
         longitude=longitude,

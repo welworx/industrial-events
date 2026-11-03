@@ -97,6 +97,7 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
             "url",
             "proceedings_url",
             "program_url",
+            "program_data_url",
             "description",
             "co_location_group",
             "co_location_name",
@@ -109,6 +110,7 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
         _validate_required_url(source_url, "CalendarItem.source_urls")
     _validate_optional_url(item.proceedings_url, "CalendarItem.proceedings_url")
     _validate_optional_url(item.program_url, "CalendarItem.program_url")
+    _validate_optional_url(item.program_data_url, "CalendarItem.program_data_url")
     _validate_optional_url(item.co_location_url, "CalendarItem.co_location_url")
     _validate_slug(item.series_slug, "CalendarItem.series_slug")
     _validate_slug(item.domain, "CalendarItem.domain")

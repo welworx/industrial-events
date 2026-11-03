@@ -87,6 +87,26 @@ event_types:
 
 The build creates filter feeds under `public/calendars/event-type/` and generated event lists under `public/events/event-type/`.
 
+## Programs
+
+A technical program (sessions and talks) is stored next to the event it belongs to, as `<edition>.program.yaml`:
+
+```text
+events/metallurgy/lead-zinc/
+  lead-zinc-2026.yaml
+  lead-zinc-2026.program.yaml
+```
+
+The build treats `*.program.yaml` as program data, not as an event, and fails when a program file has no event file with the same name. When a program file exists, the README shows a 📋 icon for the event that links to it. The icon is separate from the `program` source type, which links to an official external program page (🗓).
+
+Top-level fields: `series` (must equal the series slug), `edition` (must equal the file name), `timezone`, `sources` and `sessions`. `sources` is required and records where the program came from (official page or PDF, with `last_checked`); use `type: program`.
+
+Each session requires `id` (unique lowercase slug), `title`, `type` (`oral`, `plenary`, `keynote`, `panel`, `poster`, `workshop`, `tutorial`, `short-course`, `ceremony` or `social`), `date` (within the event dates), `start` and `end`. Optional: `room`, `room_detail`, `track`, `note`, `chairs` (`name`, `affiliation`), `chairs_truncated` and `talks`. Breaks are not recorded.
+
+Each talk requires `title` and `authors` (`name`, `presenting`, `affiliations`). Optional: `paper_id` (string, unique within the edition), `start` and `end` (together; inside the session and not overlapping the previous talk), `abstract`, `abstract_url`, `doi` and `keywords`.
+
+Times are quoted `"HH:MM"` strings in the event's local time. Unquoted times such as `10:35` are read as numbers by YAML and are rejected.
+
 ## Sources
 
 Use source entries to record where a fact came from.
