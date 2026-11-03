@@ -28,6 +28,7 @@ class CalendarItem:
     source_urls: tuple[str, ...] = ()
     proceedings_url: str = ""
     program_url: str = ""
+    program_data_url: str = ""
     description: str = ""
     latitude: float | None = None
     longitude: float | None = None

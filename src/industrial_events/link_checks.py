@@ -19,6 +19,7 @@ from industrial_events.data import (
     load_yaml,
     series_metadata_files,
 )
+from industrial_events.programs import program_file_for
 from industrial_events.url_utils import safe_external_url
 from industrial_events.validation import optional_date
 
@@ -60,6 +61,8 @@ def recent_event_link_targets(
                 continue
             targets.extend(metadata_targets)
             targets.extend(yaml_link_targets(event_path))
+            if program_file_for(event_path).is_file():
+                targets.extend(yaml_link_targets(program_file_for(event_path)))
             if metadata.website:
                 targets.append(LinkTarget(metadata_path, "website", metadata.website))
             targets.extend(LinkTarget(metadata_path, "source", url) for url in metadata.sources)

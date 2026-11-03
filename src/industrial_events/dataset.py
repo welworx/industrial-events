@@ -97,18 +97,21 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
             "url",
             "proceedings_url",
             "program_url",
+            "program_data_url",
             "description",
             "co_location_group",
             "co_location_name",
             "co_location_url",
         },
         number_fields={"latitude", "longitude"},
+        optional_string_fields={"program_data_url"},
     )
     _validate_optional_url(item.url, "CalendarItem.url")
     for source_url in item.source_urls:
         _validate_required_url(source_url, "CalendarItem.source_urls")
     _validate_optional_url(item.proceedings_url, "CalendarItem.proceedings_url")
     _validate_optional_url(item.program_url, "CalendarItem.program_url")
+    _validate_optional_url(item.program_data_url, "CalendarItem.program_data_url")
     _validate_optional_url(item.co_location_url, "CalendarItem.co_location_url")
     _validate_slug(item.series_slug, "CalendarItem.series_slug")
     _validate_slug(item.domain, "CalendarItem.domain")
@@ -225,10 +228,13 @@ def _dataclass_from_json(
     path_fields: set[str] = frozenset(),
     string_fields: set[str] = frozenset(),
     number_fields: set[str] = frozenset(),
+    optional_string_fields: set[str] = frozenset(),
 ) -> Any:
     mapping = _require_mapping(value, cls.__name__)
     parsed: dict[str, Any] = {}
     for field in fields(cls):
+        if field.name not in mapping and field.name in optional_string_fields:
+            mapping = {**mapping, field.name: ""}  # field added after older dataset artifacts were written
         if field.name not in mapping:
             raise ValueError(f"{cls.__name__}.{field.name} is required")
         item = mapping[field.name]

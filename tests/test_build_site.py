@@ -9,7 +9,12 @@ from xml.etree import ElementTree
 
 from industrial_events.builder import LOGGER, build_site, write_event_dataset, write_readme
 from industrial_events.config import BuildConfig, config_with_overrides, load_build_config
-from industrial_events.data import load_items, load_series_metadata, load_undated_events, load_yaml
+from industrial_events.data import (
+    load_items,
+    load_series_metadata,
+    load_undated_events,
+    load_yaml,
+)
 from industrial_events.dataset import load_event_dataset, read_event_dataset
 from industrial_events.event_pages import render_event_markdown
 from industrial_events.event_rows import submission_status_html_cell
@@ -28,6 +33,7 @@ from industrial_events.readme import (
     README_SUBMISSION_START,
     README_UPCOMING_END,
     README_UPCOMING_START,
+    official_resource_icons,
     render_readme_one_time_events,
     render_readme_overview_sources,
     render_readme_series_overview,
@@ -970,6 +976,52 @@ class BuildSiteTests(unittest.TestCase):
 
         self.assertIn("[📘](<https://example.org/demo-2027/proceedings>)", readme_upcoming)
         self.assertIn("[🗓](<https://example.org/demo-2027/program>)", readme_upcoming)
+
+    def test_readme_upcoming_shows_program_data_icon_when_program_file_exists(self) -> None:
+        items = (
+            CalendarItem(
+                uid="demo-2027@industrial-events",
+                summary="Demo Conference 2027",
+                start=Date(2027, 3, 10),
+                end_exclusive=Date(2027, 3, 13),
+                series="Demo Conference",
+                series_slug="demo-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="pt",
+                kind="event",
+                status="CONFIRMED",
+                url="https://example.org/demo-2027",
+                program_data_url="https://github.com/example/repo/blob/main/events/software/demo-conf/demo-conf-2027.program.yaml",
+            ),
+        )
+
+        readme_upcoming = render_readme_upcoming_events(items, build_test_config(), reference_date=Date(2026, 1, 1))
+
+        self.assertIn("[📋](<https://github.com/example/repo/blob/main/events/software/demo-conf/", readme_upcoming)
+
+    def test_program_icon_is_shown_when_only_a_co_located_event_has_a_program(self) -> None:
+        def item(uid: str, program_data_url: str) -> CalendarItem:
+            return CalendarItem(
+                uid=uid,
+                summary=uid,
+                start=Date(2027, 3, 10),
+                end_exclusive=Date(2027, 3, 13),
+                series="Demo",
+                series_slug="demo-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="pt",
+                kind="event",
+                status="CONFIRMED",
+                program_data_url=program_data_url,
+            )
+
+        icons = official_resource_icons((item("exhibition", ""), item("conference", "https://example.org/p.yaml")))
+
+        self.assertIn("[📋](<https://example.org/p.yaml>)", icons)
 
     def test_conference_markdown_adds_short_contained_conference_labels(self) -> None:
         items = (
