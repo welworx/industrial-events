@@ -906,7 +906,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("Ongoing Conference 2026", readme_upcoming)
 
     def test_next_series_event_skips_undated_editions_from_past_years(self) -> None:
-        def undated(title: str) -> UndatedEvent:
+        def undated(title: str, edition_year: str = "") -> UndatedEvent:
             return UndatedEvent(
                 series_slug="s",
                 domain="mining",
@@ -916,16 +916,21 @@ class BuildSiteTests(unittest.TestCase):
                 scope="",
                 location="",
                 source_url="",
+                edition_year=edition_year,
             )
 
         cell = next_series_event_cell(
             "recurring",
             (),
-            (undated("IMPC 2028, XXXIII Congress"), undated("I International Congress 1952")),
+            (undated("XXXIII Congress", "2028"), undated("I International Congress", "1952")),
             Date(2026, 11, 3),
         )
-        self.assertIn("IMPC 2028", cell)
-        self.assertNotIn("1952", cell)
+        self.assertIn("XXXIII Congress", cell)
+        self.assertNotIn("I International", cell)
+        past_only = next_series_event_cell(
+            "recurring", (), (undated("I International Congress", "1952"),), Date(2026, 11, 3)
+        )
+        self.assertNotIn("next: TBD", past_only)
 
     def test_readme_upcoming_keeps_completed_events_from_current_month(self) -> None:
         items = (

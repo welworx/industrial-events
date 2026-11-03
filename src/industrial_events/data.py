@@ -68,6 +68,12 @@ def load_items(source_dir: Path, config: BuildConfig | None = None) -> list[Cale
     return sorted(items, key=lambda item: (item.start, item.series_slug, item.kind, item.summary))
 
 
+def edition_year_from_stem(stem: str) -> str:
+    """Edition year encoded in an event file name, e.g. impc-1952 -> '1952' ('' when absent)."""
+    matches = re.findall(r"(?<!\d)((?:19|20)\d{2})(?!\d)", stem)
+    return matches[0] if matches else ""
+
+
 def load_undated_events(source_dir: Path) -> list[UndatedEvent]:
     if not source_dir.exists():
         return []
@@ -106,6 +112,7 @@ def load_undated_events(source_dir: Path) -> list[UndatedEvent]:
                     last_checked=latest_date(checked_dates),
                     co_location_group=co_location.group,
                     event_types=event_types,
+                    edition_year=edition_year_from_stem(event_path.stem),
                 )
             )
 

@@ -317,7 +317,6 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[European Electric Steelmaking Conference](<https://industrial-events.pages.dev/events/series/eec.html>)** [↗](<https://www.iom3.org>)
   European conference series on electric steelmaking, electric arc furnace practice, and related steel technology.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [1st European Electric Steelmaking Conference](<https://www.iom3.org>)
 
 - **[European Metallurgical Conference](<https://industrial-events.pages.dev/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
   GDMB European Metallurgical Conference series focused on non-ferrous metallurgy, process technology, recycling, and related industrial practice.
@@ -332,7 +331,6 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[European Slag Conference](<https://industrial-events.pages.dev/events/series/euro-slag.html>)** [↗](<https://www.euroslag2026.eu/>)
   European conference series on ferrous slags, slag treatment, standards, circular economy, and industrial slag applications.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [1st European Slag Conference](<https://www.euroslag2026.eu/>)
 
 - **[Extraction Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
   TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
@@ -484,7 +482,6 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[Southern African Base Metals Conference](<https://industrial-events.pages.dev/events/series/base-metals.html>)**
   SAIMM Southern African conference series on copper, cobalt, nickel, and related base-metals mining, processing, and metallurgy.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) 1st Southern African Base Metals Conference
 
 - **[SteelSim](<https://industrial-events.pages.dev/events/series/steelsim.html>)** [↗](<https://www.aist.org/conference-expositions/steelsim>)
   International conference on modelling and simulation of metallurgical processes in steelmaking, process control, and steel plant operations.

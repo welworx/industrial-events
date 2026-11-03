@@ -1,6 +1,7 @@
 # Generated from the organiser's schedule, technical sessions, keynote and plenary pages; see sources. Abstracts and presenting authors are not on these pages.
 # Talk end times are derived: the next talk's start, capped at 25 minutes, because the pages only give start times.
 # Author and affiliation splitting is heuristic (the source is one comma-separated string per talk).
+# Not recorded: the 4 October quarry field trip (outside the event dates) and the 30 September Exhibit Hall Reception (same room and time as the poster session).
 series: impc
 edition: impc-2024
 timezone: America/New_York
@@ -66,7 +67,7 @@ sessions:
   start: "08:30"
   end: "11:30"
   room: Woodrow Wilson Ballroom
-  note: Only the speakers named on the organiser's plenary page are listed; times per talk are not given.
+  note: Speakers as listed on the organiser's plenary page; per-talk times are not given.
   talks:
   - title: Critical Minerals Resources for the Energy Transition
     authors:
@@ -75,9 +76,19 @@ sessions:
       - British Geological Survey, Keyworth, Nottingham, United Kingdom
   - title: A Delivery Pathway to Sustainable Minerals Processing – The Future Impact of Research and Innovation
     authors:
+    - name: Richard A. Williams
+      affiliations:
+      - Heriot-Watt University, Edinburgh, Scotland
+  - title: 'Maximizing Process Circuit Efficiency: How Technology Drives Sustainability in Minerals Processing'
+    authors:
     - name: Markku Teräsvasara
       affiliations:
       - Metso Minerals
+  - title: Plenary talk (title not listed on the organiser page)
+    authors:
+    - name: Mallory Clites
+      affiliations:
+      - Office of Manufacturing and Energy Supply Chains, U.S. Department of Energy
 - id: 2024-09-30-impc-update
   title: IMPC Update
   type: ceremony
@@ -121,25 +132,22 @@ sessions:
     authors:
     - name: Sharath Bhoja
       affiliations:
-      - Tata Steel Ltd, India
-    - name: Jamshedpur
-      affiliations:
-      - Jharkhand, India
+      - Tata Steel Ltd, India, Jamshedpur, Jharkhand, India
     - name: Sunil Kumar Tripathy
       affiliations:
       - Tata Steel Ltd, Coleraine, MN 55722, Minnesota, United States
     - name: Madhurupa Sahoo
       affiliations:
-      - Tata Steel Ltd, India
+      - Tata Steel Ltd, India, Jamshedpur, Jharkhand, India
     - name: Ranjita Sahoo
       affiliations:
-      - Tata Steel Ltd, India
+      - Tata Steel Ltd, India, Jamshedpur, Jharkhand, India
     - name: Raghu Kumar C
       affiliations:
       - Tata Steel Ltd, Jamshedpur, Jharkhand, India
     - name: Srinivasa Reddy A
       affiliations:
-      - Tata Steel Ltd, India
+      - Tata Steel Ltd, India, Jamshedpur, Jharkhand, India
     keywords:
     - Dry Processing
   - title: Research on Dry Fluidization Separation Process From Mesoscale Perspective
@@ -226,10 +234,10 @@ sessions:
       - Department of Chemistry and Polymer Science, Stellenbosch University, Stellenbosch, Western Cape, South Africa
     - name: Anton Lopis
       affiliations:
-      - Centre for High Performance Computing, CSIR, 15 Lower Hope Street, Rosebank 7700, Cape Town, South Africa
-    - name: Stellenbosch
+      - Centre for High Performance Computing, CSIR, 15 Lower Hope Street, Rosebank 7700, Cape Town, South Africa, Stellenbosch
+    - name: Western Cape
       affiliations:
-      - Western Cape, South Africa
+      - South Africa
     keywords:
     - Extractive Metallurgy
   - title: Fluidized Reduction Behaviors of Boron-bearing Iron Concentrate Using Hydrogen as Reductant
@@ -606,7 +614,10 @@ sessions:
     start: "14:30"
     end: "15:00"
     authors:
-    - name: Saskia Duyvesteyn and Dawn Wellman
+    - name: Saskia Duyvesteyn
+      affiliations:
+      - Rio Tinto, United States
+    - name: Dawn Wellman
       affiliations:
       - Rio Tinto, United States
 - id: 2024-09-30-extractive-metallurgy-iv-advances-in-gold-extraction-methods
@@ -1821,8 +1832,7 @@ sessions:
     - name: Bern Klein
       affiliations:
       - University of British Columbia-Norman B. Keevil Institute of Mining Engineering, Vancouver, British Columbia, Canada
-    - name: Chengtie
-    - name: Wang
+    - name: Chengtie Wang
       affiliations:
       - University of British Columbia-Norman B. Keevil Institute of Mining Engineering, Vancouver, British Columbia, Canada
     - name: Genzhuang Li
@@ -3141,10 +3151,7 @@ sessions:
       - The University of Queensland, Brisbane, Queensland, Australia
     - name: Yangyang Huai
       affiliations:
-      - Jiangxi Copper Corporation, Nanchang
-    - name: Jiangxi
-      affiliations:
-      - China
+      - Jiangxi Copper Corporation, Nanchang, Jiangxi, China
     - name: Ronel Kappes
       affiliations:
       - Newmont Corporation, Denver, Colorado, United States
@@ -3458,10 +3465,7 @@ sessions:
       - Beijing, China
     - name: Zaiding Zhong
       affiliations:
-      - Jinduicheng Molybdenum Co., Lt
-    - name: Shaanxi
-      affiliations:
-      - China
+      - Jinduicheng Molybdenum Co., Lt, Shaanxi, China
 - id: 2024-10-01-process-control-modeling-and-simulation-ii-advanced
   title: Process Control Modeling and Simulation II – Advanced Modeling and Control of Flotation
   type: oral
@@ -3725,6 +3729,14 @@ sessions:
     - name: Abhishek Gupta
       affiliations:
       - Stet, Needham, Massachusetts, United States
+- id: 2024-10-01-sea-to-shining-sea-celebration
+  title: Sea to Shining Sea Celebration
+  type: social
+  date: '2024-10-01'
+  start: "18:00"
+  end: "20:00"
+  room: Cherry Blossom Foyer
+  talks: []
 - id: 2024-10-02-keynote-sessions
   title: Keynote Sessions
   type: keynote
@@ -3741,6 +3753,13 @@ sessions:
     - name: Kym Runge
       affiliations:
       - SMI-JKMRC, Australia
+  - title: 'Comminution Keynote: Changing the Face of Comminution | Insurmountable Hurdles or Just Speed-humps on the Journey?'
+    start: "09:00"
+    end: "09:30"
+    authors:
+    - name: Richard Bearman
+      affiliations:
+      - Bear Rock Solutions Pty. Ltd., Australia
   - title: 'Plant Design Keynote: Embracing New Technology in a Traditional Industry'
     start: "09:30"
     end: "10:00"
@@ -4165,6 +4184,7 @@ sessions:
   start: "10:25"
   end: "12:30"
   room: Woodrow Wilson A
+  note: 'Schedule page title: "Flotation XV - Surface Chemistry and Equipment".'
   chairs:
   - name: Pengbo Chu
     affiliation: University of Nevada Reno
@@ -5030,7 +5050,6 @@ sessions:
     - name: Kathryn Hadler
       affiliations:
       - European Space Resources Innovation Centre, Esch-sur-Alzette, Luxembourg
-    - name: Luxembourg
     - name: Xiaochen Zhang
       affiliations:
       - Esric, Esch-sur-Alzette, Luxembourg
@@ -5448,10 +5467,7 @@ sessions:
       - Dassault Systèmes, Brisbane, Queensland, Australia
     - name: Robert Morrison
       affiliations:
-      - JKMRC, The University of Queensland, Australia
-    - name: Brisbane
-      affiliations:
-      - Queensland, Australia
+      - JKMRC, The University of Queensland, Australia, Brisbane, Queensland, Australia
     - name: Sarma Kanchibotla
       affiliations:
       - Seshat Consultants Pty Ltd, Brisbane, Queensland, Australia
@@ -5579,11 +5595,11 @@ sessions:
     authors:
     - name: Paulina Vallejos
       affiliations:
-      - Dept. of Chemical and Environmental Eng., Universidad Técnica Federico Santa María
-    - name: Chile. Juan Yianatos
+      - Dept. of Chemical and Environmental Eng., Universidad Técnica Federico Santa María, Chile
+    - name: Juan Yianatos
       affiliations:
-      - Dept. of Chemical and Environmental Eng., Universidad Técnica Federico Santa María
-    - name: Chile. Carolina Jara
+      - Dept. of Chemical and Environmental Eng., Universidad Técnica Federico Santa María, Chile
+    - name: Carolina Jara
       affiliations:
       - Compañía Minera Doña Inés de Collahuasi (CMDIC), Chile., BHP Minerals Americas, Chile
     - name: Felipe Ruiz
@@ -6170,6 +6186,7 @@ sessions:
   start: "14:00"
   end: "17:45"
   room: Annapolis 1-2
+  note: 'Schedule page title: "Water Management II - Impact of Water Quality on Mineral and Water Processing".'
   chairs:
   - name: Kirsten Corin
     affiliation: University of Cape Town
@@ -6311,19 +6328,19 @@ sessions:
     - name: Haisheng Han
       affiliations:
       - School of Minerals Processing and Bioengineering, Central South University, Changsha, China
-    - name: Engineering Research Center of Ministry of Education for Carbon Emission Reduction in Metal Resource
+      - Engineering Research Center of Ministry of Education for Carbon Emission Reduction in Metal Resource
     - name: Stephen Pooley
       affiliations:
       - School of Minerals Processing and Bioengineering, Central South University, Changsha, China
-    - name: Jiangxi Copper Research Division
-      affiliations:
-      - Nanchang, China
+      - Jiangxi Copper Research Division, Nanchang, China
     - name: Wei Sun
       affiliations:
       - School of Minerals Processing and Bioengineering, Central South University, Changsha, China
+      - Engineering Research Center of Ministry of Education for Carbon Emission Reduction in Metal Resource
     - name: Yuehua Hu
       affiliations:
       - School of Minerals Processing and Bioengineering, Central South University, Changsha, China
+      - Engineering Research Center of Ministry of Education for Carbon Emission Reduction in Metal Resource
   - title: Technospheric Mining of Rare Earth Elements from Acid-Crack Leach Tailings
     start: "16:50"
     end: "17:00"
@@ -6538,7 +6555,6 @@ sessions:
     - name: Asmae El Bahi
       affiliations:
       - Mohammed VI Polytechnic University, BenGuerir, Morocco
-    - name: Morocco
     - name: Yassine Taha
       affiliations:
       - Mohammed VI Polytechnic University, Benguerir, Morocco
@@ -6775,7 +6791,7 @@ sessions:
     - name: Tassos Grammatikopoulos
       affiliations:
       - SGS Canada, Lakefield, Ontario, Canada
-    - name: Nelson Campos Alvarez Campos Alvarez
+    - name: Nelson Campos Alvarez
       affiliations:
       - Hudbay Minerals Inc, Toronto, Ontario, Canada
     - name: Chris marion
@@ -6784,7 +6800,7 @@ sessions:
     - name: Matt Taylor
       affiliations:
       - Hudbay Minerals Inc, Toronto, Ontario, Canada
-    - name: Olivier Tavchandjian1
+    - name: Olivier Tavchandjian
       affiliations:
       - Hudbay Minerals Inc, Toronto, Ontario, Canada
   - title: Geometallurgical Data Mining of Ore Processing Behavior and the Integrated Value Chain
@@ -6845,10 +6861,7 @@ sessions:
     authors:
     - name: Aparup Chattopadhyay
       affiliations:
-      - Integrated Process Mineralogy Solutions Inc., Mississauga, Canada
-    - name: Ontario
-      affiliations:
-      - Canada
+      - Integrated Process Mineralogy Solutions Inc., Mississauga, Canada, Ontario, Canada
     - name: Barun Gorain
       affiliations:
       - Ore2Metal Inc., Toronto, Ontario, Canada

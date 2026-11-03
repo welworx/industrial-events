@@ -520,6 +520,8 @@ def item_year(item: CalendarItem | UndatedEvent) -> int | None:
         if item.kind != "event":
             return None
         return item.start.year
+    if item.edition_year:
+        return int(item.edition_year)
     match = re.search(r"\b(20\d{2}|19\d{2})\b", item.title)
     if not match:
         return None
