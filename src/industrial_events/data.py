@@ -169,7 +169,7 @@ def program_data_link(config: BuildConfig, event_path: Path) -> str:
     if not path.is_file():
         return ""
     try:
-        relative = path.relative_to(ROOT).as_posix()
+        relative = path.resolve().relative_to(ROOT.resolve()).as_posix()
     except ValueError:
         return ""  # outside this repository (e.g. a custom --source directory): no repository URL exists
     return f"{config.repository_url.rstrip('/')}/blob/{DEFAULT_BRANCH}/{relative}"

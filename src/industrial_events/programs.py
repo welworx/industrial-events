@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from datetime import date
 from pathlib import Path
+from zoneinfo import available_timezones
 
 from industrial_events.config import load_yaml_mapping
 from industrial_events.models import SeriesMetadata
@@ -20,6 +21,14 @@ from industrial_events.validation import (
 PROGRAM_SUFFIX = ".program.yaml"
 TIME_RE = re.compile(r"^(?:[01]\d|2[0-3]):[0-5]\d$")
 TIMEZONE_RE = re.compile(r"^(?:UTC|[A-Za-z]+(?:/[A-Za-z0-9_+-]+)+)$")
+
+
+def is_valid_timezone(name: str) -> bool:
+    """Exact IANA check when the tz database is installed, shape check otherwise."""
+    zones = available_timezones()
+    return name in zones if zones else bool(TIMEZONE_RE.fullmatch(name))
+
+
 PROGRAM_KEYS = {"series", "edition", "timezone", "sources", "sessions"}
 SESSION_KEYS = {
     "id",
@@ -78,35 +87,37 @@ def validate_program_record(
         raise CalendarBuildError(f"{path}: field 'series' must be {metadata.slug!r}")
     if require_str(path, data, "edition") != edition:
         raise CalendarBuildError(f"{path}: field 'edition' must match the file name ({edition!r})")
-    if not TIMEZONE_RE.fullmatch(require_str(path, data, "timezone")):
+    if not is_valid_timezone(require_str(path, data, "timezone")):
         raise CalendarBuildError(f"{path}: program field 'timezone' must be an IANA name such as Europe/Berlin")
     if not source_urls(path, data, "program"):
         raise CalendarBuildError(f"{path}: program field 'sources' must list the original program source(s)")
     for index, source in enumerate(data["sources"], start=1):
-        for key in ("type", "last_checked"):
-            if key not in source:
-                raise CalendarBuildError(f"{path}: program source {index} field {key!r} is required")
+        label = f"program source {index}"
+        require_str(path, source, "type", label)
+        require_date(path, source, "last_checked", label)
+    if not any(source["type"] == "program" for source in data["sources"]):
+        raise CalendarBuildError(f"{path}: program field 'sources' needs at least one source with type 'program'")
 
     sessions = data.get("sessions")
     if not isinstance(sessions, list) or not sessions:
         raise CalendarBuildError(f"{path}: program field 'sessions' must be a non-empty list")
     session_ids: set[str] = set()
     paper_ids: set[str] = set()
-    room_slots: dict[tuple[date, str], list[tuple[str, str, str]]] = {}
+    scheduled: dict[date, list[tuple[str, str, str, str]]] = {}
     for index, session in enumerate(sessions, start=1):
         validate_session(path, session, f"session {index}", event_start, event_end, session_ids, paper_ids)
-        check_room_free(path, session, f"session {index}", room_slots)
+        check_sessions_do_not_clash(path, session, f"session {index}", scheduled)
 
 
-def check_room_free(path: Path, session: dict, label: str, room_slots: dict) -> None:
-    room = session.get("room")
-    if not room:
-        return
-    key = (require_date(path, session, "date", label), room)
-    for start, end, other_id in room_slots.get(key, []):
-        if session["start"] < end and start < session["end"]:
-            raise CalendarBuildError(f"{path}: {label} ({session['id']}) overlaps {other_id} in {room} on {key[0]}")
-    room_slots.setdefault(key, []).append((session["start"], session["end"], session["id"]))
+def check_sessions_do_not_clash(path: Path, session: dict, label: str, scheduled: dict) -> None:
+    """A room hosts one session at a time; a session without a room occupies every room."""
+    room = " ".join(str(session.get("room") or "").casefold().split())
+    day = require_date(path, session, "date", label)
+    for start, end, other_id, other_room in scheduled.get(day, []):
+        same_room = not room or not other_room or room == other_room
+        if same_room and session["start"] < end and start < session["end"]:
+            raise CalendarBuildError(f"{path}: {label} ({session['id']}) overlaps {other_id} on {day}")
+    scheduled.setdefault(day, []).append((session["start"], session["end"], session["id"], room))
 
 
 def validate_session(
@@ -143,21 +154,26 @@ def validate_session(
         raise CalendarBuildError(f"{path}: {label} end must be after start")
     for key in ("room", "room_detail", "track", "note"):
         optional_str(session, key, path, label)
-    if not isinstance(session.get("chairs_truncated", False), bool):
+    if not isinstance(session.get("chairs_truncated") or False, bool):
         raise CalendarBuildError(f"{path}: {label} field 'chairs_truncated' must be true or false")
-    validate_chairs(path, session.get("chairs") or [], label)
+    validate_chairs(path, optional_list(path, session, "chairs", label), label)
 
-    talks = session.get("talks") or []
-    if not isinstance(talks, list):
-        raise CalendarBuildError(f"{path}: {label} field 'talks' must be a list")
+    talks = optional_list(path, session, "talks", label)
     previous_end = ""
     for index, talk in enumerate(talks, start=1):
         previous_end = validate_talk(path, talk, f"{label} talk {index}", (start, end), previous_end, paper_ids)
 
 
-def validate_chairs(path: Path, chairs: object, label: str) -> None:
-    if not isinstance(chairs, list):
-        raise CalendarBuildError(f"{path}: {label} field 'chairs' must be a list")
+def optional_list(path: Path, data: dict, key: str, label: str) -> list:
+    value = data.get(key)
+    if value is None:
+        return []
+    if not isinstance(value, list):
+        raise CalendarBuildError(f"{path}: {label} field {key!r} must be a list")
+    return value
+
+
+def validate_chairs(path: Path, chairs: list, label: str) -> None:
     for index, chair in enumerate(chairs, start=1):
         chair_label = f"{label} chair {index}"
         if not isinstance(chair, dict):
@@ -206,8 +222,8 @@ def validate_talk(
     for key in ("abstract", "doi"):
         optional_str(talk, key, path, label)
     optional_url(path, talk, "abstract_url", label)
-    keywords = talk.get("keywords") or []
-    if not isinstance(keywords, list) or not all(isinstance(k, str) and k.strip() for k in keywords):
+    keywords = optional_list(path, talk, "keywords", label)
+    if not all(isinstance(k, str) and k.strip() for k in keywords):
         raise CalendarBuildError(f"{path}: {label} field 'keywords' must be a list of strings")
     validate_authors(path, talk.get("authors"), label)
     return previous_end
@@ -224,8 +240,8 @@ def validate_authors(path: Path, authors: object, label: str) -> None:
         require_str(path, author, "name", author_label)
         if not isinstance(author.get("presenting", False), bool):
             raise CalendarBuildError(f"{path}: {author_label} field 'presenting' must be true or false")
-        affiliations = author.get("affiliations") or []
-        if not isinstance(affiliations, list) or not all(isinstance(a, str) and a.strip() for a in affiliations):
+        affiliations = optional_list(path, author, "affiliations", author_label)
+        if not all(isinstance(a, str) and a.strip() for a in affiliations):
             raise CalendarBuildError(f"{path}: {author_label} field 'affiliations' must be a list of strings")
 
 

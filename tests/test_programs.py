@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import os
 import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
+from unittest.mock import patch
 
 import yaml
 
@@ -100,6 +102,31 @@ class ProgramValidationTests(unittest.TestCase):
     def test_valid_program_outside_the_repository_has_no_repository_url(self) -> None:
         self.assertEqual(load_with_program(valid_program())[0].program_data_url, "")
 
+    def test_valid_program_inside_the_repository_gets_a_repository_url(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp, patch("industrial_events.data.ROOT", Path(tmp).resolve()):
+            series = Path(tmp) / "events" / "software" / "demo-conf"
+            series.mkdir(parents=True)
+            (series / "metadata.yaml").write_text(yaml.safe_dump(METADATA))
+            (series / "demo-conf-2027.yaml").write_text(yaml.safe_dump(EVENT))
+            (series / "demo-conf-2027.program.yaml").write_text(yaml.safe_dump(valid_program()))
+
+            url = load_items(Path(tmp) / "events")[0].program_data_url
+
+        self.assertEqual(
+            url,
+            "https://github.com/welworx/industrial-events/blob/main/events/software/demo-conf/"
+            "demo-conf-2027.program.yaml",
+        )
+
+    def test_relative_source_directory_still_gets_repository_urls(self) -> None:
+        previous = Path.cwd()
+        os.chdir(ROOT)
+        try:
+            items = load_items(Path("events"))
+        finally:
+            os.chdir(previous)
+        self.assertTrue(any(item.program_data_url for item in items))
+
     def test_event_without_program_has_no_program_data_url(self) -> None:
         self.assertEqual(load_with_program(None)[0].program_data_url, "")
 
@@ -178,12 +205,34 @@ class ProgramValidationTests(unittest.TestCase):
     def test_timezone_is_required(self) -> None:
         self.assert_rejected(lambda p: p.pop("timezone"), "field 'timezone' is required")
 
-    def test_timezone_must_look_like_an_iana_name(self) -> None:
-        self.assert_rejected(lambda p: p.update(timezone="Not a zone"), "IANA name")
+    def test_timezone_must_be_a_real_iana_name(self) -> None:
+        for bad in ("Not a zone", "Asia/Tokyoo", "Foo/Bar"):
+            self.assert_rejected(lambda p, bad=bad: p.update(timezone=bad), "IANA name")
+
+    def test_valid_timezone_names_are_accepted(self) -> None:
+        for good in ("Asia/Tokyo", "America/Argentina/Buenos_Aires", "Etc/GMT+5", "Asia/Ho_Chi_Minh", "UTC"):
+            program = valid_program()
+            program["timezone"] = good
+            load_with_program(program)
 
     def test_sources_require_type_and_last_checked(self) -> None:
         self.assert_rejected(lambda p: p["sources"][0].pop("type"), "'type' is required")
-        self.assert_rejected(lambda p: p["sources"][0].pop("last_checked", None), "'last_checked' is required")
+        self.assert_rejected(lambda p: p["sources"][0].pop("last_checked", None), "'last_checked' must be a")
+        self.assert_rejected(lambda p: p["sources"][0].update(last_checked=None), "'last_checked' must be a")
+        self.assert_rejected(lambda p: p["sources"][0].update(type=""), "'type' is required")
+        self.assert_rejected(lambda p: p["sources"][0].update(type=None), "'type' is required")
+
+    def test_at_least_one_source_must_be_of_type_program(self) -> None:
+        self.assert_rejected(lambda p: p["sources"][0].update(type="event-site"), "type 'program'")
+
+    def test_falsy_non_lists_are_rejected(self) -> None:
+        self.assert_rejected(lambda p: p["sessions"][0].update(chairs=""), "'chairs' must be a list")
+        self.assert_rejected(lambda p: p["sessions"][0].update(talks=False), "'talks' must be a list")
+        self.assert_rejected(lambda p: p["sessions"][0]["talks"][0].update(keywords=0), "'keywords' must be a list")
+        self.assert_rejected(
+            lambda p: p["sessions"][0]["talks"][0]["authors"][0].update(affiliations=""),
+            "'affiliations' must be a list",
+        )
 
     def test_null_lists_are_treated_as_empty(self) -> None:
         program = valid_program()
@@ -203,6 +252,25 @@ class ProgramValidationTests(unittest.TestCase):
             program["sessions"].append(clash)
 
         self.assert_rejected(add_clash, "overlaps")
+
+    def test_room_names_are_compared_ignoring_case_and_spacing(self) -> None:
+        def add_clash(program: dict) -> None:
+            clash = {**program["sessions"][0], "id": "clash", "room": "  ROOM  a ", "talks": []}
+            program["sessions"].append(clash)
+
+        self.assert_rejected(add_clash, "overlaps")
+
+    def test_session_without_room_clashes_with_any_room(self) -> None:
+        def add_roomless(program: dict) -> None:
+            roomless = {k: v for k, v in program["sessions"][0].items() if k != "room"}
+            program["sessions"].append({**roomless, "id": "all-rooms", "start": "09:30", "talks": []})
+
+        self.assert_rejected(add_roomless, "overlaps")
+
+    def test_sessions_in_different_rooms_at_the_same_time_are_allowed(self) -> None:
+        program = valid_program()
+        program["sessions"].append({**program["sessions"][0], "id": "other-room", "room": "Room B", "talks": []})
+        load_with_program(program)
 
     def test_back_to_back_sessions_in_one_room_are_allowed(self) -> None:
         program = valid_program()
