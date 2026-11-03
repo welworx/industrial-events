@@ -1,0 +1,25 @@
+name: EMC 2027, 14th European Metallurgical Conference
+event_types:
+- conference
+- exhibition
+start: '2027-06-20'
+end: '2027-06-23'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: Messe Dusseldorf
+url: https://gdmb.de/emc-2027-en/
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2027
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec.com/en/
+  series:
+  - metec
+  - gifa
+sources:
+- type: event-site
+  scope: event
+  url: https://gdmb.de/emc-2027-en/
+  last_checked: '2026-11-03'
+  note: Official GDMB page lists EMC 2027 on 20-23 June 2027 on the grounds of Messe Dusseldorf, theme Metallurgical Innovation in a Decade of Transformation, with an abstract submission call.
