@@ -13,7 +13,7 @@ sources:
   scope: event
   url: https://impc-council.com/about-us/history/
   last_checked: '2026-11-03'
-  note: Official IMPC history identifies congress XXX as IMPC 2020 at Cape Town (marked with an asterisk).
+  note: Official IMPC history lists congress XXX (2020) at Cape Town and footnotes it as held virtually due to the COVID pandemic.
 - type: event-site
   scope: event
   url: https://www.impc2020.com/
