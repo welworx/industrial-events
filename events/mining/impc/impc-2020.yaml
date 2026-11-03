@@ -1,0 +1,12 @@
+name: XXX International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+city: Cape Town
+country: ZA
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-11-03'
+  note: Official IMPC history identifies congress XXX in 2020 at Cape Town (marked with an asterisk); exact dates and format are not verified here, one listing suggests it moved to April 2021.
