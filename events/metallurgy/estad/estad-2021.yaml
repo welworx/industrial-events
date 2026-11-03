@@ -6,12 +6,16 @@ end: '2021-09-02'
 timezone: Europe/Stockholm
 city: Stockholm
 country: SE
-venue: The Brewery Conference Centre
 status: confirmed
 sources:
 - type: overview
   scope: event
   url: https://www.showsbee.com/fairs/53746-ESTAD-2021.html
   last_checked: '2026-11-03'
-  note: Listing gives 30 August-2 September 2021 in Stockholm, organised by Jernkontoret; the edition ran largely online because
-    of COVID-19.
+  note: Listing site gives 30 August-2 September 2021 in Stockholm, organised by Jernkontoret; the edition ran largely online
+    because of COVID-19. Aggregator only; venue not corroborated, so omitted.
+- type: series-home
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh edition list confirms ESTAD 2021 and its host city.

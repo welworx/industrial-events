@@ -15,3 +15,14 @@ sources:
   last_checked: '2026-11-03'
   note: Fraunhofer record lists the 6th ESTAD 2023 in Dusseldorf, 12-16 June 2023, organised by Stahlinstitut VDEh alongside
     METEC.
+- type: series-home
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh edition list confirms ESTAD 2023 and its host city.
+co_located_with:
+  group: bright-world-of-metals-2023
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec

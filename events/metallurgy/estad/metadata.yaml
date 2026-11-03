@@ -1,7 +1,8 @@
 series: European Steel Technology and Application Days
 slug: estad
 website: https://vdeh.de/en/information/events/
-description: Biennial European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh and held with METEC in Dusseldorf years.
+description: European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh;
+  recent editions in Dusseldorf run alongside METEC.
 recurrence: recurring
 categories:
 - metallurgy
@@ -14,4 +15,5 @@ sources:
   scope: series
   url: https://vdeh.de/en/information/events/
   last_checked: '2026-11-03'
-  note: Stahlinstitut VDEh events page lists the 8th ESTAD on 21-25 June 2027 and past editions Paris 2014, Dusseldorf 2015, Vienna 2017, Dusseldorf 2019, Stockholm 2021, Dusseldorf 2023, Verona 2025.
+  note: Stahlinstitut VDEh events page lists the 8th ESTAD on 21-25 June 2027 and past editions Paris 2014, Dusseldorf 2015,
+    Vienna 2017, Dusseldorf 2019, Stockholm 2021, Dusseldorf 2023, Verona 2025.

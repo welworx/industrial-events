@@ -15,3 +15,8 @@ sources:
   last_checked: '2026-11-03'
   note: Proceedings.com lists ESTAD 2017 in Vienna on 26-29 June 2017; run with ECCC at the Austria Center. A Springer report
     gives 27-29 June for the parallel sessions.
+- type: series-home
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh edition list confirms ESTAD 2017 and its host city.

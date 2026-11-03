@@ -14,3 +14,8 @@ sources:
   url: https://www.aimnet.it/estad-25.shtml
   last_checked: '2026-11-03'
   note: AIM event page lists the 7th ESTAD at Palaexpo VeronaFiere, Verona, 6-9 October 2025.
+- type: series-home
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh edition list confirms ESTAD 2025 and its host city.

@@ -120,8 +120,8 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 - **9-10**: [Glassman Europe 2027](<https://glassmanevents.com/europe/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4)
   - **Location:** ![TR flag](https://flagcdn.com/16x12/tr.png) [Istanbul, TR](<https://www.google.com/maps/search/?api=1&query=CNR%20Expo%20Istanbul,%20Istanbul,%20TR>) | Venue: CNR Expo Istanbul | Types: conference, exhibition
   - **Tags:** `materials` `glass` `manufacturing` `container-glass`
-- **20-25**: [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>) ([GIFA 2027](<https://www.gifa.com/>), [EMC 2027, 14th European Metallurgical Conference](<https://gdmb.de/emc-2027-en/>), [ESTAD 2027, 8th European Steel Technology and Application Days](<https://vdeh.de/en/information/events/>)) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
-  - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Dusseldorf, DE](<https://www.google.com/maps/search/?api=1&query=Messe%20Dusseldorf,%20Dusseldorf,%20DE%3B%20Dusseldorf,%20DE>) | Venue: Messe Dusseldorf | Types: trade-fair, exhibition, conference
+- **20-25**: [METEC 2027, 12th International Metallurgy Trade Fair](<https://www.metec-tradefair.com>) ([GIFA 2027](<https://www.gifa.com/>), [EMC2027, 14th European Metallurgical Conference](<https://gdmb.de/emc-2027-en/>), [ESTAD 2027, 8th European Steel Technology and Application Days](<https://vdeh.de/en/information/events/>)) ![type: trade-fair](https://img.shields.io/badge/type-trade--fair-red) ![type: exhibition](https://img.shields.io/badge/type-exhibition-ff69b4) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Dusseldorf, DE](<https://www.google.com/maps/search/?api=1&query=Messe%20Dusseldorf,%20Dusseldorf,%20DE>) | Venue: Messe Dusseldorf | Types: trade-fair, exhibition, conference
   - **Tags:** `metallurgy` `trade-fair` `foundry` `materials` `casting` `non-ferrous-metallurgy` +4 more
 
 #### August
@@ -337,7 +337,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[European Metallurgical Conference](<https://industrial-events.pages.dev/events/series/emc.html>)** [↗](<https://gdmb.de/en/>)
   GDMB European Metallurgical Conference series focused on non-ferrous metallurgy, process technology, recycling, and related industrial practice.
   ![frequency: 2 years](https://img.shields.io/badge/frequency-2%20years-blue)
-  **Next:** ![next: Jun 20-23, 2027](https://img.shields.io/badge/next-Jun%2020--23%2C%202027-brightgreen) [EMC 2027, 14th European Metallurgical Conference](<https://gdmb.de/emc-2027-en/>)
+  **Next:** ![next: Jun 20-23, 2027](https://img.shields.io/badge/next-Jun%2020--23%2C%202027-brightgreen) [EMC2027, 14th European Metallurgical Conference](<https://gdmb.de/emc-2027-en/>)
 
 - **[European Mineral Processing and Recycling Congress](<https://industrial-events.pages.dev/events/series/emprc.html>)** [↗](<https://www.pyrometallurgy.co.za/Conferences/Previous.htm>)
   European congress series on mineral processing and recycling, with documented 2018 and 2020 editions.
@@ -349,7 +349,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
 - **[European Steel Technology and Application Days](<https://industrial-events.pages.dev/events/series/estad.html>)** [↗](<https://vdeh.de/en/information/events/>)
-  Biennial European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh and held with METEC in Dusseldorf years.
+  European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh; recent editions in Dusseldorf run alongside METEC.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
   **Next:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [ESTAD 2027, 8th European Steel Technology and Application Days](<https://vdeh.de/en/information/events/>)
 

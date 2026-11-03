@@ -11,7 +11,7 @@ status: confirmed
 co_located_with:
   group: bright-world-of-metals-2027
   name: METEC / GIFA / THERMPROCESS / NEWCAST
-  url: https://www.metec.com/en/
+  url: https://www.metec-tradefair.com
   series:
   - metec
   - gifa
@@ -20,4 +20,6 @@ sources:
   scope: event
   url: https://vdeh.de/en/information/events/
   last_checked: '2026-11-03'
-  note: Stahlinstitut VDEh lists the 8th ESTAD on 21-25 June 2027, held alongside METEC in Dusseldorf. Venue not confirmed by an official page.
+  note: Stahlinstitut VDEh lists the 8th ESTAD on 21-25 June 2027 in the block of Dusseldorf events held with METEC; city
+    and Messe Dusseldorf location inferred from that co-location (VDEh page names no venue).
+venue: Messe Dusseldorf

@@ -26,12 +26,12 @@ To find what to refresh: `uv run industrial-events-list-candidates --series <slu
 
 - Required: `name`, `event_types` (`conference`, `exhibition`, `trade-fair`, ...), `start`, `end` (`YYYY-MM-DD`, quoted). Dateless events need `status: estimated|tentative`.
 - Also set `timezone` (IANA), `city`, `country` (ISO-2), `venue`, `status`.
-- Use ASCII transliteration in city/venue (`Dusseldorf`, `Duesseldorf`), matching existing files.
-- Name pattern: `<SERIES> <year>, <ordinal> <full title>` (e.g. `EMC 2027, 14th European Metallurgical Conference`). Derive the ordinal from the previous edition; ordinals must stay consistent.
-- **Top-level `url` must not equal any `sources[].url`** (test `test_event_top_level_urls_do_not_duplicate_evidence_sources`) and must be unique across events (`industrial-events-check-duplicate-event-urls`). If the only page you have is the evidence page, omit `url`; the series `website` is used as fallback.
+- Use ASCII transliteration in city/venue (`Dusseldorf`, `Duesseldorf`), matching existing files. A fairground such as `Messe Dusseldorf` is a valid `venue`.
+- Name pattern: `<SERIES> <year>, <ordinal> <full title>` (e.g. `EMC2027, 14th European Metallurgical Conference`); copy the exact spelling of the series' earlier editions (EMC is written without a space). Derive the ordinal from the previous edition; ordinals must stay consistent.
+- **Top-level `url` must not equal the URL of an evidence-type source** (`overview`, `event-listing`, `proceedings`, `reference`, `event-report`; test `test_event_top_level_urls_do_not_duplicate_evidence_sources`). An `event-site` source may share the event's own `url`. `industrial-events-check-duplicate-event-urls` flags year-bearing URLs reused across editions. If your only page is an aggregator/overview, omit `url`; the series `website` is the fallback.
 - Every fact should be backed by a `sources` entry: `type` (`event-site`, `overview`, `program`, `cfp`, ...), `scope: event`, `url`, `last_checked` (today's date, quoted), and a one-sentence `note` quoting what the page says. Do not bump `last_checked` on pages you did not actually open.
 - Deadlines: `deadlines:` list with `type`, `name`, `date`, `url`, `status`, `sources`. When a deadline moves, keep history in `history:` instead of overwriting. Do not invent deadlines; omit if the date is not published.
-- Co-located events share a group: copy the `co_located_with` block (`group`, `name`, `url`, `series`) from a sibling. The Dusseldorf fair week uses `group: bright-world-of-metals-2027` (METEC, GIFA, THERMPROCESS, NEWCAST, plus ESTAD and EMC).
+- Co-located events share a group: copy the `co_located_with` block (`group`, `name`, `url`, `series`) verbatim from the METEC edition of that year (group URL `https://www.metec-tradefair.com`). The Dusseldorf fair week uses `group: bright-world-of-metals-2027` (METEC, GIFA, THERMPROCESS, NEWCAST, plus ESTAD and EMC).
 - Unknown YAML keys are rejected. Keep dates identical across co-located siblings unless the organiser publishes different ones (EMC 2027 is 20-23 June, the fair is 21-25 June).
 
 ## Series metadata
@@ -56,8 +56,8 @@ uv run industrial-events-check-yaml-links      # network; may fail behind the sa
 
 ## Verification tips
 
-- Official site JSON-LD can be off by a day (METEC 2027 shows 20-24 June in JSON-LD but 21-25 June on the page). Prefer the visible text and a second source.
-- In this sandbox some hosts return 502 via the proxy; fall back to the organiser's society page (e.g. `vdeh.de`, `gdmb.de`, `aist.org`) or a university/Fraunhofer record for historical editions.
+- Machine-readable data on organiser sites can differ from the visible text (METEC 2027 JSON-LD gave 20-24 June, the page says 21-25 June). Prefer visible text plus a second source.
+- If a host is unreachable from the sandbox, fall back to the organiser's society page (e.g. `vdeh.de`, `gdmb.de`, `aist.org`) or a university/Fraunhofer record for historical editions.
 - Historical editions: record venue and dates only when two independent sources agree, and say in `note` where they conflict.
 
 ## Git

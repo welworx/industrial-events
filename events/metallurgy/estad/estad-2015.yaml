@@ -13,4 +13,16 @@ sources:
   scope: event
   url: https://pureadmin.unileoben.ac.at/portal/en/activities/metec-and-2nd-european-steel-technology-and-application-days-estad-conference(79b97ee4-5128-4b92-ad78-012b743b9828).html
   last_checked: '2026-11-03'
-  note: University records list METEC and the 2nd ESTAD, Dusseldorf, 15-19 June 2015, hosted by Stahlinstitut VDEh.
+  note: University records list METEC and the 2nd ESTAD, Dusseldorf, 15-19 June 2015, hosted by Stahlinstitut VDEh. Venue
+    (CCD) from the same listings; no second source.
+- type: series-home
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh edition list confirms ESTAD 2015 and its host city.
+co_located_with:
+  group: bright-world-of-metals-2015
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec
