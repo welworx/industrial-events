@@ -1,0 +1,16 @@
+name: IMPC 2028, XXXIII International Mineral Processing Congress
+event_types:
+- conference
+status: estimated
+country: AU
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-11-03'
+  note: Official IMPC history lists congress XXXIII in 2028 at Perth (organising chair Chris Greet); no dates given.
+- type: overview
+  scope: event
+  url: https://impc-council.com/bidding-for-congress/impc-congresses/
+  last_checked: '2026-11-03'
+  note: Official IMPC congresses page says XXXIII IMPC 2028 will be held in Melbourne, Australia. This conflicts with the history page on the city, so city is left blank until confirmed. The Melbourne entry may be left over from the 2022 congress, which the history page lists as Melbourne and cancelled due to COVID.

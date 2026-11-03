@@ -520,6 +520,8 @@ def item_year(item: CalendarItem | UndatedEvent) -> int | None:
         if item.kind != "event":
             return None
         return item.start.year
+    if item.edition_year:
+        return int(item.edition_year)
     match = re.search(r"\b(20\d{2}|19\d{2})\b", item.title)
     if not match:
         return None
@@ -613,8 +615,12 @@ def next_series_event_cell(
             f"{shield_badge('next', compact_date_range_with_year(item.start, item.end_exclusive), 'brightgreen')} "
             f"{markdown_link(item.summary, item.url)}{official_resource_icons((item,))}"
         )
-    if undated_tuple:
-        item = sorted(undated_tuple, key=lambda event: event.title.lower())[0]
+    # Undated editions whose title year is already past are history, not "next".
+    pending_undated = [
+        event for event in undated_tuple if (year := item_year(event)) is None or year >= reference_date.year
+    ]
+    if pending_undated:
+        item = sorted(pending_undated, key=lambda event: (item_year(event) or 9999, event.title.lower()))[0]
         return f"{shield_badge('next', 'TBD', 'yellow')} {markdown_link(item.title, item.url)}"
     probable_year = probable_next_year(recurrence, (*items_tuple, *undated_tuple), reference_date)
     if probable_year:

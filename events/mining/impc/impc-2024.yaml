@@ -19,3 +19,8 @@ sources:
   url: https://impc-council.com/about-us/history/
   last_checked: '2026-07-01'
   note: Official IMPC history identifies congress XXXI in 2024 at Washington, DC.
+- type: program
+  scope: event
+  url: https://smeimpc.org/schedule/
+  last_checked: '2026-11-03'
+  note: Official IMPC 2024 schedule; technical sessions at /technical-sessions/ and keynotes at /keynote-presentations/ (theme Mineral Processing for the Energy Transition).

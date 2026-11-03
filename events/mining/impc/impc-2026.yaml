@@ -20,6 +20,11 @@ sources:
   scope: event
   url: https://www.impc2026.com/about/congress-venue
   last_checked: '2026-05-07'
+- type: program
+  scope: event
+  url: https://impc2026.com/technical-programme/congress-technical-programme
+  last_checked: '2026-11-03'
+  note: Official technical programme grid (plenary, keynote, parallel sessions, technical visits) plus technical streams at /technical-programme/technical-streams.
 deadlines:
 - type: final-paper
   name: Final paper submission deadline

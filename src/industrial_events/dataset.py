@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import fields
 from datetime import date
 from pathlib import Path
@@ -150,7 +151,9 @@ def undated_event_from_json(value: dict) -> UndatedEvent:
             "proceedings_url",
             "program_url",
             "co_location_group",
+            "edition_year",
         },
+        optional_string_fields={"edition_year"},
     )
     _validate_optional_url(item.url, "UndatedEvent.url")
     _validate_optional_url(item.source_url, "UndatedEvent.source_url")
@@ -161,6 +164,8 @@ def undated_event_from_json(value: dict) -> UndatedEvent:
     _validate_slug(item.series_slug, "UndatedEvent.series_slug")
     _validate_slug(item.domain, "UndatedEvent.domain")
     _validate_optional_slug(item.co_location_group, "UndatedEvent.co_location_group")
+    if item.edition_year and not re.fullmatch(r"(?:19|20)\d{2}", item.edition_year):
+        raise ValueError("UndatedEvent.edition_year must be a four-digit year or empty")
     _validate_slug_tuple(item.categories, "UndatedEvent.categories")
     _validate_slug_tuple(item.event_types, "UndatedEvent.event_types")
     return item

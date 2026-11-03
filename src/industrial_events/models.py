@@ -55,6 +55,7 @@ class UndatedEvent:
     last_checked: date | None = None
     co_location_group: str = ""
     event_types: tuple[str, ...] = ("conference",)
+    edition_year: str = ""
 
 
 @dataclass(frozen=True)

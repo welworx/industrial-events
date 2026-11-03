@@ -1,0 +1,21 @@
+name: IMPC 2018, XXIX International Mineral Processing Congress
+event_types:
+- conference
+- exhibition
+start: '2018-09-17'
+end: '2018-09-21'
+timezone: Europe/Moscow
+city: Moscow
+country: RU
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://impc-council.com/about-us/history/
+  last_checked: '2026-11-03'
+  note: Official IMPC history identifies congress XXIX in 2018 at Moscow.
+- type: event-listing
+  scope: event
+  url: https://www.hatch.com/About-Us/Events-And-Conferences/2018/09/XXIX-International-Mineral-Processing-Congress
+  last_checked: '2026-11-03'
+  note: Secondary listing for the XXIX congress at the World Trade Center, Moscow. Some listings give 15-21 September 2018 (including opening events); 17-21 September is used for the congress itself.
