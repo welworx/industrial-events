@@ -20,8 +20,9 @@ co_located_with:
 sources:
 - type: event-site
   scope: event
-  url: https://www.metec-tradefair.com
-  last_checked: '2026-06-19'
+  url: https://www.metec.com/en/
+  last_checked: '2026-11-03'
+  note: Official METEC site lists METEC 2027 on 21-25 June 2027 in Dusseldorf.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/

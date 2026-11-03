@@ -1,0 +1,25 @@
+name: ESTAD 2027, 8th European Steel Technology and Application Days
+event_types:
+- conference
+start: '2027-06-21'
+end: '2027-06-25'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+url: https://vdeh.de/en/information/events/
+status: confirmed
+co_located_with:
+  group: bright-world-of-metals-2027
+  name: METEC / GIFA / THERMPROCESS / NEWCAST
+  url: https://www.metec-tradefair.com
+  series:
+  - metec
+  - gifa
+sources:
+- type: event-site
+  scope: event
+  url: https://vdeh.de/en/information/events/
+  last_checked: '2026-11-03'
+  note: Stahlinstitut VDEh lists the 8th ESTAD on 21-25 June 2027 in the block of Dusseldorf events held with METEC; city
+    and Messe Dusseldorf location inferred from that co-location (VDEh page names no venue).
+venue: Messe Dusseldorf
