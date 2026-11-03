@@ -14,7 +14,7 @@ sources:
 - type: event-site
   scope: event
   url: https://unitecr2027.org/
-  last_checked: '2026-05-07'
+  last_checked: '2026-11-03'
 - type: venue
   scope: event
   url: https://unitecr2027.org/venue/

@@ -14,10 +14,21 @@ sources:
 - type: event-site
   scope: event
   url: https://www.aist.org/Conferences-Expositions/AISTech/Home
-  last_checked: '2026-08-13'
+  last_checked: '2026-11-03'
   note: Official AISTech page lists AISTech 2027 in Nashville, Tennessee, USA from May 3-5, 2027.
 - type: event-site
   scope: event
   url: https://www.aist.org/Conferences-Expositions/AISTech/Why-Attend
   last_checked: '2026-08-13'
   note: Why Attend page confirms AISTech 2027 dates and location.
+deadlines:
+- type: abstracts
+  name: Abstracts due
+  date: '2026-08-15'
+  url: https://www.aist.org/Conferences-Expositions/AISTech/Technology-Conference/Call-for-Papers
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://www.aist.org/Conferences-Expositions/AISTech/Technology-Conference/Call-for-Papers
+    last_checked: '2026-11-03'
