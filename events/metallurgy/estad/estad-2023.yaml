@@ -1,0 +1,17 @@
+name: ESTAD 2023, 6th European Steel Technology and Application Days
+event_types:
+- conference
+start: '2023-06-12'
+end: '2023-06-16'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: CCD Congress Center Duesseldorf
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://publica.fraunhofer.de/handle/publica/450951
+  last_checked: '2026-11-03'
+  note: Fraunhofer record lists the 6th ESTAD 2023 in Dusseldorf, 12-16 June 2023, organised by Stahlinstitut VDEh alongside
+    METEC.

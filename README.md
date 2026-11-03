@@ -348,6 +348,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   European conference series on ferrous slags, slag treatment, standards, circular economy, and industrial slag applications.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
 
+- **[European Steel Technology and Application Days](<https://industrial-events.pages.dev/events/series/estad.html>)** [↗](<https://vdeh.de/en/information/events/>)
+  Biennial European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh and held with METEC in Dusseldorf years.
+  ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [ESTAD 2027, 8th European Steel Technology and Application Days](<https://vdeh.de/en/information/events/>)
+
 - **[Extraction Meeting & Exhibition](<https://industrial-events.pages.dev/events/series/extraction.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/default.aspx>)
   TMS extraction metallurgy meeting and exhibition covering minerals, metals, materials processing, and sustainability topics.
   ![span: 7 years](https://img.shields.io/badge/span-7%20years-blue)
@@ -555,10 +560,6 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 
 - **[Cross-Cutting Symposia at Extraction](<https://industrial-events.pages.dev/events/series/cross-cutting.html>)** [↗](<https://www.extractionmeeting.org/Extraction2025/Extraction2025/CrossCutting/default.aspx>)
   Cross-cutting symposia at Extraction covering sustainability, recycling, responsible mining, geometallurgy, and economics.
-
-- **[European Steel Technology and Application Days](<https://industrial-events.pages.dev/events/series/estad.html>)** [↗](<https://vdeh.de/en/information/events/>)
-  Biennial European steel conference on steelmaking, metallurgy, and materials technology, organised by Stahlinstitut VDEh and held with METEC in Dusseldorf years.
-  **Event:** ![next: Jun 21-25, 2027](https://img.shields.io/badge/next-Jun%2021--25%2C%202027-brightgreen) [ESTAD 2027, 8th European Steel Technology and Application Days](<https://vdeh.de/en/information/events/>)
 
 - **[Furnace Solutions](<https://industrial-events.pages.dev/events/series/furnace-solutions.html>)** [↗](<https://sgt.org/>)
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.

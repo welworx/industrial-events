@@ -1,0 +1,16 @@
+name: ESTAD 2025, 7th European Steel Technology and Application Days
+event_types:
+- conference
+start: '2025-10-06'
+end: '2025-10-09'
+timezone: Europe/Rome
+city: Verona
+country: IT
+venue: Palaexpo VeronaFiere
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://www.aimnet.it/estad-25.shtml
+  last_checked: '2026-11-03'
+  note: AIM event page lists the 7th ESTAD at Palaexpo VeronaFiere, Verona, 6-9 October 2025.

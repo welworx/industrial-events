@@ -1,0 +1,17 @@
+name: ESTAD 2014, 1st European Steel Technology and Application Days
+event_types:
+- conference
+start: '2014-04-07'
+end: '2014-04-08'
+timezone: Europe/Paris
+city: Paris
+country: FR
+venue: Fondation Maison de la Chimie
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://repositum.tuwien.at/cris/events/events40093
+  last_checked: '2026-11-03'
+  note: TU Wien events record lists the 1st ESTAD and 31st JSI in Paris on 7-8 April 2014; venue and French Steel Federation
+    role from event listings.

@@ -1,0 +1,16 @@
+name: ESTAD 2015, 2nd European Steel Technology and Application Days
+event_types:
+- conference
+start: '2015-06-15'
+end: '2015-06-19'
+timezone: Europe/Berlin
+city: Dusseldorf
+country: DE
+venue: CCD Congress Center Duesseldorf
+status: confirmed
+sources:
+- type: overview
+  scope: event
+  url: https://pureadmin.unileoben.ac.at/portal/en/activities/metec-and-2nd-european-steel-technology-and-application-days-estad-conference(79b97ee4-5128-4b92-ad78-012b743b9828).html
+  last_checked: '2026-11-03'
+  note: University records list METEC and the 2nd ESTAD, Dusseldorf, 15-19 June 2015, hosted by Stahlinstitut VDEh.
