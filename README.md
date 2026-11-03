@@ -182,8 +182,8 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
 
 #### August
 
-- **14-17**: [COM 2028, 67th Annual Conference of Metallurgists](<https://com.metsoc.org>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
-  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Halifax, CA](<https://www.google.com/maps/search/?api=1&query=Halifax,%20CA>) | Venue: TBD | Type: conference
+- **14-17**: [COM 2028, 67th Conference of Metallurgy and Materials](<https://metsoc.org/events-posts/the-67th-conference-of-metallurgy-and-materials-com-2028/>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Halifax, CA](<https://www.google.com/maps/search/?api=1&query=Halifax%20Convention%20Centre,%20Halifax,%20CA>) | Venue: Halifax Convention Centre | Type: conference
   - **Tags:** `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability`
 
 #### September
@@ -232,11 +232,13 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 | --- | --- | --- | --- | --- |
 | [Presentation file submission: 2026-11-23](<https://www.flogen.org/sips2026/important_dates.php?p=28#content_top>) | [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>) | Nov 30-Dec 3, 2026 | TBD | 2026-08-13 |
 | [Paper acceptance notification: 2026-12-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
-| [Call for abstracts: 2026-12-15](<https://com.metsoc.org/call-for-abstracts-2027/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
+| [Call for abstracts: 2026-12-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
 | [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 | [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-11 |
 | [Corrected paper submission: 2027-02-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
+| [Draft papers due: 2027-03-01](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
+| [Final papers due: 2027-04-15](<https://com.metsoc.org/important-dates/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
 | [Paper submission: 2027-05-28](<https://unitecr2027.org/important-dates/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 
 <!-- generated:submission-opportunities:end -->

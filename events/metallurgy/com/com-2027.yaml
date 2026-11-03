@@ -25,10 +25,40 @@ deadlines:
 - type: abstracts
   name: Call for abstracts deadline
   date: '2026-12-15'
-  url: https://com.metsoc.org/call-for-abstracts-2027/
+  url: https://com.metsoc.org/important-dates/
   status: confirmed
   sources:
-  - type: cfp
+  - type: event-site
     scope: deadline
-    url: https://com.metsoc.org/call-for-abstracts-2027/
+    url: https://com.metsoc.org/important-dates/
+    last_checked: '2026-11-03'
+- type: first-draft-manuscript
+  name: Draft papers due
+  date: '2027-03-01'
+  url: https://com.metsoc.org/important-dates/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://com.metsoc.org/important-dates/
+    last_checked: '2026-11-03'
+- type: final-papers
+  name: Final papers due
+  date: '2027-04-15'
+  url: https://com.metsoc.org/important-dates/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://com.metsoc.org/important-dates/
+    last_checked: '2026-11-03'
+- type: author-registration
+  name: Author registration deadline
+  date: '2027-05-15'
+  url: https://com.metsoc.org/important-dates/
+  status: confirmed
+  sources:
+  - type: event-site
+    scope: deadline
+    url: https://com.metsoc.org/important-dates/
     last_checked: '2026-11-03'

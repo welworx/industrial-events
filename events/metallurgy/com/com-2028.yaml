@@ -1,4 +1,4 @@
-name: COM 2028, 67th Annual Conference of Metallurgists
+name: COM 2028, 67th Conference of Metallurgy and Materials
 event_types:
 - conference
 start: '2028-08-14'
@@ -6,10 +6,17 @@ end: '2028-08-17'
 timezone: America/Halifax
 city: Halifax
 country: CA
-status: tentative
+venue: Halifax Convention Centre
+url: https://metsoc.org/events-posts/the-67th-conference-of-metallurgy-and-materials-com-2028/
+status: confirmed
 sources:
+- type: event-site
+  scope: event
+  url: https://metsoc.org/events-posts/the-67th-conference-of-metallurgy-and-materials-com-2028/
+  last_checked: '2026-11-03'
+  note: MetSoc announces COM 2028 for 14-17 August 2028 at the Halifax Convention Centre.
 - type: overview
   scope: event
   url: https://www.pyrometallurgy.co.za/Conferences/
   last_checked: '2026-11-03'
-  note: Lists COM 2028 for 14-17 August 2028 in Halifax, Nova Scotia; venue not listed.
+  note: Lists 14-17 August 2028, Halifax, Nova Scotia.
