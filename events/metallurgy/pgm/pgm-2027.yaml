@@ -1,0 +1,16 @@
+name: 10th International PGM Conference
+event_types:
+- conference
+timezone: Africa/Johannesburg
+city: Sun City
+country: ZA
+status: tentative
+sources:
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-11-03'
+  note: Lists the 10th International PGM Conference for October 2027 in Sun City, South Africa; exact dates not listed.
+- type: organizer
+  scope: event
+  url: https://www.saimm.co.za

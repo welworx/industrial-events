@@ -1,0 +1,34 @@
+name: COM 2027, 66th Conference of Metallurgy and Materials
+event_types:
+- conference
+start: '2027-08-23'
+end: '2027-08-26'
+timezone: America/Toronto
+city: Montreal
+country: CA
+venue: Hotel Bonaventure Montréal
+address: 900 Rue De la Gauchetière O, Montréal, QC H5A 1E4, Canada
+url: https://com.metsoc.org
+status: confirmed
+sources:
+- type: event-site
+  scope: event
+  url: https://com.metsoc.org/about-com-2027/
+  last_checked: '2026-11-03'
+  note: Theme "Pathway to Net Zero - An Update"; venue Hotel Bonaventure Montréal; co-hosts the International Zinc Recycling Conference on 26-27 August.
+- type: overview
+  scope: event
+  url: https://www.pyrometallurgy.co.za/Conferences/
+  last_checked: '2026-11-03'
+  note: Listed as 23-26 August 2027, Montreal.
+deadlines:
+- type: abstracts
+  name: Call for abstracts deadline
+  date: '2026-12-15'
+  url: https://com.metsoc.org/call-for-abstracts-2027/
+  status: confirmed
+  sources:
+  - type: cfp
+    scope: deadline
+    url: https://com.metsoc.org/call-for-abstracts-2027/
+    last_checked: '2026-11-03'

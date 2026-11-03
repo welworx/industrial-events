@@ -124,6 +124,12 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
   - **Location:** ![DE flag](https://flagcdn.com/16x12/de.png) [Dusseldorf, DE](<https://www.google.com/maps/search/?api=1&query=Messe%20Dusseldorf,%20Dusseldorf,%20DE>) | Venue: Messe Dusseldorf | Types: trade-fair, exhibition
   - **Tags:** `metallurgy` `trade-fair` `foundry` `materials` `casting`
 
+#### August
+
+- **23-26**: [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet) ![CFP: due 2026-12-15](https://img.shields.io/badge/CFP-due%202026--12--15-brightgreen)
+  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Montreal, CA](<https://www.google.com/maps/search/?api=1&query=Hotel%20Bonaventure%20Montr%C3%A9al,%20900%20Rue%20De%20la%20Gaucheti%C3%A8re%20O,%20Montr%C3%A9al,%20QC%20H5A%201E4,%20Canada,%20Montreal,%20CA>) | Venue: Hotel Bonaventure Montréal | Type: conference
+  - **Tags:** `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability`
+
 #### September
 
 - **12-16**: [ICG 2027 Annual Meeting](<https://icglass.org/latest-from-icg/icg-2027-annual-meeting/>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
@@ -174,6 +180,12 @@ Full list: [All upcoming events](https://industrial-events.pages.dev/events/all.
   - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Halifax, CA](<https://www.google.com/maps/search/?api=1&query=Halifax,%20CA>) | Venue: TBD | Type: conference
   - **Tags:** `metallurgy` `pyrometallurgy` `slags` `fluxes` `salts` `smelting`
 
+#### August
+
+- **14-17**: [COM 2028, 67th Annual Conference of Metallurgists](<https://com.metsoc.org>) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
+  - **Location:** ![CA flag](https://flagcdn.com/16x12/ca.png) [Halifax, CA](<https://www.google.com/maps/search/?api=1&query=Halifax,%20CA>) | Venue: TBD | Type: conference
+  - **Tags:** `metallurgy` `extractive-metallurgy` `materials` `pyrometallurgy` `sustainability`
+
 #### September
 
 - **3-7**: 13th International Copper Conference (Copper 2028) ![venue: TBD](https://img.shields.io/badge/venue-TBD-yellow) ![type: conference](https://img.shields.io/badge/type-conference-blueviolet)
@@ -220,6 +232,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 | --- | --- | --- | --- | --- |
 | [Presentation file submission: 2026-11-23](<https://www.flogen.org/sips2026/important_dates.php?p=28#content_top>) | [SIPS 2026 Sustainable Industrial Processing Summit and Exhibition](<https://www.flogen.org/sips2026/>) | Nov 30-Dec 3, 2026 | TBD | 2026-08-13 |
 | [Paper acceptance notification: 2026-12-01](<https://www.ru.is/en/infacon18/>) | [Infacon XVIII, 18th International Ferro-Alloys Congress](<https://infacon18.com>) | May 23-27, 2027 | TBD | 2026-08-13 |
+| [Call for abstracts: 2026-12-15](<https://com.metsoc.org/call-for-abstracts-2027/>) | [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>) | Aug 23-26, 2027 | TBD | 2026-11-03 |
 | [Abstract submission: 2026-12-18](<https://unitecr2027.org/call-for-papers/>) | [UNITECR 2027, 20th Unified International Technical Conference on Refractories](<https://unitecr2027.org/>) | Nov 7-10, 2027 | TBD | 2026-07-01 |
 | [Paper submission: 2027-01-15](<https://slag-valorisation-symposium.eu/>) | [10th International Slag Valorisation Symposium](<https://slag-valorisation-symposium.eu/>) | Apr 13-16, 2027 | TBD | 2026-07-01 |
 | [Symposium proposals due: 2027-01-31](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | [TMS 2028 Annual Meeting & Exhibition (REWAS)](<https://www.tms.org/TMS2028/TMS2028/Default.aspx>) | Mar 12-16, 2028 | REWAS | 2026-05-11 |
@@ -308,7 +321,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[Conference of Metallurgists](<https://industrial-events.pages.dev/events/series/com.html>)** [↗](<https://com.metsoc.org>)
   MetSoc's annual Conference of Metallurgists for metallurgy, materials, and processing topics.
   ![frequency: 1 year](https://img.shields.io/badge/frequency-1%20year-blue)
-  **Next:** ![next: probably 2027](https://img.shields.io/badge/next-probably%202027-yellow)
+  **Next:** ![next: Aug 23-26, 2027](https://img.shields.io/badge/next-Aug%2023--26%2C%202027-brightgreen) [COM 2027, 66th Conference of Metallurgy and Materials](<https://com.metsoc.org>)
 
 - **[European Academic Symposium on EAF Steelmaking](<https://industrial-events.pages.dev/events/series/eases.html>)** [↗](<https://www.eases.rwth-aachen.de/>)
   European academic symposium for research on electric arc furnace steelmaking, aimed at researchers, doctoral candidates, and industry professionals.
@@ -423,6 +436,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[International PGM Conference](<https://industrial-events.pages.dev/events/series/pgm.html>)**
   SAIMM international conference series on platinum and platinum group metals across the mining, processing, and metals value chain.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
+  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) 10th International PGM Conference
 
 - **[International Symposium on Lead and Zinc Processing](<https://industrial-events.pages.dev/events/series/lead-zinc.html>)** [↗](<https://j-lppf2.jp/lead-zinc2026/>)
   International symposium series on lead and zinc processing, including plant operations, extractive metallurgy, recycling, and sustainability.
