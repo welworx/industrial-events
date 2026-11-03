@@ -1,0 +1,20 @@
+series: International Zinc Recycling Conference
+slug: zinc-recycling
+website: https://com.metsoc.org/zinc-recycling-conference/
+description: Conference series on zinc circularity and secondary raw material recovery from scrap, industrial residues, and steel mill dust, organized by the International Zinc Association; the 2027 edition is jointly organized with MetSoc of CIM and held back-to-back with COM.
+recurrence: recurring
+categories:
+- metallurgy
+- zinc
+- recycling
+topics:
+- pyrometallurgy
+- decarbonization
+- circular-economy
+- critical-minerals
+sources:
+- type: event-site
+  scope: series
+  url: https://com.metsoc.org/zinc-recycling-conference/
+  last_checked: '2026-11-03'
+  note: Describes the 3rd edition (2027) as following editions in Nashville, Tennessee, in 2022 and 2024.
