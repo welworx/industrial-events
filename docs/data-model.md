@@ -99,13 +99,13 @@ events/metallurgy/lead-zinc/
 
 The build treats `*.program.yaml` as program data, not as an event, and fails when a program file has no event file with the same name. When a program file exists, the README shows a 📋 icon for the event that links to it. The icon is separate from the `program` source type, which links to an official external program page (🗓).
 
-Top-level fields: `series` (must equal the series slug), `edition` (must equal the file name), `timezone`, `sources` and `sessions`. `sources` is required and records where the program came from (official page or PDF, with `last_checked`); use `type: program`.
+Top-level fields: `series` (must equal the series slug), `edition` (must equal the file name), `timezone`, `sources` and `sessions`. `sources` is required and records where the program came from (official page or PDF). Every source needs `type` (use `program`) and `last_checked`. `timezone` is an IANA name such as `Asia/Tokyo`.
 
-Each session requires `id` (unique lowercase slug), `title`, `type` (`oral`, `plenary`, `keynote`, `panel`, `poster`, `workshop`, `tutorial`, `short-course`, `ceremony` or `social`), `date` (within the event dates), `start` and `end`. Optional: `room`, `room_detail`, `track`, `note`, `chairs` (`name`, `affiliation`), `chairs_truncated` and `talks`. Breaks are not recorded.
+Each session requires `id` (unique lowercase slug), `title`, `type` (`oral`, `plenary`, `keynote`, `panel`, `poster`, `workshop`, `tutorial`, `short-course`, `ceremony` or `social`), `date` (within the event dates), `start` and `end`. Optional: `room`, `room_detail`, `track`, `note`, `chairs` (`name`, `affiliation`), `chairs_truncated` and `talks`. Breaks are not recorded. A session may have no talks (for example an opening address, or a block the organiser lists as TBA). Two sessions in the same room may not overlap in time. `chairs_truncated: true` means the organiser's source cuts off the last chair's affiliation (for example "JX Advanced"), so the stored text is incomplete.
 
 Each talk requires `title` and `authors` (`name`, `presenting`, `affiliations`). Optional: `paper_id` (string, unique within the edition), `start` and `end` (together; inside the session and not overlapping the previous talk), `abstract`, `abstract_url`, `doi` and `keywords`.
 
-Times are quoted `"HH:MM"` strings in the event's local time. Unquoted times such as `10:35` are read as numbers by YAML and are rejected.
+A program needs a dated event: program files for events without `start` and `end` are rejected. Times are quoted `"HH:MM"` strings in the event's local time. Unquoted times such as `10:35` are read as numbers by YAML and are rejected.
 
 ## Sources
 

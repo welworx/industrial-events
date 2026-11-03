@@ -104,6 +104,7 @@ def calendar_item_from_json(value: dict) -> CalendarItem:
             "co_location_url",
         },
         number_fields={"latitude", "longitude"},
+        optional_string_fields={"program_data_url"},
     )
     _validate_optional_url(item.url, "CalendarItem.url")
     for source_url in item.source_urls:
@@ -227,10 +228,13 @@ def _dataclass_from_json(
     path_fields: set[str] = frozenset(),
     string_fields: set[str] = frozenset(),
     number_fields: set[str] = frozenset(),
+    optional_string_fields: set[str] = frozenset(),
 ) -> Any:
     mapping = _require_mapping(value, cls.__name__)
     parsed: dict[str, Any] = {}
     for field in fields(cls):
+        if field.name not in mapping and field.name in optional_string_fields:
+            mapping = {**mapping, field.name: ""}  # field added after older dataset artifacts were written
         if field.name not in mapping:
             raise ValueError(f"{cls.__name__}.{field.name} is required")
         item = mapping[field.name]

@@ -6,7 +6,7 @@ from collections.abc import Iterable
 from datetime import timedelta
 from pathlib import Path
 
-from industrial_events.config import BuildConfig, load_build_config, load_yaml_mapping, repo_relative_path
+from industrial_events.config import ROOT, BuildConfig, load_build_config, load_yaml_mapping
 from industrial_events.models import CalendarItem, SeriesMetadata, UndatedEvent
 from industrial_events.programs import PROGRAM_SUFFIX, load_program_file, program_file_for, program_files
 from industrial_events.validation import (
@@ -160,12 +160,19 @@ def load_series_metadata_file(source_dir: Path, path: Path) -> SeriesMetadata:
     )
 
 
+DEFAULT_BRANCH = "main"
+
+
 def program_data_link(config: BuildConfig, event_path: Path) -> str:
     """Repository URL of the program file stored next to an event file, or "" when there is none."""
     path = program_file_for(event_path)
     if not path.is_file():
         return ""
-    return f"{config.repository_url.rstrip('/')}/blob/main/{repo_relative_path(path)}"
+    try:
+        relative = path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return ""  # outside this repository (e.g. a custom --source directory): no repository URL exists
+    return f"{config.repository_url.rstrip('/')}/blob/{DEFAULT_BRANCH}/{relative}"
 
 
 def check_program_files_have_events(metadata_path: Path, event_paths: list[Path]) -> None:
@@ -207,6 +214,8 @@ def items_for_event(
                 f"{path}: event {event_index} start and end are required unless status is estimated or tentative"
             )
         source_urls(path, event, f"event {event_index}")
+        if program_file_for(path).is_file():
+            raise CalendarBuildError(f"{program_file_for(path)}: a program requires a dated event (start and end)")
         return []
     if start is None or end is None:
         raise CalendarBuildError(f"{path}: event {event_index} start and end must be provided together")
@@ -229,9 +238,10 @@ def items_for_event(
     event_sources = unique_values((*metadata.sources, *source_urls(path, event, f"event {event_index}")))
     proceedings_url = source_link_by_type(event, "proceedings")
     program_url = source_link_by_type(event, "program")
+    program_path = program_file_for(path)
+    if program_path.is_file():
+        load_program_file(program_path, metadata, start, end)
     program_data_url = program_data_link(config, path)
-    if program_data_url:
-        load_program_file(program_file_for(path), metadata, start, end)
     event_checked_dates = (*metadata.checked_dates, *source_checked_dates(path, event, f"event {event_index}"))
     event_last_checked = latest_date(event_checked_dates)
     description = build_description(

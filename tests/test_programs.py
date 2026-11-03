@@ -7,7 +7,10 @@ from pathlib import Path
 
 import yaml
 
+from industrial_events.config import config_with_overrides, load_build_config
 from industrial_events.data import load_items
+from industrial_events.dataset import event_dataset_from_json, event_dataset_to_json, load_event_dataset
+from industrial_events.link_checks import recent_event_link_targets
 from industrial_events.validation import CalendarBuildError
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,7 +36,14 @@ def valid_program() -> dict:
         "series": "demo-conf",
         "edition": "demo-conf-2027",
         "timezone": "Europe/Lisbon",
-        "sources": [{"type": "program", "scope": "event", "url": "https://example.org/program.pdf"}],
+        "sources": [
+            {
+                "type": "program",
+                "scope": "event",
+                "url": "https://example.org/program.pdf",
+                "last_checked": "2027-01-05",
+            }
+        ],
         "sessions": [
             {
                 "id": "2027-03-10-room-a-opening",
@@ -66,12 +76,14 @@ def valid_program() -> dict:
     }
 
 
-def load_with_program(program: dict | None, *, program_name: str = "demo-conf-2027.program.yaml"):
+def load_with_program(
+    program: dict | None, *, program_name: str = "demo-conf-2027.program.yaml", event: dict | None = None
+):
     with tempfile.TemporaryDirectory() as tmp:
         series = Path(tmp) / "software" / "demo-conf"
         series.mkdir(parents=True)
         (series / "metadata.yaml").write_text(yaml.safe_dump(METADATA))
-        (series / "demo-conf-2027.yaml").write_text(yaml.safe_dump(EVENT))
+        (series / "demo-conf-2027.yaml").write_text(yaml.safe_dump(event or EVENT))
         if program is not None:
             (series / program_name).write_text(yaml.safe_dump(program))
         return load_items(Path(tmp))
@@ -85,9 +97,8 @@ class ProgramValidationTests(unittest.TestCase):
             load_with_program(program)
         self.assertIn(message, str(ctx.exception))
 
-    def test_valid_program_sets_program_data_url(self) -> None:
-        items = load_with_program(valid_program())
-        self.assertTrue(items[0].program_data_url.endswith("demo-conf-2027.program.yaml"))
+    def test_valid_program_outside_the_repository_has_no_repository_url(self) -> None:
+        self.assertEqual(load_with_program(valid_program())[0].program_data_url, "")
 
     def test_event_without_program_has_no_program_data_url(self) -> None:
         self.assertEqual(load_with_program(None)[0].program_data_url, "")
@@ -159,6 +170,44 @@ class ProgramValidationTests(unittest.TestCase):
             lambda p: p["sessions"][0]["talks"][0].update(abstract_url="javascript:alert(1)"), "must be an http(s) URL"
         )
 
+    def test_program_for_undated_event_is_rejected(self) -> None:
+        event = {key: value for key, value in EVENT.items() if key not in {"start", "end"}} | {"status": "estimated"}
+        with self.assertRaisesRegex(CalendarBuildError, "program requires a dated event"):
+            load_with_program(valid_program(), event=event)
+
+    def test_timezone_must_look_like_an_iana_name(self) -> None:
+        self.assert_rejected(lambda p: p.update(timezone="Not a zone"), "IANA name")
+
+    def test_sources_require_type_and_last_checked(self) -> None:
+        self.assert_rejected(lambda p: p["sources"][0].pop("type"), "'type' is required")
+        self.assert_rejected(lambda p: p["sources"][0].pop("last_checked", None), "'last_checked' is required")
+
+    def test_null_lists_are_treated_as_empty(self) -> None:
+        program = valid_program()
+        program["sessions"][0]["chairs"] = None
+        program["sessions"][0]["talks"][0]["keywords"] = None
+        program["sessions"][0]["talks"][1]["authors"][0]["affiliations"] = None
+        load_with_program(program)
+
+    def test_paper_id_with_surrounding_spaces_is_rejected(self) -> None:
+        self.assert_rejected(
+            lambda p: p["sessions"][0]["talks"][1].update(paper_id="P2 "), "leading or trailing spaces"
+        )
+
+    def test_two_sessions_in_one_room_at_the_same_time_are_rejected(self) -> None:
+        def add_clash(program: dict) -> None:
+            clash = {**program["sessions"][0], "id": "clash", "start": "09:30", "end": "10:30", "talks": []}
+            program["sessions"].append(clash)
+
+        self.assert_rejected(add_clash, "overlaps")
+
+    def test_back_to_back_sessions_in_one_room_are_allowed(self) -> None:
+        program = valid_program()
+        program["sessions"].append(
+            {**program["sessions"][0], "id": "next", "start": "10:00", "end": "11:00", "talks": []}
+        )
+        load_with_program(program)
+
     def test_session_may_have_no_talks(self) -> None:
         program = valid_program()
         program["sessions"][0]["talks"] = []
@@ -170,6 +219,24 @@ class ProgramValidationTests(unittest.TestCase):
         self.assertTrue(any(item.series_slug == "lead-zinc" and item.start == date(2026, 11, 1) for item in linked))
         for item in linked:
             self.assertTrue(item.program_data_url.endswith(".program.yaml"))
+        lead_zinc = next(item for item in linked if item.series_slug == "lead-zinc" and item.start == date(2026, 11, 1))
+        self.assertEqual(
+            lead_zinc.program_data_url,
+            "https://github.com/welworx/industrial-events/blob/main/events/metallurgy/lead-zinc/"
+            "lead-zinc-2026.program.yaml",
+        )
+
+    def test_program_urls_are_included_in_recurring_link_checks(self) -> None:
+        targets = recent_event_link_targets(ROOT / "events", reference_date=date(2026, 11, 3), years_back=1)
+        self.assertTrue(any(target.path.name == "lead-zinc-2026.program.yaml" for target in targets))
+
+    def test_dataset_artifacts_written_before_program_data_url_still_load(self) -> None:
+        dataset = load_event_dataset(config_with_overrides(load_build_config(), source_dir=ROOT / "events"))
+        payload = event_dataset_to_json(dataset)
+        for item in payload["items"]:
+            del item["program_data_url"]
+        restored = event_dataset_from_json(payload)
+        self.assertEqual({item.program_data_url for item in restored.items}, {""})
 
 
 if __name__ == "__main__":

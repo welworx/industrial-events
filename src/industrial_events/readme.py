@@ -659,8 +659,9 @@ def official_resource_icons(conferences: tuple[CalendarItem, ...]) -> str:
         icons.append(markdown_link("📘", primary.proceedings_url))
     if primary.program_url:
         icons.append(markdown_link("🗓", primary.program_url))
-    if primary.program_data_url:
-        icons.append(markdown_link("📋", primary.program_data_url))
+    program_data_url = next((item.program_data_url for item in conferences if item.program_data_url), "")
+    if program_data_url:
+        icons.append(markdown_link("📋", program_data_url))
     if not icons:
         return ""
     return " " + " ".join(icons)

@@ -33,6 +33,7 @@ from industrial_events.readme import (
     README_SUBMISSION_START,
     README_UPCOMING_END,
     README_UPCOMING_START,
+    official_resource_icons,
     render_readme_one_time_events,
     render_readme_overview_sources,
     render_readme_series_overview,
@@ -992,13 +993,35 @@ class BuildSiteTests(unittest.TestCase):
                 kind="event",
                 status="CONFIRMED",
                 url="https://example.org/demo-2027",
-                program_data_url="https://github.com/example/repo/blob/main/programs/software/demo-conf/demo-conf-2027.yaml",
+                program_data_url="https://github.com/example/repo/blob/main/events/software/demo-conf/demo-conf-2027.program.yaml",
             ),
         )
 
         readme_upcoming = render_readme_upcoming_events(items, build_test_config(), reference_date=Date(2026, 1, 1))
 
-        self.assertIn("[📋](<https://github.com/example/repo/blob/main/programs/software/demo-conf/", readme_upcoming)
+        self.assertIn("[📋](<https://github.com/example/repo/blob/main/events/software/demo-conf/", readme_upcoming)
+
+    def test_program_icon_is_shown_when_only_a_co_located_event_has_a_program(self) -> None:
+        def item(uid: str, program_data_url: str) -> CalendarItem:
+            return CalendarItem(
+                uid=uid,
+                summary=uid,
+                start=Date(2027, 3, 10),
+                end_exclusive=Date(2027, 3, 13),
+                series="Demo",
+                series_slug="demo-conf",
+                domain="software",
+                categories=("software",),
+                topics=(),
+                country="pt",
+                kind="event",
+                status="CONFIRMED",
+                program_data_url=program_data_url,
+            )
+
+        icons = official_resource_icons((item("exhibition", ""), item("conference", "https://example.org/p.yaml")))
+
+        self.assertIn("[📋](<https://example.org/p.yaml>)", icons)
 
     def test_conference_markdown_adds_short_contained_conference_labels(self) -> None:
         items = (

@@ -19,6 +19,7 @@ from industrial_events.validation import (
 
 PROGRAM_SUFFIX = ".program.yaml"
 TIME_RE = re.compile(r"^(?:[01]\d|2[0-3]):[0-5]\d$")
+TIMEZONE_RE = re.compile(r"^(?:UTC|[A-Za-z]+(?:/[A-Za-z0-9_+-]+)+)$")
 PROGRAM_KEYS = {"series", "edition", "timezone", "sources", "sessions"}
 SESSION_KEYS = {
     "id",
@@ -77,17 +78,36 @@ def validate_program_record(
         raise CalendarBuildError(f"{path}: field 'series' must be {metadata.slug!r}")
     if require_str(path, data, "edition") != edition:
         raise CalendarBuildError(f"{path}: field 'edition' must match the file name ({edition!r})")
-    optional_str(data, "timezone", path)
+    timezone = optional_str(data, "timezone", path)
+    if timezone and not TIMEZONE_RE.fullmatch(timezone):
+        raise CalendarBuildError(f"{path}: program field 'timezone' must be an IANA name such as Europe/Berlin")
     if not source_urls(path, data, "program"):
         raise CalendarBuildError(f"{path}: program field 'sources' must list the original program source(s)")
+    for index, source in enumerate(data["sources"], start=1):
+        for key in ("type", "last_checked"):
+            if key not in source:
+                raise CalendarBuildError(f"{path}: program source {index} field {key!r} is required")
 
     sessions = data.get("sessions")
     if not isinstance(sessions, list) or not sessions:
         raise CalendarBuildError(f"{path}: program field 'sessions' must be a non-empty list")
     session_ids: set[str] = set()
     paper_ids: set[str] = set()
+    room_slots: dict[tuple[date, str], list[tuple[str, str, str]]] = {}
     for index, session in enumerate(sessions, start=1):
         validate_session(path, session, f"session {index}", event_start, event_end, session_ids, paper_ids)
+        check_room_free(path, session, f"session {index}", room_slots)
+
+
+def check_room_free(path: Path, session: dict, label: str, room_slots: dict) -> None:
+    room = session.get("room")
+    if not room:
+        return
+    key = (require_date(path, session, "date", label), room)
+    for start, end, other_id in room_slots.get(key, []):
+        if session["start"] < end and start < session["end"]:
+            raise CalendarBuildError(f"{path}: {label} ({session['id']}) overlaps {other_id} in {room} on {key[0]}")
+    room_slots.setdefault(key, []).append((session["start"], session["end"], session["id"]))
 
 
 def validate_session(
@@ -126,9 +146,9 @@ def validate_session(
         optional_str(session, key, path, label)
     if not isinstance(session.get("chairs_truncated", False), bool):
         raise CalendarBuildError(f"{path}: {label} field 'chairs_truncated' must be true or false")
-    validate_chairs(path, session.get("chairs", []), label)
+    validate_chairs(path, session.get("chairs") or [], label)
 
-    talks = session.get("talks", [])
+    talks = session.get("talks") or []
     if not isinstance(talks, list):
         raise CalendarBuildError(f"{path}: {label} field 'talks' must be a list")
     previous_end = ""
@@ -164,6 +184,8 @@ def validate_talk(
         paper_id = talk["paper_id"]
         if not isinstance(paper_id, str) or not paper_id.strip():
             raise CalendarBuildError(f"{path}: {label} field 'paper_id' must be a non-empty string (quote numeric IDs)")
+        if paper_id != paper_id.strip():
+            raise CalendarBuildError(f"{path}: {label} field 'paper_id' must not have leading or trailing spaces")
         if paper_id in paper_ids:
             raise CalendarBuildError(f"{path}: {label} duplicate paper_id {paper_id!r}")
         paper_ids.add(paper_id)
@@ -185,7 +207,7 @@ def validate_talk(
     for key in ("abstract", "doi"):
         optional_str(talk, key, path, label)
     optional_url(path, talk, "abstract_url", label)
-    keywords = talk.get("keywords", [])
+    keywords = talk.get("keywords") or []
     if not isinstance(keywords, list) or not all(isinstance(k, str) and k.strip() for k in keywords):
         raise CalendarBuildError(f"{path}: {label} field 'keywords' must be a list of strings")
     validate_authors(path, talk.get("authors"), label)
@@ -203,7 +225,7 @@ def validate_authors(path: Path, authors: object, label: str) -> None:
         require_str(path, author, "name", author_label)
         if not isinstance(author.get("presenting", False), bool):
             raise CalendarBuildError(f"{path}: {author_label} field 'presenting' must be true or false")
-        affiliations = author.get("affiliations", [])
+        affiliations = author.get("affiliations") or []
         if not isinstance(affiliations, list) or not all(isinstance(a, str) and a.strip() for a in affiliations):
             raise CalendarBuildError(f"{path}: {author_label} field 'affiliations' must be a list of strings")
 

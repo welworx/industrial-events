@@ -19,6 +19,14 @@ sources:
   last_checked: '2026-11-03'
   note: Program overview PDF, Day 3 (Nov 4).
 sessions:
+- id: 2026-11-02-opening-address
+  title: Opening Address
+  type: ceremony
+  date: '2026-11-02'
+  start: "09:00"
+  end: "09:15"
+  note: Shown for all rooms in the source program.
+  talks: []
 - id: 2026-11-02-main-hall-plenary-1
   title: Plenary 1
   type: plenary
@@ -188,8 +196,7 @@ sessions:
   - name: Atsushi Shibayama
     affiliation: Akita Univ.
   - name: Yutaka Shibachi
-    affiliation: DOWA Metals &
-  chairs_truncated: true
+    affiliation: DOWA Metals & Mining
   talks:
   - paper_id: C000045
     title: IMPROVEMENTS IN MINING EFFICIENCY AT THE LOS GATOS MINE
@@ -242,8 +249,7 @@ sessions:
   - name: Nobuyasu Nishioka
     affiliation: Ehime Univ.
   - name: Kensaku Nakamura
-    affiliation: JX Advanced
-  chairs_truncated: true
+    affiliation: JX Advanced Metals
   talks:
   - paper_id: C000029
     title: High-temperature purification of zinc chloride for chlorination-based recycling of electric arc furnace dust
@@ -309,7 +315,7 @@ sessions:
       affiliations:
       - Shisaka Smelting Co., Ltd. (Japan)
   - paper_id: C000108
-    title: Dust2Value ‒ Developing a H based alternative for Waelz kiln 2 operations
+    title: Dust2Value ‒ Developing a H2 based alternative for Waelz kiln operations
     start: "15:15"
     end: "15:40"
     authors:
@@ -697,7 +703,7 @@ sessions:
   type: oral
   date: '2026-11-02'
   start: "16:05"
-  end: "17:20"
+  end: "17:45"
   room: Room A
   room_detail: Meeting Room 2
   track: Sustainability
@@ -1253,8 +1259,7 @@ sessions:
   - name: Katsunori Yamaguchi
     affiliation: Waseda Univ.
   - name: Osamu Inoue
-    affiliation: Mitsubishi
-  chairs_truncated: true
+    affiliation: Mitsubishi Materials
   talks:
   - paper_id: C000047
     title: Experimental investigation of the roasting behaviour and phase transformations in a zinc sulfide concentrate
@@ -1531,8 +1536,7 @@ sessions:
   - name: Katsunori Yamaguchi
     affiliation: Waseda Univ.
   - name: Osamu Inoue
-    affiliation: Mitsubishi
-  chairs_truncated: true
+    affiliation: Mitsubishi Materials
   talks:
   - paper_id: C000074
     title: Flowsheet selection for the high-temperature treatment of Pb and Zn bearing feeds
@@ -2192,7 +2196,7 @@ sessions:
   type: oral
   date: '2026-11-04'
   start: "13:55"
-  end: "14:45"
+  end: "15:10"
   room: Main Hall
   room_detail: Exhibition Bldg, Exhibition Hall 1
   track: Pyrometallurgy
@@ -2200,8 +2204,7 @@ sessions:
   - name: Yasushi Takasaki
     affiliation: Akita Univ.
   - name: Junichi Kobayashi
-    affiliation: Sumitomo Metal
-  chairs_truncated: true
+    affiliation: Sumitomo Metal Mining
   talks:
   - paper_id: C000020
     title: 'From Non-Newtonian Flow to Imaging: Advanced Characterization of Solid-Containing Molten Slags'
@@ -2238,7 +2241,7 @@ sessions:
   type: oral
   date: '2026-11-04'
   start: "13:55"
-  end: "14:45"
+  end: "15:10"
   room: Room A
   room_detail: Meeting Room 2
   track: By-products
@@ -2427,8 +2430,7 @@ sessions:
       affiliations:
       - Kyoto University (Japan)
   - paper_id: C000008
-    title: Three-Layer Electrorefining of Molten Zinc on Porous Holding Material of Carbon or Silica Sheets in Molten LiCl‒KCl‒ZnCl
-      2
+    title: Three-Layer Electrorefining of Molten Zinc on Porous Holding Material of Carbon or Silica Sheets in Molten LiCl‒KCl‒ZnCl2
     start: "14:45"
     end: "15:10"
     authors:
@@ -2449,7 +2451,7 @@ sessions:
   type: oral
   date: '2026-11-04'
   start: "15:35"
-  end: "16:25"
+  end: "16:50"
   room: Main Hall
   room_detail: Exhibition Bldg, Exhibition Hall 1
   track: Pyrometallurgy
@@ -2457,8 +2459,7 @@ sessions:
   - name: Yasushi Takasaki
     affiliation: Akita Univ.
   - name: Junichi Kobayashi
-    affiliation: Sumitomo Metal
-  chairs_truncated: true
+    affiliation: Sumitomo Metal Mining
   talks:
   - paper_id: C000040
     title: Distribution Behavior of Precious Metals between PbO-Based Slags and Molten Pb or Ag at 1523 K
@@ -2486,6 +2487,16 @@ sessions:
       presenting: false
       affiliations:
       - Nippon Steel (Japan)
+- id: 2026-11-04-room-a-tba
+  title: TBA
+  type: oral
+  date: '2026-11-04'
+  start: "15:35"
+  end: "16:50"
+  room: Room A
+  room_detail: Meeting Room 2
+  note: Shown as TBA in the source program.
+  talks: []
 - id: 2026-11-04-room-b-secondary-lead-zinc-vi
   title: Secondary Lead-Zinc VI
   type: oral
@@ -2575,7 +2586,7 @@ sessions:
   type: oral
   date: '2026-11-04'
   start: "15:35"
-  end: "16:25"
+  end: "16:50"
   room: Room C
   room_detail: Meeting Room 4
   track: Electrometallurgy
