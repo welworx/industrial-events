@@ -559,7 +559,7 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
   Society of Glass Technology conference series on sustainable glass melting and furnace operations.
 
 - **[International Zinc Recycling Conference](<https://industrial-events.pages.dev/events/series/zinc-recycling.html>)** [↗](<https://com.metsoc.org/zinc-recycling-conference/>)
-  Conference series on zinc circularity and secondary raw material recovery from scrap, industrial residues, and steel mill dust, organized by MetSoc of CIM and the International Zinc Association.
+  Conference series on zinc circularity and secondary raw material recovery from scrap, industrial residues, and steel mill dust, organized by the International Zinc Association; the 2027 edition is jointly organized with MetSoc of CIM and held back-to-back with COM.
   **Event:** ![next: Aug 26-27, 2027](https://img.shields.io/badge/next-Aug%2026--27%2C%202027-brightgreen) [3rd International Zinc Recycling Conference](<https://com.metsoc.org/zinc-recycling-conference/>)
 
 - **[NGA Glass Fabricator Conference](<https://industrial-events.pages.dev/events/series/nga-glass-fabricator.html>)** [↗](<https://www.glass.org/nga-glass-fabricator-conference>)
