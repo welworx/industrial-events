@@ -19,7 +19,7 @@ from industrial_events.dataset import load_event_dataset, read_event_dataset
 from industrial_events.event_pages import render_event_markdown
 from industrial_events.event_rows import submission_status_html_cell
 from industrial_events.feeds import render_calendar
-from industrial_events.models import CalendarItem, SeriesMetadata
+from industrial_events.models import CalendarItem, SeriesMetadata, UndatedEvent
 from industrial_events.readme import (
     README_ONE_TIME_END,
     README_ONE_TIME_START,
@@ -33,6 +33,7 @@ from industrial_events.readme import (
     README_SUBMISSION_START,
     README_UPCOMING_END,
     README_UPCOMING_START,
+    next_series_event_cell,
     official_resource_icons,
     render_readme_one_time_events,
     render_readme_overview_sources,
@@ -903,6 +904,28 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("Ongoing Conference 2026", upcoming_section)
         self.assertNotIn("Ongoing Conference 2026", past_section)
         self.assertIn("Ongoing Conference 2026", readme_upcoming)
+
+    def test_next_series_event_skips_undated_editions_from_past_years(self) -> None:
+        def undated(title: str) -> UndatedEvent:
+            return UndatedEvent(
+                series_slug="s",
+                domain="mining",
+                categories=(),
+                title=title,
+                url="https://example.org/",
+                scope="",
+                location="",
+                source_url="",
+            )
+
+        cell = next_series_event_cell(
+            "recurring",
+            (),
+            (undated("IMPC 2028, XXXIII Congress"), undated("I International Congress 1952")),
+            Date(2026, 11, 3),
+        )
+        self.assertIn("IMPC 2028", cell)
+        self.assertNotIn("1952", cell)
 
     def test_readme_upcoming_keeps_completed_events_from_current_month(self) -> None:
         items = (

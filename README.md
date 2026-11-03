@@ -416,12 +416,11 @@ Full list: [All submission opportunities](https://industrial-events.pages.dev/ev
 - **[International Heavy Minerals Conference](<https://industrial-events.pages.dev/events/series/heavy-minerals.html>)**
   International technical conference series for heavy-mineral exploration, mining, processing, and products.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) First International Heavy Minerals Conference 1997
 
 - **[International Mineral Processing Congress](<https://industrial-events.pages.dev/events/series/impc.html>)** [↗](<https://www.impc-council.com/>)
   International Mineral Processing Congress series, a global forum for mineral processing research, technology, and industry practice.
   ![frequency: irregular](https://img.shields.io/badge/frequency-irregular-blue)
-  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [I International Mineral Processing Congress](<https://www.impc-council.com/>)
+  **Next:** ![next: TBD](https://img.shields.io/badge/next-TBD-yellow) [IMPC 2028, XXXIII International Mineral Processing Congress](<https://www.impc-council.com/>)
 
 - **[International PGM Conference](<https://industrial-events.pages.dev/events/series/pgm.html>)**
   SAIMM international conference series on platinum and platinum group metals across the mining, processing, and metals value chain.
