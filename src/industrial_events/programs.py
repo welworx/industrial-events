@@ -78,8 +78,7 @@ def validate_program_record(
         raise CalendarBuildError(f"{path}: field 'series' must be {metadata.slug!r}")
     if require_str(path, data, "edition") != edition:
         raise CalendarBuildError(f"{path}: field 'edition' must match the file name ({edition!r})")
-    timezone = optional_str(data, "timezone", path)
-    if timezone and not TIMEZONE_RE.fullmatch(timezone):
+    if not TIMEZONE_RE.fullmatch(require_str(path, data, "timezone")):
         raise CalendarBuildError(f"{path}: program field 'timezone' must be an IANA name such as Europe/Berlin")
     if not source_urls(path, data, "program"):
         raise CalendarBuildError(f"{path}: program field 'sources' must list the original program source(s)")

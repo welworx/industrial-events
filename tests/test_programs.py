@@ -175,6 +175,9 @@ class ProgramValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(CalendarBuildError, "program requires a dated event"):
             load_with_program(valid_program(), event=event)
 
+    def test_timezone_is_required(self) -> None:
+        self.assert_rejected(lambda p: p.pop("timezone"), "field 'timezone' is required")
+
     def test_timezone_must_look_like_an_iana_name(self) -> None:
         self.assert_rejected(lambda p: p.update(timezone="Not a zone"), "IANA name")
 
